@@ -1,0 +1,11 @@
+libfltk-dev:
+  debian:
+    - libfltk1.3-dev
+libtool:
+  debian:
+    - libtool
+    - libltdl-dev
+    - libtool-bin
+libogre-dev:
+  debian:
+    - libogre-1.12-dev
