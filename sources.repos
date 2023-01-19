@@ -31,10 +31,10 @@ repositories:
     type: git
     url: https://github.com/TAMS-Group/bio_ik.git
     version: master
-  calibration:
-    type: git
-    url: https://github.com/ros-perception/calibration.git
-    version: noetic-devel
+#  calibration:
+#    type: git
+#    url: https://github.com/ros-perception/calibration.git
+#    version: noetic-devel
 #  catkin_virtualenv:
 #    type: git
 #    url: https://github.com/locusrobotics/catkin_virtualenv
@@ -52,10 +52,10 @@ repositories:
     type: git
     url: https://github.com/mikeferguson/code_coverage.git
     version: master
-  common_tutorials:
-    type: git
-    url: https://github.com/ros/common_tutorials.git
-    version: noetic-devel
+#  common_tutorials:
+#    type: git
+#    url: https://github.com/ros/common_tutorials.git
+#    version: noetic-devel
   control_msgs:
     type: git
     url: https://github.com/ros-controls/control_msgs.git
@@ -88,10 +88,10 @@ repositories:
     type: git
     url: https://github.com/ros-visualization/executive_smach_visualization.git
     version: melodic-devel
-  fake_joint:
-    type: git
-    url: https://github.com/ros-o/fake_joint
-    version: obese-devel
+#  fake_joint:
+#    type: git
+#    url: https://github.com/ros-o/fake_joint
+#    version: obese-devel
   filters:
     type: git
     url: https://github.com/ros/filters.git
@@ -100,10 +100,10 @@ repositories:
     type: git
     url: https://github.com/ros-drivers/four_wheel_steering_msgs
     version: master
-  geometry_tutorials:
-    type: git
-    url: https://github.com/ros/geometry_tutorials.git
-    version: kinetic-devel
+#  geometry_tutorials:
+#    type: git
+#    url: https://github.com/ros/geometry_tutorials.git
+#    version: kinetic-devel
   gl_dependency:
     type: git
     url: https://github.com/ros-visualization/gl_dependency.git
@@ -124,18 +124,18 @@ repositories:
     type: git
     url: https://github.com/ros-o/joystick_drivers.git
     version: obese-devel
-  jsk_common:
-    type: git
-    url: https://github.com/ros-o/jsk_common.git
-    version: obese-devel
+#  jsk_common:
+#    type: git
+#    url: https://github.com/ros-o/jsk_common.git
+#    version: obese-devel
   laser_assembler:
     type: git
     url: https://github.com/ros-perception/laser_assembler.git
     version: noetic-devel
-  laser_filters:
-    type: git
-    url: https://github.com/ros-perception/laser_filters.git
-    version: noetic-devel
+#  laser_filters:
+#    type: git
+#    url: https://github.com/ros-perception/laser_filters.git
+#    version: noetic-devel
   laser_pipeline:
     type: git
     url: https://github.com/ros-perception/laser_pipeline.git
@@ -148,10 +148,10 @@ repositories:
     type: git
     url: https://github.com/ros/media_export
     version: kinetic-devel
-  moveit:
-    type: git
-    url: https://github.com/ros-planning/moveit.git
-    version: master
+#  moveit:
+#    type: git
+#    url: https://github.com/ros-planning/moveit.git
+#    version: master
   moveit_msgs:
     type: git
     url: https://github.com/ros-planning/moveit_msgs.git
@@ -168,10 +168,6 @@ repositories:
     type: git
     url: https://github.com/ros-planning/navigation.git
     version: noetic-devel
-  navigation_msgs:
-    type: git
-    url: https://github.com/ros-planning/navigation_msgs.git
-    version: ros1
   object_recognition_msgs:
     type: git
     url: https://github.com/wg-perception/object_recognition_msgs.git
@@ -188,10 +184,10 @@ repositories:
     type: git
     url: https://github.com/OctoMap/octomap_rviz_plugins.git
     version: kinetic-devel
-  openslam_gmapping:
-    type: git
-    url: https://github.com/ros-perception/openslam_gmapping.git
-    version: melodic-devel
+#  openslam_gmapping:
+#    type: git
+#    url: https://github.com/ros-perception/openslam_gmapping.git
+#    version: melodic-devel
   plotjuggler-ros-plugins:
     type: git
     url: https://github.com/PlotJuggler/plotjuggler-ros-plugins
@@ -218,16 +214,16 @@ repositories:
     version: master
   qt_gui_core:
     type: git
-    url: https://github.com/v4hn/qt_gui_core.git
+    url: https://github.com/ros-o/qt_gui_core.git
     version: obese-devel
   qwt_dependency:
     type: git
     url: https://github.com/ros-visualization/qwt_dependency.git
     version: kinetic-devel
-  realsense-ros:
-    type: git
-    url: https://github.com/IntelRealSense/realsense-ros.git
-    version: ros1-legacy
+#  realsense-ros:
+#    type: git
+#    url: https://github.com/IntelRealSense/realsense-ros.git
+#    version: ros1-legacy
   realtime_tools:
     type: git
     url: https://github.com/ros-controls/realtime_tools.git
@@ -256,10 +252,10 @@ repositories:
     type: git
     url: https://github.com/ros/rosbag_migration_rule.git
     version: master
-  rosbag_snapshot:
-    type: git
-    url: https://github.com/ros/rosbag_snapshot.git
-    version: main
+#  rosbag_snapshot:
+#    type: git
+#    url: https://github.com/ros/rosbag_snapshot.git
+#    version: main
   rosdoc_lite:
     type: git
     url: https://github.com/ros-infrastructure/rosdoc_lite
@@ -402,8 +398,8 @@ repositories:
     version: master
   rviz_visual_tools:
     type: git
-    url: https://github.com/ros-o/rviz_visual_tools
-    version: obese-devel
+    url: https://github.com/PickNikRobotics/rviz_visual_tools.git
+    version: master
   slam_gmapping:
     type: git
     url: https://github.com/ros-perception/slam_gmapping.git
@@ -444,10 +440,10 @@ repositories:
     type: git
     url: https://github.com/ros/urdf_parser_py.git
     version: melodic-devel
-  visualization_tutorials:
-    type: git
-    url: https://github.com/ros-o/visualization_tutorials.git
-    version: obese-devel
+#  visualization_tutorials:
+#    type: git
+#    url: https://github.com/ros-o/visualization_tutorials.git
+#    version: obese-devel
   warehouse_ros:
     type: git
     url: https://github.com/ros-planning/warehouse_ros.git

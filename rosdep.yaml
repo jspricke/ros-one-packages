@@ -1,6 +1,7 @@
 libfltk-dev:
   debian:
     - libfltk1.3-dev
+    - fluid
 libtool:
   debian:
     - libtool
