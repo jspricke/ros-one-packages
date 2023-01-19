@@ -1,0 +1,16 @@
+name: builder
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  build_testing:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: jspricke/ros-deb-builder-action@rosotest
+        with:
+          DEB_DISTRO: bookworm
+          ROS_DISTRO: debian
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SQUASH_HISTORY: true
