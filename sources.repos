@@ -27,10 +27,10 @@ repositories:
     type: git
     url: https://github.com/pal-robotics/backward_ros.git
     version: kinetic-devel
-  bio_ik:
-    type: git
-    url: https://github.com/TAMS-Group/bio_ik.git
-    version: master
+#  bio_ik:
+#    type: git
+#    url: https://github.com/TAMS-Group/bio_ik.git
+#    version: master
 #  calibration:
 #    type: git
 #    url: https://github.com/ros-perception/calibration.git
@@ -136,10 +136,10 @@ repositories:
 #    type: git
 #    url: https://github.com/ros-perception/laser_filters.git
 #    version: noetic-devel
-  laser_pipeline:
-    type: git
-    url: https://github.com/ros-perception/laser_pipeline.git
-    version: noetic-devel
+#  laser_pipeline:
+#    type: git
+#    url: https://github.com/ros-perception/laser_pipeline.git
+#    version: noetic-devel
 #  libuvc_ros:
 #    type: git
 #    url: https://github.com/ros-drivers/libuvc_ros.git
@@ -156,14 +156,14 @@ repositories:
     type: git
     url: https://github.com/ros-planning/moveit_msgs.git
     version: master
-  moveit_resources:
-    type: git
-    url: https://github.com/ros-planning/moveit_resources.git
-    version: master
-  moveit_visual_tools:
-    type: git
-    url: https://github.com/ros-planning/moveit_visual_tools.git
-    version: master
+#  moveit_resources:
+#    type: git
+#    url: https://github.com/ros-planning/moveit_resources.git
+#    version: master
+#  moveit_visual_tools:
+#    type: git
+#    url: https://github.com/ros-planning/moveit_visual_tools.git
+#    version: master
   navigation:
     type: git
     url: https://github.com/ros-planning/navigation.git
@@ -270,8 +270,8 @@ repositories:
     version: obese-devel
   rqt:
     type: git
-    url: https://github.com/ros-visualization/rqt.git
-    version: kinetic-devel
+    url: https://github.com/ros-o/rqt.git
+    version: obese-devel
   rqt_action:
     type: git
     url: https://github.com/ros-visualization/rqt_action.git
@@ -400,10 +400,10 @@ repositories:
     type: git
     url: https://github.com/PickNikRobotics/rviz_visual_tools.git
     version: master
-  slam_gmapping:
-    type: git
-    url: https://github.com/ros-perception/slam_gmapping.git
-    version: melodic-devel
+#  slam_gmapping:
+#    type: git
+#    url: https://github.com/ros-perception/slam_gmapping.git
+#    version: melodic-devel
   soem:
     type: git
     url: https://github.com/mgruhler/soem.git
@@ -412,10 +412,10 @@ repositories:
     type: git
     url: https://github.com/ros-planning/srdfdom.git
     version: noetic-devel
-  stage_ros:
-    type: git
-    url: https://github.com/ros-simulation/stage_ros.git
-    version: lunar-devel
+#  stage_ros:
+#    type: git
+#    url: https://github.com/ros-simulation/stage_ros.git
+#    version: lunar-devel
   teleop_tools:
     type: git
     url: https://github.com/ros-teleop/teleop_tools.git
