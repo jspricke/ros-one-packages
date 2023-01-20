@@ -27,10 +27,10 @@ repositories:
     type: git
     url: https://github.com/pal-robotics/backward_ros.git
     version: kinetic-devel
-  bio_ik:
-    type: git
-    url: https://github.com/TAMS-Group/bio_ik.git
-    version: master
+#  bio_ik:
+#    type: git
+#    url: https://github.com/TAMS-Group/bio_ik.git
+#    version: master
 #  calibration:
 #    type: git
 #    url: https://github.com/ros-perception/calibration.git
@@ -399,6 +399,10 @@ repositories:
   rviz_visual_tools:
     type: git
     url: https://github.com/PickNikRobotics/rviz_visual_tools.git
+    version: master
+  ruckig:
+    type: git
+    url: https://github.com/pantor/ruckig.git
     version: master
 #  slam_gmapping:
 #    type: git
