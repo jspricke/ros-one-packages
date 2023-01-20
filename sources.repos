@@ -27,10 +27,10 @@ repositories:
     type: git
     url: https://github.com/pal-robotics/backward_ros.git
     version: kinetic-devel
-#  bio_ik:
-#    type: git
-#    url: https://github.com/TAMS-Group/bio_ik.git
-#    version: master
+  bio_ik:
+    type: git
+    url: https://github.com/TAMS-Group/bio_ik.git
+    version: master
 #  calibration:
 #    type: git
 #    url: https://github.com/ros-perception/calibration.git
@@ -148,22 +148,22 @@ repositories:
     type: git
     url: https://github.com/ros/media_export
     version: kinetic-devel
-#  moveit:
-#    type: git
-#    url: https://github.com/ros-planning/moveit.git
-#    version: master
+  moveit:
+    type: git
+    url: https://github.com/jspricke/moveit.git
+    version: debian_unstable
   moveit_msgs:
     type: git
     url: https://github.com/ros-planning/moveit_msgs.git
     version: master
-#  moveit_resources:
-#    type: git
-#    url: https://github.com/ros-planning/moveit_resources.git
-#    version: master
-#  moveit_visual_tools:
-#    type: git
-#    url: https://github.com/ros-planning/moveit_visual_tools.git
-#    version: master
+  moveit_resources:
+    type: git
+    url: https://github.com/ros-planning/moveit_resources.git
+    version: master
+  moveit_visual_tools:
+    type: git
+    url: https://github.com/ros-planning/moveit_visual_tools.git
+    version: master
   navigation:
     type: git
     url: https://github.com/ros-planning/navigation.git
