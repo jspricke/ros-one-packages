@@ -19,10 +19,10 @@ repositories:
     type: git
     url: https://github.com/ros-drivers/audio_common.git
     version: master
-  axis_camera:
-    type: git
-    url: https://github.com/ros-drivers/axis_camera
-    version: noetic-devel
+#  axis_camera:
+#    type: git
+#    url: https://github.com/ros-drivers/axis_camera
+#    version: noetic-devel
   backward_ros:
     type: git
     url: https://github.com/pal-robotics/backward_ros.git
@@ -39,10 +39,10 @@ repositories:
 #    type: git
 #    url: https://github.com/locusrobotics/catkin_virtualenv
 #    version: master
-  camera_info_manager_py:
-    type: git
-    url: https://github.com/ros-perception/camera_info_manager_py
-    version: master
+#  camera_info_manager_py:
+#    type: git
+#    url: https://github.com/ros-perception/camera_info_manager_py
+#    version: master
 # ExternalProject is explicitly not supported in sbuild
 #  cob_extern:
 #    type: git
@@ -188,10 +188,10 @@ repositories:
 #    type: git
 #    url: https://github.com/ros-perception/openslam_gmapping.git
 #    version: melodic-devel
-  plotjuggler-ros-plugins:
-    type: git
-    url: https://github.com/PlotJuggler/plotjuggler-ros-plugins
-    version: development
+#  plotjuggler-ros-plugins:
+#    type: git
+#    url: https://github.com/PlotJuggler/plotjuggler-ros-plugins
+#    version: development
   plotjuggler_msgs:
     type: git
     url: https://github.com/facontidavide/plotjuggler_msgs
@@ -364,10 +364,10 @@ repositories:
     type: git
     url: https://github.com/ros-visualization/rqt_runtime_monitor.git
     version: master
-  rqt_rviz:
-    type: git
-    url: https://github.com/ros-visualization/rqt_rviz.git
-    version: melodic-devel
+#  rqt_rviz:
+#    type: git
+#    url: https://github.com/ros-visualization/rqt_rviz.git
+#    version: melodic-devel
   rqt_service_caller:
     type: git
     url: https://github.com/ros-visualization/rqt_service_caller.git
@@ -420,10 +420,10 @@ repositories:
     type: git
     url: https://github.com/ros-teleop/teleop_tools.git
     version: kinetic-devel
-  unique_identifier:
-    type: git
-    url: https://github.com/ros-geographic-info/unique_identifier
-    version: master
+#  unique_identifier:
+#    type: git
+#    url: https://github.com/ros-geographic-info/unique_identifier
+#    version: master
   urdf_geometry_parser:
     type: git
     url: https://github.com/ros-controls/urdf_geometry_parser
