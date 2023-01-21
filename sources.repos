@@ -196,22 +196,22 @@ repositories:
     type: git
     url: https://github.com/facontidavide/plotjuggler_msgs
     version: ros1
-  pr2_common:
-    type: git
-    url: https://github.com/pr2/pr2_common.git
-    version: melodic-devel
-  pr2_controllers:
-    type: git
-    url: https://github.com/pr2/pr2_controllers.git
-    version: melodic-devel
-  pr2_mechanism:
-    type: git
-    url: https://github.com/pr2/pr2_mechanism.git
-    version: melodic-devel
-  pr2_mechanism_msgs:
-    type: git
-    url: https://github.com/pr2/pr2_mechanism_msgs.git
-    version: master
+#  pr2_common:
+#    type: git
+#    url: https://github.com/pr2/pr2_common.git
+#    version: melodic-devel
+#  pr2_controllers:
+#    type: git
+#    url: https://github.com/pr2/pr2_controllers.git
+#    version: melodic-devel
+#  pr2_mechanism:
+#    type: git
+#    url: https://github.com/pr2/pr2_mechanism.git
+#    version: melodic-devel
+#  pr2_mechanism_msgs:
+#    type: git
+#    url: https://github.com/pr2/pr2_mechanism_msgs.git
+#    version: master
   qt_gui_core:
     type: git
     url: https://github.com/ros-o/qt_gui_core.git
