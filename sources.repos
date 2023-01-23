@@ -238,8 +238,8 @@ repositories:
     version: noetic-devel
   ros_controllers:
     type: git
-    url: https://github.com/ros-controls/ros_controllers
-    version: noetic-devel
+    url: https://github.com/ros-o/ros_controllers
+    version: obese-devel
   ros_pytest:
     type: git
     url: https://github.com/machinekoder/ros_pytest.git
@@ -252,10 +252,10 @@ repositories:
     type: git
     url: https://github.com/ros/rosbag_migration_rule.git
     version: master
-#  rosbag_snapshot:
-#    type: git
-#    url: https://github.com/ros/rosbag_snapshot.git
-#    version: main
+  rosbag_snapshot:
+    type: git
+    url: https://github.com/ros/rosbag_snapshot.git
+    version: main
   rosdoc_lite:
     type: git
     url: https://github.com/ros-infrastructure/rosdoc_lite
