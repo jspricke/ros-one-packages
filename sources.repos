@@ -31,6 +31,10 @@ repositories:
     type: git
     url: https://github.com/TAMS-Group/bio_ik.git
     version: master
+  boost_sml:
+    type: git
+    url: https://github.com/PickNikRobotics/boost_sml.git
+    version: master
 #  calibration:
 #    type: git
 #    url: https://github.com/ros-perception/calibration.git
@@ -182,8 +186,8 @@ repositories:
     version: melodic-devel
   octomap_rviz_plugins:
     type: git
-    url: https://github.com/OctoMap/octomap_rviz_plugins.git
-    version: kinetic-devel
+    url: https://github.com/ros-o/octomap_rviz_plugins.git
+    version: obese-devel
 #  openslam_gmapping:
 #    type: git
 #    url: https://github.com/ros-perception/openslam_gmapping.git
