@@ -13,5 +13,3 @@ libogre-dev:
 python3-catkin-pkg-modules:
   debian:
     - python3-catkin-pkg
-prbt_ikfast_manipulator_plugin:
-  debian:
