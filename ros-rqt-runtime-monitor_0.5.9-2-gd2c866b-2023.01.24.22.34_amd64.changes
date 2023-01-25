@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 21 Apr 2021 00:00:00 -0000
+Source: ros-rqt-runtime-monitor
+Binary: ros-rqt-runtime-monitor
+Architecture: amd64
+Version: 0.5.9-2-gd2c866b-2023.01.24.22.34
+Distribution: sid
+Urgency: high
+Maintainer: Aaron Blasdel <ablasdel@gmail.com>
+Changed-By: Aaron Blasdel <ablasdel@gmail.com>
+Description:
+ ros-rqt-runtime-monitor - rqt_runtime_monitor provides a GUI plugin viewing DiagnosticsArra
+Changes:
+ ros-rqt-runtime-monitor (0.5.9-2-gd2c866b-2023.01.24.22.34) sid; urgency=high
+ .
+   * fix shebang line for python3 (#6 <https://github.com/ros-visualization/rqt_runtime_monitor/issues/6>)
+   * Contributors: Mikael Arguedas
+Checksums-Sha1:
+ c7f5e32cbc1a757007f9556a1673d81e14287a93 6726 ros-rqt-runtime-monitor_0.5.9-2-gd2c866b-2023.01.24.22.34_amd64.buildinfo
+ 525b7e5a841351242353b095323d4e2c6fb1feea 18240 ros-rqt-runtime-monitor_0.5.9-2-gd2c866b-2023.01.24.22.34_amd64.deb
+Checksums-Sha256:
+ 6cec779e0f13c076bcf5373d4ea02aff6a480473ccfb5c7cc7d7d408e179ddf2 6726 ros-rqt-runtime-monitor_0.5.9-2-gd2c866b-2023.01.24.22.34_amd64.buildinfo
+ 2e0eac011861c4cea3b2370e611e5dbc38212f9109296a78f5217168e889fbf2 18240 ros-rqt-runtime-monitor_0.5.9-2-gd2c866b-2023.01.24.22.34_amd64.deb
+Files:
+ 650f28999b63cfd608f6ac33f79d7b3c 6726 misc optional ros-rqt-runtime-monitor_0.5.9-2-gd2c866b-2023.01.24.22.34_amd64.buildinfo
+ fa66d6ead8bc7ee043c2b3ae34eae30e 18240 misc optional ros-rqt-runtime-monitor_0.5.9-2-gd2c866b-2023.01.24.22.34_amd64.deb

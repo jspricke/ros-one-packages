@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-chomp-motion-planner
+Binary: ros-chomp-motion-planner ros-chomp-motion-planner-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.24.23.51
+Distribution: sid
+Urgency: high
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Changed-By: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Description:
+ ros-chomp-motion-planner - chomp_motion_planner
+Changes:
+ ros-chomp-motion-planner (1.1.10-73-g05ef19048-2023.01.24.23.51) sid; urgency=high
+Checksums-Sha1:
+ d76ef678781ed45e94753f44b084f782a8be3e0a 7176360 ros-chomp-motion-planner-dbgsym_1.1.10-73-g05ef19048-2023.01.24.23.51_amd64.deb
+ f11130a9918cf8aa59f15d28c82a05b0be285690 18569 ros-chomp-motion-planner_1.1.10-73-g05ef19048-2023.01.24.23.51_amd64.buildinfo
+ ca8428555abf7c133917acb55f4105eeee8df45c 116072 ros-chomp-motion-planner_1.1.10-73-g05ef19048-2023.01.24.23.51_amd64.deb
+Checksums-Sha256:
+ f516e6e491244f85a7cf2bfb6d938e5bc91f196ec853b2915812bc9e960dfae2 7176360 ros-chomp-motion-planner-dbgsym_1.1.10-73-g05ef19048-2023.01.24.23.51_amd64.deb
+ 02cbd93bd113c29f74b436c8ba7db1f67add46bbe2347821e7186d553e215b5d 18569 ros-chomp-motion-planner_1.1.10-73-g05ef19048-2023.01.24.23.51_amd64.buildinfo
+ 16899a79c0c49e274ffa0fca6a25bbe29609aa77602fd29cc552ae019d59518f 116072 ros-chomp-motion-planner_1.1.10-73-g05ef19048-2023.01.24.23.51_amd64.deb
+Files:
+ 507523fdbee09a741f7a1d877475d27e 7176360 debug optional ros-chomp-motion-planner-dbgsym_1.1.10-73-g05ef19048-2023.01.24.23.51_amd64.deb
+ 63b46f3770262a59519c2e27cfc6dd5f 18569 misc optional ros-chomp-motion-planner_1.1.10-73-g05ef19048-2023.01.24.23.51_amd64.buildinfo
+ 2b385ce4ce9db619c134b012f1502e35 116072 misc optional ros-chomp-motion-planner_1.1.10-73-g05ef19048-2023.01.24.23.51_amd64.deb

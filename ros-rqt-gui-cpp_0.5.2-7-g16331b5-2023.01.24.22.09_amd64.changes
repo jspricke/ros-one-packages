@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Fri, 25 Mar 2022 00:00:00 -0000
+Source: ros-rqt-gui-cpp
+Binary: ros-rqt-gui-cpp ros-rqt-gui-cpp-dbgsym
+Architecture: amd64
+Version: 0.5.2-7-g16331b5-2023.01.24.22.09
+Distribution: sid
+Urgency: high
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Changed-By: Dharini Dutia <dharini@openrobotics.org>
+Description:
+ ros-rqt-gui-cpp - rqt_gui_cpp enables GUI plugins to use the C++ client library for
+Changes:
+ ros-rqt-gui-cpp (0.5.2-7-g16331b5-2023.01.24.22.09) sid; urgency=high
+ .
+   * Update maintainers (#233 <https://github.com/ros-visualization/rqt/issues/233>) (#237 <https://github.com/ros-visualization/rqt/issues/237>)
+   * Contributors: Michael Jeronimo
+Checksums-Sha1:
+ 17dde4f496b1d8672527875ce5613238fdadd6b7 1792384 ros-rqt-gui-cpp-dbgsym_0.5.2-7-g16331b5-2023.01.24.22.09_amd64.deb
+ 642e8f6cd844faab47b38fcc9c81eeb3cfb7d604 14576 ros-rqt-gui-cpp_0.5.2-7-g16331b5-2023.01.24.22.09_amd64.buildinfo
+ 4463b659eee302f12753a5503cea826e1cd8f984 112852 ros-rqt-gui-cpp_0.5.2-7-g16331b5-2023.01.24.22.09_amd64.deb
+Checksums-Sha256:
+ 8ac1a5bf92a278942032ad3b3672f909ed9b792b965f213bb7f7c5e27cf6ffc7 1792384 ros-rqt-gui-cpp-dbgsym_0.5.2-7-g16331b5-2023.01.24.22.09_amd64.deb
+ 6427804385b3507fe5d3013252dd7cac3340d5108eb2c0953369b515d9c4549d 14576 ros-rqt-gui-cpp_0.5.2-7-g16331b5-2023.01.24.22.09_amd64.buildinfo
+ 584321fc39fe7bff746ae827cea248da827f301bc9f4b5777031ae2bc3bc625b 112852 ros-rqt-gui-cpp_0.5.2-7-g16331b5-2023.01.24.22.09_amd64.deb
+Files:
+ 535e147da4676f1b745ed56efb117128 1792384 debug optional ros-rqt-gui-cpp-dbgsym_0.5.2-7-g16331b5-2023.01.24.22.09_amd64.deb
+ 8e9165e895001248e330d54362d4a890 14576 misc optional ros-rqt-gui-cpp_0.5.2-7-g16331b5-2023.01.24.22.09_amd64.buildinfo
+ fdae3c23eecbe538c4237b47a454d1ad 112852 misc optional ros-rqt-gui-cpp_0.5.2-7-g16331b5-2023.01.24.22.09_amd64.deb

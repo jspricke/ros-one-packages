@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-controller-manager-msgs
+Binary: ros-controller-manager-msgs
+Architecture: amd64
+Version: 0.19.6-2023.01.24.20.25
+Distribution: sid
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-controller-manager-msgs - Messages and services for the controller manager.
+Changes:
+ ros-controller-manager-msgs (0.19.6-2023.01.24.20.25) sid; urgency=high
+Checksums-Sha1:
+ 77df1e817f94b692e1906cb73bf1c3dea5e1ade3 7335 ros-controller-manager-msgs_0.19.6-2023.01.24.20.25_amd64.buildinfo
+ e0414753d9f8a426a97194ba6e80c800a66a6119 54216 ros-controller-manager-msgs_0.19.6-2023.01.24.20.25_amd64.deb
+Checksums-Sha256:
+ 1a8e96ea3fd2fc2bed6ec155b86adcd44137c7cdcfe1bc9b30f5a6e49131a2fe 7335 ros-controller-manager-msgs_0.19.6-2023.01.24.20.25_amd64.buildinfo
+ b14cb8acb5c87d2168710604ddb96ba680fe8296c0e17d36b43a417ab114ee0e 54216 ros-controller-manager-msgs_0.19.6-2023.01.24.20.25_amd64.deb
+Files:
+ 40a9233a2c5936b47cd85012e7d0fe52 7335 misc optional ros-controller-manager-msgs_0.19.6-2023.01.24.20.25_amd64.buildinfo
+ a4365b7adbeab01d9d0c851f51a5f0a0 54216 misc optional ros-controller-manager-msgs_0.19.6-2023.01.24.20.25_amd64.deb

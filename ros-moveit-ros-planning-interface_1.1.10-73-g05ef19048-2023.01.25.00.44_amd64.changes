@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-ros-planning-interface
+Binary: ros-moveit-ros-planning-interface ros-moveit-ros-planning-interface-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.25.00.44
+Distribution: sid
+Urgency: high
+Maintainer: Michael Ferguson <mferguson@fetchrobotics.com>
+Changed-By: Michael Ferguson <mferguson@fetchrobotics.com>
+Description:
+ ros-moveit-ros-planning-interface - Components of MoveIt that offer simpler interfaces to planning an
+Changes:
+ ros-moveit-ros-planning-interface (1.1.10-73-g05ef19048-2023.01.25.00.44) sid; urgency=high
+Checksums-Sha1:
+ 725c86bd96dac357b535de1b9939a3670a8eaa1f 17107364 ros-moveit-ros-planning-interface-dbgsym_1.1.10-73-g05ef19048-2023.01.25.00.44_amd64.deb
+ d862bca3574d21eec470798ec9f9a5e4a4e8163a 27675 ros-moveit-ros-planning-interface_1.1.10-73-g05ef19048-2023.01.25.00.44_amd64.buildinfo
+ 174baac9a5d7e50121fc6c9a707859418eac3a2e 517412 ros-moveit-ros-planning-interface_1.1.10-73-g05ef19048-2023.01.25.00.44_amd64.deb
+Checksums-Sha256:
+ 68825b16d9afbe16ab390f99ffe7c4d52861dbb48e46678eec0c0f811b4a7c66 17107364 ros-moveit-ros-planning-interface-dbgsym_1.1.10-73-g05ef19048-2023.01.25.00.44_amd64.deb
+ 40a28f7607c3d056a93b7fab808885520965f71d9ff61b3adac4c66ceb53b25f 27675 ros-moveit-ros-planning-interface_1.1.10-73-g05ef19048-2023.01.25.00.44_amd64.buildinfo
+ a4538cd7b84df6d91bbad6df6af700f17723c484a6237f7542cb7fb8bf660898 517412 ros-moveit-ros-planning-interface_1.1.10-73-g05ef19048-2023.01.25.00.44_amd64.deb
+Files:
+ f85e0321c4c01ff4b723101e446dc2bc 17107364 debug optional ros-moveit-ros-planning-interface-dbgsym_1.1.10-73-g05ef19048-2023.01.25.00.44_amd64.deb
+ a52c667c7e547adb9f35cd72600c0ad4 27675 misc optional ros-moveit-ros-planning-interface_1.1.10-73-g05ef19048-2023.01.25.00.44_amd64.buildinfo
+ 6bcd5d11c3fc314d5b96ffdf910731ea 517412 misc optional ros-moveit-ros-planning-interface_1.1.10-73-g05ef19048-2023.01.25.00.44_amd64.deb

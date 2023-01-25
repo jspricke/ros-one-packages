@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Mon, 07 Jun 2021 00:00:00 -0000
+Source: ros-joystick-drivers
+Binary: ros-joystick-drivers
+Architecture: amd64
+Version: 0-2023.01.24.20.45
+Distribution: sid
+Urgency: high
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Changed-By: Jonathan Bohren <jbo@jhu.edu>
+Description:
+ ros-joystick-drivers - This metapackage depends on packages for interfacing common joyst
+Changes:
+ ros-joystick-drivers (0-2023.01.24.20.45) sid; urgency=high
+Checksums-Sha1:
+ 080965c2308c8d083c5ad65ba784dd7503e46a78 6648 ros-joystick-drivers_0-2023.01.24.20.45_amd64.buildinfo
+ 10cbc795f56138ec15c461c96ae2b96ee17855ec 2240 ros-joystick-drivers_0-2023.01.24.20.45_amd64.deb
+Checksums-Sha256:
+ 481ff54ba5ed2a81f13ffd3be5f91ac78a160327e73955dbd0ef4fc0e901068b 6648 ros-joystick-drivers_0-2023.01.24.20.45_amd64.buildinfo
+ af5c60b438c95265a624438d8a5f85d0d015f1fc4a6f0259fde47736bd99411c 2240 ros-joystick-drivers_0-2023.01.24.20.45_amd64.deb
+Files:
+ 289821e05ad58e207c8ef387b446833d 6648 misc optional ros-joystick-drivers_0-2023.01.24.20.45_amd64.buildinfo
+ 606bd025b4ad23b1202752d9f6e61937 2240 misc optional ros-joystick-drivers_0-2023.01.24.20.45_amd64.deb

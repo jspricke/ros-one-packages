@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Wed, 21 Apr 2021 00:00:00 -0000
+Source: ros-rqt-shell
+Binary: ros-rqt-shell
+Architecture: amd64
+Version: 0.4.11-2023.01.24.22.36
+Distribution: sid
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-rqt-shell - rqt_shell is a Python GUI plugin providing an interactive shell.
+Changes:
+ ros-rqt-shell (0.4.11-2023.01.24.22.36) sid; urgency=high
+ .
+   * Merge pull request #13 <https://github.com/ros-visualization/rqt_shell/issues/13> from ros-visualization/sloretz-update-maintainer
+     Update maintainer in package.xml
+   * Update maintainer in package.xml
+   * fix shebang line for python3 (#12 <https://github.com/ros-visualization/rqt_shell/issues/12>)
+   * Contributors: Michael Carroll, Mikael Arguedas, Shane Loretz
+Checksums-Sha1:
+ c700fdd2dff5c04310395982a851aa8e8eb439f5 6636 ros-rqt-shell_0.4.11-2023.01.24.22.36_amd64.buildinfo
+ 31730bd9cdc4c99f0da0b32bdd80c6d33cb4ec3a 18264 ros-rqt-shell_0.4.11-2023.01.24.22.36_amd64.deb
+Checksums-Sha256:
+ 0bb0a30f36d6481f0fea3266e1eb5a67da01e1dba1ca3feed1f38f668293bc44 6636 ros-rqt-shell_0.4.11-2023.01.24.22.36_amd64.buildinfo
+ bb87f092ba79485a7d6850e065abc2e9e5f151094bfe86e524c06ada9f8e98c3 18264 ros-rqt-shell_0.4.11-2023.01.24.22.36_amd64.deb
+Files:
+ fea57b68a73111053d4c9369f5f7abde 6636 misc optional ros-rqt-shell_0.4.11-2023.01.24.22.36_amd64.buildinfo
+ 184104ca16aacb442a5abdf5563adb0d 18264 misc optional ros-rqt-shell_0.4.11-2023.01.24.22.36_amd64.deb

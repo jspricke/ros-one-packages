@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 07 Sep 2018 00:00:00 -0000
+Source: ros-convex-decomposition
+Binary: ros-convex-decomposition ros-convex-decomposition-dbgsym
+Architecture: amd64
+Version: 0.1.12-3-gb722eb5-2023.01.24.20.26
+Distribution: sid
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-convex-decomposition - Convex Decomposition Tool for Robot Model
+Changes:
+ ros-convex-decomposition (0.1.12-3-gb722eb5-2023.01.24.20.26) sid; urgency=high
+ .
+   * Merge pull request #8 <https://github.com/ros/convex_decomposition/issues/8> from k-okada/add_travis
+     update travis.yml
+   * Change maintainer to ROS Orphaned Package
+   * update travis.yml
+   * mv readme to README.md
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ 217196c88cfaf5170d273876f3cbe880f79c732b 424608 ros-convex-decomposition-dbgsym_0.1.12-3-gb722eb5-2023.01.24.20.26_amd64.deb
+ d743c140cad15d43dc5ca8af582f1a4c6f7a2896 7180 ros-convex-decomposition_0.1.12-3-gb722eb5-2023.01.24.20.26_amd64.buildinfo
+ 1afb75433841d4135b8bb495dc2f70d94d527444 70596 ros-convex-decomposition_0.1.12-3-gb722eb5-2023.01.24.20.26_amd64.deb
+Checksums-Sha256:
+ 5974cba71e751bebdb419127ba41db17b57259fcf81d95bb0e042012b697d7ee 424608 ros-convex-decomposition-dbgsym_0.1.12-3-gb722eb5-2023.01.24.20.26_amd64.deb
+ e590c0f70715cca916c7b5cd004eebcbac28bcf3cf109a98c99f20c1b9d3fc06 7180 ros-convex-decomposition_0.1.12-3-gb722eb5-2023.01.24.20.26_amd64.buildinfo
+ 8c1b36c962bc256de9ee3e0c1afa8ca349e178e3bec03eed1784583b14a4edd7 70596 ros-convex-decomposition_0.1.12-3-gb722eb5-2023.01.24.20.26_amd64.deb
+Files:
+ ec492761bbd5f1bddfb9538c38940324 424608 debug optional ros-convex-decomposition-dbgsym_0.1.12-3-gb722eb5-2023.01.24.20.26_amd64.deb
+ 382a9f9872f18a6b36c370a6a1ccde54 7180 misc optional ros-convex-decomposition_0.1.12-3-gb722eb5-2023.01.24.20.26_amd64.buildinfo
+ 0365999b74aa0e14786ef5fc84fef916 70596 misc optional ros-convex-decomposition_0.1.12-3-gb722eb5-2023.01.24.20.26_amd64.deb

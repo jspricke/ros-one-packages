@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-joint-limits-interface
+Binary: ros-joint-limits-interface
+Architecture: amd64
+Version: 0.19.6-2023.01.24.20.43
+Distribution: sid
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-joint-limits-interface - Interface for enforcing joint limits.
+Changes:
+ ros-joint-limits-interface (0.19.6-2023.01.24.20.43) sid; urgency=high
+Checksums-Sha1:
+ e5e083b5fbe37ba373eee24875435ca4a0abfc0a 10675 ros-joint-limits-interface_0.19.6-2023.01.24.20.43_amd64.buildinfo
+ e9df1d9c93f1c8eb0bd7a0ef487d0cb3175404bf 15536 ros-joint-limits-interface_0.19.6-2023.01.24.20.43_amd64.deb
+Checksums-Sha256:
+ d833ddb74b0ae6c21a1db68f9c89a507fe1338c7db3f5016b90f5b01efcb7e3f 10675 ros-joint-limits-interface_0.19.6-2023.01.24.20.43_amd64.buildinfo
+ c2937da70e5a995199c7b2dff0520b4e473c9a25d3e5bba64385c470c5455b37 15536 ros-joint-limits-interface_0.19.6-2023.01.24.20.43_amd64.deb
+Files:
+ bffafb1894e871fbac78a5af58dbf6f0 10675 misc optional ros-joint-limits-interface_0.19.6-2023.01.24.20.43_amd64.buildinfo
+ 63f868316e3d0474b6ff4538c1ac1ce3 15536 misc optional ros-joint-limits-interface_0.19.6-2023.01.24.20.43_amd64.deb

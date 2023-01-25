@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-gripper-action-controller
+Binary: ros-gripper-action-controller ros-gripper-action-controller-dbgsym
+Architecture: amd64
+Version: 0.19.0-23-gb144fda-2023.01.24.21.32
+Distribution: sid
+Urgency: high
+Maintainer: Sachin Chitta <robot.moveit@gmail.com>
+Changed-By: Sachin Chitta <robot.moveit@gmail.com>
+Description:
+ ros-gripper-action-controller - The gripper_action_controller package
+Changes:
+ ros-gripper-action-controller (0.19.0-23-gb144fda-2023.01.24.21.32) sid; urgency=high
+ .
+   * std::bind and placeholders instead of boost
+   * Contributors: Lucas Walter
+Checksums-Sha1:
+ f43e6418d205b094ff039ddc5917cdd2cc802e74 1432932 ros-gripper-action-controller-dbgsym_0.19.0-23-gb144fda-2023.01.24.21.32_amd64.deb
+ 10b803b8b19b1f99cab0585f36440ec5087c9399 11869 ros-gripper-action-controller_0.19.0-23-gb144fda-2023.01.24.21.32_amd64.buildinfo
+ 05fc8b643afb2ece9be030b7d2cf1ed4170386be 106720 ros-gripper-action-controller_0.19.0-23-gb144fda-2023.01.24.21.32_amd64.deb
+Checksums-Sha256:
+ 25fce0c55e5cfeb6b8fca818b9b52c6ded3dc859c0667b4e1c537777a1164856 1432932 ros-gripper-action-controller-dbgsym_0.19.0-23-gb144fda-2023.01.24.21.32_amd64.deb
+ a4bd8b2ae7914a5ba76faa5d008c4c23ac94dcf07d5fbec0125d434af159c588 11869 ros-gripper-action-controller_0.19.0-23-gb144fda-2023.01.24.21.32_amd64.buildinfo
+ 3e815b3611776347f930eaefb0a2586411e7257cc373d1ae74068afdde826912 106720 ros-gripper-action-controller_0.19.0-23-gb144fda-2023.01.24.21.32_amd64.deb
+Files:
+ 945078858e57cbb5006a1b5308bdcb20 1432932 debug optional ros-gripper-action-controller-dbgsym_0.19.0-23-gb144fda-2023.01.24.21.32_amd64.deb
+ 40af7282ee9f899b315e6e7428c55f6d 11869 misc optional ros-gripper-action-controller_0.19.0-23-gb144fda-2023.01.24.21.32_amd64.buildinfo
+ 53d23e9643638e62252cff894b8b2f58 106720 misc optional ros-gripper-action-controller_0.19.0-23-gb144fda-2023.01.24.21.32_amd64.deb

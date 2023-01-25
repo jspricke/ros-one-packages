@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 18 Nov 2021 00:00:00 -0000
+Source: ros-moveit-resources-panda-moveit-config
+Binary: ros-moveit-resources-panda-moveit-config
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.01.24.20.55
+Distribution: sid
+Urgency: high
+Maintainer: MoveIt maintainer team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt maintainer team <moveit_releasers@googlegroups.com>
+Description:
+ ros-moveit-resources-panda-moveit-config - MoveIt Resources for testing: Franka Emika Panda A project-intern
+Changes:
+ ros-moveit-resources-panda-moveit-config (0.8.2-5-g0be98e1-2023.01.24.20.55) sid; urgency=high
+ .
+   * test_environment.launch: use fake_execution_type="last point" by default
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ 6a79b54add5bf0948a9806529c52aaa732d906e9 6811 ros-moveit-resources-panda-moveit-config_0.8.2-5-g0be98e1-2023.01.24.20.55_amd64.buildinfo
+ d63ffc611b6892e06efc59b35a8d9c5506f9cbbd 20720 ros-moveit-resources-panda-moveit-config_0.8.2-5-g0be98e1-2023.01.24.20.55_amd64.deb
+Checksums-Sha256:
+ 902836b60b844b5fd2f68ac9b6434bd0599f2c0d4d0acddacbb6f0bece270f2b 6811 ros-moveit-resources-panda-moveit-config_0.8.2-5-g0be98e1-2023.01.24.20.55_amd64.buildinfo
+ 1f9b8801f44ac6c39518f63fd0e4079486d8bf227d62006303702b2b46c9dd90 20720 ros-moveit-resources-panda-moveit-config_0.8.2-5-g0be98e1-2023.01.24.20.55_amd64.deb
+Files:
+ 9a8a8baeebab4c022eda0816bbea0c4b 6811 misc optional ros-moveit-resources-panda-moveit-config_0.8.2-5-g0be98e1-2023.01.24.20.55_amd64.buildinfo
+ 5045138f821305cf5a8dae0fe03dbad2 20720 misc optional ros-moveit-resources-panda-moveit-config_0.8.2-5-g0be98e1-2023.01.24.20.55_amd64.deb

@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 06 Feb 2020 00:00:00 -0000
+Source: ros-realtime-tools
+Binary: ros-realtime-tools ros-realtime-tools-dbgsym
+Architecture: amd64
+Version: 1.15.1-3-ga5a5a5e-2023.01.24.21.27
+Distribution: sid
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-realtime-tools - Contains a set of tools that can be used from a hard realtime thr
+Changes:
+ ros-realtime-tools (1.15.1-3-ga5a5a5e-2023.01.24.21.27) sid; urgency=high
+ .
+   * Check whether thread joinable before joining
+   * realtime_server_goal_handle_tests needs actionlib
+   * Contributors: Maverobot, Shane Loretz
+Checksums-Sha1:
+ e3eb405e95ec9e65decf0acca75170ffdad871a9 119728 ros-realtime-tools-dbgsym_1.15.1-3-ga5a5a5e-2023.01.24.21.27_amd64.deb
+ b9c4c4efc4330678602b8e4c4d0ada14d543affb 10114 ros-realtime-tools_1.15.1-3-ga5a5a5e-2023.01.24.21.27_amd64.buildinfo
+ efe6c687bfcc74ad75f480ba1b5dd4901a4a295d 20684 ros-realtime-tools_1.15.1-3-ga5a5a5e-2023.01.24.21.27_amd64.deb
+Checksums-Sha256:
+ fed733ee59b0e8457787be0e8cf6eebd71562718f483d945591c8e547d1efbb1 119728 ros-realtime-tools-dbgsym_1.15.1-3-ga5a5a5e-2023.01.24.21.27_amd64.deb
+ a2d84ca9de06c2f17abffc0ea634dcd2b91381819b339529e0690a2a9ac53d76 10114 ros-realtime-tools_1.15.1-3-ga5a5a5e-2023.01.24.21.27_amd64.buildinfo
+ cf693503d075c5f8aa5a796fc3364db7b410af05805e554f2860ff904916ae27 20684 ros-realtime-tools_1.15.1-3-ga5a5a5e-2023.01.24.21.27_amd64.deb
+Files:
+ 459a2b04bc94a79af3a2a01df90ab318 119728 debug optional ros-realtime-tools-dbgsym_1.15.1-3-ga5a5a5e-2023.01.24.21.27_amd64.deb
+ 03074db9d6142687faa64220578330eb 10114 misc optional ros-realtime-tools_1.15.1-3-ga5a5a5e-2023.01.24.21.27_amd64.buildinfo
+ 3dd967b8e87098583cb2ce4b1d105879 20684 misc optional ros-realtime-tools_1.15.1-3-ga5a5a5e-2023.01.24.21.27_amd64.deb

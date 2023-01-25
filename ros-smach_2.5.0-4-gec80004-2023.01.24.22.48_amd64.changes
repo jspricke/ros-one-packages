@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 14 May 2020 00:00:00 -0000
+Source: ros-smach
+Binary: ros-smach
+Architecture: amd64
+Version: 2.5.0-4-gec80004-2023.01.24.22.48
+Distribution: sid
+Urgency: high
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I. Y. Saito <gm130s@gmail.com>
+Description:
+ ros-smach  - SMACH is a task-level architecture for rapidly creating complex r
+Changes:
+ ros-smach (2.5.0-4-gec80004-2023.01.24.22.48) sid; urgency=high
+ .
+   * Python 3 compatibility #71 <https://github.com/ros/executive_smach/issues/71>
+   * Use setuptools instead of distutils
+   * Bump CMake version to avoid CMP0048 warning
+   * Update state.py Docstrings' @type descriptions #59 <https://github.com/ros/executive_smach/issues/59>
+   * Typo set_shutdown_cb() --> set_shutdown_check() #56 <https://github.com/ros/executive_smach/issues/56>
+   * Contributors: Isaac I.Y. Saito, Joseph Coombe, Shane Loretz, ahcorde, cclauss
+Checksums-Sha1:
+ 39cd0401a403a5ceb162dfe5d8c962ab81d2735f 6656 ros-smach_2.5.0-4-gec80004-2023.01.24.22.48_amd64.buildinfo
+ d3dcccf6b07ec4e117463f905bfe03962737ebe7 48340 ros-smach_2.5.0-4-gec80004-2023.01.24.22.48_amd64.deb
+Checksums-Sha256:
+ 3f537b5d0db42302aca6cb8a25135c33cf7d88b384b2c92ef4743e5e352c2b38 6656 ros-smach_2.5.0-4-gec80004-2023.01.24.22.48_amd64.buildinfo
+ 86099f2d6c41557407d9a7aaa04451db957ffde4114be49153fe56a785cae72e 48340 ros-smach_2.5.0-4-gec80004-2023.01.24.22.48_amd64.deb
+Files:
+ 53adbede55c928dc7eb2b8c3e5bf2ca5 6656 misc optional ros-smach_2.5.0-4-gec80004-2023.01.24.22.48_amd64.buildinfo
+ 10836fdbf694c8481d2c8812ece2903f 48340 misc optional ros-smach_2.5.0-4-gec80004-2023.01.24.22.48_amd64.deb

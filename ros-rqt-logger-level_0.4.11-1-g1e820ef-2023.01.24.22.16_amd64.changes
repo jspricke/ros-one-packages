@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 22 May 2020 00:00:00 -0000
+Source: ros-rqt-logger-level
+Binary: ros-rqt-logger-level
+Architecture: amd64
+Version: 0.4.11-1-g1e820ef-2023.01.24.22.16
+Distribution: sid
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ ros-rqt-logger-level - rqt_logger_level provides a GUI plugin for configuring the logger
+Changes:
+ ros-rqt-logger-level (0.4.11-1-g1e820ef-2023.01.24.22.16) sid; urgency=high
+ .
+   * readd rqt_logger_level global executable, regression from 0.4.10 (#9 <https://github.com/ros-visualization/rqt_logger_level/issues/9>)
+Checksums-Sha1:
+ a2c1dab136b7de95f411d820f67ef8c40fe3700f 6715 ros-rqt-logger-level_0.4.11-1-g1e820ef-2023.01.24.22.16_amd64.buildinfo
+ a7ecbf5c3c7ec20c098caa130a73ae644e2aaddc 15440 ros-rqt-logger-level_0.4.11-1-g1e820ef-2023.01.24.22.16_amd64.deb
+Checksums-Sha256:
+ 6bd6c98b387b643638c3368685c2edb5a5a175545f03a7e0dfd8f41134ace20f 6715 ros-rqt-logger-level_0.4.11-1-g1e820ef-2023.01.24.22.16_amd64.buildinfo
+ 10ca216d31c89a053ebab2f56cc0a53c63818049250649187a372aefba2b9dc4 15440 ros-rqt-logger-level_0.4.11-1-g1e820ef-2023.01.24.22.16_amd64.deb
+Files:
+ 732442490ad231e284f7dd383f79c42f 6715 misc optional ros-rqt-logger-level_0.4.11-1-g1e820ef-2023.01.24.22.16_amd64.buildinfo
+ a44410bac73e307a11937c8d5f844579 15440 misc optional ros-rqt-logger-level_0.4.11-1-g1e820ef-2023.01.24.22.16_amd64.deb

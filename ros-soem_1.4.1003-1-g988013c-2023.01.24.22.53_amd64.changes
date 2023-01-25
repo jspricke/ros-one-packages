@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Mon, 03 Aug 2020 00:00:00 -0000
+Source: ros-soem
+Binary: ros-soem ros-soem-dbgsym
+Architecture: amd64
+Version: 1.4.1003-1-g988013c-2023.01.24.22.53
+Distribution: sid
+Urgency: high
+Maintainer: Matthias Gruhler <matthias.gruhler@gmail.com>
+Changed-By: Matthias Gruhler <matthias.gruhler@gmail.com>
+Description:
+ ros-soem   - ROS wrapper for the Simple Open EtherCAT Master SOEM.
+Changes:
+ ros-soem (1.4.1003-1-g988013c-2023.01.24.22.53) sid; urgency=high
+ .
+   * fixes #40 <https://github.com/mgruhler/soem/issues/40>: export include directories properly
+   * Contributors: Matthias Gruhler
+Checksums-Sha1:
+ c533d415a7b87240fef0dd9dcf243a28370e0e20 303952 ros-soem-dbgsym_1.4.1003-1-g988013c-2023.01.24.22.53_amd64.deb
+ d7d43cf94c1b04f35442e2110e451d2b18872b29 7031 ros-soem_1.4.1003-1-g988013c-2023.01.24.22.53_amd64.buildinfo
+ d40a4f7b59bb3ebd4821bd4869c08ea1c1ba451f 89648 ros-soem_1.4.1003-1-g988013c-2023.01.24.22.53_amd64.deb
+Checksums-Sha256:
+ f10d3f74df45c70b11379853b8c512295150900cbea4af96a946c21d7f166840 303952 ros-soem-dbgsym_1.4.1003-1-g988013c-2023.01.24.22.53_amd64.deb
+ 92e7a70bda80c43c9385b9a9a8c723ce707a990c1292f20d6821b426a73008ac 7031 ros-soem_1.4.1003-1-g988013c-2023.01.24.22.53_amd64.buildinfo
+ 9393846ff182bcfc8c9b35f03b71bfd2a5f34b862606d8a918c5e9f240ee7b6d 89648 ros-soem_1.4.1003-1-g988013c-2023.01.24.22.53_amd64.deb
+Files:
+ 9fa6fedf1529a3263375f46f5a65177f 303952 debug optional ros-soem-dbgsym_1.4.1003-1-g988013c-2023.01.24.22.53_amd64.deb
+ d6f01645c25943c47e0c06afd8d42f9f 7031 misc optional ros-soem_1.4.1003-1-g988013c-2023.01.24.22.53_amd64.buildinfo
+ 360be72f02d76a443b727fa8fef14aa1 89648 misc optional ros-soem_1.4.1003-1-g988013c-2023.01.24.22.53_amd64.deb

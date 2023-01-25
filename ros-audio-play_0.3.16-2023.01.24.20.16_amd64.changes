@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 23 Dec 2022 00:00:00 -0000
+Source: ros-audio-play
+Binary: ros-audio-play ros-audio-play-dbgsym
+Architecture: amd64
+Version: 0.3.16-2023.01.24.20.16
+Distribution: sid
+Urgency: high
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Changed-By: Austin Hendrix <namniart@gmail.com>
+Description:
+ ros-audio-play - Outputs audio to a speaker from a source node.
+Changes:
+ ros-audio-play (0.3.16-2023.01.24.20.16) sid; urgency=high
+ .
+   * Merge pull request #216 <https://github.com/ros-drivers/audio_common/issues/216> from knorth55/launch-update
+   * update play.launch
+   * Merge pull request #206 <https://github.com/ros-drivers/audio_common/issues/206> from knorth55/fix-205
+   * unref buffer in audio_play to avoid memory leak
+   * Contributors: Shingo Kitagawa
+Checksums-Sha1:
+ f48e84b6858b39d6fd6f992db6811ef621b1e009 568508 ros-audio-play-dbgsym_0.3.16-2023.01.24.20.16_amd64.deb
+ af060d9ddbfd4bd2ab65361b9a8b7f0bce33f601 12012 ros-audio-play_0.3.16-2023.01.24.20.16_amd64.buildinfo
+ 93d0f1a5e1a340e6f5b033f12132ae92a83032d0 45404 ros-audio-play_0.3.16-2023.01.24.20.16_amd64.deb
+Checksums-Sha256:
+ 50b600b737894271d55e03b3817b1032482e51528e962a2873afbce8b97d3924 568508 ros-audio-play-dbgsym_0.3.16-2023.01.24.20.16_amd64.deb
+ 6bfa21f504664434fd75e9eaafcc5e6da619b96dbb025a547d142f73d44da1cd 12012 ros-audio-play_0.3.16-2023.01.24.20.16_amd64.buildinfo
+ 66ecf9f9115ae9bee8246deb7a2b5370d87f4dfeb1963cd7c7f3fd487ab5ce00 45404 ros-audio-play_0.3.16-2023.01.24.20.16_amd64.deb
+Files:
+ ae9bdf50570cc376a59437e321dd7968 568508 debug optional ros-audio-play-dbgsym_0.3.16-2023.01.24.20.16_amd64.deb
+ 08406e2c2dda811473cbb09f44910354 12012 misc optional ros-audio-play_0.3.16-2023.01.24.20.16_amd64.buildinfo
+ f93b24c21749c9106cbbad61c25d0b9f 45404 misc optional ros-audio-play_0.3.16-2023.01.24.20.16_amd64.deb

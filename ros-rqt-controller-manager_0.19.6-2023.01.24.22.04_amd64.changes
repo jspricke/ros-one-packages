@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-rqt-controller-manager
+Binary: ros-rqt-controller-manager
+Architecture: amd64
+Version: 0.19.6-2023.01.24.22.04
+Distribution: sid
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-rqt-controller-manager - Graphical frontend for interacting with the controller manager.
+Changes:
+ ros-rqt-controller-manager (0.19.6-2023.01.24.22.04) sid; urgency=high
+Checksums-Sha1:
+ 5a278d4bc487413dc180c73be697a88e062421b0 6701 ros-rqt-controller-manager_0.19.6-2023.01.24.22.04_amd64.buildinfo
+ 678b3c29b9b1dddee4672a8c97046930c80d349e 38892 ros-rqt-controller-manager_0.19.6-2023.01.24.22.04_amd64.deb
+Checksums-Sha256:
+ beff33dcd1edc53d80283a9fb40b7beff8406adb71f1e9817b19213485b9e2f7 6701 ros-rqt-controller-manager_0.19.6-2023.01.24.22.04_amd64.buildinfo
+ c0364bd93b7865d9df70036cd3cccf998b1bab11ea50670bdcfc1ea85be00fb5 38892 ros-rqt-controller-manager_0.19.6-2023.01.24.22.04_amd64.deb
+Files:
+ 727549157c3ede36c1b185215488b025 6701 misc optional ros-rqt-controller-manager_0.19.6-2023.01.24.22.04_amd64.buildinfo
+ 7de7574ba0a398ca4b4cbe2d032618b8 38892 misc optional ros-rqt-controller-manager_0.19.6-2023.01.24.22.04_amd64.deb

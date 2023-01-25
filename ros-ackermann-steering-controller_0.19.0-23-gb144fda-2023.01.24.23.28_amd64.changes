@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-ackermann-steering-controller
+Binary: ros-ackermann-steering-controller ros-ackermann-steering-controller-dbgsym
+Architecture: amd64
+Version: 0.19.0-23-gb144fda-2023.01.24.23.28
+Distribution: sid
+Urgency: high
+Maintainer: Masaru Morita <p595201m@mail.kyutech.jp>
+Changed-By: Masaru Morita <p595201m@mail.kyutech.jp>
+Description:
+ ros-ackermann-steering-controller - Controller for a steer drive mobile base.
+Changes:
+ ros-ackermann-steering-controller (0.19.0-23-gb144fda-2023.01.24.23.28) sid; urgency=high
+ .
+   * Switch to hpp headers of pluginlib
+   * std::bind and placeholders instead of boost
+   * use boost::placeholders::_1/_2 in remaining instances, include boost/bind/bind.hpp instead of boost/bind.hpp, eliminated unnecessary bind.hpp include
+   * Contributors: Jochen Sprickerhof, Lucas Walter
+Checksums-Sha1:
+ 772ad6baff598d06d06d3a51aabcb88269dd4f2d 1146264 ros-ackermann-steering-controller-dbgsym_0.19.0-23-gb144fda-2023.01.24.23.28_amd64.deb
+ 3902f088bfefef34b0d3875913c8523b7ebb5540 20561 ros-ackermann-steering-controller_0.19.0-23-gb144fda-2023.01.24.23.28_amd64.buildinfo
+ ec81439a5f5face53e83e94291559dbdb43ea767 78980 ros-ackermann-steering-controller_0.19.0-23-gb144fda-2023.01.24.23.28_amd64.deb
+Checksums-Sha256:
+ 6e38485fc2ea87a1db01465a8699b937479df993d1cb0b00b7802f483338d639 1146264 ros-ackermann-steering-controller-dbgsym_0.19.0-23-gb144fda-2023.01.24.23.28_amd64.deb
+ 0b1e137fea8857098cc89945d48f7c4f61ec7ff6a33b8b09af4d554d322ffa4b 20561 ros-ackermann-steering-controller_0.19.0-23-gb144fda-2023.01.24.23.28_amd64.buildinfo
+ db4d7db7af8b34175e3cdc6551ff063b13cee12fd38059e7831aa92d57b6e8f5 78980 ros-ackermann-steering-controller_0.19.0-23-gb144fda-2023.01.24.23.28_amd64.deb
+Files:
+ 51a20190aaecaf787f4952c2637c4a5c 1146264 debug optional ros-ackermann-steering-controller-dbgsym_0.19.0-23-gb144fda-2023.01.24.23.28_amd64.deb
+ fe04c3ba73b525f9c98028a8fe677f13 20561 misc optional ros-ackermann-steering-controller_0.19.0-23-gb144fda-2023.01.24.23.28_amd64.buildinfo
+ d83a968001f14d4a8770209131fe9305 78980 misc optional ros-ackermann-steering-controller_0.19.0-23-gb144fda-2023.01.24.23.28_amd64.deb

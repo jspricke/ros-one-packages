@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-imu-sensor-controller
+Binary: ros-imu-sensor-controller ros-imu-sensor-controller-dbgsym
+Architecture: amd64
+Version: 0.19.0-23-gb144fda-2023.01.24.21.34
+Distribution: sid
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-imu-sensor-controller - Controller to publish state of IMU sensors
+Changes:
+ ros-imu-sensor-controller (0.19.0-23-gb144fda-2023.01.24.21.34) sid; urgency=high
+Checksums-Sha1:
+ 05e390101134e05dd93688ff72e4bd57219d14cd 611640 ros-imu-sensor-controller-dbgsym_0.19.0-23-gb144fda-2023.01.24.21.34_amd64.deb
+ df3901d2cc778b04a96770839b63235d51e50698 11063 ros-imu-sensor-controller_0.19.0-23-gb144fda-2023.01.24.21.34_amd64.buildinfo
+ 7a95fa3589edb5a0dda259ec5a01815ecbde8a45 46764 ros-imu-sensor-controller_0.19.0-23-gb144fda-2023.01.24.21.34_amd64.deb
+Checksums-Sha256:
+ f6db9bf2fa028a8dcd19c4a199bb348f61c7cb7870f6ffb0ad88f1fdcb1be607 611640 ros-imu-sensor-controller-dbgsym_0.19.0-23-gb144fda-2023.01.24.21.34_amd64.deb
+ 9c0bcded623ffd9309970e4384486892d2321dc8392fc82f6c41859da3846e91 11063 ros-imu-sensor-controller_0.19.0-23-gb144fda-2023.01.24.21.34_amd64.buildinfo
+ 509fdf8c130c114e6034dc7e41553dd26e68258fdeffb1429e46b2cdf777b18b 46764 ros-imu-sensor-controller_0.19.0-23-gb144fda-2023.01.24.21.34_amd64.deb
+Files:
+ 75139931754ec38d656e2f6f20362ef4 611640 debug optional ros-imu-sensor-controller-dbgsym_0.19.0-23-gb144fda-2023.01.24.21.34_amd64.deb
+ 04f5a2c30f0132ba7feea284d44163eb 11063 misc optional ros-imu-sensor-controller_0.19.0-23-gb144fda-2023.01.24.21.34_amd64.buildinfo
+ 2ec7e1185264c2fb448c0523305cf463 46764 misc optional ros-imu-sensor-controller_0.19.0-23-gb144fda-2023.01.24.21.34_amd64.deb

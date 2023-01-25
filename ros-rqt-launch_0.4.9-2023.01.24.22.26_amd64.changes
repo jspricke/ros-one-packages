@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Tue, 13 Oct 2020 00:00:00 -0000
+Source: ros-rqt-launch
+Binary: ros-rqt-launch
+Architecture: amd64
+Version: 0.4.9-2023.01.24.22.26
+Distribution: sid
+Urgency: high
+Maintainer: Isaac I.Y. Saito <iisaito@kinugarage.com>
+Changed-By: Isaac I.Y. Saito <iisaito@kinugarage.com>
+Description:
+ ros-rqt-launch - This rqt plugin ROS package provides easy view of .launch files.
+Changes:
+ ros-rqt-launch (0.4.9-2023.01.24.22.26) sid; urgency=high
+ .
+   * fix shebang line for Python 3 (#24 <https://github.com/ros-visualization/rqt_launch/issues/24>)
+   * refactor get spawn count text (#23 <https://github.com/ros-visualization/rqt_launch/issues/23>)
+   * bump CMake minimum version to avoid CMP0048 warning
+   * autopep8 (#19 <https://github.com/ros-visualization/rqt_launch/issues/19>)
+   * add Ryan Sinnet co-maintainer, update the current maintainer contact info
+Checksums-Sha1:
+ abfb1efd2fb1eee4c3c757050264940129a8aee2 14895 ros-rqt-launch_0.4.9-2023.01.24.22.26_amd64.buildinfo
+ d1a739a541bda5b87b8720ae91e912af5c5c4fb0 28324 ros-rqt-launch_0.4.9-2023.01.24.22.26_amd64.deb
+Checksums-Sha256:
+ 31016f85b940ce96eb9448697ce191c7c3cf0ad1d7db8a45ac20a1cec97db49f 14895 ros-rqt-launch_0.4.9-2023.01.24.22.26_amd64.buildinfo
+ a2f57269c083a077c0a5fa7df4f5fd62d9df8d888ddcbdf7de4c551b584720d6 28324 ros-rqt-launch_0.4.9-2023.01.24.22.26_amd64.deb
+Files:
+ c980f8d6b47fd3b62d19a20db81bd868 14895 misc optional ros-rqt-launch_0.4.9-2023.01.24.22.26_amd64.buildinfo
+ 024caa25f4635a25ec2287f29b317eb3 28324 misc optional ros-rqt-launch_0.4.9-2023.01.24.22.26_amd64.deb

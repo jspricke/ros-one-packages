@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-ros-control-interface
+Binary: ros-moveit-ros-control-interface ros-moveit-ros-control-interface-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.25.01.14
+Distribution: sid
+Urgency: high
+Maintainer: Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>
+Changed-By: Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>
+Description:
+ ros-moveit-ros-control-interface - ros_control controller manager interface for MoveIt
+Changes:
+ ros-moveit-ros-control-interface (1.1.10-73-g05ef19048-2023.01.25.01.14) sid; urgency=high
+Checksums-Sha1:
+ 2b07684127c2668475ce84f43497b40a8bce024f 2680236 ros-moveit-ros-control-interface-dbgsym_1.1.10-73-g05ef19048-2023.01.25.01.14_amd64.deb
+ 3526c2c62a9dbaef742e6bbc17f2eb70eae6f7b8 19593 ros-moveit-ros-control-interface_1.1.10-73-g05ef19048-2023.01.25.01.14_amd64.buildinfo
+ 235e7c5deb2eb0fdb1789993af991c93c9785668 185488 ros-moveit-ros-control-interface_1.1.10-73-g05ef19048-2023.01.25.01.14_amd64.deb
+Checksums-Sha256:
+ 4ec45c871c4beca66526b4d1413ded4c7a7c5a1281479f6b9f9ac14414376f2f 2680236 ros-moveit-ros-control-interface-dbgsym_1.1.10-73-g05ef19048-2023.01.25.01.14_amd64.deb
+ 33b894a7143dbacf0e7ef02d03d9f1d676e952ebb31251eb6ac508fad338ee27 19593 ros-moveit-ros-control-interface_1.1.10-73-g05ef19048-2023.01.25.01.14_amd64.buildinfo
+ 0b58cc4f1895d5f3b1512a4f9957f79ad0a3ada62ca896827ba11d4b97f5f29d 185488 ros-moveit-ros-control-interface_1.1.10-73-g05ef19048-2023.01.25.01.14_amd64.deb
+Files:
+ 3acfd081bf043f123bdc9de3f1f580a2 2680236 debug optional ros-moveit-ros-control-interface-dbgsym_1.1.10-73-g05ef19048-2023.01.25.01.14_amd64.deb
+ e6dd792ecd4cf53f88fb8f769a8e6b0a 19593 misc optional ros-moveit-ros-control-interface_1.1.10-73-g05ef19048-2023.01.25.01.14_amd64.buildinfo
+ ff1832f66c70eed235f2d25983a4e27e 185488 misc optional ros-moveit-ros-control-interface_1.1.10-73-g05ef19048-2023.01.25.01.14_amd64.deb

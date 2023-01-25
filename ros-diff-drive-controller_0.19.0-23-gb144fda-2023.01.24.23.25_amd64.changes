@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-diff-drive-controller
+Binary: ros-diff-drive-controller ros-diff-drive-controller-dbgsym
+Architecture: amd64
+Version: 0.19.0-23-gb144fda-2023.01.24.23.25
+Distribution: sid
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-diff-drive-controller - Controller for a differential drive mobile base.
+Changes:
+ ros-diff-drive-controller (0.19.0-23-gb144fda-2023.01.24.23.25) sid; urgency=high
+ .
+   * std::bind and placeholders instead of boost
+   * use boost::placeholders::_1/_2 in remaining instances, include boost/bind/bind.hpp instead of boost/bind.hpp, eliminated unnecessary bind.hpp include
+   * Contributors: Lucas Walter
+Checksums-Sha1:
+ 1530058279d2fa93aaaab3052403b598a18661a9 1700072 ros-diff-drive-controller-dbgsym_0.19.0-23-gb144fda-2023.01.24.23.25_amd64.deb
+ 5900ee1ad8d16b3be0c20e52cbe4035458d8d0e2 20493 ros-diff-drive-controller_0.19.0-23-gb144fda-2023.01.24.23.25_amd64.buildinfo
+ ffa7da570eb32ec816a592ec781ef6938f552c3c 128220 ros-diff-drive-controller_0.19.0-23-gb144fda-2023.01.24.23.25_amd64.deb
+Checksums-Sha256:
+ e5e0acf5432581c21fe8bb5e2c4ea5c547c5d69ea367ff8cfebb29d8e900ffed 1700072 ros-diff-drive-controller-dbgsym_0.19.0-23-gb144fda-2023.01.24.23.25_amd64.deb
+ 417a151447392d8aa201bf93eeae77bf8d2facd5f3163a09b2a6ff63285ae92f 20493 ros-diff-drive-controller_0.19.0-23-gb144fda-2023.01.24.23.25_amd64.buildinfo
+ 45eb70c471ef2d4bd2f066b02f896c32d9cd36c9027ac59d66668aec9b494c53 128220 ros-diff-drive-controller_0.19.0-23-gb144fda-2023.01.24.23.25_amd64.deb
+Files:
+ 567ea8b1db06940e06770148cfe6b023 1700072 debug optional ros-diff-drive-controller-dbgsym_0.19.0-23-gb144fda-2023.01.24.23.25_amd64.deb
+ fd6916b887d33aad5901c77e137a7ca9 20493 misc optional ros-diff-drive-controller_0.19.0-23-gb144fda-2023.01.24.23.25_amd64.buildinfo
+ df34cfec1441d7f2b0be43ed0c3729e4 128220 misc optional ros-diff-drive-controller_0.19.0-23-gb144fda-2023.01.24.23.25_amd64.deb

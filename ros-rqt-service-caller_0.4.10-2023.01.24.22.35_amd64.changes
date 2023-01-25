@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Wed, 21 Apr 2021 00:00:00 -0000
+Source: ros-rqt-service-caller
+Binary: ros-rqt-service-caller
+Architecture: amd64
+Version: 0.4.10-2023.01.24.22.35
+Distribution: sid
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-rqt-service-caller - rqt_service_caller provides a GUI plugin for calling arbitrary se
+Changes:
+ ros-rqt-service-caller (0.4.10-2023.01.24.22.35) sid; urgency=high
+ .
+   * Merge pull request #18 <https://github.com/ros-visualization/rqt_service_caller/issues/18> from ros-visualization/sloretz-update-maintainer
+     Update maintainer in package.xml
+   * Update maintainer in package.xml
+   * fix shebang line for python3 (#16 <https://github.com/ros-visualization/rqt_service_caller/issues/16>)
+   * Contributors: Michael Carroll, Mikael Arguedas, Shane Loretz
+Checksums-Sha1:
+ d87f3eef2ede1cc937c22dadf275ec34ff67046b 6681 ros-rqt-service-caller_0.4.10-2023.01.24.22.35_amd64.buildinfo
+ 05a37fc59f754d66e5f0f3dc93fae493684233a7 18652 ros-rqt-service-caller_0.4.10-2023.01.24.22.35_amd64.deb
+Checksums-Sha256:
+ 2ab9f216c6aea40ee8a8f262f11cb2845f42cff559af35cb9ed341c6c9ec5390 6681 ros-rqt-service-caller_0.4.10-2023.01.24.22.35_amd64.buildinfo
+ 36798411a097e57bee36349c74adfe614dc4ac27f405062678a1fb6ce83dc00c 18652 ros-rqt-service-caller_0.4.10-2023.01.24.22.35_amd64.deb
+Files:
+ 940389d54ceee8e8b1d6857cc61c0b10 6681 misc optional ros-rqt-service-caller_0.4.10-2023.01.24.22.35_amd64.buildinfo
+ e7e79c160188e6672cc6262f0822e7dd 18652 misc optional ros-rqt-service-caller_0.4.10-2023.01.24.22.35_amd64.deb

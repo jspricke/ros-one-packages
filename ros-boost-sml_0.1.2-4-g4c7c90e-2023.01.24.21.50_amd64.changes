@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Tue, 20 Apr 2021 00:00:00 -0000
+Source: ros-boost-sml
+Binary: ros-boost-sml ros-boost-sml-dbgsym
+Architecture: amd64
+Version: 0.1.2-4-g4c7c90e-2023.01.24.21.50
+Distribution: sid
+Urgency: high
+Maintainer: Tyler Weaver <tyler@picknik.ai>
+Changed-By: Tyler Weaver <tyler@picknik.ai>
+Description:
+ ros-boost-sml - State machine library with ros logging
+Changes:
+ ros-boost-sml (0.1.2-4-g4c7c90e-2023.01.24.21.50) sid; urgency=high
+ .
+   * Add GitHub actions (#7 <https://github.com/PickNikRobotics/boost_sml/issues/7>)
+   * Fix Debian Buster build
+   * Contributors: Tyler Weaver
+Checksums-Sha1:
+ e942fc82f2d2b058cb6d1d3b8ba3724cea007b71 1193856 ros-boost-sml-dbgsym_0.1.2-4-g4c7c90e-2023.01.24.21.50_amd64.deb
+ c408e5380568f5b95723c5394c77dcc23cc4b59d 14749 ros-boost-sml_0.1.2-4-g4c7c90e-2023.01.24.21.50_amd64.buildinfo
+ c07fe079316b680b04eefbb7ca8a6eb956ab338f 87924 ros-boost-sml_0.1.2-4-g4c7c90e-2023.01.24.21.50_amd64.deb
+Checksums-Sha256:
+ b1c5f2076c8b1fd0158a4cf5437b69349d339219879c09858055935d2d9d35fa 1193856 ros-boost-sml-dbgsym_0.1.2-4-g4c7c90e-2023.01.24.21.50_amd64.deb
+ 3f02fd8021aa5b12b76c816ef7a7101f57d3cef175ea51984d81b2a23a2b14ea 14749 ros-boost-sml_0.1.2-4-g4c7c90e-2023.01.24.21.50_amd64.buildinfo
+ 85a8b16b9019a3b9ab3dc022f4d06bf4c795abd30662f509cb102971dfc576c8 87924 ros-boost-sml_0.1.2-4-g4c7c90e-2023.01.24.21.50_amd64.deb
+Files:
+ e4f2c267123a9d5ea3cc85297732db63 1193856 debug optional ros-boost-sml-dbgsym_0.1.2-4-g4c7c90e-2023.01.24.21.50_amd64.deb
+ a9814f66af8ecc96e058454c6e7732f7 14749 misc optional ros-boost-sml_0.1.2-4-g4c7c90e-2023.01.24.21.50_amd64.buildinfo
+ d36f0ad29609ed8a881f4e22108fe46f 87924 misc optional ros-boost-sml_0.1.2-4-g4c7c90e-2023.01.24.21.50_amd64.deb

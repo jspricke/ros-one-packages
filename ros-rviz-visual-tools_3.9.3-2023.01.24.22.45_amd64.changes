@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 05 Jan 2023 00:00:00 -0000
+Source: ros-rviz-visual-tools
+Binary: ros-rviz-visual-tools ros-rviz-visual-tools-dbgsym
+Architecture: amd64
+Version: 3.9.3-2023.01.24.22.45
+Distribution: sid
+Urgency: high
+Maintainer: Dave Coleman <davetcoleman@gmail.com>
+Changed-By: Dave Coleman <davetcoleman@gmail.com>
+Description:
+ ros-rviz-visual-tools - Utility functions for displaying and debugging data in Rviz via p
+Changes:
+ ros-rviz-visual-tools (3.9.3-2023.01.24.22.45) sid; urgency=high
+ .
+   * Fix formatting CI job (#230 <https://github.com/PickNikRobotics/rviz_visual_tools/issues/230>)
+   * Move pub_rviz_markers_ to it's own callback queue (#193 <https://github.com/PickNikRobotics/rviz_visual_tools/issues/193>)
+   * Contributors: Jochen Sprickerhof, Vatan Aksoy Tezer
+Checksums-Sha1:
+ d0b1989a651008d93688ffbff31e0da00d1f9362 8297672 ros-rviz-visual-tools-dbgsym_3.9.3-2023.01.24.22.45_amd64.deb
+ eedba41cc8b59e730675fb340c3968200b5d490e 19774 ros-rviz-visual-tools_3.9.3-2023.01.24.22.45_amd64.buildinfo
+ e1ef9f3cd0d041894da4ee3bc46bf06db84b8fba 1487368 ros-rviz-visual-tools_3.9.3-2023.01.24.22.45_amd64.deb
+Checksums-Sha256:
+ e1c08d49120c5d1400efb7a3fe720993b5caa444de6f639d8719c4f5c98ba953 8297672 ros-rviz-visual-tools-dbgsym_3.9.3-2023.01.24.22.45_amd64.deb
+ d4806b124c5a274af48785ca1860becf97ce09ed6ac211399dd9032a16d81746 19774 ros-rviz-visual-tools_3.9.3-2023.01.24.22.45_amd64.buildinfo
+ 452322d484314e0331ebd77e567d0e5558beb4cb1a53d99a8eaf68f97c18683c 1487368 ros-rviz-visual-tools_3.9.3-2023.01.24.22.45_amd64.deb
+Files:
+ 6e814fa2a08a632af312db95b7e5ab5f 8297672 debug optional ros-rviz-visual-tools-dbgsym_3.9.3-2023.01.24.22.45_amd64.deb
+ b646304e3226e9f539aa0b98b7f0264c 19774 misc optional ros-rviz-visual-tools_3.9.3-2023.01.24.22.45_amd64.buildinfo
+ db0f07e66570f7baa48edf2a4d262da4 1487368 misc optional ros-rviz-visual-tools_3.9.3-2023.01.24.22.45_amd64.deb

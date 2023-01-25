@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sat, 19 Nov 2022 00:00:00 -0000
+Source: ros-behaviortree-cpp
+Binary: ros-behaviortree-cpp ros-behaviortree-cpp-dbgsym
+Architecture: amd64
+Version: 4.0.1-40-g6ec4978-2023.01.24.20.18
+Distribution: sid
+Urgency: high
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Changed-By: Davide Faconti <davide.faconti@gmail.com>
+Description:
+ ros-behaviortree-cpp - This package provides the Behavior Trees core library.
+Changes:
+ ros-behaviortree-cpp (4.0.1-40-g6ec4978-2023.01.24.20.18) sid; urgency=high
+ .
+   * version 4.X
+   * Contributors: Adam Aposhian, Adam Sasine, Alberto Soragna, Ali Aydın KÜÇÜKÇÖLLÜ, AndyZe, Davide Faconti, Dennis, Gaël Écorchard, Jafar, Joseph Schornak, Luca Bonamini, Paul Bovbel, SubaruArai, Tim Clephas, Will
+Checksums-Sha1:
+ 29d13bb39421ebdafa5aae6fb9d98dc773975caa 7504408 ros-behaviortree-cpp-dbgsym_4.0.1-40-g6ec4978-2023.01.24.20.18_amd64.deb
+ a0cd24ac2f412344cc6d00e52a399a4b52951861 9120 ros-behaviortree-cpp_4.0.1-40-g6ec4978-2023.01.24.20.18_amd64.buildinfo
+ d2517224026248865fbc374969b5c2509f3c9cb5 359392 ros-behaviortree-cpp_4.0.1-40-g6ec4978-2023.01.24.20.18_amd64.deb
+Checksums-Sha256:
+ 5c053250ccf789d77112a2e0d88be5c6fad55a0c86ece91417d785345ec865fc 7504408 ros-behaviortree-cpp-dbgsym_4.0.1-40-g6ec4978-2023.01.24.20.18_amd64.deb
+ ab05722ae3072c0277669f8b63db4e1914f005be9ad9d3b5087529ec768df4e0 9120 ros-behaviortree-cpp_4.0.1-40-g6ec4978-2023.01.24.20.18_amd64.buildinfo
+ f89368e0340eb6a5746864f5b41ecd1766e28355144aa4841aab58255e055e6f 359392 ros-behaviortree-cpp_4.0.1-40-g6ec4978-2023.01.24.20.18_amd64.deb
+Files:
+ 59b3b22c47a7b607cf417881f1693ec3 7504408 debug optional ros-behaviortree-cpp-dbgsym_4.0.1-40-g6ec4978-2023.01.24.20.18_amd64.deb
+ c518e8d8b83258d31e218cdff7049c31 9120 misc optional ros-behaviortree-cpp_4.0.1-40-g6ec4978-2023.01.24.20.18_amd64.buildinfo
+ 551ef835ebcc37a458adb6907cae5267 359392 misc optional ros-behaviortree-cpp_4.0.1-40-g6ec4978-2023.01.24.20.18_amd64.deb

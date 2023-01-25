@@ -1,0 +1,44 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-ros-move-group
+Binary: ros-moveit-ros-move-group ros-moveit-ros-move-group-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.25.00.22
+Distribution: sid
+Urgency: high
+Maintainer: Michael Ferguson <mferguson@fetchrobotics.com>
+Changed-By: Michael Ferguson <mferguson@fetchrobotics.com>
+Description:
+ ros-moveit-ros-move-group - The move_group node for MoveIt
+Changes:
+ ros-moveit-ros-move-group (1.1.10-73-g05ef19048-2023.01.25.00.22) sid; urgency=high
+ .
+   * Merge PR #3262 <https://github.com/ros-planning/moveit/issues/3262>: Short-circuit planning adapters
+ .
+       * Early return from failing planning adapters, namely FixStartStateCollision and FixStartStatePathConstraint
+       * Propagate the error code via MotionPlanResponse::error_code_
+       * Add string translations for all error codes
+ .
+   * Cleanup translation of MoveItErrorCode to string
+ .
+       * Move default code to moveit_core/utils
+       * Override defaults in existing getActionResultString()
+       * Provide translations for all error codes defined in moveit_msgs
+ .
+   * Drop shortcut avoiding planning when all constraints are already met (#3228 <https://github.com/ros-planning/moveit/issues/3228>)When calling the PlanAndExcute action, there was a shortcut avoiding planning (and execution) when all goal constraints were already met.
+     However, this check also succeeded when there was an error, e.g. resolving link names.
+     As proper link resolution might require some planning request adapters to be executed, e.g. ResolveConstraintFrames, we should not skip planning.
+     Note, calling the ``PlanOnly`` action, didn't have this shortcut as well, resulting in inconsistent behavior.
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ c4ff6c7a9a072c8a099823b4aba356f836e3617b 25258940 ros-moveit-ros-move-group-dbgsym_1.1.10-73-g05ef19048-2023.01.25.00.22_amd64.deb
+ c14e0ab783f88c39db3bc2ad8f62c0a17786270c 19826 ros-moveit-ros-move-group_1.1.10-73-g05ef19048-2023.01.25.00.22_amd64.buildinfo
+ f9cf1f4924d4d5069e9bd037b9a90caaea477556 421640 ros-moveit-ros-move-group_1.1.10-73-g05ef19048-2023.01.25.00.22_amd64.deb
+Checksums-Sha256:
+ 498dba319a880e7b381105d75e3c3583ba457f2e6dac8905cdcfc690aec81662 25258940 ros-moveit-ros-move-group-dbgsym_1.1.10-73-g05ef19048-2023.01.25.00.22_amd64.deb
+ fd8b1d4d0d8476aa4de9436f34ad46e0ae8e50a7a43d28afce95f791b977ce64 19826 ros-moveit-ros-move-group_1.1.10-73-g05ef19048-2023.01.25.00.22_amd64.buildinfo
+ f4b953372189b3cc82b08d5b12646496bdb5156a2607d0dceaa518d437b289a8 421640 ros-moveit-ros-move-group_1.1.10-73-g05ef19048-2023.01.25.00.22_amd64.deb
+Files:
+ 55af0d9118054bcd70ada014d870ae72 25258940 debug optional ros-moveit-ros-move-group-dbgsym_1.1.10-73-g05ef19048-2023.01.25.00.22_amd64.deb
+ e660e5a6e837f4e7db9f99500be7fd24 19826 misc optional ros-moveit-ros-move-group_1.1.10-73-g05ef19048-2023.01.25.00.22_amd64.buildinfo
+ 48fd4d05a741d6421e3b82616959c511 421640 misc optional ros-moveit-ros-move-group_1.1.10-73-g05ef19048-2023.01.25.00.22_amd64.deb

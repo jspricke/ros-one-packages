@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 04 Jun 2020 00:00:00 -0000
+Source: ros-control-toolbox
+Binary: ros-control-toolbox ros-control-toolbox-dbgsym
+Architecture: amd64
+Version: 1.18.2-9-g59b3859-2023.01.24.21.28
+Distribution: sid
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-control-toolbox - The control toolbox contains modules that are useful across all c
+Changes:
+ ros-control-toolbox (1.18.2-9-g59b3859-2023.01.24.21.28) sid; urgency=high
+ .
+   * Python 3 compat part II
+   * Contributors: Tobias Fischer
+Checksums-Sha1:
+ 689c74e7e3a7d4f9298d07ef5cec777fc57958a3 1210820 ros-control-toolbox-dbgsym_1.18.2-9-g59b3859-2023.01.24.21.28_amd64.deb
+ 13c124d53d155936403f52bfeb0910fc91d737a5 10434 ros-control-toolbox_1.18.2-9-g59b3859-2023.01.24.21.28_amd64.buildinfo
+ 3e7fcb7215cc9934a76fb8c27c93380f7d329dc0 96988 ros-control-toolbox_1.18.2-9-g59b3859-2023.01.24.21.28_amd64.deb
+Checksums-Sha256:
+ 82e8dc52c7c437c2a960372cc03e09b44748ce8bcf8d957dcfb3e1629ff42b90 1210820 ros-control-toolbox-dbgsym_1.18.2-9-g59b3859-2023.01.24.21.28_amd64.deb
+ 790e46d470aae1050804f2308d4fefda0a23f98c06ae1216b899553da859b802 10434 ros-control-toolbox_1.18.2-9-g59b3859-2023.01.24.21.28_amd64.buildinfo
+ fe4a80e40fe8e759b934b8d96acd42eb56de426d6adc0a5d8f685f44fd851e26 96988 ros-control-toolbox_1.18.2-9-g59b3859-2023.01.24.21.28_amd64.deb
+Files:
+ 6d6e1fcaa4c98d310f821e882101021d 1210820 debug optional ros-control-toolbox-dbgsym_1.18.2-9-g59b3859-2023.01.24.21.28_amd64.deb
+ 901b5bf9e52cf4bff699065d16abf5ab 10434 misc optional ros-control-toolbox_1.18.2-9-g59b3859-2023.01.24.21.28_amd64.buildinfo
+ 8a6b32d1d69a70c183727369bad482b0 96988 misc optional ros-control-toolbox_1.18.2-9-g59b3859-2023.01.24.21.28_amd64.deb

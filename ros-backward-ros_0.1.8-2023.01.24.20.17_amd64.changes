@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 13 Jul 2021 00:00:00 -0000
+Source: ros-backward-ros
+Binary: ros-backward-ros ros-backward-ros-dbgsym
+Architecture: amd64
+Version: 0.1.8-2023.01.24.20.17
+Distribution: sid
+Urgency: high
+Maintainer: Victor López <victor.lopez@pal-robotics.com>
+Changed-By: Victor López <victor.lopez@pal-robotics.com>
+Description:
+ ros-backward-ros - The backward_ros package is a ros wrapper of backward-cpp from ht
+Changes:
+ ros-backward-ros (0.1.8-2023.01.24.20.17) sid; urgency=high
+ .
+   * Update ROS2 note
+   * Update backward.hpp from https://github.com/bombela/backward-cpp
+   * Add note about ROS2 to readme
+   * Contributors: Victor Lopez
+Checksums-Sha1:
+ 7ceed0b4ac6754c0edfb38ab52a368db2f710960 251520 ros-backward-ros-dbgsym_0.1.8-2023.01.24.20.17_amd64.deb
+ 7e0deca78a1a0f4e344d8038e7265b02ffbfaa1c 9063 ros-backward-ros_0.1.8-2023.01.24.20.17_amd64.buildinfo
+ e431029793ec10315bdb693a6992e81c3c662d15 60824 ros-backward-ros_0.1.8-2023.01.24.20.17_amd64.deb
+Checksums-Sha256:
+ eb26355e343a645bef001e27c32c13b91ca1f27056c51e5d0704e1701eaf12fe 251520 ros-backward-ros-dbgsym_0.1.8-2023.01.24.20.17_amd64.deb
+ 3640af082ce946ffa6f0a24ee53196261b62a0e9b78113c2c415648da8b0bcc2 9063 ros-backward-ros_0.1.8-2023.01.24.20.17_amd64.buildinfo
+ ec8f1c31778f05ac557a439491ace6a5e1ad718f157bdac8d90ef4716db7ffb9 60824 ros-backward-ros_0.1.8-2023.01.24.20.17_amd64.deb
+Files:
+ 896ff5a9a0f9ea8bb244f750c45e144b 251520 debug optional ros-backward-ros-dbgsym_0.1.8-2023.01.24.20.17_amd64.deb
+ 68dcb6d211be8fe546d7093763499112 9063 misc optional ros-backward-ros_0.1.8-2023.01.24.20.17_amd64.buildinfo
+ 86625b30bb27f573ffde85219bc45cd4 60824 misc optional ros-backward-ros_0.1.8-2023.01.24.20.17_amd64.deb

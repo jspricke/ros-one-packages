@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 20 Apr 2022 00:00:00 -0000
+Source: ros-rqt-reconfigure
+Binary: ros-rqt-reconfigure
+Architecture: amd64
+Version: 0.5.5-2-g43a0961-2023.01.24.22.28
+Distribution: sid
+Urgency: high
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Changed-By: Dharini Dutia <dharini@openrobotics.org>
+Description:
+ ros-rqt-reconfigure - This rqt plugin succeeds former dynamic_reconfigure's GUI (reconf
+Changes:
+ ros-rqt-reconfigure (0.5.5-2-g43a0961-2023.01.24.22.28) sid; urgency=high
+ .
+   * Show enum item description as tooltip (#113 <https://github.com/ros-visualization/rqt_reconfigure/issues/113>)
+   * Contributors: Matthijs van der Burgh
+Checksums-Sha1:
+ 91b21a1bb8e919c2ed9c110a60875f7cd8906429 8557 ros-rqt-reconfigure_0.5.5-2-g43a0961-2023.01.24.22.28_amd64.buildinfo
+ 60d448d8566f1b7d0f9365399e875cc8236f9511 69224 ros-rqt-reconfigure_0.5.5-2-g43a0961-2023.01.24.22.28_amd64.deb
+Checksums-Sha256:
+ 2737aef2d8aff90464fb6e7d77df8854d738223edc3f5cb028b632273b7f30bf 8557 ros-rqt-reconfigure_0.5.5-2-g43a0961-2023.01.24.22.28_amd64.buildinfo
+ 4d1fb8e727afb59e9afe2ecb8c734d2695f160e188f168b19028fb43937b68a2 69224 ros-rqt-reconfigure_0.5.5-2-g43a0961-2023.01.24.22.28_amd64.deb
+Files:
+ c033c1afa5af69ded00fc9c4c15d7de4 8557 misc optional ros-rqt-reconfigure_0.5.5-2-g43a0961-2023.01.24.22.28_amd64.buildinfo
+ 2755282453d96f648a6c52fe964f0b62 69224 misc optional ros-rqt-reconfigure_0.5.5-2-g43a0961-2023.01.24.22.28_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 29 Mar 2022 00:00:00 -0000
+Source: ros-rqt-tf-tree
+Binary: ros-rqt-tf-tree
+Architecture: amd64
+Version: 0.6.3-1-g0a33bd1-2023.01.24.22.38
+Distribution: sid
+Urgency: high
+Maintainer: Isaac I.Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I.Y. Saito <gm130s@gmail.com>
+Description:
+ ros-rqt-tf-tree - rqt_tf_tree provides a GUI plugin for visualizing the ROS TF fram
+Changes:
+ ros-rqt-tf-tree (0.6.3-1-g0a33bd1-2023.01.24.22.38) sid; urgency=high
+ .
+   * Added new maintainers
+   * Use yaml.safe_load instead of yaml.load fixing (#29 <https://github.com/ros-visualization/rqt_tf_tree/issues/29>)
+Checksums-Sha1:
+ 6a10cb454bab516bff18762609c9754721f7a03b 6740 ros-rqt-tf-tree_0.6.3-1-g0a33bd1-2023.01.24.22.38_amd64.buildinfo
+ 59ed4619a4297acaf38a324fb6e6028db58c56a2 18884 ros-rqt-tf-tree_0.6.3-1-g0a33bd1-2023.01.24.22.38_amd64.deb
+Checksums-Sha256:
+ db3c585aabcb68c15ad5df7ce4b8b686b8197efd986a822e3a9beb703d096406 6740 ros-rqt-tf-tree_0.6.3-1-g0a33bd1-2023.01.24.22.38_amd64.buildinfo
+ 6fa8c8be8876c050e7613851460915b8896b70db67779190638084bad93b0078 18884 ros-rqt-tf-tree_0.6.3-1-g0a33bd1-2023.01.24.22.38_amd64.deb
+Files:
+ 1345e2f31dba1307ec33d71295ca9e29 6740 misc optional ros-rqt-tf-tree_0.6.3-1-g0a33bd1-2023.01.24.22.38_amd64.buildinfo
+ 68da0563b9b122136d9d1d71c03ff135 18884 misc optional ros-rqt-tf-tree_0.6.3-1-g0a33bd1-2023.01.24.22.38_amd64.deb

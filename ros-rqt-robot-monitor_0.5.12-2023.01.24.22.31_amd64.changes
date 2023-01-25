@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Tue, 02 Jun 2020 00:00:00 -0000
+Source: ros-rqt-robot-monitor
+Binary: ros-rqt-robot-monitor
+Architecture: amd64
+Version: 0.5.12-2023.01.24.22.31
+Distribution: sid
+Urgency: high
+Maintainer: Aaron Blasdel <ablasdel@gmail.com>
+Changed-By: Aaron Blasdel <ablasdel@gmail.com>
+Description:
+ ros-rqt-robot-monitor - rqt_robot_monitor displays diagnostics_agg topics messages that a
+Changes:
+ ros-rqt-robot-monitor (0.5.12-2023.01.24.22.31) sid; urgency=high
+ .
+   * use catkin_install_python instead of install
+Checksums-Sha1:
+ c559d84ed31ec8963f24645e8115cffeb8b5533f 6676 ros-rqt-robot-monitor_0.5.12-2023.01.24.22.31_amd64.buildinfo
+ bacf267ada7fbf66b884ade7624d52b68a7a1ccd 36684 ros-rqt-robot-monitor_0.5.12-2023.01.24.22.31_amd64.deb
+Checksums-Sha256:
+ ecdcb8b1a9dbe337c774eac7e0fc8322d8c8a1a372614841019dc979c01e964d 6676 ros-rqt-robot-monitor_0.5.12-2023.01.24.22.31_amd64.buildinfo
+ a10eb30ca113f99be9e3bf047e48712ff350abe1a96c766b6e7d26cefc98706f 36684 ros-rqt-robot-monitor_0.5.12-2023.01.24.22.31_amd64.deb
+Files:
+ 4c1bd6e6fd685d16ae2d3d3a79b8f4f2 6676 misc optional ros-rqt-robot-monitor_0.5.12-2023.01.24.22.31_amd64.buildinfo
+ 29ea40e17301792aea7af9c9bc04d607 36684 misc optional ros-rqt-robot-monitor_0.5.12-2023.01.24.22.31_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-combined-robot-hw-tests
+Binary: ros-combined-robot-hw-tests ros-combined-robot-hw-tests-dbgsym
+Architecture: amd64
+Version: 0.19.6-2023.01.24.20.40
+Distribution: sid
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-combined-robot-hw-tests - Tests for the combined Robot HW class.
+Changes:
+ ros-combined-robot-hw-tests (0.19.6-2023.01.24.20.40) sid; urgency=high
+Checksums-Sha1:
+ ea31e494630407e3f6f9954f4cb49c53c70468fc 2009688 ros-combined-robot-hw-tests-dbgsym_0.19.6-2023.01.24.20.40_amd64.deb
+ 87e858c6b86e713e57e6214db59eca3e7326601b 11938 ros-combined-robot-hw-tests_0.19.6-2023.01.24.20.40_amd64.buildinfo
+ db7836214aa3da370ed85ac28655d0e9fdabc7a4 60424 ros-combined-robot-hw-tests_0.19.6-2023.01.24.20.40_amd64.deb
+Checksums-Sha256:
+ 8f13f217696eb08d0bfee7a0275a2a13057c7a00136c2cc626a94395aa2a6c93 2009688 ros-combined-robot-hw-tests-dbgsym_0.19.6-2023.01.24.20.40_amd64.deb
+ f1efdcab76362e81ae70d32174ff20d22d4cfbe1ff579d434eaec4a740bf48a3 11938 ros-combined-robot-hw-tests_0.19.6-2023.01.24.20.40_amd64.buildinfo
+ 919239e822500fb4b30e5b6aa3e592bc6e7a3604e5b6d0b7d93c1dd11c4e2fc7 60424 ros-combined-robot-hw-tests_0.19.6-2023.01.24.20.40_amd64.deb
+Files:
+ a5219ae74f761055ddf78381e1e2ed11 2009688 debug optional ros-combined-robot-hw-tests-dbgsym_0.19.6-2023.01.24.20.40_amd64.deb
+ cfca08d6875975ff0f4c98cb52259cec 11938 misc optional ros-combined-robot-hw-tests_0.19.6-2023.01.24.20.40_amd64.buildinfo
+ 75e0bc10e9c842fc6e580557b2364d51 60424 misc optional ros-combined-robot-hw-tests_0.19.6-2023.01.24.20.40_amd64.deb

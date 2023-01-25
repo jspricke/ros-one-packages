@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 22 Mar 2021 00:00:00 -0000
+Source: ros-timestamp-tools
+Binary: ros-timestamp-tools
+Architecture: amd64
+Version: 1.6.9-2023.01.24.23.05
+Distribution: sid
+Urgency: high
+Maintainer: Chad Rockey <chadrockey@gmail.com>
+Changed-By: Chad Rockey <chadrockey@gmail.com>
+Description:
+ ros-timestamp-tools - This package is currently for internal use only.
+Changes:
+ ros-timestamp-tools (1.6.9-2023.01.24.23.05) sid; urgency=high
+ .
+   * Merge pull request #11 <https://github.com/ros-drivers/driver_common/issues/11> from PR2-prime/indigo-devel
+     updates for compile on focal/noetic
+   * Merge pull request #1 <https://github.com/ros-drivers/driver_common/issues/1> from PR2-prime/noetic-devel
+     Noetic devel
+   * Merge branch 'indigo-devel' into noetic-devel
+   * fix to make tests compile under focal/noetic
+   * fixed boost time duration error with doubles no longer being supported
+   * fixed dependency issue in timestamp_tools
+   * updated header due to boost changes in focal/noetic
+   * Merge pull request #7 <https://github.com/ros-drivers/driver_common/issues/7> from AurelienBallier/indigo-devel
+     Fix CATKIN_ENABLE_TESTING set to False issue.
+   * Fix CATKIN_ENABLE_TESTING set to False issue.
+   * Contributors: Aurélien Ballier, Chad Rockey, Dave Feil-Seifer
+Checksums-Sha1:
+ 7386cf637f7a77fe3fba7c8fcf282daae845db20 9116 ros-timestamp-tools_1.6.9-2023.01.24.23.05_amd64.buildinfo
+ 639fb222acabcced55871fc4308ef1fc20dc6e17 9732 ros-timestamp-tools_1.6.9-2023.01.24.23.05_amd64.deb
+Checksums-Sha256:
+ 25b44c92878ec06d36ef06e06893a498061cab63e4427bc1a55da6c37b0624aa 9116 ros-timestamp-tools_1.6.9-2023.01.24.23.05_amd64.buildinfo
+ 59141fa8b9b62e260b27a3a0ee436f10d2f4533b3597454b1db3059463c3451d 9732 ros-timestamp-tools_1.6.9-2023.01.24.23.05_amd64.deb
+Files:
+ a5540996a1607859b2c5aa9fbac23b81 9116 misc optional ros-timestamp-tools_1.6.9-2023.01.24.23.05_amd64.buildinfo
+ 766dad1fd37ecf0efdc8b8b66eff2105 9732 misc optional ros-timestamp-tools_1.6.9-2023.01.24.23.05_amd64.deb

@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 04 Apr 2017 00:00:00 -0000
+Source: ros-uuid-msgs
+Binary: ros-uuid-msgs
+Architecture: amd64
+Version: 1.0.6-6-gda30eb2-2023.01.24.23.15
+Distribution: sid
+Urgency: high
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Changed-By: Jack O'Quin <jack.oquin@gmail.com>
+Description:
+ ros-uuid-msgs - ROS messages for universally unique identifiers.
+Changes:
+ ros-uuid-msgs (1.0.6-6-gda30eb2-2023.01.24.23.15) sid; urgency=high
+Checksums-Sha1:
+ d010e582089bdc9c8bec41cf8db5f0e120d2fdb3 7305 ros-uuid-msgs_1.0.6-6-gda30eb2-2023.01.24.23.15_amd64.buildinfo
+ e33816ba0c3bb3f08dbfe4fea82dafab5e277e48 11480 ros-uuid-msgs_1.0.6-6-gda30eb2-2023.01.24.23.15_amd64.deb
+Checksums-Sha256:
+ eb3fe6aff06e69754dbbe43e13c9d660a3856380928796b985b5897dcb7ab114 7305 ros-uuid-msgs_1.0.6-6-gda30eb2-2023.01.24.23.15_amd64.buildinfo
+ 4abdf4ecd371ed6ca04b18c5397fe2873082edf107c52024577321e71b7c9910 11480 ros-uuid-msgs_1.0.6-6-gda30eb2-2023.01.24.23.15_amd64.deb
+Files:
+ cd50cc64fa588477ffd20383fe65016f 7305 misc optional ros-uuid-msgs_1.0.6-6-gda30eb2-2023.01.24.23.15_amd64.buildinfo
+ 04e31cc049219ce72346b8ecfe9c8a3c 11480 misc optional ros-uuid-msgs_1.0.6-6-gda30eb2-2023.01.24.23.15_amd64.deb

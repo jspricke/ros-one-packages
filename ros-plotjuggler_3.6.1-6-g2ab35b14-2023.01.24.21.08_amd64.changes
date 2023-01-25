@@ -1,0 +1,55 @@
+Format: 1.8
+Date: Sun, 18 Dec 2022 00:00:00 -0000
+Source: ros-plotjuggler
+Binary: ros-plotjuggler ros-plotjuggler-dbgsym
+Architecture: amd64
+Version: 3.6.1-6-g2ab35b14-2023.01.24.21.08
+Distribution: sid
+Urgency: high
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Changed-By: Davide Faconti <davide.faconti@gmail.com>
+Description:
+ ros-plotjuggler - PlotJuggler: juggle with data
+Changes:
+ ros-plotjuggler (3.6.1-6-g2ab35b14-2023.01.24.21.08) sid; urgency=high
+ .
+   * apply changes suggested in #767 <https://github.com/facontidavide/PlotJuggler/issues/767>
+   * fix parsing of custom types added multiple times in messages (#769 <https://github.com/facontidavide/PlotJuggler/issues/769>)
+   * ZMQ: Add topics filtering (#730 <https://github.com/facontidavide/PlotJuggler/issues/730>)
+   * Add CSV loader date-time format help dialog (#731 <https://github.com/facontidavide/PlotJuggler/issues/731>)
+   * Set MQTT topics list to be multi-selectable (#745 <https://github.com/facontidavide/PlotJuggler/issues/745>)
+   * Always use topic names for creating MQTT parsers (#746 <https://github.com/facontidavide/PlotJuggler/issues/746>)
+   * fix typo (#770 <https://github.com/facontidavide/PlotJuggler/issues/770>)
+   * Fix/add other dds vendors (#763 <https://github.com/facontidavide/PlotJuggler/issues/763>)
+   * Add option to build plotjuggler_base to shared library (#757 <https://github.com/facontidavide/PlotJuggler/issues/757>)
+   * Add a new meme with The Rock (#751 <https://github.com/facontidavide/PlotJuggler/issues/751>)
+   * Add precision to CSV export to handle geocoordinates (#753 <https://github.com/facontidavide/PlotJuggler/issues/753>)
+   * compile: add cmake to brew install (#742 <https://github.com/facontidavide/PlotJuggler/issues/742>)
+   * Add MIT license notice to QCodeEditor dddition (#733 <https://github.com/facontidavide/PlotJuggler/issues/733>)
+     Added per https://github.com/facontidavide/PlotJuggler/issues/732
+   * Fix multi-plugin selection (#739 <https://github.com/facontidavide/PlotJuggler/issues/739>)
+     Broken in #726 <https://github.com/facontidavide/PlotJuggler/issues/726>. If all plugins are enabled, then opening a file supported by multiple plugins does not work.
+   *
+ .
+       * Add drag n drop (#726 <https://github.com/facontidavide/PlotJuggler/issues/726>)
+       * Ignore VSCode and OS X files
+ .
+   * readme: add details about default snap command (#727 <https://github.com/facontidavide/PlotJuggler/issues/727>)
+   * Add mac compilation section (#725 <https://github.com/facontidavide/PlotJuggler/issues/725>)
+   * Update README.md (#723 <https://github.com/facontidavide/PlotJuggler/issues/723>)
+     minor typos
+   * Update README.md
+   * Update COMPILE.md
+   * Contributors: Andrew Van Overloop, Bartimaeus-, Bonkura, Davide Faconti, Guillaume Beuzeboc, Jeff Ithier, Jeremie Deray, Mark Cutler, Orhan G. Hafif, Romain Reignier, Zach Davis
+Checksums-Sha1:
+ c916e99708a9d723d640e779802fa8bbc12dc54d 82377664 ros-plotjuggler-dbgsym_3.6.1-6-g2ab35b14-2023.01.24.21.08_amd64.deb
+ 032d9343be6862b25cf6fd879b7189121e4a9b0e 18385 ros-plotjuggler_3.6.1-6-g2ab35b14-2023.01.24.21.08_amd64.buildinfo
+ bb0adfc33794768d788939b96a6420ea69ce72b5 7772024 ros-plotjuggler_3.6.1-6-g2ab35b14-2023.01.24.21.08_amd64.deb
+Checksums-Sha256:
+ de913fbe98dd4f57810ab50530546309d1590be481ae496c1beb5d33ec16213b 82377664 ros-plotjuggler-dbgsym_3.6.1-6-g2ab35b14-2023.01.24.21.08_amd64.deb
+ 33354e02d2d16e2b73067c92345dc90a62efe6cb5d0e7ee82dd21050dfa3038e 18385 ros-plotjuggler_3.6.1-6-g2ab35b14-2023.01.24.21.08_amd64.buildinfo
+ 5bda28b68c41b3088d173cf7eae914ac43d93a13c691a097cf2dcb1d252cc91d 7772024 ros-plotjuggler_3.6.1-6-g2ab35b14-2023.01.24.21.08_amd64.deb
+Files:
+ 91c5f289c326fd5d724499436e84338d 82377664 debug optional ros-plotjuggler-dbgsym_3.6.1-6-g2ab35b14-2023.01.24.21.08_amd64.deb
+ fb26cea3eb2f0908cc7aea8d3db6540f 18385 misc optional ros-plotjuggler_3.6.1-6-g2ab35b14-2023.01.24.21.08_amd64.buildinfo
+ e9d2c398f9cacd4f5a70318f9e78d0e7 7772024 misc optional ros-plotjuggler_3.6.1-6-g2ab35b14-2023.01.24.21.08_amd64.deb

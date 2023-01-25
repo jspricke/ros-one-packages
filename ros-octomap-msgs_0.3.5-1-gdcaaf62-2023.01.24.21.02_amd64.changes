@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 23 Apr 2020 00:00:00 -0000
+Source: ros-octomap-msgs
+Binary: ros-octomap-msgs
+Architecture: amd64
+Version: 0.3.5-1-gdcaaf62-2023.01.24.21.02
+Distribution: sid
+Urgency: high
+Maintainer: Armin Hornung <armin@hornung.io>
+Changed-By: Armin Hornung <armin@hornung.io>
+Description:
+ ros-octomap-msgs - This package provides messages and serializations / conversion fo
+Changes:
+ ros-octomap-msgs (0.3.5-1-gdcaaf62-2023.01.24.21.02) sid; urgency=high
+ .
+   * Add myself to maintainers
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ fd8d013af700939884e23ed764356949912709cf 7429 ros-octomap-msgs_0.3.5-1-gdcaaf62-2023.01.24.21.02_amd64.buildinfo
+ 63ecc6189296ce7112584812af221055e9a6f891 29404 ros-octomap-msgs_0.3.5-1-gdcaaf62-2023.01.24.21.02_amd64.deb
+Checksums-Sha256:
+ 22eb95bf2e8b06f359e8140d14ad14fc6b38cb0a99fdf01cccd61e726b790b9d 7429 ros-octomap-msgs_0.3.5-1-gdcaaf62-2023.01.24.21.02_amd64.buildinfo
+ f80ad29adc14a6bf9e2c448dc0a3a14e7b3d3b19a58e0a583cc392cc54020819 29404 ros-octomap-msgs_0.3.5-1-gdcaaf62-2023.01.24.21.02_amd64.deb
+Files:
+ e66abeb0b92fbd13ae2ab9e62e12aefd 7429 misc optional ros-octomap-msgs_0.3.5-1-gdcaaf62-2023.01.24.21.02_amd64.buildinfo
+ 3ee08c83953bb1527a7aed613a49ec24 29404 misc optional ros-octomap-msgs_0.3.5-1-gdcaaf62-2023.01.24.21.02_amd64.deb

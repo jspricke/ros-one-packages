@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 18 Dec 2019 00:00:00 -0000
+Source: ros-fake-joint-driver
+Binary: ros-fake-joint-driver ros-fake-joint-driver-dbgsym
+Architecture: amd64
+Version: 0.0.4-1-ga0eef30-2023.01.24.23.32
+Distribution: sid
+Urgency: high
+Maintainer: Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>
+Changed-By: Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>
+Description:
+ ros-fake-joint-driver - The fake_joint_driver package
+Changes:
+ ros-fake-joint-driver (0.0.4-1-ga0eef30-2023.01.24.23.32) sid; urgency=high
+Checksums-Sha1:
+ 715823daaae4edcce3051ef6142ec1af72516fcf 825772 ros-fake-joint-driver-dbgsym_0.0.4-1-ga0eef30-2023.01.24.23.32_amd64.deb
+ ee0df5af2e65835ea2a91c06a2cd9de5780d5fc5 12387 ros-fake-joint-driver_0.0.4-1-ga0eef30-2023.01.24.23.32_amd64.buildinfo
+ 02bceb05bc7503b834d75c0a9bea25c2b2527cd0 42356 ros-fake-joint-driver_0.0.4-1-ga0eef30-2023.01.24.23.32_amd64.deb
+Checksums-Sha256:
+ c87a74cad45485632b7a1d77ba4353315e3ded04d6a0305661a4ceda862c0016 825772 ros-fake-joint-driver-dbgsym_0.0.4-1-ga0eef30-2023.01.24.23.32_amd64.deb
+ 06efd255d5cf298e07fabe3a57dfd7632f63fbbfadfa7c520235a6550a464118 12387 ros-fake-joint-driver_0.0.4-1-ga0eef30-2023.01.24.23.32_amd64.buildinfo
+ 0be5fff4ee9771e99f3fa8cea36cd3fa7dd525e11639381a098a460eea81961a 42356 ros-fake-joint-driver_0.0.4-1-ga0eef30-2023.01.24.23.32_amd64.deb
+Files:
+ cc1083349d4e3dbcb729e06a0d51446d 825772 debug optional ros-fake-joint-driver-dbgsym_0.0.4-1-ga0eef30-2023.01.24.23.32_amd64.deb
+ 9902b034c1aa16045f9170a7c3298e2b 12387 misc optional ros-fake-joint-driver_0.0.4-1-ga0eef30-2023.01.24.23.32_amd64.buildinfo
+ bb4ccf0c84a876ee951566e79264f91e 42356 misc optional ros-fake-joint-driver_0.0.4-1-ga0eef30-2023.01.24.23.32_amd64.deb

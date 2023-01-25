@@ -1,0 +1,44 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-setup-assistant
+Binary: ros-moveit-setup-assistant ros-moveit-setup-assistant-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.25.01.05
+Distribution: sid
+Urgency: high
+Maintainer: Dave Coleman <dave@picknik.ai>
+Changed-By: Dave Coleman <dave@picknik.ai>
+Description:
+ ros-moveit-setup-assistant - Generates a configuration package that makes it easy to use MoveI
+Changes:
+ ros-moveit-setup-assistant (1.1.10-73-g05ef19048-2023.01.25.01.05) sid; urgency=high
+ .
+   * MSA: Cleanup SimulationWidget (#3281 <https://github.com/ros-planning/moveit/issues/3281>)
+ .
+       * Don't rewrite ``gazebo.launch`` after user changes
+       * Only offer to write ``gazebo\_*.urdf`` if content would be non-empty
+       * Clarify usage
+       * Graceful opening of editor
+       * Disable "overwrite" button if there are no changes
+       * If overwriting fails: ``write gazebo\_*.urdf`` as fallback
+ .
+   * Remove capabilities declaration from pipeline configs (#3274 <https://github.com/ros-planning/moveit/issues/3274>)Capabilities are global to the ``move_group`` node and not specific to pipleline configs.
+     As the latter ones load their parameters into a namespace, e.g. ``/move_group/planning_pipelines/ompl/*``,
+     loading a capability as suggested by the comments, didn't have any effect.
+   * Expose ``world_name`` and ``world_pose`` args in ``*gazebo.launch`` (#3238 <https://github.com/ros-planning/moveit/issues/3238>)
+   * run-depend on all default MoveIt planners
+   * Start ``robot_state_publisher`` in ``gazebo.launch`` (#3236 <https://github.com/ros-planning/moveit/issues/3236>)
+   * Generalize sizing of joint list widgets (#3219 <https://github.com/ros-planning/moveit/issues/3219>)
+   * Contributors: Robert Haschke, Robert Kampf
+Checksums-Sha1:
+ 64022302f2e69f925fb4d7af544462cc64ded6c9 27471944 ros-moveit-setup-assistant-dbgsym_1.1.10-73-g05ef19048-2023.01.25.01.05_amd64.deb
+ 99ddce7e2f114c0fd79d373f81a8a5e1adcd304f 34550 ros-moveit-setup-assistant_1.1.10-73-g05ef19048-2023.01.25.01.05_amd64.buildinfo
+ d42bd4e46fe23ad15fcb3a5acf83536e68eba2ec 899652 ros-moveit-setup-assistant_1.1.10-73-g05ef19048-2023.01.25.01.05_amd64.deb
+Checksums-Sha256:
+ 127c5b1c447eb5af100c127eb88224f512f47dd2a8cf555fdc2a0902a56a4209 27471944 ros-moveit-setup-assistant-dbgsym_1.1.10-73-g05ef19048-2023.01.25.01.05_amd64.deb
+ ac4f6c66d844aea106ca1697fa38dc1a2a1068da7817413bf90db35790969e87 34550 ros-moveit-setup-assistant_1.1.10-73-g05ef19048-2023.01.25.01.05_amd64.buildinfo
+ 3ee2f870371f77e3e85e7560973bb92c29a84962f8c43c204a1f4cc22d246df1 899652 ros-moveit-setup-assistant_1.1.10-73-g05ef19048-2023.01.25.01.05_amd64.deb
+Files:
+ 18d85734eb27c54eabfe83029ee83745 27471944 debug optional ros-moveit-setup-assistant-dbgsym_1.1.10-73-g05ef19048-2023.01.25.01.05_amd64.deb
+ ea2a94fe42de4e3f1453462fa61b18fb 34550 misc optional ros-moveit-setup-assistant_1.1.10-73-g05ef19048-2023.01.25.01.05_amd64.buildinfo
+ ac0b7fcd49ce4386d4f551ca2a4cd26e 899652 misc optional ros-moveit-setup-assistant_1.1.10-73-g05ef19048-2023.01.25.01.05_amd64.deb

@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 24 Jul 2020 00:00:00 -0000
+Source: ros-qt-gui
+Binary: ros-qt-gui
+Architecture: amd64
+Version: 0.4.2-7-g8f06b8d-2023.01.24.21.20
+Distribution: sid
+Urgency: high
+Maintainer: Scott Logan <cottsay@openrobotics.org>
+Changed-By: Scott Logan <cottsay@openrobotics.org>
+Description:
+ ros-qt-gui - qt_gui provides the infrastructure for an integrated graphical us
+Changes:
+ ros-qt-gui (0.4.2-7-g8f06b8d-2023.01.24.21.20) sid; urgency=high
+ .
+   * fix exporting perspective for Python 3.6 (#228 <https://github.com/ros-visualization/qt_gui_core/issues/228>)
+Checksums-Sha1:
+ ee1523f41ff8255ba563e4c6fa199c9d4a49955f 11169 ros-qt-gui_0.4.2-7-g8f06b8d-2023.01.24.21.20_amd64.buildinfo
+ 5e3674446fa423a739f86a7c59600203b5c17cd1 128740 ros-qt-gui_0.4.2-7-g8f06b8d-2023.01.24.21.20_amd64.deb
+Checksums-Sha256:
+ 90460facfed1e5748fe7ccb7d0deb8d41e5bc6470b23c2801bbd499b1554d529 11169 ros-qt-gui_0.4.2-7-g8f06b8d-2023.01.24.21.20_amd64.buildinfo
+ b523b249a04d00b7e8d480462d77e608986f21cc0c22f2e10bf1e63b09f47364 128740 ros-qt-gui_0.4.2-7-g8f06b8d-2023.01.24.21.20_amd64.deb
+Files:
+ 5c10404dbd939a24ecd8e0586971d571 11169 misc optional ros-qt-gui_0.4.2-7-g8f06b8d-2023.01.24.21.20_amd64.buildinfo
+ 52417e76e9c50c5ccbf71e7ff337de2f 128740 misc optional ros-qt-gui_0.4.2-7-g8f06b8d-2023.01.24.21.20_amd64.deb

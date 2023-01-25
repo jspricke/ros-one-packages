@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 23 Apr 2020 00:00:00 -0000
+Source: ros-octomap-ros
+Binary: ros-octomap-ros ros-octomap-ros-dbgsym
+Architecture: amd64
+Version: 0.4.1-2-gfb462a9-2023.01.24.21.05
+Distribution: sid
+Urgency: high
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Changed-By: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Description:
+ ros-octomap-ros - octomap_ros provides conversion functions between ROS and OctoMap
+Changes:
+ ros-octomap-ros (0.4.1-2-gfb462a9-2023.01.24.21.05) sid; urgency=high
+ .
+   * Added archive destination for static libraries (#10 <https://github.com/OctoMap/octomap_ros/issues/10>)
+   * Fix catkin_lint issues and cmake policy CMP0038 (#9 <https://github.com/OctoMap/octomap_ros/issues/9>)
+   * Update maintainer emails
+   * Contributors: Andrea Ponza, Armin Hornung, Sebastian Kasperski, Wolfgang Merkt
+Checksums-Sha1:
+ 218871fd8788deea9d2abef38d6ed603f3fe805d 93288 ros-octomap-ros-dbgsym_0.4.1-2-gfb462a9-2023.01.24.21.05_amd64.deb
+ 01adcdde0d276870dd9b421592ec94929c1a14aa 12828 ros-octomap-ros_0.4.1-2-gfb462a9-2023.01.24.21.05_amd64.buildinfo
+ a0981b7c2447a24b364a5ca003c693e5c92a74f0 12912 ros-octomap-ros_0.4.1-2-gfb462a9-2023.01.24.21.05_amd64.deb
+Checksums-Sha256:
+ eb23ad2770ef31e753239a20bcf6e21cd881454828338a21886a62f0be5f5f84 93288 ros-octomap-ros-dbgsym_0.4.1-2-gfb462a9-2023.01.24.21.05_amd64.deb
+ 9767846684f8ebc4cfc29f138ff9c72f4992f19b66d2f0c3f28fb11e5245d0f4 12828 ros-octomap-ros_0.4.1-2-gfb462a9-2023.01.24.21.05_amd64.buildinfo
+ 1638310473db5b481ec25215d4a7f6a247c6ba16004f8dbdc02f6ff1ab8af152 12912 ros-octomap-ros_0.4.1-2-gfb462a9-2023.01.24.21.05_amd64.deb
+Files:
+ a11f1ba30ad381893950aafa67bc9d5b 93288 debug optional ros-octomap-ros-dbgsym_0.4.1-2-gfb462a9-2023.01.24.21.05_amd64.deb
+ 102bafb7b11eac330cdff4c68c826959 12828 misc optional ros-octomap-ros_0.4.1-2-gfb462a9-2023.01.24.21.05_amd64.buildinfo
+ 31f4d55f71fbb95ddccf4b6bc88f024b 12912 misc optional ros-octomap-ros_0.4.1-2-gfb462a9-2023.01.24.21.05_amd64.deb

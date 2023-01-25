@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 31 Jul 2020 00:00:00 -0000
+Source: ros-rospy-tutorials
+Binary: ros-rospy-tutorials
+Architecture: amd64
+Version: 0.10.2-3-gdb63288-2023.01.24.21.56
+Distribution: sid
+Urgency: high
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Changed-By: Mabel Zhang <mabel@openrobotics.org>
+Description:
+ ros-rospy-tutorials - This package attempts to show the features of ROS python API step
+Changes:
+ ros-rospy-tutorials (0.10.2-3-gdb63288-2023.01.24.21.56) sid; urgency=high
+Checksums-Sha1:
+ 2dcc6243c3cd621402792c6ffc85ae433f2c763e 9597 ros-rospy-tutorials_0.10.2-3-gdb63288-2023.01.24.21.56_amd64.buildinfo
+ 9a3de028227dad0a9cc4ca058c9cf31291c56420 29820 ros-rospy-tutorials_0.10.2-3-gdb63288-2023.01.24.21.56_amd64.deb
+Checksums-Sha256:
+ a2e3345a3ccd13eb1c3ef1dc1eb5f7120d1e281f616455718f2d5e0be9a9e28b 9597 ros-rospy-tutorials_0.10.2-3-gdb63288-2023.01.24.21.56_amd64.buildinfo
+ 2f19bd2045a24cae681583e8b73c64d6261ecedd8d5e99513ab747ef6fc52321 29820 ros-rospy-tutorials_0.10.2-3-gdb63288-2023.01.24.21.56_amd64.deb
+Files:
+ 8c0df537407f943e38d58c9df47e7576 9597 misc optional ros-rospy-tutorials_0.10.2-3-gdb63288-2023.01.24.21.56_amd64.buildinfo
+ 6740d3521b14497b0bf9d326dee5fcb0 29820 misc optional ros-rospy-tutorials_0.10.2-3-gdb63288-2023.01.24.21.56_amd64.deb

@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-core
+Binary: ros-moveit-core ros-moveit-core-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.24.23.40
+Distribution: sid
+Urgency: high
+Maintainer: Dave Coleman <dave@picknik.ai>
+Changed-By: Dave Coleman <dave@picknik.ai>
+Description:
+ ros-moveit-core - Core libraries used by MoveIt
+Changes:
+ ros-moveit-core (1.1.10-73-g05ef19048-2023.01.24.23.40) sid; urgency=high
+ .
+   * Fix some consistency issues in PlanningScene handling (#3298 <https://github.com/ros-planning/moveit/issues/3298>)
+   * Backport ruckig trajectory_processing plugin (#2902 <https://github.com/ros-planning/moveit/issues/2902>)
+   * version.h: automatically bump patch number for devel builds (#3211 <https://github.com/ros-planning/moveit/issues/3211>)
+   * Merge fixes+improvements to ``PlanningScene`` editing in rviz: #3263 <https://github.com/ros-planning/moveit/issues/3263>, #3264 <https://github.com/ros-planning/moveit/issues/3264>, #3296 <https://github.com/ros-planning/moveit/issues/3296>
+   * Fix loading of ``PlanningScene`` from ``.scene`` text file: Replace existing world objects
+   * Drop return value from ``IKCallbackFn`` usage (#3277 <https://github.com/ros-planning/moveit/issues/3277>)
+   * Allow planning with multiple pipelines in parallel with ``moveit_cpp`` (#3244 <https://github.com/ros-planning/moveit/issues/3244>)
+   * MotionPlanningDisplay: only allow execution if start state is up-to-date
+   * Merge PR #3262 <https://github.com/ros-planning/moveit/issues/3262>: Short-circuit planning adapters
+ .
+       * Early return from failing planning adapters, namely ``FixStartStateCollision`` and ``FixStartStatePathConstraint``
+       * Propagate the error code via ``MotionPlanResponse::error_code_``
+       * Add string translations for all error codes
+ .
+   * Cleanup translation of MoveItErrorCode to string
+ .
+       * Move default code to moveit_core/utils
+       * Override defaults in existing getActionResultString()
+       * Provide translations for all error codes defined in moveit_msgs
+ .
+   * Add debug message in call stack of planning_request_adapters
+   * Contributors: Robert Haschke, Simon Schmeisser
+Checksums-Sha1:
+ 63bc5dd1688a251dcc8db7006acee728d963cf01 69978388 ros-moveit-core-dbgsym_1.1.10-73-g05ef19048-2023.01.24.23.40_amd64.deb
+ 9d6923240460463f4666059b902e0ed02193f8f2 25493 ros-moveit-core_1.1.10-73-g05ef19048-2023.01.24.23.40_amd64.buildinfo
+ ca49ab68ec5f29d2c1333fc19a76e7c038c73696 1521900 ros-moveit-core_1.1.10-73-g05ef19048-2023.01.24.23.40_amd64.deb
+Checksums-Sha256:
+ 9e4cedce658b8429d04b708c91346b93a7b83298ba1f7d2ff1c904a07fb0fcc5 69978388 ros-moveit-core-dbgsym_1.1.10-73-g05ef19048-2023.01.24.23.40_amd64.deb
+ 4159be0ec615c39cfc722be76bd39916f966b8ccbb18624019fdb484b99f79ce 25493 ros-moveit-core_1.1.10-73-g05ef19048-2023.01.24.23.40_amd64.buildinfo
+ 3dd01ce694137a0664aaad4a3c0772025821352cc4bda04acb68912a9113ec3c 1521900 ros-moveit-core_1.1.10-73-g05ef19048-2023.01.24.23.40_amd64.deb
+Files:
+ 6eac129f02af7cd7fd843da01007a488 69978388 debug optional ros-moveit-core-dbgsym_1.1.10-73-g05ef19048-2023.01.24.23.40_amd64.deb
+ 05a04b771e47a5273845a6ce0aed9972 25493 misc optional ros-moveit-core_1.1.10-73-g05ef19048-2023.01.24.23.40_amd64.buildinfo
+ 93d032ab3bf8fca22a0a8727f828d7bb 1521900 misc optional ros-moveit-core_1.1.10-73-g05ef19048-2023.01.24.23.40_amd64.deb
