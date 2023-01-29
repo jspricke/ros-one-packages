@@ -186,8 +186,8 @@ repositories:
     version: melodic-devel
   octomap_rviz_plugins:
     type: git
-    url: https://github.com/ros-o/octomap_rviz_plugins.git
-    version: obese-devel
+    url: https://github.com/OctoMap/octomap_rviz_plugins.git
+    version: kinetic-devel
 #  openslam_gmapping:
 #    type: git
 #    url: https://github.com/ros-perception/openslam_gmapping.git
