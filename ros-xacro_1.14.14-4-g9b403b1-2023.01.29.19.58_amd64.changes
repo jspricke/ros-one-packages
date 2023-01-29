@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-xacro
+Binary: ros-xacro
+Architecture: amd64
+Version: 1.14.14-4-g9b403b1-2023.01.29.19.58
+Distribution: bookworm
+Urgency: high
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Changed-By: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Description:
+ ros-xacro  - Xacro (XML Macros) Xacro is an XML macro language.
+Changes:
+ ros-xacro (1.14.14-4-g9b403b1-2023.01.29.19.58) bookworm; urgency=high
+ .
+   * Dotted YAML access from list iterator (#318 <https://github.com/ros/xacro/issues/318>)
+   * Link to extended wiki <https://github.com/ros/xacro/wiki>
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ 8114b73897a826c9b3d304cae62f0242cfe79273 8513 ros-xacro_1.14.14-4-g9b403b1-2023.01.29.19.58_amd64.buildinfo
+ a1b0e35bc6dd7fa7deaf268758aef309ee9673af 61420 ros-xacro_1.14.14-4-g9b403b1-2023.01.29.19.58_amd64.deb
+Checksums-Sha256:
+ 9bf374dbb6892d141da4e0c4d92d097f98b54018c1c8268e79d8e3685885e52f 8513 ros-xacro_1.14.14-4-g9b403b1-2023.01.29.19.58_amd64.buildinfo
+ 5eaf1ae3b3b0490a5a40f94c7477e9a10ec5bd24106d992fe91212560dd8ec2c 61420 ros-xacro_1.14.14-4-g9b403b1-2023.01.29.19.58_amd64.deb
+Files:
+ 7cec20b778fb3424883e9994b58954a0 8513 misc optional ros-xacro_1.14.14-4-g9b403b1-2023.01.29.19.58_amd64.buildinfo
+ ec1eb1cfd6ee19ccc704a8e17fafb273 61420 misc optional ros-xacro_1.14.14-4-g9b403b1-2023.01.29.19.58_amd64.deb

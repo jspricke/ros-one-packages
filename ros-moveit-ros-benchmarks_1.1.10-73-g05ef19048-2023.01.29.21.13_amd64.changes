@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-ros-benchmarks
+Binary: ros-moveit-ros-benchmarks ros-moveit-ros-benchmarks-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.29.21.13
+Distribution: bookworm
+Urgency: high
+Maintainer: Dave Coleman <dave@picknik.ai>
+Changed-By: Dave Coleman <dave@picknik.ai>
+Description:
+ ros-moveit-ros-benchmarks - Enhanced tools for benchmarks in MoveIt
+Changes:
+ ros-moveit-ros-benchmarks (1.1.10-73-g05ef19048-2023.01.29.21.13) bookworm; urgency=high
+Checksums-Sha1:
+ c281349210382a5e434be77c9278f8dfc819d1ba 6784132 ros-moveit-ros-benchmarks-dbgsym_1.1.10-73-g05ef19048-2023.01.29.21.13_amd64.deb
+ f15adcc47960d219dbaf05c20e402e31408d7c2c 20864 ros-moveit-ros-benchmarks_1.1.10-73-g05ef19048-2023.01.29.21.13_amd64.buildinfo
+ fba0a33fb53072949719146c836f5ea9d8cfc0bb 241796 ros-moveit-ros-benchmarks_1.1.10-73-g05ef19048-2023.01.29.21.13_amd64.deb
+Checksums-Sha256:
+ 1ff25b6a6c7a8372e46afb959a895b467e1b9351a999f7536f20698076690d08 6784132 ros-moveit-ros-benchmarks-dbgsym_1.1.10-73-g05ef19048-2023.01.29.21.13_amd64.deb
+ fb73c11f2ac0c0864392b6dc47786fc12add22bfe0e1938dd4fbd3a16c6a508d 20864 ros-moveit-ros-benchmarks_1.1.10-73-g05ef19048-2023.01.29.21.13_amd64.buildinfo
+ f45d7246564aabf1e2ef7fb54e1bfff7255b1f91139fb02ac9a5e8ffc53f45dd 241796 ros-moveit-ros-benchmarks_1.1.10-73-g05ef19048-2023.01.29.21.13_amd64.deb
+Files:
+ cf5da282f522b673944508a64ce72a0b 6784132 debug optional ros-moveit-ros-benchmarks-dbgsym_1.1.10-73-g05ef19048-2023.01.29.21.13_amd64.deb
+ 5b1cf59ba29674980650a2e94f3ac6ff 20864 misc optional ros-moveit-ros-benchmarks_1.1.10-73-g05ef19048-2023.01.29.21.13_amd64.buildinfo
+ 38794631f852aa793037749fe72334d7 241796 misc optional ros-moveit-ros-benchmarks_1.1.10-73-g05ef19048-2023.01.29.21.13_amd64.deb

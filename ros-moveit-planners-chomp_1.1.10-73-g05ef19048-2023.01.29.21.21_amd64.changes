@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-planners-chomp
+Binary: ros-moveit-planners-chomp ros-moveit-planners-chomp-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.29.21.21
+Distribution: bookworm
+Urgency: high
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Changed-By: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Description:
+ ros-moveit-planners-chomp - The interface for using CHOMP within MoveIt
+Changes:
+ ros-moveit-planners-chomp (1.1.10-73-g05ef19048-2023.01.29.21.21) bookworm; urgency=high
+Checksums-Sha1:
+ c3a176b0879adf573c4dfd6af748997bc8f844ee 3442200 ros-moveit-planners-chomp-dbgsym_1.1.10-73-g05ef19048-2023.01.29.21.21_amd64.deb
+ fab4526476fdbd5488d3a200c319e312a6d7af9e 21762 ros-moveit-planners-chomp_1.1.10-73-g05ef19048-2023.01.29.21.21_amd64.buildinfo
+ 43a56b6bd1ac4fea8f086a0f504a13651c141254 37112 ros-moveit-planners-chomp_1.1.10-73-g05ef19048-2023.01.29.21.21_amd64.deb
+Checksums-Sha256:
+ 286db4f5ccc087cb63e3fc39afe8a3524276e5a59585c5d057f9385ac94e28ae 3442200 ros-moveit-planners-chomp-dbgsym_1.1.10-73-g05ef19048-2023.01.29.21.21_amd64.deb
+ f21afc8ef480646046b4b9fc616cb5c9888fe9350a0db09bfa45ae54bda66574 21762 ros-moveit-planners-chomp_1.1.10-73-g05ef19048-2023.01.29.21.21_amd64.buildinfo
+ ada8729a5257e15c8ad97c850fa9a1c0446b58bae3d03b8d770ccb07a80ba93d 37112 ros-moveit-planners-chomp_1.1.10-73-g05ef19048-2023.01.29.21.21_amd64.deb
+Files:
+ 0f60a99f15747068daa5f8b72ce9dab1 3442200 debug optional ros-moveit-planners-chomp-dbgsym_1.1.10-73-g05ef19048-2023.01.29.21.21_amd64.deb
+ 261bf8ee1e6263fb416852334acffec6 21762 misc optional ros-moveit-planners-chomp_1.1.10-73-g05ef19048-2023.01.29.21.21_amd64.buildinfo
+ 566b875ff6e36519fa2f88f4f59610b1 37112 misc optional ros-moveit-planners-chomp_1.1.10-73-g05ef19048-2023.01.29.21.21_amd64.deb

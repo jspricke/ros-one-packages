@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-planners-ompl
+Binary: ros-moveit-planners-ompl ros-moveit-planners-ompl-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.29.20.51
+Distribution: bookworm
+Urgency: high
+Maintainer: Dave Coleman <dave@picknik.ai>
+Changed-By: Dave Coleman <dave@picknik.ai>
+Description:
+ ros-moveit-planners-ompl - MoveIt interface to OMPL
+Changes:
+ ros-moveit-planners-ompl (1.1.10-73-g05ef19048-2023.01.29.20.51) bookworm; urgency=high
+ .
+   * Improve processing of multiple planning attempts: skip remaining planning attempts if solution was found (#3261 <https://github.com/ros-planning/moveit/issues/3261>)
+   * Convert OMPL status to ``MoveItErrorCode`` in the OMPL interface (#3257 <https://github.com/ros-planning/moveit/issues/3257>)
+   * Contributors: AndyZe, Robert Haschke
+Checksums-Sha1:
+ b0cb7d241b507e1066649dfbc30cdc3c1974da2b 19681428 ros-moveit-planners-ompl-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.51_amd64.deb
+ 3c73ebcddacedbbed71c23a9db795d21e5cf8f80 19602 ros-moveit-planners-ompl_1.1.10-73-g05ef19048-2023.01.29.20.51_amd64.buildinfo
+ 301768ff9ad8dc587757e00cb8f5bf2377d1808b 402840 ros-moveit-planners-ompl_1.1.10-73-g05ef19048-2023.01.29.20.51_amd64.deb
+Checksums-Sha256:
+ 97515cdf9d77a905760d6197f038f1b4233b7228814450c51a1080bc090deb1b 19681428 ros-moveit-planners-ompl-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.51_amd64.deb
+ 861b95e79745017b8799257c6822abec75c64f321727300f79c1652dfd2fff8f 19602 ros-moveit-planners-ompl_1.1.10-73-g05ef19048-2023.01.29.20.51_amd64.buildinfo
+ 4e104be29caa002a67f432d4f24383f8fec344e9740d907eff1ded26f7f39551 402840 ros-moveit-planners-ompl_1.1.10-73-g05ef19048-2023.01.29.20.51_amd64.deb
+Files:
+ 422d3314b66b723dd915f63b6f8c0c84 19681428 debug optional ros-moveit-planners-ompl-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.51_amd64.deb
+ 4a3b365ce60a87750d8896496ce6cf41 19602 misc optional ros-moveit-planners-ompl_1.1.10-73-g05ef19048-2023.01.29.20.51_amd64.buildinfo
+ a51f26531307098c2a5d347ae11b70f2 402840 misc optional ros-moveit-planners-ompl_1.1.10-73-g05ef19048-2023.01.29.20.51_amd64.deb

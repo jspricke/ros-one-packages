@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Tue, 05 Apr 2022 00:00:00 -0000
+Source: ros-apriltag-ros
+Binary: ros-apriltag-ros ros-apriltag-ros-dbgsym
+Architecture: amd64
+Version: 3.2.1-16-gfa11137-2023.01.29.16.48
+Distribution: bookworm
+Urgency: high
+Maintainer: Danylo Malyuta <danylo.malyuta@gmail.com>
+Changed-By: Danylo Malyuta <danylo.malyuta@gmail.com>
+Description:
+ ros-apriltag-ros - A ROS wrapper of the AprilTag 3 visual fiducial detection algorit
+Changes:
+ ros-apriltag-ros (3.2.1-16-gfa11137-2023.01.29.16.48) bookworm; urgency=high
+ .
+   * Fixed propagation of apriltag and Eigen headers and libraries (#124 <https://github.com/AprilRobotics/apriltag_ros/issues/124>)
+   * Drop old C++11 as it breaks with new log4cxx.
+   * Contributors: Jochen Sprickerhof, Remo Diethelm, Wolfgang Merkt
+Checksums-Sha1:
+ 7a64c30878e2d2e15c17e7d25b7b4cb06072a0d3 3011668 ros-apriltag-ros-dbgsym_3.2.1-16-gfa11137-2023.01.29.16.48_amd64.deb
+ b4bc50043957e8ae15da7380dfe9f6be33a4c951 22849 ros-apriltag-ros_3.2.1-16-gfa11137-2023.01.29.16.48_amd64.buildinfo
+ 381bf7770338058a90571ff631081d55fa7b3661 150796 ros-apriltag-ros_3.2.1-16-gfa11137-2023.01.29.16.48_amd64.deb
+Checksums-Sha256:
+ 4dc7a14b498934c801ef08e6bebebc548d2fe33f8318f332b269dce6aded1139 3011668 ros-apriltag-ros-dbgsym_3.2.1-16-gfa11137-2023.01.29.16.48_amd64.deb
+ 18a28fab7a94a9c8fd2b4b84dcccd1fed41ec7f02d0da04370eee2093a1e3faf 22849 ros-apriltag-ros_3.2.1-16-gfa11137-2023.01.29.16.48_amd64.buildinfo
+ 06b7cb3b80748d8f0c2cb6c4fd218f68637d8c5097eed1c33d1e86d5b4ab6e91 150796 ros-apriltag-ros_3.2.1-16-gfa11137-2023.01.29.16.48_amd64.deb
+Files:
+ b9932b25f64ace9b9a676904a5928b0d 3011668 debug optional ros-apriltag-ros-dbgsym_3.2.1-16-gfa11137-2023.01.29.16.48_amd64.deb
+ e4f8a16fdb89b6e0b6f50d1345d1c980 22849 misc optional ros-apriltag-ros_3.2.1-16-gfa11137-2023.01.29.16.48_amd64.buildinfo
+ 34325b0a62660f176538b3fc3af4e44e 150796 misc optional ros-apriltag-ros_3.2.1-16-gfa11137-2023.01.29.16.48_amd64.deb

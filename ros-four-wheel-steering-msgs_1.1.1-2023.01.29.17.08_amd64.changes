@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 13 May 2020 00:00:00 -0000
+Source: ros-four-wheel-steering-msgs
+Binary: ros-four-wheel-steering-msgs
+Architecture: amd64
+Version: 1.1.1-2023.01.29.17.08
+Distribution: bookworm
+Urgency: high
+Maintainer: Vincent Rousseau <vincentrou@gmail.com>
+Changed-By: Vincent Rousseau <vincentrou@gmail.com>
+Description:
+ ros-four-wheel-steering-msgs - ROS messages for robots using FourWheelSteering.
+Changes:
+ ros-four-wheel-steering-msgs (1.1.1-2023.01.29.17.08) bookworm; urgency=high
+ .
+   * Update maintainer email
+   * Contributors: Vincent Rousseau
+Checksums-Sha1:
+ 9290a8dee7e2f2af84daf6c647194a9919bf7cef 7334 ros-four-wheel-steering-msgs_1.1.1-2023.01.29.17.08_amd64.buildinfo
+ b5f95a0a249a91c2bbd3d6451a41c8b8296c3958 17348 ros-four-wheel-steering-msgs_1.1.1-2023.01.29.17.08_amd64.deb
+Checksums-Sha256:
+ f635dcdc990ded51c592eb92f8a2e37f95df88e11a96359d904c9214455c66bf 7334 ros-four-wheel-steering-msgs_1.1.1-2023.01.29.17.08_amd64.buildinfo
+ 8f8fe5c3e9bd63e8f7c78d02dd399f57a22d1d09fcfa57b11c6cc816695735df 17348 ros-four-wheel-steering-msgs_1.1.1-2023.01.29.17.08_amd64.deb
+Files:
+ 3811697efc82a7d6c40c121f8b0b476e 7334 misc optional ros-four-wheel-steering-msgs_1.1.1-2023.01.29.17.08_amd64.buildinfo
+ 8167ad3f707658908845151be4c6bcbb 17348 misc optional ros-four-wheel-steering-msgs_1.1.1-2023.01.29.17.08_amd64.deb

@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 24 Jul 2020 00:00:00 -0000
+Source: ros-qt-gui-py-common
+Binary: ros-qt-gui-py-common
+Architecture: amd64
+Version: 0.4.2-7-g8f06b8d-2023.01.29.18.00
+Distribution: bookworm
+Urgency: high
+Maintainer: Scott Logan <cottsay@openrobotics.org>
+Changed-By: Scott Logan <cottsay@openrobotics.org>
+Description:
+ ros-qt-gui-py-common - qt_gui_py_common provides common functionality for GUI plugins wr
+Changes:
+ ros-qt-gui-py-common (0.4.2-7-g8f06b8d-2023.01.29.18.00) bookworm; urgency=high
+Checksums-Sha1:
+ 6f993d507485850358c86c7697d88284593fd1d0 6709 ros-qt-gui-py-common_0.4.2-7-g8f06b8d-2023.01.29.18.00_amd64.buildinfo
+ 0c7434d157b24670ecf9ce7b6b1e4a30f67352c0 18040 ros-qt-gui-py-common_0.4.2-7-g8f06b8d-2023.01.29.18.00_amd64.deb
+Checksums-Sha256:
+ a4225ef48e9facc4b5b935ae50678e720a7274f9b166a30d4319964a3daabb21 6709 ros-qt-gui-py-common_0.4.2-7-g8f06b8d-2023.01.29.18.00_amd64.buildinfo
+ 610565d7cd92bf88c7a0563c1cc281fd020109597e2c1f0a9e4c6b243d5ecccb 18040 ros-qt-gui-py-common_0.4.2-7-g8f06b8d-2023.01.29.18.00_amd64.deb
+Files:
+ 2d744d00ff6b5418ec6443b3f0d965b3 6709 misc optional ros-qt-gui-py-common_0.4.2-7-g8f06b8d-2023.01.29.18.00_amd64.buildinfo
+ 3a4a240cae8b8855e015ed2be42285ce 18040 misc optional ros-qt-gui-py-common_0.4.2-7-g8f06b8d-2023.01.29.18.00_amd64.deb

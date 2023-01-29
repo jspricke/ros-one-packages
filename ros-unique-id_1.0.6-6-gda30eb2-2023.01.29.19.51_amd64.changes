@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 04 Apr 2017 00:00:00 -0000
+Source: ros-unique-id
+Binary: ros-unique-id
+Architecture: amd64
+Version: 1.0.6-6-gda30eb2-2023.01.29.19.51
+Distribution: bookworm
+Urgency: high
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Changed-By: Jack O'Quin <jack.oquin@gmail.com>
+Description:
+ ros-unique-id - ROS Python and C++ interfaces for universally unique identifiers.
+Changes:
+ ros-unique-id (1.0.6-6-gda30eb2-2023.01.29.19.51) bookworm; urgency=high
+Checksums-Sha1:
+ 31857e82b70d27d5b8591e9129c0e3be7cf9e08d 9109 ros-unique-id_1.0.6-6-gda30eb2-2023.01.29.19.51_amd64.buildinfo
+ 8a8844a43198035a0c1fab111ca0efa09e520835 11040 ros-unique-id_1.0.6-6-gda30eb2-2023.01.29.19.51_amd64.deb
+Checksums-Sha256:
+ 9f84a2f311f543515a995a1d37e67909f05df8a337cb54c06e620656b6f19ed6 9109 ros-unique-id_1.0.6-6-gda30eb2-2023.01.29.19.51_amd64.buildinfo
+ a14f5f19b214283a19cb0575e3e3b2d5db7b68ecff74d4e372082530fb4c3523 11040 ros-unique-id_1.0.6-6-gda30eb2-2023.01.29.19.51_amd64.deb
+Files:
+ bb0f772d83bc2a8de4b09e09d4bd7654 9109 misc optional ros-unique-id_1.0.6-6-gda30eb2-2023.01.29.19.51_amd64.buildinfo
+ 85e9681378e47d72d95fb396f5a06957 11040 misc optional ros-unique-id_1.0.6-6-gda30eb2-2023.01.29.19.51_amd64.deb

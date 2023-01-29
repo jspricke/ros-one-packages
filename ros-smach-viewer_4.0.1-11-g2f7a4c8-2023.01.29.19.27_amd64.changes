@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Tue, 02 Aug 2022 00:00:00 -0000
+Source: ros-smach-viewer
+Binary: ros-smach-viewer
+Architecture: amd64
+Version: 4.0.1-11-g2f7a4c8-2023.01.29.19.27
+Distribution: bookworm
+Urgency: high
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Changed-By: Jonathan Bohren <jbo@jhu.edu>
+Description:
+ ros-smach-viewer - The smach viewer is a GUI that shows the state of hierarchical SM
+Changes:
+ ros-smach-viewer (4.0.1-11-g2f7a4c8-2023.01.29.19.27) bookworm; urgency=high
+ .
+   * Fix 4.0.0, which does not work on both Melodic/Noetic (#43 <https://github.com/ros-visualization/executive_smach_visualization/issues/43>)
+ .
+       * use LooseVersion(wx.__version__) to support old Melodic (wxPython 3.0)
+       * typos
+       * more deprecated functions to test on melodic
+       * why wouldn't this work with python3 ?
+       * add missing dependency on cv_bridge
+       * update use of deprecated functions
+       * update pckage.xml based on https://github.com/ros-visualization/executive_smach_visualization/pull/39
+       * use catkin_install_python to automatically set /usr/bin/env python3 for noetic, but need to remove smach_viewer/lib/smach_viewer from sys.path
+       * xdot/wxxdot.py: intentionally uses from xdot, instead of from .xdot, because we want to use local xdot for Pytohn2 and sytem xdot for Python3
+       * Revert "apply 2to3 -w -f import *" This reverts commit 4cbd2ab0d16d4123e9227bf6b9e627bd4bd8ea7f.
+ .
+   * Contributors: Kei Okada, Mikael Arguedas
+Checksums-Sha1:
+ f3dec2287e1cec111d12ba1c46502fa6e801fa49 8494 ros-smach-viewer_4.0.1-11-g2f7a4c8-2023.01.29.19.27_amd64.buildinfo
+ b22d826412196b58ff1a18d2f90270bea2f682f8 127248 ros-smach-viewer_4.0.1-11-g2f7a4c8-2023.01.29.19.27_amd64.deb
+Checksums-Sha256:
+ cac199807a9a704353cc346ca3bb1c1a4cfbaae14f72264219554974b9a31c19 8494 ros-smach-viewer_4.0.1-11-g2f7a4c8-2023.01.29.19.27_amd64.buildinfo
+ b1c7ae2d361b55e96fe98d0cfaf53c933398aa9ff4200da1f664bd9539d02ce9 127248 ros-smach-viewer_4.0.1-11-g2f7a4c8-2023.01.29.19.27_amd64.deb
+Files:
+ d9f61463c5e07e7b33e28f63e5d71506 8494 misc optional ros-smach-viewer_4.0.1-11-g2f7a4c8-2023.01.29.19.27_amd64.buildinfo
+ 459a54a741158780b2377b5e9b2ea675 127248 misc optional ros-smach-viewer_4.0.1-11-g2f7a4c8-2023.01.29.19.27_amd64.deb

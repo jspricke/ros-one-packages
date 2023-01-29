@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 02 Aug 2022 00:00:00 -0000
+Source: ros-executive-smach-visualization
+Binary: ros-executive-smach-visualization
+Architecture: amd64
+Version: 4.0.1-11-g2f7a4c8-2023.01.29.17.05
+Distribution: bookworm
+Urgency: high
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Changed-By: Jonathan Bohren <jbo@jhu.edu>
+Description:
+ ros-executive-smach-visualization - This metapackage depends on the SMACH visualization tools.
+Changes:
+ ros-executive-smach-visualization (4.0.1-11-g2f7a4c8-2023.01.29.17.05) bookworm; urgency=high
+Checksums-Sha1:
+ 092175b282ac566ba56637c3d9f0464190991b0a 6775 ros-executive-smach-visualization_4.0.1-11-g2f7a4c8-2023.01.29.17.05_amd64.buildinfo
+ c54a2d82436d569dec7687faa9592c0383ebd1d6 2164 ros-executive-smach-visualization_4.0.1-11-g2f7a4c8-2023.01.29.17.05_amd64.deb
+Checksums-Sha256:
+ 6fc3d991c98c8e819a06ff06c1c1fe5ebdacd108f6920d74ef58d57db83fb4a2 6775 ros-executive-smach-visualization_4.0.1-11-g2f7a4c8-2023.01.29.17.05_amd64.buildinfo
+ b34a56e2910558c5d8f65508d274f3557ade83d053c7c48f1c79b35c1e57db10 2164 ros-executive-smach-visualization_4.0.1-11-g2f7a4c8-2023.01.29.17.05_amd64.deb
+Files:
+ 3ceafdaa5a6d56ca4cca5f03f95b9f55 6775 misc optional ros-executive-smach-visualization_4.0.1-11-g2f7a4c8-2023.01.29.17.05_amd64.buildinfo
+ d547341e31953d993edb3883e09c21c8 2164 misc optional ros-executive-smach-visualization_4.0.1-11-g2f7a4c8-2023.01.29.17.05_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-hardware-interface
+Binary: ros-hardware-interface
+Architecture: amd64
+Version: 0.19.6-2023.01.29.17.10
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-hardware-interface - Hardware Interface base class.
+Changes:
+ ros-hardware-interface (0.19.6-2023.01.29.17.10) bookworm; urgency=high
+ .
+   * Update mainpage.dox (#496 <https://github.com/ros-controls/ros_control/issues/496>)
+   * Contributors: PaddyCube
+Checksums-Sha1:
+ a639cfb19ec0dc0a78c8ac2e574585dc54a975b7 8600 ros-hardware-interface_0.19.6-2023.01.29.17.10_amd64.buildinfo
+ c660aac97d56f9afa6c8277265685b769dc50b9b 27188 ros-hardware-interface_0.19.6-2023.01.29.17.10_amd64.deb
+Checksums-Sha256:
+ 173ca176e3a1ead4b0b81cd86d4f7013805db185f61defaca215ac3ff376ddaf 8600 ros-hardware-interface_0.19.6-2023.01.29.17.10_amd64.buildinfo
+ 131073a211173d7a1deb3383c80b36a9f3e1d7a9f94d078d9d02f8bcea74d2ef 27188 ros-hardware-interface_0.19.6-2023.01.29.17.10_amd64.deb
+Files:
+ 3a66e5b211c36232eb3f9d76c7895588 8600 misc optional ros-hardware-interface_0.19.6-2023.01.29.17.10_amd64.buildinfo
+ 1cd964ad137c5d98e98b0ec5c6e12d3c 27188 misc optional ros-hardware-interface_0.19.6-2023.01.29.17.10_amd64.deb

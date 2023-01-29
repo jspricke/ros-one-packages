@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Tue, 02 Jun 2020 00:00:00 -0000
+Source: ros-rqt-moveit
+Binary: ros-rqt-moveit
+Architecture: amd64
+Version: 0.5.9-2023.01.29.18.52
+Distribution: bookworm
+Urgency: high
+Maintainer: Isaac I.Y. Saito <iisaito@kinugarage.com>
+Changed-By: Isaac I.Y. Saito <iisaito@kinugarage.com>
+Description:
+ ros-rqt-moveit - An rqt-based tool that assists monitoring tasks for MoveIt! motio
+Changes:
+ ros-rqt-moveit (0.5.9-2023.01.29.18.52) bookworm; urgency=high
+ .
+   * use catkin_install_python instead of install
+Checksums-Sha1:
+ 424049c6bc52ca397c0f8a121be276983f219106 6635 ros-rqt-moveit_0.5.9-2023.01.29.18.52_amd64.buildinfo
+ bf2a82dca451c3af7a3f3693fa7fa671b298fbf5 18944 ros-rqt-moveit_0.5.9-2023.01.29.18.52_amd64.deb
+Checksums-Sha256:
+ 61a830a2d68132532c034d959de6d746cf6f4300f89a6a30cfa270c1ce57d513 6635 ros-rqt-moveit_0.5.9-2023.01.29.18.52_amd64.buildinfo
+ 48db1150d554751e0d1edb8cc6b22ece8005acbd076fc22808c2ae205511b7f9 18944 ros-rqt-moveit_0.5.9-2023.01.29.18.52_amd64.deb
+Files:
+ 577dc9ab581ccb5613747c45b419cfa9 6635 misc optional ros-rqt-moveit_0.5.9-2023.01.29.18.52_amd64.buildinfo
+ 00899cb5718cb38d5ebfff24bbe80017 18944 misc optional ros-rqt-moveit_0.5.9-2023.01.29.18.52_amd64.deb

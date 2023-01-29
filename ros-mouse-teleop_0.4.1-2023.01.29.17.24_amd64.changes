@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Sun, 23 May 2021 00:00:00 -0000
+Source: ros-mouse-teleop
+Binary: ros-mouse-teleop
+Architecture: amd64
+Version: 0.4.1-2023.01.29.17.24
+Distribution: bookworm
+Urgency: high
+Maintainer: Enrique Fernandez <enrique.fernandez.perdomo@gmail.com>
+Changed-By: Enrique Fernandez <enrique.fernandez.perdomo@gmail.com>
+Description:
+ ros-mouse-teleop - A mouse teleop tool for holonomic mobile robots.
+Changes:
+ ros-mouse-teleop (0.4.1-2023.01.29.17.24) bookworm; urgency=high
+Checksums-Sha1:
+ a976296a2ac7e3368c5db6aaaa0ac825955b89ea 6642 ros-mouse-teleop_0.4.1-2023.01.29.17.24_amd64.buildinfo
+ 1ad24286055a518ce0c75c7352e01c62a4c2abeb 7284 ros-mouse-teleop_0.4.1-2023.01.29.17.24_amd64.deb
+Checksums-Sha256:
+ 0c98a82c8364c426e4fb98e22501ddd7293bd77d71112586f666ac3270593f86 6642 ros-mouse-teleop_0.4.1-2023.01.29.17.24_amd64.buildinfo
+ 0adb75d89309f62d56dc8c6410573dd3d0e1484b70b6e343a84e041de98b1fa1 7284 ros-mouse-teleop_0.4.1-2023.01.29.17.24_amd64.deb
+Files:
+ fbd5d8fb1d205de5f5d9934f7e3c471d 6642 misc optional ros-mouse-teleop_0.4.1-2023.01.29.17.24_amd64.buildinfo
+ 227bf1f5e0dffbda9411bdd74754b505 7284 misc optional ros-mouse-teleop_0.4.1-2023.01.29.17.24_amd64.deb

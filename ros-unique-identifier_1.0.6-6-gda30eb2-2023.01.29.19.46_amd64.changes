@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 04 Apr 2017 00:00:00 -0000
+Source: ros-unique-identifier
+Binary: ros-unique-identifier
+Architecture: amd64
+Version: 1.0.6-6-gda30eb2-2023.01.29.19.46
+Distribution: bookworm
+Urgency: high
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Changed-By: Jack O'Quin <jack.oquin@gmail.com>
+Description:
+ ros-unique-identifier - ROS messages and interfaces for universally unique identifiers.
+Changes:
+ ros-unique-identifier (1.0.6-6-gda30eb2-2023.01.29.19.46) bookworm; urgency=high
+Checksums-Sha1:
+ 8ed2371f838e0d3687870ae86d95de27a871d72c 6711 ros-unique-identifier_1.0.6-6-gda30eb2-2023.01.29.19.46_amd64.buildinfo
+ 4e1d20cadbe4f2f2353f1de38c6f036a804719bf 2376 ros-unique-identifier_1.0.6-6-gda30eb2-2023.01.29.19.46_amd64.deb
+Checksums-Sha256:
+ 659b0a7997e08de966bf9014627633789244d2f010973e1a1c7b9cdca711e9af 6711 ros-unique-identifier_1.0.6-6-gda30eb2-2023.01.29.19.46_amd64.buildinfo
+ bcd9e92d01afd73440b781f61ae3a41596d7d42c2d64b3fa0cdf64dac987daad 2376 ros-unique-identifier_1.0.6-6-gda30eb2-2023.01.29.19.46_amd64.deb
+Files:
+ 56fd4962314e24dbede914c6995bfa39 6711 misc optional ros-unique-identifier_1.0.6-6-gda30eb2-2023.01.29.19.46_amd64.buildinfo
+ b05af29ec675e9cd7d6b454f9aeb68ef 2376 misc optional ros-unique-identifier_1.0.6-6-gda30eb2-2023.01.29.19.46_amd64.deb

@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 22 Mar 2021 00:00:00 -0000
+Source: ros-timestamp-tools
+Binary: ros-timestamp-tools
+Architecture: amd64
+Version: 1.6.9-2023.01.29.19.40
+Distribution: bookworm
+Urgency: high
+Maintainer: Chad Rockey <chadrockey@gmail.com>
+Changed-By: Chad Rockey <chadrockey@gmail.com>
+Description:
+ ros-timestamp-tools - This package is currently for internal use only.
+Changes:
+ ros-timestamp-tools (1.6.9-2023.01.29.19.40) bookworm; urgency=high
+ .
+   * Merge pull request #11 <https://github.com/ros-drivers/driver_common/issues/11> from PR2-prime/indigo-devel
+     updates for compile on focal/noetic
+   * Merge pull request #1 <https://github.com/ros-drivers/driver_common/issues/1> from PR2-prime/noetic-devel
+     Noetic devel
+   * Merge branch 'indigo-devel' into noetic-devel
+   * fix to make tests compile under focal/noetic
+   * fixed boost time duration error with doubles no longer being supported
+   * fixed dependency issue in timestamp_tools
+   * updated header due to boost changes in focal/noetic
+   * Merge pull request #7 <https://github.com/ros-drivers/driver_common/issues/7> from AurelienBallier/indigo-devel
+     Fix CATKIN_ENABLE_TESTING set to False issue.
+   * Fix CATKIN_ENABLE_TESTING set to False issue.
+   * Contributors: Aurélien Ballier, Chad Rockey, Dave Feil-Seifer
+Checksums-Sha1:
+ 6eb91a38284f491619ff37026cea07ca226dd41c 9114 ros-timestamp-tools_1.6.9-2023.01.29.19.40_amd64.buildinfo
+ c3112c03651cf6cddb0e78784cd055b21378fe38 9744 ros-timestamp-tools_1.6.9-2023.01.29.19.40_amd64.deb
+Checksums-Sha256:
+ 90d43b9e6dca786370849e0dbf51cdd05b1134002e632244174ec4d3a5a388ba 9114 ros-timestamp-tools_1.6.9-2023.01.29.19.40_amd64.buildinfo
+ 3b45828c893a84dda99b34998c0e07d0e3b9718096b3208ade8385c18d3c83f2 9744 ros-timestamp-tools_1.6.9-2023.01.29.19.40_amd64.deb
+Files:
+ e377ed7ef028e9a49fd2bcf706bfe5e1 9114 misc optional ros-timestamp-tools_1.6.9-2023.01.29.19.40_amd64.buildinfo
+ 7680b89f52ddf753885512e9661e6517 9744 misc optional ros-timestamp-tools_1.6.9-2023.01.29.19.40_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 14 May 2020 00:00:00 -0000
+Source: ros-executive-smach
+Binary: ros-executive-smach
+Architecture: amd64
+Version: 2.5.0-4-gec80004-2023.01.29.17.05
+Distribution: bookworm
+Urgency: high
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I. Y. Saito <gm130s@gmail.com>
+Description:
+ ros-executive-smach - This metapackage depends on the SMACH library and ROS SMACH integ
+Changes:
+ ros-executive-smach (2.5.0-4-gec80004-2023.01.29.17.05) bookworm; urgency=high
+ .
+   * Python 3 compatibility #71 <https://github.com/ros/executive_smach/issues/71>
+   * Bump CMake version to avoid CMP0048 warning
+   * Contributors: Shane Loretz, ahcorde
+Checksums-Sha1:
+ 9f3083cd51a8acd1fdbe8c2f6bc7e1848cb2fdc8 6701 ros-executive-smach_2.5.0-4-gec80004-2023.01.29.17.05_amd64.buildinfo
+ 23633611d1af7e8068e08d610a13fc5ce1c8fd40 2968 ros-executive-smach_2.5.0-4-gec80004-2023.01.29.17.05_amd64.deb
+Checksums-Sha256:
+ fcd2c7c483fdeb0c1392a331e78b604f58b7e87da097f71da351afa6339d95c1 6701 ros-executive-smach_2.5.0-4-gec80004-2023.01.29.17.05_amd64.buildinfo
+ e011c2435364f440cd88781fa6ff9e8478da8c45283b42dc3d6ecd7c13b0259a 2968 ros-executive-smach_2.5.0-4-gec80004-2023.01.29.17.05_amd64.deb
+Files:
+ da1df7dfccb1a97b430c3988136b6c7d 6701 misc optional ros-executive-smach_2.5.0-4-gec80004-2023.01.29.17.05_amd64.buildinfo
+ f98d910a94fd159ddd9b4c77b0944899 2968 misc optional ros-executive-smach_2.5.0-4-gec80004-2023.01.29.17.05_amd64.deb

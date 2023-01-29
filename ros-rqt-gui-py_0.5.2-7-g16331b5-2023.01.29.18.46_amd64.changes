@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 25 Mar 2022 00:00:00 -0000
+Source: ros-rqt-gui-py
+Binary: ros-rqt-gui-py
+Architecture: amd64
+Version: 0.5.2-7-g16331b5-2023.01.29.18.46
+Distribution: bookworm
+Urgency: high
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Changed-By: Dharini Dutia <dharini@openrobotics.org>
+Description:
+ ros-rqt-gui-py - rqt_gui_py enables GUI plugins to use the Python client library f
+Changes:
+ ros-rqt-gui-py (0.5.2-7-g16331b5-2023.01.29.18.46) bookworm; urgency=high
+ .
+   * Update maintainers (#233 <https://github.com/ros-visualization/rqt/issues/233>) (#237 <https://github.com/ros-visualization/rqt/issues/237>)
+   * Contributors: Michael Jeronimo
+Checksums-Sha1:
+ 35315069fe04676793069c5ae5dc554b4de3a113 10561 ros-rqt-gui-py_0.5.2-7-g16331b5-2023.01.29.18.46_amd64.buildinfo
+ 3758b6973e9b32a3dbb8912cb5b4dcaee4a4dc8c 10592 ros-rqt-gui-py_0.5.2-7-g16331b5-2023.01.29.18.46_amd64.deb
+Checksums-Sha256:
+ ff3aee954292bf46b0f0e4b87c437853b638b8863055e61f1bd2bbd45fdd6c68 10561 ros-rqt-gui-py_0.5.2-7-g16331b5-2023.01.29.18.46_amd64.buildinfo
+ fe6e1cbe373d3ff0177374210a29941d7e401d4693c576c7de0f8f0bbb14bca0 10592 ros-rqt-gui-py_0.5.2-7-g16331b5-2023.01.29.18.46_amd64.deb
+Files:
+ fedb6f48a906527afbb2af5aaf770f1c 10561 misc optional ros-rqt-gui-py_0.5.2-7-g16331b5-2023.01.29.18.46_amd64.buildinfo
+ 3d216565e420165f614598d40c3a093a 10592 misc optional ros-rqt-gui-py_0.5.2-7-g16331b5-2023.01.29.18.46_amd64.deb

@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Fri, 09 Oct 2020 00:00:00 -0000
+Source: ros-moveit-visual-tools
+Binary: ros-moveit-visual-tools ros-moveit-visual-tools-dbgsym
+Architecture: amd64
+Version: 3.6.0-14-gac8b019-2023.01.29.21.48
+Distribution: bookworm
+Urgency: high
+Maintainer: Dave Coleman <dave@picknik.ai>
+Changed-By: Dave Coleman <dave@picknik.ai>
+Description:
+ ros-moveit-visual-tools - Helper functions for displaying and debugging MoveIt data in Rviz
+Changes:
+ ros-moveit-visual-tools (3.6.0-14-gac8b019-2023.01.29.21.48) bookworm; urgency=high
+ .
+   * [feature] Unified collision environment used (#54 <https://github.com/ros-planning/moveit_visual_tools/issues/54>)
+   * [feature] publish cuboids with size (#59 <https://github.com/ros-planning/moveit_visual_tools/issues/59>)
+   * [feature] hideRobot(): use new .hide member of DisplayRobotState msg (#56 <https://github.com/ros-planning/moveit_visual_tools/issues/56>)
+   * [feature] Use first trajectory point as start state for visualization (#49 <https://github.com/ros-planning/moveit_visual_tools/issues/49>)
+   * [feature] exposing the publishers to the user (#48 <https://github.com/ros-planning/moveit_visual_tools/issues/48>)
+   * [feature] Highlight selected links in publishRobotState() + improved collision visualization (#45 <https://github.com/ros-planning/moveit_visual_tools/issues/45>)
+   * [fix] Update to Noetic and fix various warnings (#79 <https://github.com/ros-planning/moveit_visual_tools/issues/79>)
+   * [fix] Fix Eigen alignment (#63 <https://github.com/ros-planning/moveit_visual_tools/issues/63>)
+   * [fix] missing end effector markers because clear (#51 <https://github.com/ros-planning/moveit_visual_tools/issues/51>)
+   * [fix] Remove #attempts from setFromIK (#43 <https://github.com/ros-planning/moveit_visual_tools/issues/43>)
+   * [documentation] Update README.md (#69 <https://github.com/ros-planning/moveit_visual_tools/issues/69>)
+   * [documentation] update doc of hideRobot() (#64 <https://github.com/ros-planning/moveit_visual_tools/issues/64>)
+   * [maint] add soname version (#74 <https://github.com/ros-planning/moveit_visual_tools/issues/74>)
+   * [maint] Replace tf_conversions with tf2's toMsg / fromMsg (#66 <https://github.com/ros-planning/moveit_visual_tools/issues/66>)
+   * [maint] fix clang-tidy issue (#68 <https://github.com/ros-planning/moveit_visual_tools/issues/68>)
+   * [maint] Cleanup (#65 <https://github.com/ros-planning/moveit_visual_tools/issues/65>)
+     * Replace robot_model and robot_state namespaces by moveit::core
+     * Fix clang-tidy issues
+     * Remove deprecated function
+   * [maint] Bump required cmake version (#62 <https://github.com/ros-planning/moveit_visual_tools/issues/62>)
+   * [maint] moveit.rosinstall: use master branch for all deps (#57 <https://github.com/ros-planning/moveit_visual_tools/issues/57>)
+   * [maint] drop melodic + kinetic support for master branch (#58 <https://github.com/ros-planning/moveit_visual_tools/issues/58>)
+   * [maint] Fix Travis config + issues (#47 <https://github.com/ros-planning/moveit_visual_tools/issues/47>)
+   * [maint] Change 'MoveIt!' to MoveIt
+   * Contributors: Bjar Ne, Dave Coleman, Henning Kayser, Jafar Abdi, Jens P, Mark Moll, Michael Görner, Mike Lautman, Robert Haschke, Tyler Weaver
+Checksums-Sha1:
+ dffca8ac1b16560fd816150b3043f05d9fec42f3 7985260 ros-moveit-visual-tools-dbgsym_3.6.0-14-gac8b019-2023.01.29.21.48_amd64.deb
+ 309941e2985ea7cb0768c481ab66b3b4dbf5e888 25328 ros-moveit-visual-tools_3.6.0-14-gac8b019-2023.01.29.21.48_amd64.buildinfo
+ 1a432c2e15960ddb050ccc950b29cbf1717c754a 288808 ros-moveit-visual-tools_3.6.0-14-gac8b019-2023.01.29.21.48_amd64.deb
+Checksums-Sha256:
+ a0473eb9292a79a489ec3d8cfa34dff50d4c0c719afe07c23adb3ffe4d3815dd 7985260 ros-moveit-visual-tools-dbgsym_3.6.0-14-gac8b019-2023.01.29.21.48_amd64.deb
+ 79d9da6e36a65bab337f3fd593b0eb1b60bb5058c721dd153683c7e356b53d80 25328 ros-moveit-visual-tools_3.6.0-14-gac8b019-2023.01.29.21.48_amd64.buildinfo
+ 45c0b968f4719e07fc425cff78f493743da1c54df62ef99d1ac7b409f56c765a 288808 ros-moveit-visual-tools_3.6.0-14-gac8b019-2023.01.29.21.48_amd64.deb
+Files:
+ 244c603879715581a61108981e608899 7985260 debug optional ros-moveit-visual-tools-dbgsym_3.6.0-14-gac8b019-2023.01.29.21.48_amd64.deb
+ 56bae8cf28c446f7045e049a5170ef9f 25328 misc optional ros-moveit-visual-tools_3.6.0-14-gac8b019-2023.01.29.21.48_amd64.buildinfo
+ 21db1f416e6a9a2256fa56ed52d4d2de 288808 misc optional ros-moveit-visual-tools_3.6.0-14-gac8b019-2023.01.29.21.48_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 24 Oct 2014 00:00:00 -0000
+Source: ros-graph-msgs
+Binary: ros-graph-msgs
+Architecture: amd64
+Version: 0.1.0-3-g530fe7c-2023.01.29.17.09
+Distribution: bookworm
+Urgency: high
+Maintainer: Dave Coleman <davetcoleman@gmail.com>
+Changed-By: Dave Coleman <davetcoleman@gmail.com>
+Description:
+ ros-graph-msgs - ROS messages for publishing graphs of different data types
+Changes:
+ ros-graph-msgs (0.1.0-3-g530fe7c-2023.01.29.17.09) bookworm; urgency=high
+ .
+   * Added header / timestamp
+   * Contributors: Dave Coleman
+Checksums-Sha1:
+ 67e69202c5dd2c7ede74c64813daa70d0f08e78f 7417 ros-graph-msgs_0.1.0-3-g530fe7c-2023.01.29.17.09_amd64.buildinfo
+ c1cd5b32fcc7bdc07a5b440332e1690675f3d4e5 17556 ros-graph-msgs_0.1.0-3-g530fe7c-2023.01.29.17.09_amd64.deb
+Checksums-Sha256:
+ b8c472cab20572c8d0139428842052a16255d1829b411d5b32e683f52834ec4d 7417 ros-graph-msgs_0.1.0-3-g530fe7c-2023.01.29.17.09_amd64.buildinfo
+ 1ba424f2849f8b5536ae8d86e5181f483a80e5031fa96a991acda4df28a71c48 17556 ros-graph-msgs_0.1.0-3-g530fe7c-2023.01.29.17.09_amd64.deb
+Files:
+ 11b091f4482e54dd9a6d2a8430f1ebd2 7417 misc optional ros-graph-msgs_0.1.0-3-g530fe7c-2023.01.29.17.09_amd64.buildinfo
+ b5293ffe49ad60bf64a6491288bd36b4 17556 misc optional ros-graph-msgs_0.1.0-3-g530fe7c-2023.01.29.17.09_amd64.deb

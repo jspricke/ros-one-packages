@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-commander
+Binary: ros-moveit-commander
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.29.20.11
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ ros-moveit-commander - Python interfaces to MoveIt
+Changes:
+ ros-moveit-commander (1.1.10-73-g05ef19048-2023.01.29.20.11) bookworm; urgency=high
+ .
+   * Fix some consistency issues in PlanningScene handling (#3298 <https://github.com/ros-planning/moveit/issues/3298>)
+ .
+       * Allow Plane collision-object creation from rviz
+       * Allow to create cone collision-object from python PSI
+       * rviz: Visualize PLANE shapes as a large, thin box
+ .
+   * Merge fixes+improvements to ``PlanningScene`` editing in rviz: #3263 <https://github.com/ros-planning/moveit/issues/3263>, #3264 <https://github.com/ros-planning/moveit/issues/3264>, #3296 <https://github.com/ros-planning/moveit/issues/3296>
+   * ``moveit_commander.PlanningSceneInterface``: use synchronous interface by default
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ 2d38297e3049c4eb45632d43e0f7cca214a38b34 12477 ros-moveit-commander_1.1.10-73-g05ef19048-2023.01.29.20.11_amd64.buildinfo
+ be8463a8337aece6404ce2b6eefff0eca042d63e 60900 ros-moveit-commander_1.1.10-73-g05ef19048-2023.01.29.20.11_amd64.deb
+Checksums-Sha256:
+ 0544f806a6749a2f6b2bd12d4ed407c5136e7d9a6d028426c27b53c29a39d786 12477 ros-moveit-commander_1.1.10-73-g05ef19048-2023.01.29.20.11_amd64.buildinfo
+ 73075b33314b30fb21170b42f7d005826a9a19cedaaac16a15300cae322d1b03 60900 ros-moveit-commander_1.1.10-73-g05ef19048-2023.01.29.20.11_amd64.deb
+Files:
+ 73820cc73a11137e1ab9ea41ffb0c701 12477 misc optional ros-moveit-commander_1.1.10-73-g05ef19048-2023.01.29.20.11_amd64.buildinfo
+ 6d876257a51515b3c5df4cd7a6f624e0 60900 misc optional ros-moveit-commander_1.1.10-73-g05ef19048-2023.01.29.20.11_amd64.deb

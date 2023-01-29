@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Wed, 21 Apr 2021 00:00:00 -0000
+Source: ros-rqt-py-console
+Binary: ros-rqt-py-console
+Architecture: amd64
+Version: 0.4.10-2023.01.29.19.02
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-rqt-py-console - rqt_py_console is a Python GUI plugin providing an interactive Py
+Changes:
+ ros-rqt-py-console (0.4.10-2023.01.29.19.02) bookworm; urgency=high
+ .
+   * Merge pull request #10 <https://github.com/ros-visualization/rqt_py_console/issues/10> from ros-visualization/sloretz-update-maintainer
+     Update maintainer in package.xml
+   * Update maintainer in package.xml
+   * fix shebang line for python3 (#9 <https://github.com/ros-visualization/rqt_py_console/issues/9>)
+   * Contributors: Michael Carroll, Mikael Arguedas, Shane Loretz
+Checksums-Sha1:
+ fa05edf2ac0c888113d2bc6f0423d3ce13f91269 6659 ros-rqt-py-console_0.4.10-2023.01.29.19.02_amd64.buildinfo
+ 45ff725adb25a395039cc37235841fe70bd5fd0b 14384 ros-rqt-py-console_0.4.10-2023.01.29.19.02_amd64.deb
+Checksums-Sha256:
+ 13a899b6bdf7b6f4a04996a7b6d893961bd6935ba2afec22c1d41abc91764002 6659 ros-rqt-py-console_0.4.10-2023.01.29.19.02_amd64.buildinfo
+ ef34c06694586f14f4e162ec737504fb2ee1babe4f9750c7c58e85858f80a4f8 14384 ros-rqt-py-console_0.4.10-2023.01.29.19.02_amd64.deb
+Files:
+ 18b8d40be04a73eb3aaa783f07a86054 6659 misc optional ros-rqt-py-console_0.4.10-2023.01.29.19.02_amd64.buildinfo
+ d25aa6a05644137e4ed6b691f7f0ab86 14384 misc optional ros-rqt-py-console_0.4.10-2023.01.29.19.02_amd64.deb

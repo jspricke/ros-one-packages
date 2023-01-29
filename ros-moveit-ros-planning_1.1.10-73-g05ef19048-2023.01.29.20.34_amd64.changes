@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-ros-planning
+Binary: ros-moveit-ros-planning ros-moveit-ros-planning-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.29.20.34
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Ferguson <mferguson@fetchrobotics.com>
+Changed-By: Michael Ferguson <mferguson@fetchrobotics.com>
+Description:
+ ros-moveit-ros-planning - Planning components of MoveIt that use ROS
+Changes:
+ ros-moveit-ros-planning (1.1.10-73-g05ef19048-2023.01.29.20.34) bookworm; urgency=high
+ .
+   * Backport ruckig trajectory_processing plugin (#2902 <https://github.com/ros-planning/moveit/issues/2902>)
+   * Allow planning with multiple pipelines in parallel with moveit_cpp (#3244 <https://github.com/ros-planning/moveit/issues/3244>)
+   * Merge PR #3262 <https://github.com/ros-planning/moveit/issues/3262>: Short-circuit planning adapters
+ .
+       * Early return from failing planning adapters, namely FixStartStateCollision and FixStartStatePathConstraint
+       * Propagate the error code via MotionPlanResponse::error_code_
+       * Add string translations for all error codes
+ .
+   * Cleanup translation of MoveItErrorCode to string
+ .
+       * Move default code to moveit_core/utils
+       * Override defaults in existing getActionResultString()
+       * Provide translations for all error codes defined in moveit_msgs
+ .
+   * Short-circuit planning request adapters
+   * Contributors: Robert Haschke, Simon Schmeisser
+Checksums-Sha1:
+ 5ee9d43bc790a891aba2f70f708eee6f78978904 56101556 ros-moveit-ros-planning-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.34_amd64.deb
+ 08d010e0e0c17d202cfd99ea4e21c89ae7a4f8a5 25795 ros-moveit-ros-planning_1.1.10-73-g05ef19048-2023.01.29.20.34_amd64.buildinfo
+ 33972321ba9ba9afd6ca5bccbc96292c87fd2153 968432 ros-moveit-ros-planning_1.1.10-73-g05ef19048-2023.01.29.20.34_amd64.deb
+Checksums-Sha256:
+ 9c29977e53789c3ea1e5a96ebbf444bb4e695b04a49e25b0f57d4e07ff49f68f 56101556 ros-moveit-ros-planning-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.34_amd64.deb
+ de20a6bf3b270f27a621967cdcb4471f10939d5c7ea9ef1f4d9bd6197fc809f7 25795 ros-moveit-ros-planning_1.1.10-73-g05ef19048-2023.01.29.20.34_amd64.buildinfo
+ 280fc00e0893dd89176f6c68cd647e94ce76279a25d9a62b56a4b11875ec23a6 968432 ros-moveit-ros-planning_1.1.10-73-g05ef19048-2023.01.29.20.34_amd64.deb
+Files:
+ a9a73fa1e75557f13bd97dfbd05a4034 56101556 debug optional ros-moveit-ros-planning-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.34_amd64.deb
+ d13e41cea356bf93639d01b3e56b44eb 25795 misc optional ros-moveit-ros-planning_1.1.10-73-g05ef19048-2023.01.29.20.34_amd64.buildinfo
+ d338a718a3a2005f2a44a88ed28ec613 968432 misc optional ros-moveit-ros-planning_1.1.10-73-g05ef19048-2023.01.29.20.34_amd64.deb

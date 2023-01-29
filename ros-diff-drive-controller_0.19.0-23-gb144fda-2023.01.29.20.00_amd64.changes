@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-diff-drive-controller
+Binary: ros-diff-drive-controller ros-diff-drive-controller-dbgsym
+Architecture: amd64
+Version: 0.19.0-23-gb144fda-2023.01.29.20.00
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-diff-drive-controller - Controller for a differential drive mobile base.
+Changes:
+ ros-diff-drive-controller (0.19.0-23-gb144fda-2023.01.29.20.00) bookworm; urgency=high
+ .
+   * std::bind and placeholders instead of boost
+   * use boost::placeholders::_1/_2 in remaining instances, include boost/bind/bind.hpp instead of boost/bind.hpp, eliminated unnecessary bind.hpp include
+   * Contributors: Lucas Walter
+Checksums-Sha1:
+ c5129b7f7a9f4ab911e59b2c6134ec06bcba6180 1700072 ros-diff-drive-controller-dbgsym_0.19.0-23-gb144fda-2023.01.29.20.00_amd64.deb
+ 754f13f04f9b089e9e4a5b312c6d57705de5bc2f 20491 ros-diff-drive-controller_0.19.0-23-gb144fda-2023.01.29.20.00_amd64.buildinfo
+ c9d9657ab54b8b46d28b8b91fabd9719c14558f8 128228 ros-diff-drive-controller_0.19.0-23-gb144fda-2023.01.29.20.00_amd64.deb
+Checksums-Sha256:
+ a33c68d0c2eb84cd4696b64532d1d2b40f8423fdd4945062da6f3eff37b06ae4 1700072 ros-diff-drive-controller-dbgsym_0.19.0-23-gb144fda-2023.01.29.20.00_amd64.deb
+ 1f2769f6b5bc617c821f84ffe80948f3ee8e0c2987b6460632fbf970b5c936a8 20491 ros-diff-drive-controller_0.19.0-23-gb144fda-2023.01.29.20.00_amd64.buildinfo
+ 295d8298be534baba5d124f91a133627e8dcb6ef8a502b6c1010082b7f043c7e 128228 ros-diff-drive-controller_0.19.0-23-gb144fda-2023.01.29.20.00_amd64.deb
+Files:
+ f6d4266a7379e1e851feab72501dc76a 1700072 debug optional ros-diff-drive-controller-dbgsym_0.19.0-23-gb144fda-2023.01.29.20.00_amd64.deb
+ a5f16d51063aa76a45b1865e58209667 20491 misc optional ros-diff-drive-controller_0.19.0-23-gb144fda-2023.01.29.20.00_amd64.buildinfo
+ 62a1bc1d409e074731dfa4a06e53cd18 128228 misc optional ros-diff-drive-controller_0.19.0-23-gb144fda-2023.01.29.20.00_amd64.deb

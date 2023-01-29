@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Fri, 07 Feb 2020 00:00:00 -0000
+Source: ros-rosdoc-lite
+Binary: ros-rosdoc-lite
+Architecture: amd64
+Version: 0.2.10-6-g5f3fc0f-2023.01.29.18.23
+Distribution: bookworm
+Urgency: high
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Changed-By: Jack O'Quin <jack.oquin@gmail.com>
+Description:
+ ros-rosdoc-lite - This ROS package wraps documentation tools like doxygen, sphinx,
+Changes:
+ ros-rosdoc-lite (0.2.10-6-g5f3fc0f-2023.01.29.18.23) bookworm; urgency=high
+ .
+   * Add mdfile to INPUT
+   * Use conditional dependencies (#93 <https://github.com/ros-infrastructure/rosdoc_lite/issues/93>)
+     * Use conditional dependencies for all Python rosdep keys
+     * Only depend on epydoc if using Python 2
+     * Switch to python?-catkin-pkg-modules since the CLI tools aren't used
+     * Python 2 and 3 versions are side-by-side installable
+     * Switch to python?-rospkg-modules since the CLI tools aren't used
+     * Python 2 and 3 versions are side-by-side installable
+   * Add mdfile to INPUT
+   * backwards-compatible fix for python3 API changes
+   * fix cmake failure when building without tests
+   * Removes obsolete doxygen options
+     fix cmake failure when building without tests
+   * enable linking to documentation hosted on third party server
+   * Update exception handling to Python2.6+ / Python3 syntax
+   * Fix getting doxygen path when output_folder is defined
+   * Add unit tests for getting doxygen path
+   * Better name of function getting the documentation path
+   * Update exception handling to Python2.6+ / Python3 syntax
+   * Merge branch 'master' of github.com:jobleier/rosdoc_lite
+   * enable 'docs_url' pointing to documentation hosted on third party server with external Doxygen documentation using tag files
+   * Contributors: Alexander Gutenkunst, Finn-Thorben Sell, Johannes Bleier, Matthijs van der Burgh, Paul Dinh, Riku Shigematsu, Shane Loretz, Tully Foote, v4hn
+Checksums-Sha1:
+ faf3b6ed447f68d8ea1a34a4f202ac811224a772 6688 ros-rosdoc-lite_0.2.10-6-g5f3fc0f-2023.01.29.18.23_amd64.buildinfo
+ 903a1c9e54f015b76b5e3c01b589fd0927443f86 69792 ros-rosdoc-lite_0.2.10-6-g5f3fc0f-2023.01.29.18.23_amd64.deb
+Checksums-Sha256:
+ e5d0323d47cba269d36f34431970150242b6754804d252056f85d49093ad8064 6688 ros-rosdoc-lite_0.2.10-6-g5f3fc0f-2023.01.29.18.23_amd64.buildinfo
+ bbb1d5618e718865bbe2fddcbf4dd3582d7917f54d7ae7e55f3fe37d1a566b88 69792 ros-rosdoc-lite_0.2.10-6-g5f3fc0f-2023.01.29.18.23_amd64.deb
+Files:
+ 93064ff96189318e51462b872157f217 6688 misc optional ros-rosdoc-lite_0.2.10-6-g5f3fc0f-2023.01.29.18.23_amd64.buildinfo
+ 2505f53786fa1e251d0d28a63b6e14cd 69792 misc optional ros-rosdoc-lite_0.2.10-6-g5f3fc0f-2023.01.29.18.23_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-ros-perception
+Binary: ros-moveit-ros-perception ros-moveit-ros-perception-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.29.21.03
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Ferguson <mferguson@fetchrobotics.com>
+Changed-By: Michael Ferguson <mferguson@fetchrobotics.com>
+Description:
+ ros-moveit-ros-perception - Components of MoveIt connecting to perception
+Changes:
+ ros-moveit-ros-perception (1.1.10-73-g05ef19048-2023.01.29.21.03) bookworm; urgency=high
+Checksums-Sha1:
+ 1aee692756e8baff0510fa82f66fc64cd3e63097 10742176 ros-moveit-ros-perception-dbgsym_1.1.10-73-g05ef19048-2023.01.29.21.03_amd64.deb
+ 52c9f03ba80a0457281312a10e0e84b90c653b02 29596 ros-moveit-ros-perception_1.1.10-73-g05ef19048-2023.01.29.21.03_amd64.buildinfo
+ 9acfbd5d976b8bd4ae15ee3d115216650ea26029 295812 ros-moveit-ros-perception_1.1.10-73-g05ef19048-2023.01.29.21.03_amd64.deb
+Checksums-Sha256:
+ 2699ec4b60eca28290cf1e268f1129a7a5775e8e7f5ff407c884e166123749b7 10742176 ros-moveit-ros-perception-dbgsym_1.1.10-73-g05ef19048-2023.01.29.21.03_amd64.deb
+ 8a297fea524dcc9f09ad7bc6eaa326251bd6310171793a383763583c369c5e32 29596 ros-moveit-ros-perception_1.1.10-73-g05ef19048-2023.01.29.21.03_amd64.buildinfo
+ 88d3897899afd08e3bb1c754ecdac71481cc8f52a56191ea70269665e19949eb 295812 ros-moveit-ros-perception_1.1.10-73-g05ef19048-2023.01.29.21.03_amd64.deb
+Files:
+ 4faaf9268338c95d09a920428d32d648 10742176 debug optional ros-moveit-ros-perception-dbgsym_1.1.10-73-g05ef19048-2023.01.29.21.03_amd64.deb
+ 21296a8e1a6720f2020633acd8fc3fc4 29596 misc optional ros-moveit-ros-perception_1.1.10-73-g05ef19048-2023.01.29.21.03_amd64.buildinfo
+ 623ca9138cfe07f9ac3803bcb72de6c9 295812 misc optional ros-moveit-ros-perception_1.1.10-73-g05ef19048-2023.01.29.21.03_amd64.deb

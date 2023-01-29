@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 25 Mar 2022 00:00:00 -0000
+Source: ros-rqt-py-common
+Binary: ros-rqt-py-common
+Architecture: amd64
+Version: 0.5.2-7-g16331b5-2023.01.29.18.59
+Distribution: bookworm
+Urgency: high
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Changed-By: Dharini Dutia <dharini@openrobotics.org>
+Description:
+ ros-rqt-py-common - rqt_py_common provides common functionality for rqt plugins writt
+Changes:
+ ros-rqt-py-common (0.5.2-7-g16331b5-2023.01.29.18.59) bookworm; urgency=high
+ .
+   * Update maintainers (#233 <https://github.com/ros-visualization/rqt/issues/233>) (#237 <https://github.com/ros-visualization/rqt/issues/237>)
+   * Contributors: Michael Jeronimo
+Checksums-Sha1:
+ 21f9e3ab01c3fca62219452e7c8b6307468c4d74 7143 ros-rqt-py-common_0.5.2-7-g16331b5-2023.01.29.18.59_amd64.buildinfo
+ c403597c58f19d7fd0310e98fb8d69b81225e897 58568 ros-rqt-py-common_0.5.2-7-g16331b5-2023.01.29.18.59_amd64.deb
+Checksums-Sha256:
+ efa9844825ec213e6cbc01a92dd6f0fa8d8e6d4796f22cce01f1e441dff8a393 7143 ros-rqt-py-common_0.5.2-7-g16331b5-2023.01.29.18.59_amd64.buildinfo
+ a058ccd8f65fe2e3601d17313f85691e5c6bf89338a091eb355c2303e74fd0b2 58568 ros-rqt-py-common_0.5.2-7-g16331b5-2023.01.29.18.59_amd64.deb
+Files:
+ 6d6b4a22fdbe922c65e3d86524fad2f0 7143 misc optional ros-rqt-py-common_0.5.2-7-g16331b5-2023.01.29.18.59_amd64.buildinfo
+ 4532e10d6a68c0aab1cd3223a2884fff 58568 misc optional ros-rqt-py-common_0.5.2-7-g16331b5-2023.01.29.18.59_amd64.deb

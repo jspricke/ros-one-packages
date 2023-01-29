@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Sun, 30 Jan 2022 00:00:00 -0000
+Source: ros-srdfdom
+Binary: ros-srdfdom ros-srdfdom-dbgsym
+Architecture: amd64
+Version: 0.6.3-2023.01.29.19.32
+Distribution: bookworm
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-srdfdom - Parser for Semantic Robot Description Format (SRDF).
+Changes:
+ ros-srdfdom (0.6.3-2023.01.29.19.32) bookworm; urgency=high
+ .
+   * Drop -std=c++11 (#99 <https://github.com/ros-planning/srdfdom/issues/99>)
+   * Introduce ``<disable_default_collisions>`` and ``<enable_collisions>`` tags (#97 <https://github.com/ros-planning/srdfdom/issues/97>)
+ .
+       * Extend SRDF syntax to allow disabling of collisions for all pairs involving a specific link: ``<disable_default_collisions link="link_name"/>``
+       * Individual pairs can be re-enabled like this: ``<enable_collisions link1="link1_name" link2="link2_name" reason="optional-reason"/>``
+       * The old behavior of disabling individual pairs is possible as well: ``<disable_collisions link1="link1_name" link2="link2_name" reason="optional-reason"/>``
+ .
+   * Contributors: Robert Haschke, Jochen Sprickerhof
+Checksums-Sha1:
+ 8707c5797490232f2d5a14f0b3bd79bced7c9dc6 910076 ros-srdfdom-dbgsym_0.6.3-2023.01.29.19.32_amd64.deb
+ 38321646afa511319ed20867cb5ad67955ce6c38 15682 ros-srdfdom_0.6.3-2023.01.29.19.32_amd64.buildinfo
+ 705c9c1b7df99e10fdf82ae758baaa7ddc002187 64760 ros-srdfdom_0.6.3-2023.01.29.19.32_amd64.deb
+Checksums-Sha256:
+ 0d6475c8653aee490b4f82603d7fe089ee3ccb73496c2418a34e163ad00cf35e 910076 ros-srdfdom-dbgsym_0.6.3-2023.01.29.19.32_amd64.deb
+ a7d4c38b5e3b0f03bbf5933345dbe35b22d6eec67a3c0a917190003e209c2e08 15682 ros-srdfdom_0.6.3-2023.01.29.19.32_amd64.buildinfo
+ 42cefd2400ba0f543fce844820408ddeb12df18883535f3528f44e56b2bd5e51 64760 ros-srdfdom_0.6.3-2023.01.29.19.32_amd64.deb
+Files:
+ e800fe5388486cbf0788d32168f6b024 910076 debug optional ros-srdfdom-dbgsym_0.6.3-2023.01.29.19.32_amd64.deb
+ ee0f2ff33e1cfcfb60ab1c08685b15eb 15682 misc optional ros-srdfdom_0.6.3-2023.01.29.19.32_amd64.buildinfo
+ df50a22b009a504c8faded86dbe6702c 64760 misc optional ros-srdfdom_0.6.3-2023.01.29.19.32_amd64.deb

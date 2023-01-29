@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Mon, 22 Mar 2021 00:00:00 -0000
+Source: ros-driver-base
+Binary: ros-driver-base
+Architecture: amd64
+Version: 1.6.9-2023.01.29.17.02
+Distribution: bookworm
+Urgency: high
+Maintainer: Chad Rockey <chadrockey@gmail.com>
+Changed-By: Chad Rockey <chadrockey@gmail.com>
+Description:
+ ros-driver-base - A framework for writing drivers that helps with runtime reconfigu
+Changes:
+ ros-driver-base (1.6.9-2023.01.29.17.02) bookworm; urgency=high
+Checksums-Sha1:
+ 3d42615504e03f68f60e6c82de56149466de2c92 9577 ros-driver-base_1.6.9-2023.01.29.17.02_amd64.buildinfo
+ cce0cc1280c754cf2c57c7ca7d33410b4fc23dd5 22592 ros-driver-base_1.6.9-2023.01.29.17.02_amd64.deb
+Checksums-Sha256:
+ fc814580c402fcdd8d14c069fc9ccb36d7ea1c03587ba7b44b17a09f41432bdf 9577 ros-driver-base_1.6.9-2023.01.29.17.02_amd64.buildinfo
+ df4d975b6c63b2e36be4a805bc65ff1e13a9d86ac0ffaae51af6ad617d57bb02 22592 ros-driver-base_1.6.9-2023.01.29.17.02_amd64.deb
+Files:
+ 5d4c1e592a580185e02ae5be6be075f8 9577 misc optional ros-driver-base_1.6.9-2023.01.29.17.02_amd64.buildinfo
+ c2fcd6e1425bfcf905d76f40b45e9e14 22592 misc optional ros-driver-base_1.6.9-2023.01.29.17.02_amd64.deb

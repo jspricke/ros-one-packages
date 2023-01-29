@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-effort-controllers
+Binary: ros-effort-controllers ros-effort-controllers-dbgsym
+Architecture: amd64
+Version: 0.19.0-23-gb144fda-2023.01.29.20.05
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-effort-controllers - effort_controllers
+Changes:
+ ros-effort-controllers (0.19.0-23-gb144fda-2023.01.29.20.05) bookworm; urgency=high
+Checksums-Sha1:
+ be00f60a6754a332568ec02dc50ed09bc1531ce3 2896792 ros-effort-controllers-dbgsym_0.19.0-23-gb144fda-2023.01.29.20.05_amd64.deb
+ fccc926ea3177e62fa627d93ab062686c00cf052 14263 ros-effort-controllers_0.19.0-23-gb144fda-2023.01.29.20.05_amd64.buildinfo
+ 94bb1bf2b92ba6a30e18aa143de74e4650e82925 87192 ros-effort-controllers_0.19.0-23-gb144fda-2023.01.29.20.05_amd64.deb
+Checksums-Sha256:
+ a33300d2c8f1583bff175c77f67c39354719ad583435900d5b5e0e8f46066998 2896792 ros-effort-controllers-dbgsym_0.19.0-23-gb144fda-2023.01.29.20.05_amd64.deb
+ 29150cfa233e701eac96f476247ec8b2d6ee768dc8026fca7c6a0b057e1203a1 14263 ros-effort-controllers_0.19.0-23-gb144fda-2023.01.29.20.05_amd64.buildinfo
+ 6a650af2db44c7ab3fe391b3749b76e11d0ff4ddcb48c2a0fc382cd384e2b35d 87192 ros-effort-controllers_0.19.0-23-gb144fda-2023.01.29.20.05_amd64.deb
+Files:
+ 0e99007732a6ffa1e3c6291601dc72af 2896792 debug optional ros-effort-controllers-dbgsym_0.19.0-23-gb144fda-2023.01.29.20.05_amd64.deb
+ 3ef893b4d629b532e2a86f043626ba4f 14263 misc optional ros-effort-controllers_0.19.0-23-gb144fda-2023.01.29.20.05_amd64.buildinfo
+ 92afef84b85121d312f0d6e62e9f7eb2 87192 misc optional ros-effort-controllers_0.19.0-23-gb144fda-2023.01.29.20.05_amd64.deb

@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Wed, 21 Apr 2021 00:00:00 -0000
+Source: ros-rqt-top
+Binary: ros-rqt-top
+Architecture: amd64
+Version: 0.4.10-2023.01.29.19.14
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-rqt-top - RQT plugin for monitoring ROS processes.
+Changes:
+ ros-rqt-top (0.4.10-2023.01.29.19.14) bookworm; urgency=high
+ .
+   * Merge pull request #13 <https://github.com/ros-visualization/rqt_top/issues/13> from ros-visualization/sloretz-update-maintainers
+     Update maintainers in package.xml
+   * Update maintainers in package.xml
+   * fix shebang line for python3 (#9 <https://github.com/ros-visualization/rqt_top/issues/9>)
+   * Contributors: Michael Carroll, Mikael Arguedas, Shane Loretz
+Checksums-Sha1:
+ 4b6548d90e8969f38a0df617b7929bd20c2bbb8c 6624 ros-rqt-top_0.4.10-2023.01.29.19.14_amd64.buildinfo
+ 53630d55bae37d1ca65af26a7339a0f12ba2ae1e 17592 ros-rqt-top_0.4.10-2023.01.29.19.14_amd64.deb
+Checksums-Sha256:
+ 270ad9dda86e3435e5d75874dcb191ee2bf9042c5a3e61a3f41a16ab82ccade5 6624 ros-rqt-top_0.4.10-2023.01.29.19.14_amd64.buildinfo
+ be9335581b18f80a2cada45155b4aab81708cdfb415c38156aa9cc835f9fd3f8 17592 ros-rqt-top_0.4.10-2023.01.29.19.14_amd64.deb
+Files:
+ 998df5db873e3d0c26c4bcb44798a03c 6624 misc optional ros-rqt-top_0.4.10-2023.01.29.19.14_amd64.buildinfo
+ e53b3ad924c68b78c5b0722192874162 17592 misc optional ros-rqt-top_0.4.10-2023.01.29.19.14_amd64.deb

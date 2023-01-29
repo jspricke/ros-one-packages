@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Tue, 21 Dec 2021 00:00:00 -0000
+Source: ros-octomap-rviz-plugins
+Binary: ros-octomap-rviz-plugins ros-octomap-rviz-plugins-dbgsym
+Architecture: amd64
+Version: 0.2.4-8-g37b9925-2023.01.29.17.42
+Distribution: bookworm
+Urgency: high
+Maintainer: Armin Hornung <armin@hornung.io>
+Changed-By: Armin Hornung <armin@hornung.io>
+Description:
+ ros-octomap-rviz-plugins - A set of plugins for displaying occupancy information decoded fro
+Changes:
+ ros-octomap-rviz-plugins (0.2.4-8-g37b9925-2023.01.29.17.42) bookworm; urgency=high
+ .
+   * Use automoc feature of CMake (#34 <https://github.com/OctoMap/octomap_rviz_plugins/issues/34>)
+   * Contributors: Simon Schmeisser (isys vision), Wolfgang Merkt
+Checksums-Sha1:
+ 8a7946b4bf161bdec375fcff7a798e16071c1354 2188992 ros-octomap-rviz-plugins-dbgsym_0.2.4-8-g37b9925-2023.01.29.17.42_amd64.deb
+ 9775a8f65a86edf4a8b92694fdf26932daab0c06 18789 ros-octomap-rviz-plugins_0.2.4-8-g37b9925-2023.01.29.17.42_amd64.buildinfo
+ 4cf87a7107e4d943428f64d350d53ae98befe58e 100328 ros-octomap-rviz-plugins_0.2.4-8-g37b9925-2023.01.29.17.42_amd64.deb
+Checksums-Sha256:
+ 22be1438dc3fb442b609c3f700f6849a966a9ade64cc9e7073529972ce338779 2188992 ros-octomap-rviz-plugins-dbgsym_0.2.4-8-g37b9925-2023.01.29.17.42_amd64.deb
+ d115c89c90704417713c823757b2cf3bda76623825b1948545d34857b3509af3 18789 ros-octomap-rviz-plugins_0.2.4-8-g37b9925-2023.01.29.17.42_amd64.buildinfo
+ 5b903fd18d42ef1ce64e4cc708c0817741b1c22fda714752b67c36e0fe26e8d2 100328 ros-octomap-rviz-plugins_0.2.4-8-g37b9925-2023.01.29.17.42_amd64.deb
+Files:
+ 7a76e97fcdf98ea20c6a968b4b0f85f2 2188992 debug optional ros-octomap-rviz-plugins-dbgsym_0.2.4-8-g37b9925-2023.01.29.17.42_amd64.deb
+ a0cd1dec7cd65cdddc62928baa327a96 18789 misc optional ros-octomap-rviz-plugins_0.2.4-8-g37b9925-2023.01.29.17.42_amd64.buildinfo
+ 380277b79f497c6c0693ff882709987f 100328 misc optional ros-octomap-rviz-plugins_0.2.4-8-g37b9925-2023.01.29.17.42_amd64.deb

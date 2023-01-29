@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 18 Nov 2021 00:00:00 -0000
+Source: ros-moveit-resources-prbt-ikfast-manipulator-plugin
+Binary: ros-moveit-resources-prbt-ikfast-manipulator-plugin ros-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.01.29.20.29
+Distribution: bookworm
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ ros-moveit-resources-prbt-ikfast-manipulator-plugin - The prbt_ikfast_manipulator_plugin package
+Changes:
+ ros-moveit-resources-prbt-ikfast-manipulator-plugin (0.8.2-5-g0be98e1-2023.01.29.20.29) bookworm; urgency=high
+Checksums-Sha1:
+ ba1f2acfaddd1924776af7107cda0cde3bd50457 2731964 ros-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_0.8.2-5-g0be98e1-2023.01.29.20.29_amd64.deb
+ c3b00c7bfc5d13d1ccdf94ac55b45e81ee5d594d 19175 ros-moveit-resources-prbt-ikfast-manipulator-plugin_0.8.2-5-g0be98e1-2023.01.29.20.29_amd64.buildinfo
+ e07350901d09561e047359036db1a208c12725f4 129244 ros-moveit-resources-prbt-ikfast-manipulator-plugin_0.8.2-5-g0be98e1-2023.01.29.20.29_amd64.deb
+Checksums-Sha256:
+ 250b365499db564a2f5e0d31a302aa428e770e29a7b562eb5f3b2d9a7d777a23 2731964 ros-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_0.8.2-5-g0be98e1-2023.01.29.20.29_amd64.deb
+ f3cffab52b18d8cd9200933fe0af464a3ad63af796918414a2caaa225cd8d111 19175 ros-moveit-resources-prbt-ikfast-manipulator-plugin_0.8.2-5-g0be98e1-2023.01.29.20.29_amd64.buildinfo
+ 8d8c6b46892fc370bb1a5f79986f0ac503c30f05f09249a809abc85289522100 129244 ros-moveit-resources-prbt-ikfast-manipulator-plugin_0.8.2-5-g0be98e1-2023.01.29.20.29_amd64.deb
+Files:
+ d1de8086957cf5fc1995d220a96b6b3c 2731964 debug optional ros-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_0.8.2-5-g0be98e1-2023.01.29.20.29_amd64.deb
+ 4c68ed1bd1d247caddf08f49d0ce146c 19175 misc optional ros-moveit-resources-prbt-ikfast-manipulator-plugin_0.8.2-5-g0be98e1-2023.01.29.20.29_amd64.buildinfo
+ d6032e9bcd68ddb9b02fcb3f9900ab86 129244 misc optional ros-moveit-resources-prbt-ikfast-manipulator-plugin_0.8.2-5-g0be98e1-2023.01.29.20.29_amd64.deb

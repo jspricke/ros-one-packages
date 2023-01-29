@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun, 05 Apr 2020 00:00:00 -0000
+Source: ros-urdf-geometry-parser
+Binary: ros-urdf-geometry-parser ros-urdf-geometry-parser-dbgsym
+Architecture: amd64
+Version: 0.1.0-6-g1d7317a-2023.01.29.21.51
+Distribution: bookworm
+Urgency: high
+Maintainer: Vincent Rousseau <vincent.rousseau@irstea.fr>
+Changed-By: Vincent Rousseau <vincent.rousseau@irstea.fr>
+Description:
+ ros-urdf-geometry-parser - Extract geometry value of a vehicle from urdf.
+Changes:
+ ros-urdf-geometry-parser (0.1.0-6-g1d7317a-2023.01.29.21.51) bookworm; urgency=high
+ .
+   * Remove tf2 dependency
+   * Add license
+   * Bump CMake version to avoid CMP0048 warning
+   * Cleanup CMakeLists.txt and package.xml
+   * Contributors: Bence Magyar, Matt Reynolds, Vincent Rousseau
+Checksums-Sha1:
+ 383c5415bba89afff6231bc25071bc40827a876e 300680 ros-urdf-geometry-parser-dbgsym_0.1.0-6-g1d7317a-2023.01.29.21.51_amd64.deb
+ 9e6e38ed11769d53a689547e5b96c9edeeb77af6 11125 ros-urdf-geometry-parser_0.1.0-6-g1d7317a-2023.01.29.21.51_amd64.buildinfo
+ 570b4f9d03746cbf164bd1bceebe92e27e5d1cfc 22984 ros-urdf-geometry-parser_0.1.0-6-g1d7317a-2023.01.29.21.51_amd64.deb
+Checksums-Sha256:
+ a2b591b5307ebcb7858ca21e7e56c20b6f9bc5b68f896045905c6bed6d8284f9 300680 ros-urdf-geometry-parser-dbgsym_0.1.0-6-g1d7317a-2023.01.29.21.51_amd64.deb
+ beefe6df9d6c521501b428db775496c1c4b74e926e3e8d78fa9f35121acf192d 11125 ros-urdf-geometry-parser_0.1.0-6-g1d7317a-2023.01.29.21.51_amd64.buildinfo
+ 84209d0053846ba389718ad43befba13b2fd373a58df23b57c7f3a7a37944b2b 22984 ros-urdf-geometry-parser_0.1.0-6-g1d7317a-2023.01.29.21.51_amd64.deb
+Files:
+ 1f07028f9acd4dda91fbd33edd4e4f88 300680 debug optional ros-urdf-geometry-parser-dbgsym_0.1.0-6-g1d7317a-2023.01.29.21.51_amd64.deb
+ 635747bdddf4085f1b1d43e7ef26780e 11125 misc optional ros-urdf-geometry-parser_0.1.0-6-g1d7317a-2023.01.29.21.51_amd64.buildinfo
+ 93b84ee0f65d74872398ca6d5652a9ca 22984 misc optional ros-urdf-geometry-parser_0.1.0-6-g1d7317a-2023.01.29.21.51_amd64.deb

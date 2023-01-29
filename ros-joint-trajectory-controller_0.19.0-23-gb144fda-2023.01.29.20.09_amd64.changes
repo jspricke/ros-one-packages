@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-joint-trajectory-controller
+Binary: ros-joint-trajectory-controller ros-joint-trajectory-controller-dbgsym
+Architecture: amd64
+Version: 0.19.0-23-gb144fda-2023.01.29.20.09
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-joint-trajectory-controller - Controller for executing joint-space trajectories on a group of j
+Changes:
+ ros-joint-trajectory-controller (0.19.0-23-gb144fda-2023.01.29.20.09) bookworm; urgency=high
+ .
+   * std::bind and placeholders instead of boost
+   * Contributors: Lucas Walter
+Checksums-Sha1:
+ ac6893852c89df8464db12980e530a64bafdd19b 2911416 ros-joint-trajectory-controller-dbgsym_0.19.0-23-gb144fda-2023.01.29.20.09_amd64.deb
+ 70822fe30812aa9956612f9389a80c0a7f247b81 18315 ros-joint-trajectory-controller_0.19.0-23-gb144fda-2023.01.29.20.09_amd64.buildinfo
+ ace82f36e52fe325fb39436d625d4b383bf8f06d 225716 ros-joint-trajectory-controller_0.19.0-23-gb144fda-2023.01.29.20.09_amd64.deb
+Checksums-Sha256:
+ 0d9bdade0e132d10a816a411ecf0d5fbfa470ba0a9e0781f9aa6e8ab3de666a2 2911416 ros-joint-trajectory-controller-dbgsym_0.19.0-23-gb144fda-2023.01.29.20.09_amd64.deb
+ 299143868e78994ab5ced9ffceaa7b6c6fc3cd889877031f6aae05d2c0bd481b 18315 ros-joint-trajectory-controller_0.19.0-23-gb144fda-2023.01.29.20.09_amd64.buildinfo
+ b4b4886cf9e61753064b83a7b8679315bd31fc0b4d2c2a511b72f2a01f46cf6b 225716 ros-joint-trajectory-controller_0.19.0-23-gb144fda-2023.01.29.20.09_amd64.deb
+Files:
+ 0cf8cdbe5ead0dce62b04c716069966b 2911416 debug optional ros-joint-trajectory-controller-dbgsym_0.19.0-23-gb144fda-2023.01.29.20.09_amd64.deb
+ cf3f59de173f37ebf0faeeb75a364391 18315 misc optional ros-joint-trajectory-controller_0.19.0-23-gb144fda-2023.01.29.20.09_amd64.buildinfo
+ cc0bb4832867b92934ba0e49a1478d4c 225716 misc optional ros-joint-trajectory-controller_0.19.0-23-gb144fda-2023.01.29.20.09_amd64.deb

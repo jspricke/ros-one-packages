@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-servo
+Binary: ros-moveit-servo ros-moveit-servo-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.29.21.32
+Distribution: bookworm
+Urgency: high
+Maintainer: Blake Anderson <blakeanderson@utexas.edu>
+Changed-By: Blake Anderson <blakeanderson@utexas.edu>
+Description:
+ ros-moveit-servo - Provides real-time manipulator Cartesian and joint servoing.
+Changes:
+ ros-moveit-servo (1.1.10-73-g05ef19048-2023.01.29.21.32) bookworm; urgency=high
+Checksums-Sha1:
+ bbbba022823bfac3da20fbfae988b424e9c15bb9 15792688 ros-moveit-servo-dbgsym_1.1.10-73-g05ef19048-2023.01.29.21.32_amd64.deb
+ fa195b682c9b02a4b0a50a8c7853afb6de2a8b83 27795 ros-moveit-servo_1.1.10-73-g05ef19048-2023.01.29.21.32_amd64.buildinfo
+ 8f26e0f2fa25e8db985cd28745dcdca364c62f92 258324 ros-moveit-servo_1.1.10-73-g05ef19048-2023.01.29.21.32_amd64.deb
+Checksums-Sha256:
+ a2e90d7d4b9866f145a1401c5fdc0fb6fc3f9b74498167fb6ae8e8b42571e67c 15792688 ros-moveit-servo-dbgsym_1.1.10-73-g05ef19048-2023.01.29.21.32_amd64.deb
+ 8d23c16d525a11fe7fdc3b393724f850628f8a139f2531cda7fe543eabaf8fbc 27795 ros-moveit-servo_1.1.10-73-g05ef19048-2023.01.29.21.32_amd64.buildinfo
+ 82f5afa41294cf50c30fe5adfe6b02301d173f980675386039090c9f3083f297 258324 ros-moveit-servo_1.1.10-73-g05ef19048-2023.01.29.21.32_amd64.deb
+Files:
+ 27aa645adb75929af2b7e56ec7ba1eef 15792688 debug optional ros-moveit-servo-dbgsym_1.1.10-73-g05ef19048-2023.01.29.21.32_amd64.deb
+ 4dbebd77488ec0936382eaab8851b2a6 27795 misc optional ros-moveit-servo_1.1.10-73-g05ef19048-2023.01.29.21.32_amd64.buildinfo
+ b1d4877c64fb5bb83d356d3dc30e324c 258324 misc optional ros-moveit-servo_1.1.10-73-g05ef19048-2023.01.29.21.32_amd64.deb

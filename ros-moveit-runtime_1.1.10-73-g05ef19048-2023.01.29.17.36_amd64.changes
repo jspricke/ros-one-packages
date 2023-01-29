@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-runtime
+Binary: ros-moveit-runtime
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.29.17.36
+Distribution: bookworm
+Urgency: high
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I. Y. Saito <gm130s@gmail.com>
+Description:
+ ros-moveit-runtime - moveit_runtime meta package contains MoveIt packages that are ess
+Changes:
+ ros-moveit-runtime (1.1.10-73-g05ef19048-2023.01.29.17.36) bookworm; urgency=high
+Checksums-Sha1:
+ e48343c5179d2b51f488d25158107e130503577b 6712 ros-moveit-runtime_1.1.10-73-g05ef19048-2023.01.29.17.36_amd64.buildinfo
+ 9626099cd91b1fe7c8565544933e033631193fdb 2864 ros-moveit-runtime_1.1.10-73-g05ef19048-2023.01.29.17.36_amd64.deb
+Checksums-Sha256:
+ 3b5fcef1cd376616dcf47d8252ac2feb2b5628d9b957c5397b0ddd70ed82b2fb 6712 ros-moveit-runtime_1.1.10-73-g05ef19048-2023.01.29.17.36_amd64.buildinfo
+ c481586511c2c4cf6abfd40cc39d6410b6c0c73d7e2493cc2b8d581e157d7ef9 2864 ros-moveit-runtime_1.1.10-73-g05ef19048-2023.01.29.17.36_amd64.deb
+Files:
+ 6fb5dd4a9e7232b6a3500a98e79e8095 6712 misc optional ros-moveit-runtime_1.1.10-73-g05ef19048-2023.01.29.17.36_amd64.buildinfo
+ 7ffb29cf85ce5d5c0ab09095a0780be4 2864 misc optional ros-moveit-runtime_1.1.10-73-g05ef19048-2023.01.29.17.36_amd64.deb

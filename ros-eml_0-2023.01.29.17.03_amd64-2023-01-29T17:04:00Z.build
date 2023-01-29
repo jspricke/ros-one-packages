@@ -1,0 +1,1180 @@
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az210-681
+
++==============================================================================+
+| ros-eml 0-2023.01.29.17.03 (amd64)           Sun, 29 Jan 2023 17:04:00 +0000 |
++==============================================================================+
+
+Package: ros-eml
+Version: 0-2023.01.29.17.03
+Source Version: 0-2023.01.29.17.03
+Distribution: bookworm
+Machine Architecture: amd64
+Host Architecture: amd64
+Build Architecture: amd64
+Build Type: binary
+
+Unpacking /home/runner/.cache/sbuild/bookworm-amd64.tar to /tmp/tmp.sbuild.QBzg5H9L_x...
+configuration error - unknown item 'NONEXISTENT' (notify administrator)
+configuration error - unknown item 'PREVENT_NO_AUTH' (notify administrator)
+configuration error - unknown item 'NONEXISTENT' (notify administrator)
+configuration error - unknown item 'PREVENT_NO_AUTH' (notify administrator)
+configuration error - unknown item 'NONEXISTENT' (notify administrator)
+configuration error - unknown item 'PREVENT_NO_AUTH' (notify administrator)
+I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
+I: NOTICE: Log filtering will replace 'build/package//resolver-6YUBQc' with '<<RESOLVERDIR>>'
+
++------------------------------------------------------------------------------+
+| Update chroot                                                                |
++------------------------------------------------------------------------------+
+
+Get:1 file:/build/package//resolver-SCNpfR/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-SCNpfR/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-SCNpfR/apt_archive ./ Release [580 B]
+Get:2 file:/build/package//resolver-SCNpfR/apt_archive ./ Release [580 B]
+Get:3 file:/build/package//resolver-SCNpfR/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-SCNpfR/apt_archive ./ Release.gpg
+Get:4 file:/build/package//resolver-SCNpfR/apt_archive ./ Packages [20.1 kB]
+Get:5 http://security.debian.org/debian-security bookworm-security InRelease [48.0 kB]
+Get:6 http://deb.debian.org/debian bookworm InRelease [171 kB]
+Get:7 http://deb.debian.org/debian bookworm-updates InRelease [49.6 kB]
+Get:8 http://deb.debian.org/debian bookworm/main amd64 Packages [8933 kB]
+Fetched 9201 kB in 1s (6556 kB/s)
+Reading package lists...
+W: Skipping acquire of configured file 'universe/binary-amd64/Packages' as repository 'http://security.debian.org/debian-security bookworm-security InRelease' doesn't have the component 'universe' (component misspelt in sources.list?)
+W: Skipping acquire of configured file 'universe/binary-amd64/Packages' as repository 'http://deb.debian.org/debian bookworm InRelease' doesn't have the component 'universe' (component misspelt in sources.list?)
+W: Skipping acquire of configured file 'universe/binary-amd64/Packages' as repository 'http://deb.debian.org/debian bookworm-updates InRelease' doesn't have the component 'universe' (component misspelt in sources.list?)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
++------------------------------------------------------------------------------+
+| Fetch source files                                                           |
++------------------------------------------------------------------------------+
+
+
+Local sources
+-------------
+
+/home/runner/work/ros-one-packages/ros-one-packages/src/ros-eml_0-2023.01.29.17.03.dsc exists in /home/runner/work/ros-one-packages/ros-one-packages/src; copying to chroot
+I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
+I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
+
++------------------------------------------------------------------------------+
+| Install package build dependencies                                           |
++------------------------------------------------------------------------------+
+
+
+Setup apt archive
+-----------------
+
+Merged Build-Depends: debhelper (>= 9.0.0), cmake, build-essential, fakeroot
+Filtered Build-Depends: debhelper (>= 9.0.0), cmake, build-essential, fakeroot
+dpkg-deb: building package 'sbuild-build-depends-main-dummy' in '/<<RESOLVERDIR>>/apt_archive/sbuild-build-depends-main-dummy.deb'.
+Ign:1 copy:/<<RESOLVERDIR>>/apt_archive ./ InRelease
+Get:2 copy:/<<RESOLVERDIR>>/apt_archive ./ Release [580 B]
+Ign:3 copy:/<<RESOLVERDIR>>/apt_archive ./ Release.gpg
+Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [621 B]
+Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [653 B]
+Fetched 1854 B in 0s (0 B/s)
+Reading package lists...
+Get:1 file:/<<BUILDDIR>>/resolver-SCNpfR/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-SCNpfR/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-SCNpfR/apt_archive ./ Release [580 B]
+Get:2 file:/<<BUILDDIR>>/resolver-SCNpfR/apt_archive ./ Release [580 B]
+Get:3 file:/<<BUILDDIR>>/resolver-SCNpfR/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-SCNpfR/apt_archive ./ Release.gpg
+Reading package lists...
+Reading package lists...
+
+Install main build dependencies (apt-based resolver)
+----------------------------------------------------
+
+Installing build dependencies
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  autoconf automake autopoint autotools-dev bsdextrautils cmake cmake-data
+  debhelper dh-autoreconf dh-strip-nondeterminism dwz fakeroot file gettext
+  gettext-base groff-base intltool-debian libarchive-zip-perl libarchive13
+  libbrotli1 libcurl4 libdebhelper-perl libelf1 libexpat1 libfakeroot
+  libfile-stripnondeterminism-perl libicu72 libjsoncpp25 libldap-2.5-0
+  libmagic-mgc libmagic1 libncursesw6 libnghttp2-14 libpipeline1 libproc2-0
+  libpsl5 librhash0 librtmp1 libsasl2-2 libsasl2-modules-db libssh2-1
+  libsub-override-perl libtool libuchardet0 libuv1 libxml2 m4 man-db
+  po-debconf procps sensible-utils
+Suggested packages:
+  autoconf-archive gnu-standards autoconf-doc cmake-doc cmake-format
+  elpa-cmake-mode ninja-build dh-make gettext-doc libasprintf-dev
+  libgettextpo-dev groff lrzip libtool-doc gfortran | fortran95-compiler
+  gcj-jdk m4-doc apparmor less www-browser libmail-box-perl
+Recommended packages:
+  curl | wget | lynx ca-certificates libarchive-cpio-perl libldap-common
+  libgpm2 publicsuffix libsasl2-modules libltdl-dev libmail-sendmail-perl
+  psmisc
+The following NEW packages will be installed:
+  autoconf automake autopoint autotools-dev bsdextrautils cmake cmake-data
+  debhelper dh-autoreconf dh-strip-nondeterminism dwz fakeroot file gettext
+  gettext-base groff-base intltool-debian libarchive-zip-perl libarchive13
+  libbrotli1 libcurl4 libdebhelper-perl libelf1 libexpat1 libfakeroot
+  libfile-stripnondeterminism-perl libicu72 libjsoncpp25 libldap-2.5-0
+  libmagic-mgc libmagic1 libncursesw6 libnghttp2-14 libpipeline1 libproc2-0
+  libpsl5 librhash0 librtmp1 libsasl2-2 libsasl2-modules-db libssh2-1
+  libsub-override-perl libtool libuchardet0 libuv1 libxml2 m4 man-db
+  po-debconf procps sbuild-build-depends-main-dummy sensible-utils
+0 upgraded, 52 newly installed, 0 to remove and 0 not upgraded.
+Need to get 32.6 MB of archives.
+After this operation, 121 MB of additional disk space will be used.
+Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [876 B]
+Get:2 http://deb.debian.org/debian bookworm/main amd64 libncursesw6 amd64 6.4-1 [134 kB]
+Get:3 http://deb.debian.org/debian bookworm/main amd64 libproc2-0 amd64 2:4.0.2-3 [62.8 kB]
+Get:4 http://deb.debian.org/debian bookworm/main amd64 procps amd64 2:4.0.2-3 [709 kB]
+Get:5 http://deb.debian.org/debian bookworm/main amd64 sensible-utils all 0.0.17+nmu1 [19.0 kB]
+Get:6 http://deb.debian.org/debian bookworm/main amd64 libmagic-mgc amd64 1:5.44-2 [305 kB]
+Get:7 http://deb.debian.org/debian bookworm/main amd64 libmagic1 amd64 1:5.44-2 [104 kB]
+Get:8 http://deb.debian.org/debian bookworm/main amd64 file amd64 1:5.44-2 [42.4 kB]
+Get:9 http://deb.debian.org/debian bookworm/main amd64 gettext-base amd64 0.21-10 [160 kB]
+Get:10 http://deb.debian.org/debian bookworm/main amd64 libuchardet0 amd64 0.0.7-1 [67.8 kB]
+Get:11 http://deb.debian.org/debian bookworm/main amd64 groff-base amd64 1.22.4-9 [916 kB]
+Get:12 http://deb.debian.org/debian bookworm/main amd64 bsdextrautils amd64 2.38.1-4 [86.2 kB]
+Get:13 http://deb.debian.org/debian bookworm/main amd64 libpipeline1 amd64 1.5.7-1 [38.5 kB]
+Get:14 http://deb.debian.org/debian bookworm/main amd64 man-db amd64 2.11.2-1 [1386 kB]
+Get:15 http://deb.debian.org/debian bookworm/main amd64 m4 amd64 1.4.19-2 [287 kB]
+Get:16 http://deb.debian.org/debian bookworm/main amd64 autoconf all 2.71-3 [332 kB]
+Get:17 http://deb.debian.org/debian bookworm/main amd64 autotools-dev all 20220109.1 [51.6 kB]
+Get:18 http://deb.debian.org/debian bookworm/main amd64 automake all 1:1.16.5-1.3 [823 kB]
+Get:19 http://deb.debian.org/debian bookworm/main amd64 autopoint all 0.21-10 [495 kB]
+Get:20 http://deb.debian.org/debian bookworm/main amd64 libicu72 amd64 72.1-3 [9376 kB]
+Get:21 http://deb.debian.org/debian bookworm/main amd64 libxml2 amd64 2.9.14+dfsg-1.1+b2 [687 kB]
+Get:22 http://deb.debian.org/debian bookworm/main amd64 libarchive13 amd64 3.6.2-1 [343 kB]
+Get:23 http://deb.debian.org/debian bookworm/main amd64 libbrotli1 amd64 1.0.9-2+b5 [279 kB]
+Get:24 http://deb.debian.org/debian bookworm/main amd64 libsasl2-modules-db amd64 2.1.28+dfsg-10 [20.3 kB]
+Get:25 http://deb.debian.org/debian bookworm/main amd64 libsasl2-2 amd64 2.1.28+dfsg-10 [59.7 kB]
+Get:26 http://deb.debian.org/debian bookworm/main amd64 libldap-2.5-0 amd64 2.5.13+dfsg-3 [183 kB]
+Get:27 http://deb.debian.org/debian bookworm/main amd64 libnghttp2-14 amd64 1.51.0-1 [71.5 kB]
+Get:28 http://deb.debian.org/debian bookworm/main amd64 libpsl5 amd64 0.21.0-1.2 [57.3 kB]
+Get:29 http://deb.debian.org/debian bookworm/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2+b2 [60.8 kB]
+Get:30 http://deb.debian.org/debian bookworm/main amd64 libssh2-1 amd64 1.10.0-3+b1 [179 kB]
+Get:31 http://deb.debian.org/debian bookworm/main amd64 libcurl4 amd64 7.87.0-2 [376 kB]
+Get:32 http://deb.debian.org/debian bookworm/main amd64 libexpat1 amd64 2.5.0-1 [99.3 kB]
+Get:33 http://deb.debian.org/debian bookworm/main amd64 libjsoncpp25 amd64 1.9.5-4 [78.6 kB]
+Get:34 http://deb.debian.org/debian bookworm/main amd64 librhash0 amd64 1.4.3-3 [134 kB]
+Get:35 http://deb.debian.org/debian bookworm/main amd64 libuv1 amd64 1.44.2-1 [140 kB]
+Get:36 http://deb.debian.org/debian bookworm/main amd64 cmake-data all 3.25.1-1 [2026 kB]
+Get:37 http://deb.debian.org/debian bookworm/main amd64 cmake amd64 3.25.1-1 [8692 kB]
+Get:38 http://deb.debian.org/debian bookworm/main amd64 libdebhelper-perl all 13.11.4 [81.2 kB]
+Get:39 http://deb.debian.org/debian bookworm/main amd64 libtool all 2.4.7-5 [517 kB]
+Get:40 http://deb.debian.org/debian bookworm/main amd64 dh-autoreconf all 20 [17.1 kB]
+Get:41 http://deb.debian.org/debian bookworm/main amd64 libarchive-zip-perl all 1.68-1 [104 kB]
+Get:42 http://deb.debian.org/debian bookworm/main amd64 libsub-override-perl all 0.09-4 [9304 B]
+Get:43 http://deb.debian.org/debian bookworm/main amd64 libfile-stripnondeterminism-perl all 1.13.1-1 [19.4 kB]
+Get:44 http://deb.debian.org/debian bookworm/main amd64 dh-strip-nondeterminism all 1.13.1-1 [8620 B]
+Get:45 http://deb.debian.org/debian bookworm/main amd64 libelf1 amd64 0.188-2.1 [174 kB]
+Get:46 http://deb.debian.org/debian bookworm/main amd64 dwz amd64 0.15-1 [109 kB]
+Get:47 http://deb.debian.org/debian bookworm/main amd64 gettext amd64 0.21-10 [1300 kB]
+Get:48 http://deb.debian.org/debian bookworm/main amd64 intltool-debian all 0.35.0+20060710.6 [22.9 kB]
+Get:49 http://deb.debian.org/debian bookworm/main amd64 po-debconf all 1.0.21+nmu1 [248 kB]
+Get:50 http://deb.debian.org/debian bookworm/main amd64 debhelper all 13.11.4 [942 kB]
+Get:51 http://deb.debian.org/debian bookworm/main amd64 libfakeroot amd64 1.29-1 [48.5 kB]
+Get:52 http://deb.debian.org/debian bookworm/main amd64 fakeroot amd64 1.29-1 [87.3 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 32.6 MB in 0s (105 MB/s)
+Selecting previously unselected package libncursesw6:amd64.
+(Reading database ... 12102 files and directories currently installed.)
+Preparing to unpack .../00-libncursesw6_6.4-1_amd64.deb ...
+Unpacking libncursesw6:amd64 (6.4-1) ...
+Selecting previously unselected package libproc2-0:amd64.
+Preparing to unpack .../01-libproc2-0_2%3a4.0.2-3_amd64.deb ...
+Unpacking libproc2-0:amd64 (2:4.0.2-3) ...
+Selecting previously unselected package procps.
+Preparing to unpack .../02-procps_2%3a4.0.2-3_amd64.deb ...
+Unpacking procps (2:4.0.2-3) ...
+Selecting previously unselected package sensible-utils.
+Preparing to unpack .../03-sensible-utils_0.0.17+nmu1_all.deb ...
+Unpacking sensible-utils (0.0.17+nmu1) ...
+Selecting previously unselected package libmagic-mgc.
+Preparing to unpack .../04-libmagic-mgc_1%3a5.44-2_amd64.deb ...
+Unpacking libmagic-mgc (1:5.44-2) ...
+Selecting previously unselected package libmagic1:amd64.
+Preparing to unpack .../05-libmagic1_1%3a5.44-2_amd64.deb ...
+Unpacking libmagic1:amd64 (1:5.44-2) ...
+Selecting previously unselected package file.
+Preparing to unpack .../06-file_1%3a5.44-2_amd64.deb ...
+Unpacking file (1:5.44-2) ...
+Selecting previously unselected package gettext-base.
+Preparing to unpack .../07-gettext-base_0.21-10_amd64.deb ...
+Unpacking gettext-base (0.21-10) ...
+Selecting previously unselected package libuchardet0:amd64.
+Preparing to unpack .../08-libuchardet0_0.0.7-1_amd64.deb ...
+Unpacking libuchardet0:amd64 (0.0.7-1) ...
+Selecting previously unselected package groff-base.
+Preparing to unpack .../09-groff-base_1.22.4-9_amd64.deb ...
+Unpacking groff-base (1.22.4-9) ...
+Selecting previously unselected package bsdextrautils.
+Preparing to unpack .../10-bsdextrautils_2.38.1-4_amd64.deb ...
+Unpacking bsdextrautils (2.38.1-4) ...
+Selecting previously unselected package libpipeline1:amd64.
+Preparing to unpack .../11-libpipeline1_1.5.7-1_amd64.deb ...
+Unpacking libpipeline1:amd64 (1.5.7-1) ...
+Selecting previously unselected package man-db.
+Preparing to unpack .../12-man-db_2.11.2-1_amd64.deb ...
+Unpacking man-db (2.11.2-1) ...
+Selecting previously unselected package m4.
+Preparing to unpack .../13-m4_1.4.19-2_amd64.deb ...
+Unpacking m4 (1.4.19-2) ...
+Selecting previously unselected package autoconf.
+Preparing to unpack .../14-autoconf_2.71-3_all.deb ...
+Unpacking autoconf (2.71-3) ...
+Selecting previously unselected package autotools-dev.
+Preparing to unpack .../15-autotools-dev_20220109.1_all.deb ...
+Unpacking autotools-dev (20220109.1) ...
+Selecting previously unselected package automake.
+Preparing to unpack .../16-automake_1%3a1.16.5-1.3_all.deb ...
+Unpacking automake (1:1.16.5-1.3) ...
+Selecting previously unselected package autopoint.
+Preparing to unpack .../17-autopoint_0.21-10_all.deb ...
+Unpacking autopoint (0.21-10) ...
+Selecting previously unselected package libicu72:amd64.
+Preparing to unpack .../18-libicu72_72.1-3_amd64.deb ...
+Unpacking libicu72:amd64 (72.1-3) ...
+Selecting previously unselected package libxml2:amd64.
+Preparing to unpack .../19-libxml2_2.9.14+dfsg-1.1+b2_amd64.deb ...
+Unpacking libxml2:amd64 (2.9.14+dfsg-1.1+b2) ...
+Selecting previously unselected package libarchive13:amd64.
+Preparing to unpack .../20-libarchive13_3.6.2-1_amd64.deb ...
+Unpacking libarchive13:amd64 (3.6.2-1) ...
+Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../21-libbrotli1_1.0.9-2+b5_amd64.deb ...
+Unpacking libbrotli1:amd64 (1.0.9-2+b5) ...
+Selecting previously unselected package libsasl2-modules-db:amd64.
+Preparing to unpack .../22-libsasl2-modules-db_2.1.28+dfsg-10_amd64.deb ...
+Unpacking libsasl2-modules-db:amd64 (2.1.28+dfsg-10) ...
+Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../23-libsasl2-2_2.1.28+dfsg-10_amd64.deb ...
+Unpacking libsasl2-2:amd64 (2.1.28+dfsg-10) ...
+Selecting previously unselected package libldap-2.5-0:amd64.
+Preparing to unpack .../24-libldap-2.5-0_2.5.13+dfsg-3_amd64.deb ...
+Unpacking libldap-2.5-0:amd64 (2.5.13+dfsg-3) ...
+Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../25-libnghttp2-14_1.51.0-1_amd64.deb ...
+Unpacking libnghttp2-14:amd64 (1.51.0-1) ...
+Selecting previously unselected package libpsl5:amd64.
+Preparing to unpack .../26-libpsl5_0.21.0-1.2_amd64.deb ...
+Unpacking libpsl5:amd64 (0.21.0-1.2) ...
+Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../27-librtmp1_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb ...
+Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2+b2) ...
+Selecting previously unselected package libssh2-1:amd64.
+Preparing to unpack .../28-libssh2-1_1.10.0-3+b1_amd64.deb ...
+Unpacking libssh2-1:amd64 (1.10.0-3+b1) ...
+Selecting previously unselected package libcurl4:amd64.
+Preparing to unpack .../29-libcurl4_7.87.0-2_amd64.deb ...
+Unpacking libcurl4:amd64 (7.87.0-2) ...
+Selecting previously unselected package libexpat1:amd64.
+Preparing to unpack .../30-libexpat1_2.5.0-1_amd64.deb ...
+Unpacking libexpat1:amd64 (2.5.0-1) ...
+Selecting previously unselected package libjsoncpp25:amd64.
+Preparing to unpack .../31-libjsoncpp25_1.9.5-4_amd64.deb ...
+Unpacking libjsoncpp25:amd64 (1.9.5-4) ...
+Selecting previously unselected package librhash0:amd64.
+Preparing to unpack .../32-librhash0_1.4.3-3_amd64.deb ...
+Unpacking librhash0:amd64 (1.4.3-3) ...
+Selecting previously unselected package libuv1:amd64.
+Preparing to unpack .../33-libuv1_1.44.2-1_amd64.deb ...
+Unpacking libuv1:amd64 (1.44.2-1) ...
+Selecting previously unselected package cmake-data.
+Preparing to unpack .../34-cmake-data_3.25.1-1_all.deb ...
+Unpacking cmake-data (3.25.1-1) ...
+Selecting previously unselected package cmake.
+Preparing to unpack .../35-cmake_3.25.1-1_amd64.deb ...
+Unpacking cmake (3.25.1-1) ...
+Selecting previously unselected package libdebhelper-perl.
+Preparing to unpack .../36-libdebhelper-perl_13.11.4_all.deb ...
+Unpacking libdebhelper-perl (13.11.4) ...
+Selecting previously unselected package libtool.
+Preparing to unpack .../37-libtool_2.4.7-5_all.deb ...
+Unpacking libtool (2.4.7-5) ...
+Selecting previously unselected package dh-autoreconf.
+Preparing to unpack .../38-dh-autoreconf_20_all.deb ...
+Unpacking dh-autoreconf (20) ...
+Selecting previously unselected package libarchive-zip-perl.
+Preparing to unpack .../39-libarchive-zip-perl_1.68-1_all.deb ...
+Unpacking libarchive-zip-perl (1.68-1) ...
+Selecting previously unselected package libsub-override-perl.
+Preparing to unpack .../40-libsub-override-perl_0.09-4_all.deb ...
+Unpacking libsub-override-perl (0.09-4) ...
+Selecting previously unselected package libfile-stripnondeterminism-perl.
+Preparing to unpack .../41-libfile-stripnondeterminism-perl_1.13.1-1_all.deb ...
+Unpacking libfile-stripnondeterminism-perl (1.13.1-1) ...
+Selecting previously unselected package dh-strip-nondeterminism.
+Preparing to unpack .../42-dh-strip-nondeterminism_1.13.1-1_all.deb ...
+Unpacking dh-strip-nondeterminism (1.13.1-1) ...
+Selecting previously unselected package libelf1:amd64.
+Preparing to unpack .../43-libelf1_0.188-2.1_amd64.deb ...
+Unpacking libelf1:amd64 (0.188-2.1) ...
+Selecting previously unselected package dwz.
+Preparing to unpack .../44-dwz_0.15-1_amd64.deb ...
+Unpacking dwz (0.15-1) ...
+Selecting previously unselected package gettext.
+Preparing to unpack .../45-gettext_0.21-10_amd64.deb ...
+Unpacking gettext (0.21-10) ...
+Selecting previously unselected package intltool-debian.
+Preparing to unpack .../46-intltool-debian_0.35.0+20060710.6_all.deb ...
+Unpacking intltool-debian (0.35.0+20060710.6) ...
+Selecting previously unselected package po-debconf.
+Preparing to unpack .../47-po-debconf_1.0.21+nmu1_all.deb ...
+Unpacking po-debconf (1.0.21+nmu1) ...
+Selecting previously unselected package debhelper.
+Preparing to unpack .../48-debhelper_13.11.4_all.deb ...
+Unpacking debhelper (13.11.4) ...
+Selecting previously unselected package libfakeroot:amd64.
+Preparing to unpack .../49-libfakeroot_1.29-1_amd64.deb ...
+Unpacking libfakeroot:amd64 (1.29-1) ...
+Selecting previously unselected package fakeroot.
+Preparing to unpack .../50-fakeroot_1.29-1_amd64.deb ...
+Unpacking fakeroot (1.29-1) ...
+Selecting previously unselected package sbuild-build-depends-main-dummy.
+Preparing to unpack .../51-sbuild-build-depends-main-dummy_0.invalid.0_amd64.deb ...
+Unpacking sbuild-build-depends-main-dummy (0.invalid.0) ...
+Setting up libexpat1:amd64 (2.5.0-1) ...
+Setting up libpipeline1:amd64 (1.5.7-1) ...
+Setting up libpsl5:amd64 (0.21.0-1.2) ...
+Setting up libicu72:amd64 (72.1-3) ...
+Setting up bsdextrautils (2.38.1-4) ...
+Setting up libmagic-mgc (1:5.44-2) ...
+Setting up libarchive-zip-perl (1.68-1) ...
+Setting up libdebhelper-perl (13.11.4) ...
+Setting up libbrotli1:amd64 (1.0.9-2+b5) ...
+Setting up libnghttp2-14:amd64 (1.51.0-1) ...
+Setting up libmagic1:amd64 (1:5.44-2) ...
+Setting up gettext-base (0.21-10) ...
+Setting up m4 (1.4.19-2) ...
+Setting up file (1:5.44-2) ...
+Setting up libfakeroot:amd64 (1.29-1) ...
+Setting up libsasl2-modules-db:amd64 (2.1.28+dfsg-10) ...
+Setting up fakeroot (1.29-1) ...
+update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
+Setting up autotools-dev (20220109.1) ...
+Setting up libuv1:amd64 (1.44.2-1) ...
+Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2+b2) ...
+Setting up libproc2-0:amd64 (2:4.0.2-3) ...
+Setting up autopoint (0.21-10) ...
+Setting up libjsoncpp25:amd64 (1.9.5-4) ...
+Setting up libncursesw6:amd64 (6.4-1) ...
+Setting up libsasl2-2:amd64 (2.1.28+dfsg-10) ...
+Setting up autoconf (2.71-3) ...
+Setting up sensible-utils (0.0.17+nmu1) ...
+Setting up librhash0:amd64 (1.4.3-3) ...
+Setting up libuchardet0:amd64 (0.0.7-1) ...
+Setting up procps (2:4.0.2-3) ...
+Setting up libsub-override-perl (0.09-4) ...
+Setting up libssh2-1:amd64 (1.10.0-3+b1) ...
+Setting up cmake-data (3.25.1-1) ...
+Setting up libelf1:amd64 (0.188-2.1) ...
+Setting up libxml2:amd64 (2.9.14+dfsg-1.1+b2) ...
+Setting up automake (1:1.16.5-1.3) ...
+update-alternatives: using /usr/bin/automake-1.16 to provide /usr/bin/automake (automake) in auto mode
+Setting up libfile-stripnondeterminism-perl (1.13.1-1) ...
+Setting up gettext (0.21-10) ...
+Setting up libtool (2.4.7-5) ...
+Setting up libarchive13:amd64 (3.6.2-1) ...
+Setting up libldap-2.5-0:amd64 (2.5.13+dfsg-3) ...
+Setting up intltool-debian (0.35.0+20060710.6) ...
+Setting up dh-autoreconf (20) ...
+Setting up dh-strip-nondeterminism (1.13.1-1) ...
+Setting up dwz (0.15-1) ...
+Setting up groff-base (1.22.4-9) ...
+Setting up libcurl4:amd64 (7.87.0-2) ...
+Setting up po-debconf (1.0.21+nmu1) ...
+Setting up man-db (2.11.2-1) ...
+Not building database; man-db/auto-update is not 'true'.
+Setting up cmake (3.25.1-1) ...
+Setting up debhelper (13.11.4) ...
+Setting up sbuild-build-depends-main-dummy (0.invalid.0) ...
+Processing triggers for libc-bin (2.36-8) ...
+
++------------------------------------------------------------------------------+
+| Check architectures                                                          |
++------------------------------------------------------------------------------+
+
+Arch check ok (amd64 included in any)
+
++------------------------------------------------------------------------------+
+| Build environment                                                            |
++------------------------------------------------------------------------------+
+
+Kernel: Linux 5.15.0-1031-azure #38-Ubuntu SMP Mon Jan 9 12:49:59 UTC 2023 amd64 (x86_64)
+Toolchain package versions: binutils_2.40-2 dpkg-dev_1.21.19 g++-12_12.2.0-14 gcc-12_12.2.0-14 libc6-dev_2.36-8 libstdc++-12-dev_12.2.0-14 libstdc++6_12.2.0-14 linux-libc-dev_6.1.7-1
+Package versions: apt_2.5.5 autoconf_2.71-3 automake_1:1.16.5-1.3 autopoint_0.21-10 autotools-dev_20220109.1 base-files_12.3 base-passwd_3.6.1 bash_5.2.15-2 binutils_2.40-2 binutils-common_2.40-2 binutils-x86-64-linux-gnu_2.40-2 bsdextrautils_2.38.1-4 bsdutils_1:2.38.1-4 build-essential_12.9 bzip2_1.0.8-5+b1 ccache_4.7.4-1 cmake_3.25.1-1 cmake-data_3.25.1-1 coreutils_9.1-1 cpp_4:12.2.0-3 cpp-12_12.2.0-14 dash_0.5.12-2 debconf_1.5.82 debhelper_13.11.4 debian-archive-keyring_2021.1.1 debianutils_5.7-0.4 dh-autoreconf_20 dh-strip-nondeterminism_1.13.1-1 diffutils_1:3.8-3 dpkg_1.21.19 dpkg-dev_1.21.19 dwz_0.15-1 e2fsprogs_1.46.6~rc1-1.1 fakeroot_1.29-1 file_1:5.44-2 findutils_4.9.0-4 g++_4:12.2.0-3 g++-12_12.2.0-14 gcc_4:12.2.0-3 gcc-12_12.2.0-14 gcc-12-base_12.2.0-14 gettext_0.21-10 gettext-base_0.21-10 gpgv_2.2.40-1 grep_3.8-5 groff-base_1.22.4-9 gzip_1.12-1 hostname_3.23+nmu1 init-system-helpers_1.65.2 intltool-debian_0.35.0+20060710.6 libacl1_2.3.1-3 libapt-pkg6.0_2.5.5 libarchive-zip-perl_1.68-1 libarchive13_3.6.2-1 libasan8_12.2.0-14 libatomic1_12.2.0-14 libattr1_1:2.5.1-4 libaudit-common_1:3.0.7-1.1 libaudit1_1:3.0.7-1.1+b2 libbinutils_2.40-2 libblkid1_2.38.1-4 libbrotli1_1.0.9-2+b5 libbz2-1.0_1.0.8-5+b1 libc-bin_2.36-8 libc-dev-bin_2.36-8 libc6_2.36-8 libc6-dev_2.36-8 libcap-ng0_0.8.3-1+b2 libcap2_1:2.66-3 libcc1-0_12.2.0-14 libcom-err2_1.46.6~rc1-1.1 libcrypt-dev_1:4.4.33-2 libcrypt1_1:4.4.33-2 libctf-nobfd0_2.40-2 libctf0_2.40-2 libcurl4_7.87.0-2 libdb5.3_5.3.28+dfsg2-1 libdebconfclient0_0.266 libdebhelper-perl_13.11.4 libdpkg-perl_1.21.19 libelf1_0.188-2.1 libexpat1_2.5.0-1 libext2fs2_1.46.6~rc1-1.1 libfakeroot_1.29-1 libffi8_3.4.4-1 libfile-find-rule-perl_0.34-3 libfile-stripnondeterminism-perl_1.13.1-1 libgcc-12-dev_12.2.0-14 libgcc-s1_12.2.0-14 libgcrypt20_1.10.1-3 libgdbm-compat4_1.23-3 libgdbm6_1.23-3 libgmp10_2:6.2.1+dfsg1-1.1 libgnutls30_3.7.8-4 libgomp1_12.2.0-14 libgpg-error0_1.46-1 libgprofng0_2.40-2 libgssapi-krb5-2_1.20.1-1 libhiredis0.14_0.14.1-3 libhogweed6_3.8.1-2 libicu72_72.1-3 libidn2-0_2.3.3-1+b1 libisl23_0.25-1 libitm1_12.2.0-14 libjansson4_2.14-2 libjsoncpp25_1.9.5-4 libk5crypto3_1.20.1-1 libkeyutils1_1.6.3-2 libkrb5-3_1.20.1-1 libkrb5support0_1.20.1-1 libldap-2.5-0_2.5.13+dfsg-3 liblsan0_12.2.0-14 liblz4-1_1.9.4-1 liblzma5_5.4.1-0.0 libmagic-mgc_1:5.44-2 libmagic1_1:5.44-2 libmd0_1.0.4-2 libmount1_2.38.1-4 libmpc3_1.3.1-1 libmpfr6_4.2.0-1 libncursesw6_6.4-1 libnettle8_3.8.1-2 libnghttp2-14_1.51.0-1 libnsl-dev_1.3.0-2 libnsl2_1.3.0-2 libnumber-compare-perl_0.03-3 libp11-kit0_0.24.1-2 libpam-modules_1.5.2-6 libpam-modules-bin_1.5.2-6 libpam-runtime_1.5.2-6 libpam0g_1.5.2-6 libpcre2-8-0_10.42-1 libperl5.36_5.36.0-7 libpipeline1_1.5.7-1 libproc2-0_2:4.0.2-3 libpsl5_0.21.0-1.2 libquadmath0_12.2.0-14 librhash0_1.4.3-3 librtmp1_2.4+20151223.gitfa8646d.1-2+b2 libsasl2-2_2.1.28+dfsg-10 libsasl2-modules-db_2.1.28+dfsg-10 libseccomp2_2.5.4-1+b2 libselinux1_3.4-1+b4 libsemanage-common_3.4-1 libsemanage2_3.4-1+b4 libsepol2_3.4-2 libsmartcols1_2.38.1-4 libss2_1.46.6~rc1-1.1 libssh2-1_1.10.0-3+b1 libssl3_3.0.7-2 libstdc++-12-dev_12.2.0-14 libstdc++6_12.2.0-14 libsub-override-perl_0.09-4 libsystemd0_252.4-2 libtasn1-6_4.19.0-2 libtext-glob-perl_0.11-3 libtinfo6_6.4-1 libtirpc-common_1.3.3+ds-1 libtirpc-dev_1.3.3+ds-1 libtirpc3_1.3.3+ds-1 libtool_2.4.7-5 libtsan2_12.2.0-14 libubsan1_12.2.0-14 libuchardet0_0.0.7-1 libudev1_252.4-2 libunistring2_1.0-2 libuuid1_2.38.1-4 libuv1_1.44.2-1 libxml2_2.9.14+dfsg-1.1+b2 libxxhash0_0.8.1-1 libzstd1_1.5.2+dfsg2-3 linux-libc-dev_6.1.7-1 login_1:4.13+dfsg1-1 logsave_1.46.6~rc1-1.1 m4_1.4.19-2 make_4.3-4.1 man-db_2.11.2-1 mawk_1.3.4.20200120-3.1 mount_2.38.1-4 ncurses-base_6.4-1 ncurses-bin_6.4-1 passwd_1:4.13+dfsg1-1 patch_2.7.6-7 perl_5.36.0-7 perl-base_5.36.0-7 perl-modules-5.36_5.36.0-7 po-debconf_1.0.21+nmu1 procps_2:4.0.2-3 rpcsvc-proto_1.4.3-1 sbuild-build-depends-main-dummy_0.invalid.0 sed_4.9-1 sensible-utils_0.0.17+nmu1 sysvinit-utils_3.06-2 tar_1.34+dfsg-1 tzdata_2022g-2 usrmerge_35 util-linux_2.38.1-4 util-linux-extra_2.38.1-4 xz-utils_5.4.1-0.0 zlib1g_1:1.2.13.dfsg-1
+
++------------------------------------------------------------------------------+
+| Build                                                                        |
++------------------------------------------------------------------------------+
+
+
+Unpack source
+-------------
+
+Format: 1.0
+Source: ros-eml
+Binary: ros-eml
+Architecture: any
+Version: 0-2023.01.29.17.03
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9.0.0), cmake
+Package-List:
+ ros-eml deb misc optional arch=any
+Checksums-Sha1:
+ 04ab5b88316202a88ec203505bada91bcef4f7c7 6227968 ros-eml_0-2023.01.29.17.03.tar.gz
+Checksums-Sha256:
+ 4bcb6f77007fd941112c3726512e51803e1fefcc4e8298f386b844bb79b97879 6227968 ros-eml_0-2023.01.29.17.03.tar.gz
+Files:
+ 2f99725e8c82556a331a2bec191c955d 6227968 ros-eml_0-2023.01.29.17.03.tar.gz
+
+dpkg-source: warning: extracting unsigned source package (ros-eml_0-2023.01.29.17.03.dsc)
+dpkg-source: info: extracting ros-eml in /<<BUILDDIR>>package
+dpkg-source: info: unpacking ros-eml_0-2023.01.29.17.03.tar.gz
+
+Check disk space
+----------------
+
+Sufficient free space for build
+
+User Environment
+----------------
+
+APT_CONFIG=/var/lib/sbuild/apt.conf
+CCACHE_DIR=/build/ccache
+DEB_BUILD_OPTIONS=nocheck
+HOME=/var/lib/sbuild
+LANG=C.UTF-8
+LC_ALL=C.UTF-8
+LOGNAME=runner
+OLDPWD=/
+PATH=/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+PWD=/<<BUILDDIR>>package
+SHELL=/bin/sh
+USER=runner
+
+dpkg-buildpackage
+-----------------
+
+Command: dpkg-buildpackage --sanitize-env -us -uc -b -rfakeroot
+dpkg-buildpackage: info: source package ros-eml
+dpkg-buildpackage: info: source version 0-2023.01.29.17.03
+dpkg-buildpackage: info: source distribution bookworm
+dpkg-buildpackage: info: source changed by ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+dpkg-source: info: using options from package/debian/source/options: --auto-commit
+ fakeroot debian/rules clean
+dh clean -v --buildsystem=cmake
+   dh_auto_clean -O-v -O--buildsystem=cmake
+   dh_autoreconf_clean -O-v -O--buildsystem=cmake
+   dh_clean -O-v -O--buildsystem=cmake
+	rm -f debian/debhelper-build-stamp
+	rm -rf debian/.debhelper/
+	rm -f -- debian/ros-eml.substvars debian/files
+	rm -fr -- debian/ros-eml/ debian/tmp/
+	find .  \( \( \
+		\( -path .\*/.git -o -path .\*/.svn -o -path .\*/.bzr -o -path .\*/.hg -o -path .\*/CVS -o -path .\*/.pc -o -path .\*/_darcs \) -prune -o -type f -a \
+	        \( -name '#*#' -o -name '.*~' -o -name '*~' -o -name DEADJOE \
+		 -o -name '*.orig' -o -name '*.rej' -o -name '*.bak' \
+		 -o -name '.*.orig' -o -name .*.rej -o -name '.SUMS' \
+		 -o -name TAGS -o \( -path '*/.deps/*' -a -name '*.P' \) \
+		\) -exec rm -f {} + \) -o \
+		\( -type d -a -name autom4te.cache -prune -exec rm -rf {} + \) \)
+ debian/rules build
+dh build -v --buildsystem=cmake
+   dh_update_autotools_config -O-v -O--buildsystem=cmake
+   dh_autoreconf -O-v -O--buildsystem=cmake
+   debian/rules override_dh_auto_configure
+make[1]: Entering directory '/<<BUILDDIR>>package'
+# In case we're installing to a non-standard location, look for a setup.sh
+# in the install tree and source it.  It will set things like
+# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+if [ -f "/usr/setup.sh" ]; then . "/usr/setup.sh"; fi && \
+dh_auto_configure -- \
+	-DCMAKE_INSTALL_PREFIX="/usr" \
+	-DCMAKE_PREFIX_PATH="/usr"
+	cd obj-x86_64-linux-gnu && cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=None -DCMAKE_INSTALL_SYSCONFDIR=/etc -DCMAKE_INSTALL_LOCALSTATEDIR=/var -DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=ON -DCMAKE_FIND_USE_PACKAGE_REGISTRY=OFF -DCMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY=ON -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DCMAKE_INSTALL_RUNSTATEDIR=/run "-GUnix Makefiles" -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_LIBDIR=lib/x86_64-linux-gnu -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_PREFIX_PATH=/usr ..
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    CMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY
+    CMAKE_FIND_USE_PACKAGE_REGISTRY
+    FETCHCONTENT_FULLY_DISCONNECTED
+
+
+-- Build files have been written to: /<<BUILDDIR>>package/obj-x86_64-linux-gnu
+make[1]: Leaving directory '/<<BUILDDIR>>package'
+	rm -f debian/ros-eml.debhelper.log
+   debian/rules override_dh_auto_build
+make[1]: Entering directory '/<<BUILDDIR>>package'
+# In case we're installing to a non-standard location, look for a setup.sh
+# in the install tree and source it.  It will set things like
+# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+if [ -f "/usr/setup.sh" ]; then . "/usr/setup.sh"; fi && \
+dh_auto_build
+	cd obj-x86_64-linux-gnu && make -j2 "INSTALL=install --strip-program=true" VERBOSE=1
+make[2]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+/usr/bin/cmake -S/<<BUILDDIR>>package -B/<<BUILDDIR>>package/obj-x86_64-linux-gnu --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles /<<BUILDDIR>>package/obj-x86_64-linux-gnu//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[3]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make  -f src/CMakeFiles/eml-dynamic.dir/build.make src/CMakeFiles/eml-dynamic.dir/depend
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package /<<BUILDDIR>>package/src /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src/CMakeFiles/eml-dynamic.dir/DependInfo.cmake --color=
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make  -f src/CMakeFiles/eml-dynamic.dir/build.make src/CMakeFiles/eml-dynamic.dir/build
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+[  5%] Building CXX object src/CMakeFiles/eml-dynamic.dir/al/ethercat_AL.cxx.o
+[ 11%] Building CXX object src/CMakeFiles/eml-dynamic.dir/al/ethercat_FSM.cxx.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/c++ -Deml_dynamic_EXPORTS -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT src/CMakeFiles/eml-dynamic.dir/al/ethercat_FSM.cxx.o -MF CMakeFiles/eml-dynamic.dir/al/ethercat_FSM.cxx.o.d -o CMakeFiles/eml-dynamic.dir/al/ethercat_FSM.cxx.o -c /<<BUILDDIR>>package/src/al/ethercat_FSM.cxx
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/c++ -Deml_dynamic_EXPORTS -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT src/CMakeFiles/eml-dynamic.dir/al/ethercat_AL.cxx.o -MF CMakeFiles/eml-dynamic.dir/al/ethercat_AL.cxx.o.d -o CMakeFiles/eml-dynamic.dir/al/ethercat_AL.cxx.o -c /<<BUILDDIR>>package/src/al/ethercat_AL.cxx
+[ 16%] Building CXX object src/CMakeFiles/eml-dynamic.dir/al/ethercat_master.cxx.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/c++ -Deml_dynamic_EXPORTS -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT src/CMakeFiles/eml-dynamic.dir/al/ethercat_master.cxx.o -MF CMakeFiles/eml-dynamic.dir/al/ethercat_master.cxx.o.d -o CMakeFiles/eml-dynamic.dir/al/ethercat_master.cxx.o -c /<<BUILDDIR>>package/src/al/ethercat_master.cxx
+[ 22%] Building CXX object src/CMakeFiles/eml-dynamic.dir/al/ethercat_mbx.cxx.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/c++ -Deml_dynamic_EXPORTS -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT src/CMakeFiles/eml-dynamic.dir/al/ethercat_mbx.cxx.o -MF CMakeFiles/eml-dynamic.dir/al/ethercat_mbx.cxx.o.d -o CMakeFiles/eml-dynamic.dir/al/ethercat_mbx.cxx.o -c /<<BUILDDIR>>package/src/al/ethercat_mbx.cxx
+[ 27%] Building CXX object src/CMakeFiles/eml-dynamic.dir/al/ethercat_process_data.cxx.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/c++ -Deml_dynamic_EXPORTS -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT src/CMakeFiles/eml-dynamic.dir/al/ethercat_process_data.cxx.o -MF CMakeFiles/eml-dynamic.dir/al/ethercat_process_data.cxx.o.d -o CMakeFiles/eml-dynamic.dir/al/ethercat_process_data.cxx.o -c /<<BUILDDIR>>package/src/al/ethercat_process_data.cxx
+[ 33%] Building CXX object src/CMakeFiles/eml-dynamic.dir/al/ethercat_router.cxx.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/c++ -Deml_dynamic_EXPORTS -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT src/CMakeFiles/eml-dynamic.dir/al/ethercat_router.cxx.o -MF CMakeFiles/eml-dynamic.dir/al/ethercat_router.cxx.o.d -o CMakeFiles/eml-dynamic.dir/al/ethercat_router.cxx.o -c /<<BUILDDIR>>package/src/al/ethercat_router.cxx
+/<<BUILDDIR>>package/src/al/ethercat_router.cxx: In member function ‘bool EtherCAT_Router::post_mbxmsg(EtherCAT_MbxMsg*, const EtherCAT_SlaveHandler*) const’:
+/<<BUILDDIR>>package/src/al/ethercat_router.cxx:132:27: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  132 |   printf("post_mbxmsg 1 <%d>\n",dest_addr.length());
+      |                          ~^     ~~~~~~~~~~~~~~~~~~
+      |                           |                     |
+      |                           int                   size_t {aka long unsigned int}
+      |                          %ld
+[ 38%] Building CXX object src/CMakeFiles/eml-dynamic.dir/al/ethercat_slave_conf.cxx.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/c++ -Deml_dynamic_EXPORTS -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT src/CMakeFiles/eml-dynamic.dir/al/ethercat_slave_conf.cxx.o -MF CMakeFiles/eml-dynamic.dir/al/ethercat_slave_conf.cxx.o.d -o CMakeFiles/eml-dynamic.dir/al/ethercat_slave_conf.cxx.o -c /<<BUILDDIR>>package/src/al/ethercat_slave_conf.cxx
+[ 44%] Building CXX object src/CMakeFiles/eml-dynamic.dir/al/ethercat_slave_handler.cxx.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/c++ -Deml_dynamic_EXPORTS -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT src/CMakeFiles/eml-dynamic.dir/al/ethercat_slave_handler.cxx.o -MF CMakeFiles/eml-dynamic.dir/al/ethercat_slave_handler.cxx.o.d -o CMakeFiles/eml-dynamic.dir/al/ethercat_slave_handler.cxx.o -c /<<BUILDDIR>>package/src/al/ethercat_slave_handler.cxx
+[ 50%] Building CXX object src/CMakeFiles/eml-dynamic.dir/dll/ethercat_device_addressed_telegram.cxx.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/c++ -Deml_dynamic_EXPORTS -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT src/CMakeFiles/eml-dynamic.dir/dll/ethercat_device_addressed_telegram.cxx.o -MF CMakeFiles/eml-dynamic.dir/dll/ethercat_device_addressed_telegram.cxx.o.d -o CMakeFiles/eml-dynamic.dir/dll/ethercat_device_addressed_telegram.cxx.o -c /<<BUILDDIR>>package/src/dll/ethercat_device_addressed_telegram.cxx
+[ 55%] Building CXX object src/CMakeFiles/eml-dynamic.dir/dll/ethercat_dll.cxx.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/c++ -Deml_dynamic_EXPORTS -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT src/CMakeFiles/eml-dynamic.dir/dll/ethercat_dll.cxx.o -MF CMakeFiles/eml-dynamic.dir/dll/ethercat_dll.cxx.o.d -o CMakeFiles/eml-dynamic.dir/dll/ethercat_dll.cxx.o -c /<<BUILDDIR>>package/src/dll/ethercat_dll.cxx
+[ 61%] Building CXX object src/CMakeFiles/eml-dynamic.dir/dll/ethercat_frame.cxx.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/c++ -Deml_dynamic_EXPORTS -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT src/CMakeFiles/eml-dynamic.dir/dll/ethercat_frame.cxx.o -MF CMakeFiles/eml-dynamic.dir/dll/ethercat_frame.cxx.o.d -o CMakeFiles/eml-dynamic.dir/dll/ethercat_frame.cxx.o -c /<<BUILDDIR>>package/src/dll/ethercat_frame.cxx
+[ 66%] Building CXX object src/CMakeFiles/eml-dynamic.dir/dll/ethercat_logical_addressed_telegram.cxx.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/c++ -Deml_dynamic_EXPORTS -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT src/CMakeFiles/eml-dynamic.dir/dll/ethercat_logical_addressed_telegram.cxx.o -MF CMakeFiles/eml-dynamic.dir/dll/ethercat_logical_addressed_telegram.cxx.o.d -o CMakeFiles/eml-dynamic.dir/dll/ethercat_logical_addressed_telegram.cxx.o -c /<<BUILDDIR>>package/src/dll/ethercat_logical_addressed_telegram.cxx
+[ 72%] Building CXX object src/CMakeFiles/eml-dynamic.dir/dll/ethercat_slave_memory.cxx.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/c++ -Deml_dynamic_EXPORTS -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT src/CMakeFiles/eml-dynamic.dir/dll/ethercat_slave_memory.cxx.o -MF CMakeFiles/eml-dynamic.dir/dll/ethercat_slave_memory.cxx.o.d -o CMakeFiles/eml-dynamic.dir/dll/ethercat_slave_memory.cxx.o -c /<<BUILDDIR>>package/src/dll/ethercat_slave_memory.cxx
+[ 77%] Building CXX object src/CMakeFiles/eml-dynamic.dir/dll/ethercat_telegram.cxx.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/c++ -Deml_dynamic_EXPORTS -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT src/CMakeFiles/eml-dynamic.dir/dll/ethercat_telegram.cxx.o -MF CMakeFiles/eml-dynamic.dir/dll/ethercat_telegram.cxx.o.d -o CMakeFiles/eml-dynamic.dir/dll/ethercat_telegram.cxx.o -c /<<BUILDDIR>>package/src/dll/ethercat_telegram.cxx
+[ 83%] Building C object src/CMakeFiles/eml-dynamic.dir/arch/posix/ethercat_posix_drv.c.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/cc -Deml_dynamic_EXPORTS -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT src/CMakeFiles/eml-dynamic.dir/arch/posix/ethercat_posix_drv.c.o -MF CMakeFiles/eml-dynamic.dir/arch/posix/ethercat_posix_drv.c.o.d -o CMakeFiles/eml-dynamic.dir/arch/posix/ethercat_posix_drv.c.o -c /<<BUILDDIR>>package/src/arch/posix/ethercat_posix_drv.c
+/<<BUILDDIR>>package/src/arch/posix/ethercat_posix_drv.c: In function ‘init_socket’:
+/<<BUILDDIR>>package/src/arch/posix/ethercat_posix_drv.c:139:17: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+  139 |                 sleep(1);
+      |                 ^~~~~
+/<<BUILDDIR>>package/src/arch/posix/ethercat_posix_drv.c:154:17: warning: implicit declaration of function ‘close’; did you mean ‘pclose’? [-Wimplicit-function-declaration]
+  154 |                 close(sock);
+      |                 ^~~~~
+      |                 pclose
+In file included from /<<BUILDDIR>>package/src/arch/posix/ethercat_posix_drv.c:55:
+/<<BUILDDIR>>package/src/arch/posix/ethercat_posix_drv.c: In function ‘low_level_lookup’:
+/<<BUILDDIR>>package/src/arch/posix/ethercat_posix_drv.c:706:26: warning: too many arguments for format [-Wformat-extra-args]
+  706 |     ec_log(EC_LOG_ERROR, "low_level_lookup: handle 0x%08X references bad pkt_index\n", handle, pkt_index);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/<<BUILDDIR>>package/include/ethercat/arch-RTnet/ethercat/ethercat_log.h:46:46: note: in definition of macro ‘ec_log’
+   46 |   if (level <= EC_LOG_FATAL) fprintf(stderr, args)
+      |                                              ^~~~
+[ 88%] Linking CXX shared library libeml.so
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src && /usr/bin/cmake -E cmake_link_script CMakeFiles/eml-dynamic.dir/link.txt --verbose=1
+/usr/bin/c++ -fPIC -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -lpthread -lrt -shared -Wl,-soname,libeml.so -o libeml.so "CMakeFiles/eml-dynamic.dir/al/ethercat_AL.cxx.o" "CMakeFiles/eml-dynamic.dir/al/ethercat_FSM.cxx.o" "CMakeFiles/eml-dynamic.dir/al/ethercat_master.cxx.o" "CMakeFiles/eml-dynamic.dir/al/ethercat_mbx.cxx.o" "CMakeFiles/eml-dynamic.dir/al/ethercat_process_data.cxx.o" "CMakeFiles/eml-dynamic.dir/al/ethercat_router.cxx.o" "CMakeFiles/eml-dynamic.dir/al/ethercat_slave_conf.cxx.o" "CMakeFiles/eml-dynamic.dir/al/ethercat_slave_handler.cxx.o" "CMakeFiles/eml-dynamic.dir/dll/ethercat_device_addressed_telegram.cxx.o" "CMakeFiles/eml-dynamic.dir/dll/ethercat_dll.cxx.o" "CMakeFiles/eml-dynamic.dir/dll/ethercat_frame.cxx.o" "CMakeFiles/eml-dynamic.dir/dll/ethercat_logical_addressed_telegram.cxx.o" "CMakeFiles/eml-dynamic.dir/dll/ethercat_slave_memory.cxx.o" "CMakeFiles/eml-dynamic.dir/dll/ethercat_telegram.cxx.o" "CMakeFiles/eml-dynamic.dir/arch/posix/ethercat_posix_drv.c.o" 
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+[ 88%] Built target eml-dynamic
+make  -f tests/posix/CMakeFiles/master_test.dir/build.make tests/posix/CMakeFiles/master_test.dir/depend
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package /<<BUILDDIR>>package/tests/posix /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu/tests/posix /<<BUILDDIR>>package/obj-x86_64-linux-gnu/tests/posix/CMakeFiles/master_test.dir/DependInfo.cmake --color=
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make  -f tests/posix/CMakeFiles/master_test.dir/build.make tests/posix/CMakeFiles/master_test.dir/build
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+[ 94%] Building CXX object tests/posix/CMakeFiles/master_test.dir/master_test.cpp.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/tests/posix && /usr/bin/c++  -I/<<BUILDDIR>>package/include/ethercat/arch-RTnet -I/<<BUILDDIR>>package/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -MD -MT tests/posix/CMakeFiles/master_test.dir/master_test.cpp.o -MF CMakeFiles/master_test.dir/master_test.cpp.o.d -o CMakeFiles/master_test.dir/master_test.cpp.o -c /<<BUILDDIR>>package/tests/posix/master_test.cpp
+/<<BUILDDIR>>package/tests/posix/master_test.cpp: In function ‘void* run_master(void*)’:
+/<<BUILDDIR>>package/tests/posix/master_test.cpp:127:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  127 | }
+      | ^
+[100%] Linking CXX executable master_test
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/tests/posix && /usr/bin/cmake -E cmake_link_script CMakeFiles/master_test.dir/link.txt --verbose=1
+/usr/bin/c++ -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -rdynamic -lpthread -lrt CMakeFiles/master_test.dir/master_test.cpp.o -o master_test   -L/<<BUILDDIR>>package/obj-x86_64-linux-gnu/src  -Wl,-rpath,/<<BUILDDIR>>package/obj-x86_64-linux-gnu/src ../../src/libeml.so -lpthread -lrt 
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+[100%] Built target master_test
+make[3]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+/usr/bin/cmake -E cmake_progress_start /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles 0
+make[2]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make[1]: Leaving directory '/<<BUILDDIR>>package'
+	rm -f debian/ros-eml.debhelper.log
+   debian/rules override_dh_auto_test
+make[1]: Entering directory '/<<BUILDDIR>>package'
+# In case we're installing to a non-standard location, look for a setup.sh
+# in the install tree and source it.  It will set things like
+# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+echo -- Running tests. Even if one of them fails the build is not canceled.
+-- Running tests. Even if one of them fails the build is not canceled.
+if [ -f "/usr/setup.sh" ]; then . "/usr/setup.sh"; fi && \
+dh_auto_test || true
+make[1]: Leaving directory '/<<BUILDDIR>>package'
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary -v --buildsystem=cmake
+   dh_testroot -O-v -O--buildsystem=cmake
+   dh_prep -O-v -O--buildsystem=cmake
+	rm -f -- debian/ros-eml.substvars
+	rm -fr -- debian/.debhelper/generated/ros-eml/ debian/ros-eml/ debian/tmp/
+   debian/rules override_dh_auto_install
+make[1]: Entering directory '/<<BUILDDIR>>package'
+# In case we're installing to a non-standard location, look for a setup.sh
+# in the install tree and source it.  It will set things like
+# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+if [ -f "/usr/setup.sh" ]; then . "/usr/setup.sh"; fi && \
+dh_auto_install
+	install -m0755 -d /<<BUILDDIR>>package/debian/ros-eml
+	cd obj-x86_64-linux-gnu && make -j2 install DESTDIR=/<<BUILDDIR>>package/debian/ros-eml AM_UPDATE_INFO_DIR=no "INSTALL=install --strip-program=true"
+make[2]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+/usr/bin/cmake -S/<<BUILDDIR>>package -B/<<BUILDDIR>>package/obj-x86_64-linux-gnu --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles /<<BUILDDIR>>package/obj-x86_64-linux-gnu//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[3]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make  -f src/CMakeFiles/eml-dynamic.dir/build.make src/CMakeFiles/eml-dynamic.dir/depend
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package /<<BUILDDIR>>package/src /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src /<<BUILDDIR>>package/obj-x86_64-linux-gnu/src/CMakeFiles/eml-dynamic.dir/DependInfo.cmake --color=
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make  -f src/CMakeFiles/eml-dynamic.dir/build.make src/CMakeFiles/eml-dynamic.dir/build
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make[4]: Nothing to be done for 'src/CMakeFiles/eml-dynamic.dir/build'.
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+[ 88%] Built target eml-dynamic
+make  -f tests/posix/CMakeFiles/master_test.dir/build.make tests/posix/CMakeFiles/master_test.dir/depend
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package /<<BUILDDIR>>package/tests/posix /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu/tests/posix /<<BUILDDIR>>package/obj-x86_64-linux-gnu/tests/posix/CMakeFiles/master_test.dir/DependInfo.cmake --color=
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make  -f tests/posix/CMakeFiles/master_test.dir/build.make tests/posix/CMakeFiles/master_test.dir/build
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make[4]: Nothing to be done for 'tests/posix/CMakeFiles/master_test.dir/build'.
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+[100%] Built target master_test
+make[3]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+/usr/bin/cmake -E cmake_progress_start /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles 0
+make  -f CMakeFiles/Makefile2 preinstall
+make[3]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make[3]: Nothing to be done for 'preinstall'.
+make[3]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+Install the project...
+/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: "None"
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/lib/x86_64-linux-gnu/libeml.so
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/ethercat/ethercat_datastruct.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/ethercat/ethercat_defs.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/ethercat/ethercat_log.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/ethercat/ethercat_xenomai_drv.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/ethercat/netif.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/al/ethercat_AL.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/al/ethercat_FSM.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/al/ethercat_master.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/al/ethercat_mbx.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/al/ethercat_process_data.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/al/ethercat_router.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/al/ethercat_slave_conf.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/al/ethercat_slave_handler.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/dll/ethercat_device_addressed_telegram.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/dll/ethercat_dll.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/dll/ethercat_frame.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/dll/ethercat_logical_addressed_telegram.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/dll/ethercat_slave_memory.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/include/eml/dll/ethercat_telegram.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/lib/x86_64-linux-gnu/cmake/eml/EMLTargets.cmake
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/lib/x86_64-linux-gnu/cmake/eml/EMLTargets-none.cmake
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/lib/x86_64-linux-gnu/cmake/eml/EMLConfig.cmake
+-- Installing: /<<BUILDDIR>>package/debian/ros-eml/usr/lib/x86_64-linux-gnu/cmake/eml/EMLConfigVersion.cmake
+make[2]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make[1]: Leaving directory '/<<BUILDDIR>>package'
+   dh_installdocs -O-v -O--buildsystem=cmake
+	install -m0755 -d debian/ros-eml/usr/share/doc/ros-eml
+   dh_installchangelogs -O-v -O--buildsystem=cmake
+	install -m0755 -d debian/ros-eml/usr/share/doc/ros-eml
+	install -p -m0644 debian/.debhelper/generated/ros-eml/dh_installchangelogs.dch.trimmed debian/ros-eml/usr/share/doc/ros-eml/changelog.Debian
+	install -p -m0644 ./ChangeLog debian/ros-eml/usr/share/doc/ros-eml/changelog
+   dh_installinit -O-v -O--buildsystem=cmake
+   dh_perl -O-v -O--buildsystem=cmake
+   dh_link -O-v -O--buildsystem=cmake
+   dh_strip_nondeterminism -O-v -O--buildsystem=cmake
+   dh_compress -O-v -O--buildsystem=cmake
+	cd debian/ros-eml
+	chmod a-x usr/share/doc/ros-eml/changelog usr/share/doc/ros-eml/changelog.Debian
+	gzip -9nf usr/share/doc/ros-eml/changelog usr/share/doc/ros-eml/changelog.Debian
+	cd '/<<BUILDDIR>>package'
+   dh_fixperms -O-v -O--buildsystem=cmake
+	find debian/ros-eml -true -print0 2>/dev/null | xargs -0r chown --no-dereference 0:0
+	find debian/ros-eml ! -type l -a -true -a -true -print0 2>/dev/null | xargs -0r chmod go=rX,u+rw,a-s
+	find debian/ros-eml/usr/share/doc -type f -a -true -a ! -regex 'debian/ros-eml/usr/share/doc/[^/]*/examples/.*' -print0 2>/dev/null | xargs -0r chmod 0644
+	find debian/ros-eml/usr/share/doc -type d -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0755
+	find debian/ros-eml/usr/include -type f -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0644
+	find debian/ros-eml -type f \( -name '*.so.*' -o -name '*.so' -o -name '*.la' -o -name '*.a' -o -name '*.js' -o -name '*.css' -o -name '*.scss' -o -name '*.sass' -o -name '*.jpeg' -o -name '*.jpg' -o -name '*.png' -o -name '*.gif' -o -name '*.cmxs' -o -name '*.node' \) -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0644
+	find debian/ros-eml/usr/lib -type f -name '*.ali' -a -true -a -true -print0 2>/dev/null | xargs -0r chmod uga-w
+   dh_missing -O-v -O--buildsystem=cmake
+   dh_strip -O-v -O--buildsystem=cmake
+	install -m0755 -d debian/.debhelper/ros-eml/dbgsym-root/usr/lib/debug/.build-id/e1
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-eml/usr/lib/x86_64-linux-gnu/libeml.so debian/.debhelper/ros-eml/dbgsym-root/usr/lib/debug/.build-id/e1/cfca25efb75c632405ab3a71d5b4becd804de6.debug
+	chmod 0644 -- debian/.debhelper/ros-eml/dbgsym-root/usr/lib/debug/.build-id/e1/cfca25efb75c632405ab3a71d5b4becd804de6.debug
+	chown 0:0 -- debian/.debhelper/ros-eml/dbgsym-root/usr/lib/debug/.build-id/e1/cfca25efb75c632405ab3a71d5b4becd804de6.debug
+	strip --remove-section=.comment --remove-section=.note --strip-unneeded debian/ros-eml/usr/lib/x86_64-linux-gnu/libeml.so
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-eml/dbgsym-root/usr/lib/debug/.build-id/e1/cfca25efb75c632405ab3a71d5b4becd804de6.debug debian/ros-eml/usr/lib/x86_64-linux-gnu/libeml.so
+	install -m0755 -d debian/.debhelper/ros-eml/dbgsym-root/usr/share/doc
+	ln -s ros-eml debian/.debhelper/ros-eml/dbgsym-root/usr/share/doc/ros-eml-dbgsym
+	install -m0755 -d debian/.debhelper/ros-eml
+   dh_makeshlibs -O-v -O--buildsystem=cmake
+	rm -f debian/ros-eml/DEBIAN/shlibs
+	rm -f debian/ros-eml.debhelper.log
+   debian/rules override_dh_shlibdeps
+make[1]: Entering directory '/<<BUILDDIR>>package'
+# In case we're installing to a non-standard location, look for a setup.sh
+# in the install tree and source it.  It will set things like
+# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+if [ -f "/usr/setup.sh" ]; then . "/usr/setup.sh"; fi && \
+dh_shlibdeps -l/<<BUILDDIR>>package/debian/ros-eml//usr/lib/:/<<BUILDDIR>>package/debian/ros-eml//usr/lib/x86_64-linux-gnu
+	install -m0755 -d debian/ros-eml/DEBIAN
+	dpkg-shlibdeps -Tdebian/ros-eml.substvars -l/<<BUILDDIR>>package/debian/ros-eml//usr/lib/ -l/<<BUILDDIR>>package/debian/ros-eml//usr/lib/x86_64-linux-gnu debian/ros-eml/usr/lib/x86_64-linux-gnu/libeml.so
+make[1]: Leaving directory '/<<BUILDDIR>>package'
+   dh_installdeb -O-v -O--buildsystem=cmake
+	install -m0755 -d debian/ros-eml/DEBIAN
+   dh_gencontrol -O-v -O--buildsystem=cmake
+	install -m0755 -d debian/ros-eml/DEBIAN
+	echo misc:Depends= >> debian/ros-eml.substvars
+	echo misc:Pre-Depends= >> debian/ros-eml.substvars
+	install -m0755 -d debian/.debhelper/ros-eml/dbgsym-root/DEBIAN
+	dpkg-gencontrol -pros-eml -ldebian/changelog -Tdebian/ros-eml.substvars -Pdebian/.debhelper/ros-eml/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -UBuilt-Using -DAuto-Built-Package=debug-symbols -UProtected -DPackage=ros-eml-dbgsym "-DDepends=ros-eml (= \${binary:Version})" "-DDescription=debug symbols for ros-eml" -DBuild-Ids=e1cfca25efb75c632405ab3a71d5b4becd804de6 -DSection=debug -UMulti-Arch -UReplaces -UBreaks
+	chmod 0644 -- debian/.debhelper/ros-eml/dbgsym-root/DEBIAN/control
+	chown 0:0 -- debian/.debhelper/ros-eml/dbgsym-root/DEBIAN/control
+	dpkg-gencontrol -pros-eml -ldebian/changelog -Tdebian/ros-eml.substvars -Pdebian/ros-eml
+	chmod 0644 -- debian/ros-eml/DEBIAN/control
+	chown 0:0 -- debian/ros-eml/DEBIAN/control
+   dh_md5sums -O-v -O--buildsystem=cmake
+	install -m0755 -d debian/ros-eml/DEBIAN
+	cd debian/ros-eml >/dev/null && xargs -r0 md5sum | perl -pe 'if (s@^\\@@) { s/\\\\/\\/g; }' > DEBIAN/md5sums
+	chmod 0644 -- debian/ros-eml/DEBIAN/md5sums
+	chown 0:0 -- debian/ros-eml/DEBIAN/md5sums
+	install -m0755 -d debian/.debhelper/ros-eml/dbgsym-root/DEBIAN
+	cd debian/.debhelper/ros-eml/dbgsym-root >/dev/null && xargs -r0 md5sum | perl -pe 'if (s@^\\@@) { s/\\\\/\\/g; }' > DEBIAN/md5sums
+	chmod 0644 -- debian/.debhelper/ros-eml/dbgsym-root/DEBIAN/md5sums
+	chown 0:0 -- debian/.debhelper/ros-eml/dbgsym-root/DEBIAN/md5sums
+   dh_builddeb -O-v -O--buildsystem=cmake
+	dpkg-deb --build debian/ros-eml ..
+	dpkg-deb --root-owner-group --build debian/.debhelper/ros-eml/dbgsym-root ..
+dpkg-deb: building package 'ros-eml-dbgsym' in '../ros-eml-dbgsym_0-2023.01.29.17.03_amd64.deb'.
+dpkg-deb: building package 'ros-eml' in '../ros-eml_0-2023.01.29.17.03_amd64.deb'.
+ dpkg-genbuildinfo --build=binary -O../ros-eml_0-2023.01.29.17.03_amd64.buildinfo
+ dpkg-genchanges --build=binary -O../ros-eml_0-2023.01.29.17.03_amd64.changes
+dpkg-genchanges: info: binary-only upload (no source code included)
+ dpkg-source --after-build .
+dpkg-source: info: using options from package/debian/source/options: --auto-commit
+dpkg-buildpackage: info: binary-only upload (no source included)
+--------------------------------------------------------------------------------
+Build finished at 2023-01-29T17:04:31Z
+
+Finished
+--------
+
+I: Built successfully
+
++------------------------------------------------------------------------------+
+| Changes                                                                      |
++------------------------------------------------------------------------------+
+
+
+ros-eml_0-2023.01.29.17.03_amd64.changes:
+-----------------------------------------
+
+Format: 1.8
+Date: Sun, 29 Jan 2023 17:03:59 -0000
+Source: ros-eml
+Binary: ros-eml ros-eml-dbgsym
+Architecture: amd64
+Version: 0-2023.01.29.17.03
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-eml    - This is an implementation of the EtherCAT master protocol for the
+Changes:
+ ros-eml (0-2023.01.29.17.03) bookworm; urgency=high
+ .
+   * Autogenerated, no changelog for this version found in CHANGELOG.rst.
+Checksums-Sha1:
+ 5d30fc9b94997e0d1693d7e8be116dfc2d496cab 144212 ros-eml-dbgsym_0-2023.01.29.17.03_amd64.deb
+ 5e667600aef0719bf50cb593d840d80d5dc3d8b5 5800 ros-eml_0-2023.01.29.17.03_amd64.buildinfo
+ 909160cefc1ac28c397e9adcfb84ce3bcadc0e44 52520 ros-eml_0-2023.01.29.17.03_amd64.deb
+Checksums-Sha256:
+ e6a7bff58c726aec459e217eef1e2b56ca6720ee98f366532712f8584a504dec 144212 ros-eml-dbgsym_0-2023.01.29.17.03_amd64.deb
+ 39ee4b4f11a7484e2761437079365d3659c0fef9937fcdda9d699571869427e8 5800 ros-eml_0-2023.01.29.17.03_amd64.buildinfo
+ 8d3357ea246a8311af11501a80afa9cc9ef415f863cf0f5925a8a5f3ff4651d2 52520 ros-eml_0-2023.01.29.17.03_amd64.deb
+Files:
+ e76c50869fc93cfaf58415ccea3f5cdb 144212 debug optional ros-eml-dbgsym_0-2023.01.29.17.03_amd64.deb
+ b4c3dc3421dae6a488f3a38dd5e4ff62 5800 misc optional ros-eml_0-2023.01.29.17.03_amd64.buildinfo
+ 898132dda2969ff171a57bd458eb8cbf 52520 misc optional ros-eml_0-2023.01.29.17.03_amd64.deb
+
++------------------------------------------------------------------------------+
+| Buildinfo                                                                    |
++------------------------------------------------------------------------------+
+
+Format: 1.0
+Source: ros-eml
+Binary: ros-eml ros-eml-dbgsym
+Architecture: amd64
+Version: 0-2023.01.29.17.03
+Checksums-Md5:
+ e76c50869fc93cfaf58415ccea3f5cdb 144212 ros-eml-dbgsym_0-2023.01.29.17.03_amd64.deb
+ 898132dda2969ff171a57bd458eb8cbf 52520 ros-eml_0-2023.01.29.17.03_amd64.deb
+Checksums-Sha1:
+ 5d30fc9b94997e0d1693d7e8be116dfc2d496cab 144212 ros-eml-dbgsym_0-2023.01.29.17.03_amd64.deb
+ 909160cefc1ac28c397e9adcfb84ce3bcadc0e44 52520 ros-eml_0-2023.01.29.17.03_amd64.deb
+Checksums-Sha256:
+ e6a7bff58c726aec459e217eef1e2b56ca6720ee98f366532712f8584a504dec 144212 ros-eml-dbgsym_0-2023.01.29.17.03_amd64.deb
+ 8d3357ea246a8311af11501a80afa9cc9ef415f863cf0f5925a8a5f3ff4651d2 52520 ros-eml_0-2023.01.29.17.03_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Sun, 29 Jan 2023 17:04:31 +0000
+Build-Path: /<<BUILDDIR>>package
+Build-Tainted-By:
+ merged-usr-via-aliased-dirs
+Installed-Build-Depends:
+ autoconf (= 2.71-3),
+ automake (= 1:1.16.5-1.3),
+ autopoint (= 0.21-10),
+ autotools-dev (= 20220109.1),
+ base-files (= 12.3),
+ base-passwd (= 3.6.1),
+ bash (= 5.2.15-2),
+ binutils (= 2.40-2),
+ binutils-common (= 2.40-2),
+ binutils-x86-64-linux-gnu (= 2.40-2),
+ bsdextrautils (= 2.38.1-4),
+ bsdutils (= 1:2.38.1-4),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-5+b1),
+ cmake (= 3.25.1-1),
+ cmake-data (= 3.25.1-1),
+ coreutils (= 9.1-1),
+ cpp (= 4:12.2.0-3),
+ cpp-12 (= 12.2.0-14),
+ dash (= 0.5.12-2),
+ debconf (= 1.5.82),
+ debhelper (= 13.11.4),
+ debianutils (= 5.7-0.4),
+ dh-autoreconf (= 20),
+ dh-strip-nondeterminism (= 1.13.1-1),
+ diffutils (= 1:3.8-3),
+ dpkg (= 1.21.19),
+ dpkg-dev (= 1.21.19),
+ dwz (= 0.15-1),
+ file (= 1:5.44-2),
+ findutils (= 4.9.0-4),
+ g++ (= 4:12.2.0-3),
+ g++-12 (= 12.2.0-14),
+ gcc (= 4:12.2.0-3),
+ gcc-12 (= 12.2.0-14),
+ gcc-12-base (= 12.2.0-14),
+ gettext (= 0.21-10),
+ gettext-base (= 0.21-10),
+ grep (= 3.8-5),
+ groff-base (= 1.22.4-9),
+ gzip (= 1.12-1),
+ hostname (= 3.23+nmu1),
+ init-system-helpers (= 1.65.2),
+ intltool-debian (= 0.35.0+20060710.6),
+ libacl1 (= 2.3.1-3),
+ libarchive-zip-perl (= 1.68-1),
+ libarchive13 (= 3.6.2-1),
+ libasan8 (= 12.2.0-14),
+ libatomic1 (= 12.2.0-14),
+ libattr1 (= 1:2.5.1-4),
+ libaudit-common (= 1:3.0.7-1.1),
+ libaudit1 (= 1:3.0.7-1.1+b2),
+ libbinutils (= 2.40-2),
+ libblkid1 (= 2.38.1-4),
+ libbrotli1 (= 1.0.9-2+b5),
+ libbz2-1.0 (= 1.0.8-5+b1),
+ libc-bin (= 2.36-8),
+ libc-dev-bin (= 2.36-8),
+ libc6 (= 2.36-8),
+ libc6-dev (= 2.36-8),
+ libcap-ng0 (= 0.8.3-1+b2),
+ libcap2 (= 1:2.66-3),
+ libcc1-0 (= 12.2.0-14),
+ libcom-err2 (= 1.46.6~rc1-1.1),
+ libcrypt-dev (= 1:4.4.33-2),
+ libcrypt1 (= 1:4.4.33-2),
+ libctf-nobfd0 (= 2.40-2),
+ libctf0 (= 2.40-2),
+ libcurl4 (= 7.87.0-2),
+ libdb5.3 (= 5.3.28+dfsg2-1),
+ libdebconfclient0 (= 0.266),
+ libdebhelper-perl (= 13.11.4),
+ libdpkg-perl (= 1.21.19),
+ libelf1 (= 0.188-2.1),
+ libexpat1 (= 2.5.0-1),
+ libffi8 (= 3.4.4-1),
+ libfile-find-rule-perl (= 0.34-3),
+ libfile-stripnondeterminism-perl (= 1.13.1-1),
+ libgcc-12-dev (= 12.2.0-14),
+ libgcc-s1 (= 12.2.0-14),
+ libgcrypt20 (= 1.10.1-3),
+ libgdbm-compat4 (= 1.23-3),
+ libgdbm6 (= 1.23-3),
+ libgmp10 (= 2:6.2.1+dfsg1-1.1),
+ libgnutls30 (= 3.7.8-4),
+ libgomp1 (= 12.2.0-14),
+ libgpg-error0 (= 1.46-1),
+ libgprofng0 (= 2.40-2),
+ libgssapi-krb5-2 (= 1.20.1-1),
+ libhogweed6 (= 3.8.1-2),
+ libicu72 (= 72.1-3),
+ libidn2-0 (= 2.3.3-1+b1),
+ libisl23 (= 0.25-1),
+ libitm1 (= 12.2.0-14),
+ libjansson4 (= 2.14-2),
+ libjsoncpp25 (= 1.9.5-4),
+ libk5crypto3 (= 1.20.1-1),
+ libkeyutils1 (= 1.6.3-2),
+ libkrb5-3 (= 1.20.1-1),
+ libkrb5support0 (= 1.20.1-1),
+ libldap-2.5-0 (= 2.5.13+dfsg-3),
+ liblsan0 (= 12.2.0-14),
+ liblz4-1 (= 1.9.4-1),
+ liblzma5 (= 5.4.1-0.0),
+ libmagic-mgc (= 1:5.44-2),
+ libmagic1 (= 1:5.44-2),
+ libmd0 (= 1.0.4-2),
+ libmount1 (= 2.38.1-4),
+ libmpc3 (= 1.3.1-1),
+ libmpfr6 (= 4.2.0-1),
+ libncursesw6 (= 6.4-1),
+ libnettle8 (= 3.8.1-2),
+ libnghttp2-14 (= 1.51.0-1),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libnumber-compare-perl (= 0.03-3),
+ libp11-kit0 (= 0.24.1-2),
+ libpam-modules (= 1.5.2-6),
+ libpam-modules-bin (= 1.5.2-6),
+ libpam-runtime (= 1.5.2-6),
+ libpam0g (= 1.5.2-6),
+ libpcre2-8-0 (= 10.42-1),
+ libperl5.36 (= 5.36.0-7),
+ libpipeline1 (= 1.5.7-1),
+ libproc2-0 (= 2:4.0.2-3),
+ libpsl5 (= 0.21.0-1.2),
+ libquadmath0 (= 12.2.0-14),
+ librhash0 (= 1.4.3-3),
+ librtmp1 (= 2.4+20151223.gitfa8646d.1-2+b2),
+ libsasl2-2 (= 2.1.28+dfsg-10),
+ libsasl2-modules-db (= 2.1.28+dfsg-10),
+ libseccomp2 (= 2.5.4-1+b2),
+ libselinux1 (= 3.4-1+b4),
+ libsmartcols1 (= 2.38.1-4),
+ libssh2-1 (= 1.10.0-3+b1),
+ libssl3 (= 3.0.7-2),
+ libstdc++-12-dev (= 12.2.0-14),
+ libstdc++6 (= 12.2.0-14),
+ libsub-override-perl (= 0.09-4),
+ libsystemd0 (= 252.4-2),
+ libtasn1-6 (= 4.19.0-2),
+ libtext-glob-perl (= 0.11-3),
+ libtinfo6 (= 6.4-1),
+ libtirpc-common (= 1.3.3+ds-1),
+ libtirpc-dev (= 1.3.3+ds-1),
+ libtirpc3 (= 1.3.3+ds-1),
+ libtool (= 2.4.7-5),
+ libtsan2 (= 12.2.0-14),
+ libubsan1 (= 12.2.0-14),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 252.4-2),
+ libunistring2 (= 1.0-2),
+ libuuid1 (= 2.38.1-4),
+ libuv1 (= 1.44.2-1),
+ libxml2 (= 2.9.14+dfsg-1.1+b2),
+ libzstd1 (= 1.5.2+dfsg2-3),
+ linux-libc-dev (= 6.1.7-1),
+ login (= 1:4.13+dfsg1-1),
+ m4 (= 1.4.19-2),
+ make (= 4.3-4.1),
+ man-db (= 2.11.2-1),
+ mawk (= 1.3.4.20200120-3.1),
+ ncurses-base (= 6.4-1),
+ ncurses-bin (= 6.4-1),
+ patch (= 2.7.6-7),
+ perl (= 5.36.0-7),
+ perl-base (= 5.36.0-7),
+ perl-modules-5.36 (= 5.36.0-7),
+ po-debconf (= 1.0.21+nmu1),
+ procps (= 2:4.0.2-3),
+ rpcsvc-proto (= 1.4.3-1),
+ sed (= 4.9-1),
+ sensible-utils (= 0.0.17+nmu1),
+ sysvinit-utils (= 3.06-2),
+ tar (= 1.34+dfsg-1),
+ usrmerge (= 35),
+ util-linux (= 2.38.1-4),
+ util-linux-extra (= 2.38.1-4),
+ xz-utils (= 5.4.1-0.0),
+ zlib1g (= 1:1.2.13.dfsg-1)
+Environment:
+ DEB_BUILD_OPTIONS="nocheck parallel=2"
+ LANG="C.UTF-8"
+ LC_ALL="C.UTF-8"
+ LC_COLLATE="C.UTF-8"
+ SOURCE_DATE_EPOCH="1675011839"
+
+
++------------------------------------------------------------------------------+
+| Package contents                                                             |
++------------------------------------------------------------------------------+
+
+
+ros-eml-dbgsym_0-2023.01.29.17.03_amd64.deb
+-------------------------------------------
+
+ new Debian package, version 2.0.
+ size 144212 bytes: control archive=540 bytes.
+     393 bytes,    12 lines      control              
+     106 bytes,     1 lines      md5sums              
+ Package: ros-eml-dbgsym
+ Source: ros-eml
+ Version: 0-2023.01.29.17.03
+ Auto-Built-Package: debug-symbols
+ Architecture: amd64
+ Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+ Installed-Size: 181
+ Depends: ros-eml (= 0-2023.01.29.17.03)
+ Section: debug
+ Priority: optional
+ Description: debug symbols for ros-eml
+ Build-Ids: e1cfca25efb75c632405ab3a71d5b4becd804de6
+
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/lib/
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/lib/debug/
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/lib/debug/.build-id/
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/lib/debug/.build-id/e1/
+-rw-r--r-- root/root    175088 2023-01-29 17:03 ./usr/lib/debug/.build-id/e1/cfca25efb75c632405ab3a71d5b4becd804de6.debug
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/share/
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/share/doc/
+lrwxrwxrwx root/root         0 2023-01-29 17:03 ./usr/share/doc/ros-eml-dbgsym -> ros-eml
+
+
+ros-eml_0-2023.01.29.17.03_amd64.deb
+------------------------------------
+
+ new Debian package, version 2.0.
+ size 52520 bytes: control archive=1368 bytes.
+     461 bytes,     9 lines      control              
+    1997 bytes,    26 lines      md5sums              
+ Package: ros-eml
+ Version: 0-2023.01.29.17.03
+ Architecture: amd64
+ Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+ Installed-Size: 263
+ Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5), catkin, libgmock-dev, libgtest-dev
+ Section: misc
+ Priority: optional
+ Description: This is an implementation of the EtherCAT master protocol for the PR2 robot based on the work done at Flanders' Mechatronics Technology Centre.
+
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/include/
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/include/eml/
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/include/eml/al/
+-rw-r--r-- root/root      5153 2023-01-29 16:47 ./usr/include/eml/al/ethercat_AL.h
+-rw-r--r-- root/root      5793 2023-01-29 16:47 ./usr/include/eml/al/ethercat_FSM.h
+-rw-r--r-- root/root      3384 2023-01-29 16:47 ./usr/include/eml/al/ethercat_master.h
+-rw-r--r-- root/root      7947 2023-01-29 16:47 ./usr/include/eml/al/ethercat_mbx.h
+-rw-r--r-- root/root      3622 2023-01-29 16:47 ./usr/include/eml/al/ethercat_process_data.h
+-rw-r--r-- root/root      3973 2023-01-29 16:47 ./usr/include/eml/al/ethercat_router.h
+-rw-r--r-- root/root      7791 2023-01-29 16:47 ./usr/include/eml/al/ethercat_slave_conf.h
+-rw-r--r-- root/root      3647 2023-01-29 16:47 ./usr/include/eml/al/ethercat_slave_handler.h
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/include/eml/dll/
+-rw-r--r-- root/root     10425 2023-01-29 16:47 ./usr/include/eml/dll/ethercat_device_addressed_telegram.h
+-rw-r--r-- root/root      3289 2023-01-29 16:47 ./usr/include/eml/dll/ethercat_dll.h
+-rw-r--r-- root/root      5554 2023-01-29 16:47 ./usr/include/eml/dll/ethercat_frame.h
+-rw-r--r-- root/root      5125 2023-01-29 16:47 ./usr/include/eml/dll/ethercat_logical_addressed_telegram.h
+-rw-r--r-- root/root     19555 2023-01-29 16:47 ./usr/include/eml/dll/ethercat_slave_memory.h
+-rw-r--r-- root/root      5198 2023-01-29 16:47 ./usr/include/eml/dll/ethercat_telegram.h
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/include/eml/ethercat/
+-rw-r--r-- root/root      2619 2023-01-29 16:47 ./usr/include/eml/ethercat/ethercat_datastruct.h
+-rw-r--r-- root/root      5695 2023-01-29 16:47 ./usr/include/eml/ethercat/ethercat_defs.h
+-rw-r--r-- root/root      1933 2023-01-29 16:47 ./usr/include/eml/ethercat/ethercat_log.h
+-rw-r--r-- root/root      1924 2023-01-29 16:47 ./usr/include/eml/ethercat/ethercat_xenomai_drv.h
+-rw-r--r-- root/root      6975 2023-01-29 16:47 ./usr/include/eml/ethercat/netif.h
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/lib/
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/lib/x86_64-linux-gnu/
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/lib/x86_64-linux-gnu/cmake/
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/lib/x86_64-linux-gnu/cmake/eml/
+-rw-r--r-- root/root       208 2023-01-29 16:47 ./usr/lib/x86_64-linux-gnu/cmake/eml/EMLConfig.cmake
+-rw-r--r-- root/root      1978 2023-01-29 17:03 ./usr/lib/x86_64-linux-gnu/cmake/eml/EMLConfigVersion.cmake
+-rw-r--r-- root/root       856 2023-01-29 17:03 ./usr/lib/x86_64-linux-gnu/cmake/eml/EMLTargets-none.cmake
+-rw-r--r-- root/root      4357 2023-01-29 17:03 ./usr/lib/x86_64-linux-gnu/cmake/eml/EMLTargets.cmake
+-rw-r--r-- root/root    122192 2023-01-29 17:03 ./usr/lib/x86_64-linux-gnu/libeml.so
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/share/
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/share/doc/
+drwxr-xr-x root/root         0 2023-01-29 17:03 ./usr/share/doc/ros-eml/
+-rw-r--r-- root/root       212 2023-01-29 17:03 ./usr/share/doc/ros-eml/changelog.Debian.gz
+-rw-r--r-- root/root       299 2023-01-29 16:47 ./usr/share/doc/ros-eml/changelog.gz
+
+
++------------------------------------------------------------------------------+
+| Post Build                                                                   |
++------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------+
+| Cleanup                                                                      |
++------------------------------------------------------------------------------+
+
+Purging /<<BUILDDIR>>
+Not cleaning session: cloned chroot in use
+
++------------------------------------------------------------------------------+
+| Summary                                                                      |
++------------------------------------------------------------------------------+
+
+Build Architecture: amd64
+Build Type: binary
+Build-Space: 12140
+Build-Time: 6
+Distribution: bookworm
+Host Architecture: amd64
+Install-Time: 9
+Job: /home/runner/work/ros-one-packages/ros-one-packages/src/ros-eml_0-2023.01.29.17.03.dsc
+Machine Architecture: amd64
+Package: ros-eml
+Package-Time: 31
+Source-Version: 0-2023.01.29.17.03
+Space: 12140
+Status: successful
+Version: 0-2023.01.29.17.03
+--------------------------------------------------------------------------------
+Finished at 2023-01-29T17:04:31Z
+Build needed 00:00:31, 12140k disk space

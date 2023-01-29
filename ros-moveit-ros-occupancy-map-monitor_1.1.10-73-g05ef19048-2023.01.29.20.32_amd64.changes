@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-ros-occupancy-map-monitor
+Binary: ros-moveit-ros-occupancy-map-monitor ros-moveit-ros-occupancy-map-monitor-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.29.20.32
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Ferguson <mferguson@fetchrobotics.com>
+Changed-By: Michael Ferguson <mferguson@fetchrobotics.com>
+Description:
+ ros-moveit-ros-occupancy-map-monitor - Components of MoveIt connecting to occupancy map
+Changes:
+ ros-moveit-ros-occupancy-map-monitor (1.1.10-73-g05ef19048-2023.01.29.20.32) bookworm; urgency=high
+Checksums-Sha1:
+ 188bd8f899f56e9c8999f945715bc84cb2fc3dab 2730108 ros-moveit-ros-occupancy-map-monitor-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.32_amd64.deb
+ abd4799df25c6b5e534ab924292351d04ead98b1 18675 ros-moveit-ros-occupancy-map-monitor_1.1.10-73-g05ef19048-2023.01.29.20.32_amd64.buildinfo
+ d85cdcf27e0ed999847730b9e76def3153ffd344 173780 ros-moveit-ros-occupancy-map-monitor_1.1.10-73-g05ef19048-2023.01.29.20.32_amd64.deb
+Checksums-Sha256:
+ c834e455bbeaba5b703dea3fda3e992cad7921652e0670462f8a9253866fd1c1 2730108 ros-moveit-ros-occupancy-map-monitor-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.32_amd64.deb
+ f2e2b0095d0552bb9d19d8c2c87d1e5d0edf066aff86d9ca5cfb0ede6ce113cf 18675 ros-moveit-ros-occupancy-map-monitor_1.1.10-73-g05ef19048-2023.01.29.20.32_amd64.buildinfo
+ 1e3b46455fb18648eb917e0bb8bc4f22ca4caa7366371c622c6587840b90a427 173780 ros-moveit-ros-occupancy-map-monitor_1.1.10-73-g05ef19048-2023.01.29.20.32_amd64.deb
+Files:
+ 5ce8ed5d9cf7fa5739232f51e8784491 2730108 debug optional ros-moveit-ros-occupancy-map-monitor-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.32_amd64.deb
+ 6a7551c5303f224e1385ef291442a608 18675 misc optional ros-moveit-ros-occupancy-map-monitor_1.1.10-73-g05ef19048-2023.01.29.20.32_amd64.buildinfo
+ 741698b6dd244ab7652116c5d2b54f32 173780 misc optional ros-moveit-ros-occupancy-map-monitor_1.1.10-73-g05ef19048-2023.01.29.20.32_amd64.deb

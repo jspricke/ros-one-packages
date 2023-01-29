@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-fake-controller-manager
+Binary: ros-moveit-fake-controller-manager ros-moveit-fake-controller-manager-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.29.20.45
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ ros-moveit-fake-controller-manager - A fake controller manager plugin for MoveIt.
+Changes:
+ ros-moveit-fake-controller-manager (1.1.10-73-g05ef19048-2023.01.29.20.45) bookworm; urgency=high
+Checksums-Sha1:
+ a16e5422324e3c411b8d939ac276c33edf447572 2147912 ros-moveit-fake-controller-manager-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.45_amd64.deb
+ d4e6d43b6672ffc060f88833b20dec8ab011f816 19031 ros-moveit-fake-controller-manager_1.1.10-73-g05ef19048-2023.01.29.20.45_amd64.buildinfo
+ 7c47c61ebc7c3a52bc2eaab3d24f4802fb76c452 68248 ros-moveit-fake-controller-manager_1.1.10-73-g05ef19048-2023.01.29.20.45_amd64.deb
+Checksums-Sha256:
+ 5fbd662b30e0f972fd9d70b55439cda454450ae72ac69d5a452b0f1f9f356588 2147912 ros-moveit-fake-controller-manager-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.45_amd64.deb
+ d1095cd3ad30f11475909d79a3a6ef277d500b19d67b8a13ad88be209237bb3f 19031 ros-moveit-fake-controller-manager_1.1.10-73-g05ef19048-2023.01.29.20.45_amd64.buildinfo
+ fb9dc31bb331072c2af2e4ef650f9e4cf1489b50f59a7237add557d0b0bbd95e 68248 ros-moveit-fake-controller-manager_1.1.10-73-g05ef19048-2023.01.29.20.45_amd64.deb
+Files:
+ d2ae3dc022a71f4893c7f6b86ef79671 2147912 debug optional ros-moveit-fake-controller-manager-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.45_amd64.deb
+ d35eabc9b21363c35667d2e414c5dfef 19031 misc optional ros-moveit-fake-controller-manager_1.1.10-73-g05ef19048-2023.01.29.20.45_amd64.buildinfo
+ 6402cb803326989784825586b62fe6a9 68248 misc optional ros-moveit-fake-controller-manager_1.1.10-73-g05ef19048-2023.01.29.20.45_amd64.deb

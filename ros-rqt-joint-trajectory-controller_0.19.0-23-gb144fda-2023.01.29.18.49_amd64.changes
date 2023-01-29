@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-rqt-joint-trajectory-controller
+Binary: ros-rqt-joint-trajectory-controller
+Architecture: amd64
+Version: 0.19.0-23-gb144fda-2023.01.29.18.49
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-rqt-joint-trajectory-controller - Graphical frontend for interacting with joint_trajectory_controll
+Changes:
+ ros-rqt-joint-trajectory-controller (0.19.0-23-gb144fda-2023.01.29.18.49) bookworm; urgency=high
+ .
+   * [rqt_joint_trajectory_controller] Added Timestamp to the outgoing command message
+   * Contributors: Bence Magyar, Caedael
+Checksums-Sha1:
+ e055bbb1f3a679422daf07a2e30a9dc3d1c59894 6792 ros-rqt-joint-trajectory-controller_0.19.0-23-gb144fda-2023.01.29.18.49_amd64.buildinfo
+ 300c1393307d0e56cfb73810b5e4866a1876e428 35744 ros-rqt-joint-trajectory-controller_0.19.0-23-gb144fda-2023.01.29.18.49_amd64.deb
+Checksums-Sha256:
+ bc38cb039e9fc25560e17c0243224c8b59e74f956d07f3fc79c517d4fbc1a5dc 6792 ros-rqt-joint-trajectory-controller_0.19.0-23-gb144fda-2023.01.29.18.49_amd64.buildinfo
+ d8c8b4120c57f2674ef0bdd1e39c70f4959891e0249c3cac1afcf5be75d2c95d 35744 ros-rqt-joint-trajectory-controller_0.19.0-23-gb144fda-2023.01.29.18.49_amd64.deb
+Files:
+ 5ee3b63ec2c6ff622e49cea9082fb869 6792 misc optional ros-rqt-joint-trajectory-controller_0.19.0-23-gb144fda-2023.01.29.18.49_amd64.buildinfo
+ 45b0f932e1771fea79c02a04fae54ca5 35744 misc optional ros-rqt-joint-trajectory-controller_0.19.0-23-gb144fda-2023.01.29.18.49_amd64.deb

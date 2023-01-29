@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Mon, 16 Mar 2020 00:00:00 -0000
+Source: ros-roslint
+Binary: ros-roslint
+Architecture: amd64
+Version: 0.12.0-3-gbbae77d-2023.01.29.18.24
+Distribution: bookworm
+Urgency: high
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Changed-By: Mike Purvis <mpurvis@clearpathrobotics.com>
+Description:
+ ros-roslint - CMake lint commands for ROS packages.
+Changes:
+ ros-roslint (0.12.0-3-gbbae77d-2023.01.29.18.24) bookworm; urgency=high
+ .
+   * Misc tidying for ROS Noetic. (#79 <https://github.com/ros/roslint//issues/79>)
+     - Invoke wrappers with python -m instead of as scripts.
+     - Drop logic not needed with CATKIN_ENV used.
+     - Drop unneeded install of the cmake extra.
+     - Print output as well as capturing in test wrapper.
+   * Bump CMake version to avoid CMP0048 warning (#77 <https://github.com/ros/roslint//issues/77>)
+   * Fix is-not usage in cpplint-wrapper (#76 <https://github.com/ros/roslint//issues/76>)
+     Python complains about this during installation now.
+   * Bump to latest pycodestyle.
+   * Python 3 fixes for cpplint.
+   * Bump cpplint.py to latest version
+   * Update URL to cpplint
+   * Support for headers outside of include folder (#68 <https://github.com/ros/roslint//issues/68>)
+   * Adding hpp to default list of extensions. (#69 <https://github.com/ros/roslint//issues/69>)
+   * CheckBracers now correctly accepts C++11 bracer-init-lists passed as arguments to functions (#63 <https://github.com/ros/roslint//issues/63>)
+   * Contributors: Joshua Whitley, Maciej Żurad, Mike Purvis, Shane Loretz, mistoll
+Checksums-Sha1:
+ 7b3a34687c9d086265061229504867ca9453a284 6671 ros-roslint_0.12.0-3-gbbae77d-2023.01.29.18.24_amd64.buildinfo
+ 77d14d107c16504c2df1e08aa1c50eab2b26aa0e 188920 ros-roslint_0.12.0-3-gbbae77d-2023.01.29.18.24_amd64.deb
+Checksums-Sha256:
+ 13af28c8797810f15bdd155a6ccbdcdee3019874dd06b62904fc64c304148192 6671 ros-roslint_0.12.0-3-gbbae77d-2023.01.29.18.24_amd64.buildinfo
+ 4c4b53af73f5094ed16b6235de70ecb475ba274ed73f4c3786eb29457b6941d0 188920 ros-roslint_0.12.0-3-gbbae77d-2023.01.29.18.24_amd64.deb
+Files:
+ ebfbb89317b99c8b15585ddfd5e20f52 6671 misc optional ros-roslint_0.12.0-3-gbbae77d-2023.01.29.18.24_amd64.buildinfo
+ 4e787e3f56bacc11129d6f90b2478639 188920 misc optional ros-roslint_0.12.0-3-gbbae77d-2023.01.29.18.24_amd64.deb

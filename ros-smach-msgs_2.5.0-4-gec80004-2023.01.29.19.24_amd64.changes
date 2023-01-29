@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 14 May 2020 00:00:00 -0000
+Source: ros-smach-msgs
+Binary: ros-smach-msgs
+Architecture: amd64
+Version: 2.5.0-4-gec80004-2023.01.29.19.24
+Distribution: bookworm
+Urgency: high
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I. Y. Saito <gm130s@gmail.com>
+Description:
+ ros-smach-msgs - this package contains a set of messages that are used by the intr
+Changes:
+ ros-smach-msgs (2.5.0-4-gec80004-2023.01.29.19.24) bookworm; urgency=high
+ .
+   * Python 3 compatibility #71 <https://github.com/ros/executive_smach/issues/71>
+   * Bump CMake version to avoid CMP0048 warning
+   * Contributors: Shane Loretz, ahcorde
+Checksums-Sha1:
+ d5acd1ef0ea15c027a09374b74fd146500fc58e3 7308 ros-smach-msgs_2.5.0-4-gec80004-2023.01.29.19.24_amd64.buildinfo
+ 56a3984d7930bb447aafa7b86344262c3aac70bf 20152 ros-smach-msgs_2.5.0-4-gec80004-2023.01.29.19.24_amd64.deb
+Checksums-Sha256:
+ 22b2a0e59b98b11ad40fde31525c0c1141084300bb76807ec6aeef03d228001c 7308 ros-smach-msgs_2.5.0-4-gec80004-2023.01.29.19.24_amd64.buildinfo
+ 3d84d9b9d1ad1793a20e180d93d2b000372e7c49bdd91894ae829b46b81413b0 20152 ros-smach-msgs_2.5.0-4-gec80004-2023.01.29.19.24_amd64.deb
+Files:
+ 00181259903ee4eca41300073406537a 7308 misc optional ros-smach-msgs_2.5.0-4-gec80004-2023.01.29.19.24_amd64.buildinfo
+ 13f376dc81b2ceeb98957a7bf2077546 20152 misc optional ros-smach-msgs_2.5.0-4-gec80004-2023.01.29.19.24_amd64.deb

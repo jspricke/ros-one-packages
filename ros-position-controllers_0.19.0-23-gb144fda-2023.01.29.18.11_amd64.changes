@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-position-controllers
+Binary: ros-position-controllers ros-position-controllers-dbgsym
+Architecture: amd64
+Version: 0.19.0-23-gb144fda-2023.01.29.18.11
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-position-controllers - position_controllers
+Changes:
+ ros-position-controllers (0.19.0-23-gb144fda-2023.01.29.18.11) bookworm; urgency=high
+Checksums-Sha1:
+ 3d4c20810f7f1dda9f32abc46223c4b2269fc236 1123740 ros-position-controllers-dbgsym_0.19.0-23-gb144fda-2023.01.29.18.11_amd64.deb
+ b24944820eb0018802d45fa1fcde33b792dec78e 10953 ros-position-controllers_0.19.0-23-gb144fda-2023.01.29.18.11_amd64.buildinfo
+ 285259daca4c5600a4c0a4eec854bc9dfc9599a2 57808 ros-position-controllers_0.19.0-23-gb144fda-2023.01.29.18.11_amd64.deb
+Checksums-Sha256:
+ 5049d0c3f3ebed089244c3272d0df9b20af60794ccbe7d537003509bddb9e4c1 1123740 ros-position-controllers-dbgsym_0.19.0-23-gb144fda-2023.01.29.18.11_amd64.deb
+ f01770f14c49c78681c97047825f8ea770c84df717c90fa0bb13e72ff0280fdb 10953 ros-position-controllers_0.19.0-23-gb144fda-2023.01.29.18.11_amd64.buildinfo
+ 364bf2e30fe5f5fdd71b794c50ccc8473866fc8c768fc031825af8c4ab294076 57808 ros-position-controllers_0.19.0-23-gb144fda-2023.01.29.18.11_amd64.deb
+Files:
+ ebbfc220c024b703c9ce547e9c2eef20 1123740 debug optional ros-position-controllers-dbgsym_0.19.0-23-gb144fda-2023.01.29.18.11_amd64.deb
+ 2c685b167f8b2d804d68642362c49c88 10953 misc optional ros-position-controllers_0.19.0-23-gb144fda-2023.01.29.18.11_amd64.buildinfo
+ 5e6e229a55262fbced135af3298f55e9 57808 misc optional ros-position-controllers_0.19.0-23-gb144fda-2023.01.29.18.11_amd64.deb

@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 04 Apr 2017 00:00:00 -0000
+Source: ros-uuid-msgs
+Binary: ros-uuid-msgs
+Architecture: amd64
+Version: 1.0.6-6-gda30eb2-2023.01.29.19.50
+Distribution: bookworm
+Urgency: high
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Changed-By: Jack O'Quin <jack.oquin@gmail.com>
+Description:
+ ros-uuid-msgs - ROS messages for universally unique identifiers.
+Changes:
+ ros-uuid-msgs (1.0.6-6-gda30eb2-2023.01.29.19.50) bookworm; urgency=high
+Checksums-Sha1:
+ f2d6fa98d968f6eb769517644aba357ce501cf54 7303 ros-uuid-msgs_1.0.6-6-gda30eb2-2023.01.29.19.50_amd64.buildinfo
+ e7c188b73e2315c5e2b63af6b7fe8ab22473b32f 11492 ros-uuid-msgs_1.0.6-6-gda30eb2-2023.01.29.19.50_amd64.deb
+Checksums-Sha256:
+ 3ea279e5cdf9491849481cf73a05042a9c8f6d5dbdf2cdbdf752e1b1b8b7b087 7303 ros-uuid-msgs_1.0.6-6-gda30eb2-2023.01.29.19.50_amd64.buildinfo
+ 2fd0854e717109a580bf71c5bcd43d533124ccad20fc13eb695fa113895fbc83 11492 ros-uuid-msgs_1.0.6-6-gda30eb2-2023.01.29.19.50_amd64.deb
+Files:
+ e6e69fafb8734781aa52840998187315 7303 misc optional ros-uuid-msgs_1.0.6-6-gda30eb2-2023.01.29.19.50_amd64.buildinfo
+ 069c7d28b01742bad78fa38a8e6764b5 11492 misc optional ros-uuid-msgs_1.0.6-6-gda30eb2-2023.01.29.19.50_amd64.deb

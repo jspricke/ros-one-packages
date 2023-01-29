@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 10 May 2021 00:00:00 -0000
+Source: ros-rqt-dep
+Binary: ros-rqt-dep
+Architecture: amd64
+Version: 0.4.12-2023.01.29.18.40
+Distribution: bookworm
+Urgency: high
+Maintainer: Ivan Paunovic <ivanpauno@ekumenlabs.com>
+Changed-By: Ivan Paunovic <ivanpauno@ekumenlabs.com>
+Description:
+ ros-rqt-dep - rqt_dep provides a GUI plugin for visualizing the ROS dependency
+Changes:
+ ros-rqt-dep (0.4.12-2023.01.29.18.40) bookworm; urgency=high
+ .
+   * Fix rqt_dep for Noetic. (#16 <https://github.com/ros-visualization/rqt_dep/issues/16>)
+   * Contributors: Ivan Santiago Paunovic
+Checksums-Sha1:
+ eb850fdb4759dd3229998d895abcccf41b093d1a 6678 ros-rqt-dep_0.4.12-2023.01.29.18.40_amd64.buildinfo
+ 0a6262ec57ac528fce0d41ed7caef07bcf0616c8 31112 ros-rqt-dep_0.4.12-2023.01.29.18.40_amd64.deb
+Checksums-Sha256:
+ 266965b0d488f72e1e800d18b8e0042a7c9f551854160f2d01eaac37ac032606 6678 ros-rqt-dep_0.4.12-2023.01.29.18.40_amd64.buildinfo
+ f5d025fd9a6c6b00efa4363de2acf592907589fc561ed1e985d9ffa1cbb7ffba 31112 ros-rqt-dep_0.4.12-2023.01.29.18.40_amd64.deb
+Files:
+ 2fdee5a308b538c98109af1087d2fd23 6678 misc optional ros-rqt-dep_0.4.12-2023.01.29.18.40_amd64.buildinfo
+ e5f4a64c50172f2482a65d9f6cdfcee9 31112 misc optional ros-rqt-dep_0.4.12-2023.01.29.18.40_amd64.deb

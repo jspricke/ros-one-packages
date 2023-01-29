@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Thu, 18 Nov 2021 00:00:00 -0000
+Source: ros-moveit-resources-prbt-moveit-config
+Binary: ros-moveit-resources-prbt-moveit-config
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.01.29.17.33
+Distribution: bookworm
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ ros-moveit-resources-prbt-moveit-config - MoveIt Resources for testing: Pilz PRBT 6 A project-internal conf
+Changes:
+ ros-moveit-resources-prbt-moveit-config (0.8.2-5-g0be98e1-2023.01.29.17.33) bookworm; urgency=high
+Checksums-Sha1:
+ 39cb88e8b52306bdc6e22a68cb4ee317c1485fc3 6804 ros-moveit-resources-prbt-moveit-config_0.8.2-5-g0be98e1-2023.01.29.17.33_amd64.buildinfo
+ 05346707c6bbb91b7f910a12c49a6670ceea0548 17100 ros-moveit-resources-prbt-moveit-config_0.8.2-5-g0be98e1-2023.01.29.17.33_amd64.deb
+Checksums-Sha256:
+ cd976df32bb6ca71bf45928920280bcc6b001adde4c8371c3001144acbcb9f75 6804 ros-moveit-resources-prbt-moveit-config_0.8.2-5-g0be98e1-2023.01.29.17.33_amd64.buildinfo
+ b649050ec91c08fdd6e266dc45a55319b9a3574a12ed3e936c99208c993d7d5f 17100 ros-moveit-resources-prbt-moveit-config_0.8.2-5-g0be98e1-2023.01.29.17.33_amd64.deb
+Files:
+ 8a93b99fa7ea19f03239fcaea9a4b15d 6804 misc optional ros-moveit-resources-prbt-moveit-config_0.8.2-5-g0be98e1-2023.01.29.17.33_amd64.buildinfo
+ 512a5a7bdcde7244bb6697b2746538d0 17100 misc optional ros-moveit-resources-prbt-moveit-config_0.8.2-5-g0be98e1-2023.01.29.17.33_amd64.deb

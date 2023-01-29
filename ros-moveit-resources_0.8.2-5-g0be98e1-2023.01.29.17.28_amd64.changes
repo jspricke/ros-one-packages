@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Thu, 18 Nov 2021 00:00:00 -0000
+Source: ros-moveit-resources
+Binary: ros-moveit-resources
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.01.29.17.28
+Distribution: bookworm
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-moveit-resources - Resources used for MoveIt! testing
+Changes:
+ ros-moveit-resources (0.8.2-5-g0be98e1-2023.01.29.17.28) bookworm; urgency=high
+Checksums-Sha1:
+ a2b28c0eb05404273e3aaeab075be4888e9b3166 6706 ros-moveit-resources_0.8.2-5-g0be98e1-2023.01.29.17.28_amd64.buildinfo
+ ceae8ab821714ae2a77ee9d76cb5da484671ffab 3484 ros-moveit-resources_0.8.2-5-g0be98e1-2023.01.29.17.28_amd64.deb
+Checksums-Sha256:
+ 1e11c0ba99897b03012e8cb950664608ed059ce30362ee686858e9b80c755bae 6706 ros-moveit-resources_0.8.2-5-g0be98e1-2023.01.29.17.28_amd64.buildinfo
+ 4f02dc33319b047a686e43c79026eb449ef9d272f1152e9828060af0efc51b37 3484 ros-moveit-resources_0.8.2-5-g0be98e1-2023.01.29.17.28_amd64.deb
+Files:
+ 787632cd27255f1077187b13a050e274 6706 misc optional ros-moveit-resources_0.8.2-5-g0be98e1-2023.01.29.17.28_amd64.buildinfo
+ 97478256707472e884417afce12387cc 3484 misc optional ros-moveit-resources_0.8.2-5-g0be98e1-2023.01.29.17.28_amd64.deb

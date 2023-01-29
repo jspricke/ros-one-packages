@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 31 Jul 2020 00:00:00 -0000
+Source: ros-ros-tutorials
+Binary: ros-ros-tutorials
+Architecture: amd64
+Version: 0.10.2-3-gdb63288-2023.01.29.18.17
+Distribution: bookworm
+Urgency: high
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Changed-By: Mabel Zhang <mabel@openrobotics.org>
+Description:
+ ros-ros-tutorials - ros_tutorials contains packages that demonstrate various features
+Changes:
+ ros-ros-tutorials (0.10.2-3-gdb63288-2023.01.29.18.17) bookworm; urgency=high
+Checksums-Sha1:
+ 7e77c3a141b12943bce61c38e044635ae57d4f20 6695 ros-ros-tutorials_0.10.2-3-gdb63288-2023.01.29.18.17_amd64.buildinfo
+ 060c3407210f59c726bfca4eae4e87dc8cded5a7 2536 ros-ros-tutorials_0.10.2-3-gdb63288-2023.01.29.18.17_amd64.deb
+Checksums-Sha256:
+ 403b644d45d192f8895d21a8cf9f256805630955fcd619b7f0fa444f3f0164f0 6695 ros-ros-tutorials_0.10.2-3-gdb63288-2023.01.29.18.17_amd64.buildinfo
+ 261458bef3e38ddd61f8c1f36639198cf6c3020634d41460c93217645fff758d 2536 ros-ros-tutorials_0.10.2-3-gdb63288-2023.01.29.18.17_amd64.deb
+Files:
+ 225f4d68ff3b6e9da4c3eb4c84609ae2 6695 misc optional ros-ros-tutorials_0.10.2-3-gdb63288-2023.01.29.18.17_amd64.buildinfo
+ 466b1fc22df6db2e605af5ccb5757109 2536 misc optional ros-ros-tutorials_0.10.2-3-gdb63288-2023.01.29.18.17_amd64.deb

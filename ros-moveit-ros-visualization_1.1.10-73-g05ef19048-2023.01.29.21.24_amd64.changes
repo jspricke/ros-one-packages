@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-ros-visualization
+Binary: ros-moveit-ros-visualization ros-moveit-ros-visualization-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.29.21.24
+Distribution: bookworm
+Urgency: high
+Maintainer: Jon Binney <jon.binney@gmail.com>
+Changed-By: Jon Binney <jon.binney@gmail.com>
+Description:
+ ros-moveit-ros-visualization - Components of MoveIt that offer visualization
+Changes:
+ ros-moveit-ros-visualization (1.1.10-73-g05ef19048-2023.01.29.21.24) bookworm; urgency=high
+ .
+   * Fix some consistency issues in PlanningScene handling (#3298 <https://github.com/ros-planning/moveit/issues/3298>)
+ .
+       * Allow Plane collision-object creation from rviz
+       * Simplify Cone rendering
+       * Visualize PLANE shapes as a large, thin box
+ .
+   * Merge fixes+improvements to ``PlanningScene`` editing in rviz: #3263 <https://github.com/ros-planning/moveit/issues/3263>, #3264 <https://github.com/ros-planning/moveit/issues/3264>, #3296 <https://github.com/ros-planning/moveit/issues/3296>
+ .
+       * Fix error "QBackingStore::endPaint() called with active painter"
+       * Remove limitation to one-shape collision objects
+       * Fix segfault on object scaling: only update a _valid_ scene marker
+       * JointsWidget: Copy full RobotState on updates (attached collision objects were missing)
+       * Factor out ``addCollisionObjectToList()`` from ``populateCollisionObjectsList()``
+       * Simplify ``MotionPlanningFrame::addSceneObject``
+       * Directly call ``populateCollisionObjectsList()`` if possibleCalling was previously deferred into a main loop job, because most
+         callers already held a PlanningScene lock, thus causing recursive locking and a deadlock.
+         By simply passing the locked scene, these issues can be avoided.
+         As a fallback, the PlanningScene lock is still acquired in the function.
+       * ``updateQueryStates()`` after removal of attached objects
+       * Clear scene objects: only clear locally. To publish changes, one should explicitly click the "Publish" button.
+       * Scene Object List: allow extended selection mode
+       * always update query states - even if they are disabled for visualization
+       * only allow execution if start state is up-to-date
+ .
+   * Merge PR #3227 <https://github.com/ros-planning/moveit/issues/3227>: Improve MotionPlanning plugin's JointsWidget
+     * Add units to sliders in JointsWidget and to spinbox editor
+     * Avoid need for extra click to operate joint slider
+     * allow control of joints via keyboard
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ f6446e7f9219e8ceada0c0b7a3e77da8fae628da 37857564 ros-moveit-ros-visualization-dbgsym_1.1.10-73-g05ef19048-2023.01.29.21.24_amd64.deb
+ 02a2ded9fa5e723c53c0eceeb42e32b5bf997f6b 33905 ros-moveit-ros-visualization_1.1.10-73-g05ef19048-2023.01.29.21.24_amd64.buildinfo
+ cddacac0f0ae927db4bfe8b8bcd91c1ffb6ca329 578308 ros-moveit-ros-visualization_1.1.10-73-g05ef19048-2023.01.29.21.24_amd64.deb
+Checksums-Sha256:
+ dc7e8118fc3009e0010a471dad58f9f316fa36aa00a6203af7d7580d622c0cc9 37857564 ros-moveit-ros-visualization-dbgsym_1.1.10-73-g05ef19048-2023.01.29.21.24_amd64.deb
+ d7dcd2f58de5f3397feb96b999a20d463d6c2d182d825a213df39e5a492d6d00 33905 ros-moveit-ros-visualization_1.1.10-73-g05ef19048-2023.01.29.21.24_amd64.buildinfo
+ adbf2ca6fb1e22af62c354f445931beb7ad6130910e9097de2ab5f6610758b20 578308 ros-moveit-ros-visualization_1.1.10-73-g05ef19048-2023.01.29.21.24_amd64.deb
+Files:
+ 5729a7b7dabc5eac524a9b1d9a8fbd22 37857564 debug optional ros-moveit-ros-visualization-dbgsym_1.1.10-73-g05ef19048-2023.01.29.21.24_amd64.deb
+ b16deddd891d6ea6a6d8f8ee01356a5d 33905 misc optional ros-moveit-ros-visualization_1.1.10-73-g05ef19048-2023.01.29.21.24_amd64.buildinfo
+ 3f1f238c8547c72473c5dfb491638540 578308 misc optional ros-moveit-ros-visualization_1.1.10-73-g05ef19048-2023.01.29.21.24_amd64.deb

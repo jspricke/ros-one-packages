@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Thu, 18 Nov 2021 00:00:00 -0000
+Source: ros-moveit-resources-prbt-support
+Binary: ros-moveit-resources-prbt-support
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.01.29.17.34
+Distribution: bookworm
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ ros-moveit-resources-prbt-support - Mechanical, kinematic and visual description of the Pilz light we
+Changes:
+ ros-moveit-resources-prbt-support (0.8.2-5-g0be98e1-2023.01.29.17.34) bookworm; urgency=high
+Checksums-Sha1:
+ bc2ae309b099e1d023f6bf6b1cfc2e1f8f9c0831 6777 ros-moveit-resources-prbt-support_0.8.2-5-g0be98e1-2023.01.29.17.34_amd64.buildinfo
+ a5724547a74e00a42ca78e865f3c75673f2e5c59 676644 ros-moveit-resources-prbt-support_0.8.2-5-g0be98e1-2023.01.29.17.34_amd64.deb
+Checksums-Sha256:
+ cbed9f38ee2786321e38cab1d7f1b72e9d42edbcb49ff64d59b1c86bf8c44d55 6777 ros-moveit-resources-prbt-support_0.8.2-5-g0be98e1-2023.01.29.17.34_amd64.buildinfo
+ a26831502fcd0a9750f64e2cdb72ec34a82e3a419a91cce5c68a255de7f35d45 676644 ros-moveit-resources-prbt-support_0.8.2-5-g0be98e1-2023.01.29.17.34_amd64.deb
+Files:
+ d07dafe56dac6ac99822d03f60c9e442 6777 misc optional ros-moveit-resources-prbt-support_0.8.2-5-g0be98e1-2023.01.29.17.34_amd64.buildinfo
+ 2aee5d5070855b3f377122526759140f 676644 misc optional ros-moveit-resources-prbt-support_0.8.2-5-g0be98e1-2023.01.29.17.34_amd64.deb

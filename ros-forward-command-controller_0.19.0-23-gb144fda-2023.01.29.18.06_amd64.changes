@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-forward-command-controller
+Binary: ros-forward-command-controller
+Architecture: amd64
+Version: 0.19.0-23-gb144fda-2023.01.29.18.06
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-forward-command-controller - forward_command_controller
+Changes:
+ ros-forward-command-controller (0.19.0-23-gb144fda-2023.01.29.18.06) bookworm; urgency=high
+Checksums-Sha1:
+ 140da681408557df09ad043265e0e684435cb8b9 9658 ros-forward-command-controller_0.19.0-23-gb144fda-2023.01.29.18.06_amd64.buildinfo
+ 7e47cf132cc00f13588e8483a6f327586f52d841 8796 ros-forward-command-controller_0.19.0-23-gb144fda-2023.01.29.18.06_amd64.deb
+Checksums-Sha256:
+ c07e4650685944dfa7ff6be122142a427abeb7c804b18d907e2de14383fdc27f 9658 ros-forward-command-controller_0.19.0-23-gb144fda-2023.01.29.18.06_amd64.buildinfo
+ cd2d1422ed72942378d76ed2552ff37f486eb7af6694ba27ad2fa432626e3820 8796 ros-forward-command-controller_0.19.0-23-gb144fda-2023.01.29.18.06_amd64.deb
+Files:
+ 5e146702e67bf3ad63310a2b5c036dea 9658 misc optional ros-forward-command-controller_0.19.0-23-gb144fda-2023.01.29.18.06_amd64.buildinfo
+ a66d0bd3998904e76a834eccbcf698ad 8796 misc optional ros-forward-command-controller_0.19.0-23-gb144fda-2023.01.29.18.06_amd64.deb

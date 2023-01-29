@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-controller-manager-tests
+Binary: ros-controller-manager-tests ros-controller-manager-tests-dbgsym
+Architecture: amd64
+Version: 0.19.6-2023.01.29.17.14
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-controller-manager-tests - Tests for the controller manager.
+Changes:
+ ros-controller-manager-tests (0.19.6-2023.01.29.17.14) bookworm; urgency=high
+Checksums-Sha1:
+ 32371c1d3b0ff6a7bf44a154196fd47bc406b47b 4423120 ros-controller-manager-tests-dbgsym_0.19.6-2023.01.29.17.14_amd64.deb
+ be3503059daf22145b477e28c02046b64e268eb1 11962 ros-controller-manager-tests_0.19.6-2023.01.29.17.14_amd64.buildinfo
+ b80a6f8d4b2a1a436d477ee5042089f5ac92bdf5 262404 ros-controller-manager-tests_0.19.6-2023.01.29.17.14_amd64.deb
+Checksums-Sha256:
+ 3012f92d16e2c89e31cd57bfcdc7128fc6caba360f282f36b7164dc973f80214 4423120 ros-controller-manager-tests-dbgsym_0.19.6-2023.01.29.17.14_amd64.deb
+ f29d7238648e0a34811f9c8ca56bf8abccf572036fc2018469fa206f2594eb5c 11962 ros-controller-manager-tests_0.19.6-2023.01.29.17.14_amd64.buildinfo
+ 70d1bf605b27594420eb253845b94d6c7a1c00ead0c69fd9ba475f192cf792a9 262404 ros-controller-manager-tests_0.19.6-2023.01.29.17.14_amd64.deb
+Files:
+ 5b5e7159b6f3c49904cce6c50ddaf259 4423120 debug optional ros-controller-manager-tests-dbgsym_0.19.6-2023.01.29.17.14_amd64.deb
+ a5eaca0dd3c1718e20758a991b0e5dd9 11962 misc optional ros-controller-manager-tests_0.19.6-2023.01.29.17.14_amd64.buildinfo
+ 4cabb4416a0521b9a0a29778f759a200 262404 misc optional ros-controller-manager-tests_0.19.6-2023.01.29.17.14_amd64.deb

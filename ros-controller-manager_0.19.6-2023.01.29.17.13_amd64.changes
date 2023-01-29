@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-controller-manager
+Binary: ros-controller-manager ros-controller-manager-dbgsym
+Architecture: amd64
+Version: 0.19.6-2023.01.29.17.13
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-controller-manager - The controller manager.
+Changes:
+ ros-controller-manager (0.19.6-2023.01.29.17.13) bookworm; urgency=high
+ .
+   * SPAWNER: Wait for the clock to be available before proceeding (#432 <https://github.com/ros-controls/ros_control/issues/432>)
+     This patch is to resolve an issue when the simulated clock is not published right away (coming from a remote gazebo instance for example).
+     If the clock is not published right away, the rosservice wait_for_service times out prematurely and the controllers fail to be loaded since the system is not yet ready (no Gazebo clock).
+     With no, gazebo system, the clock will be ready immediately and the spawner will proceed.
+     Issue: #431 <https://github.com/ros-controls/ros_control/issues/431>
+   * Contributors: Guillaume Autran
+Checksums-Sha1:
+ 8faecf9f7ba980dce01d7b4e506cb8f3eaa9f41f 1766112 ros-controller-manager-dbgsym_0.19.6-2023.01.29.17.13_amd64.deb
+ 6510a23e37b5c08e01a6253a825e4e3c9b9a3a5f 11730 ros-controller-manager_0.19.6-2023.01.29.17.13_amd64.buildinfo
+ 154aa0cb5abc99c9d2d227bb064efc8bad24f997 156560 ros-controller-manager_0.19.6-2023.01.29.17.13_amd64.deb
+Checksums-Sha256:
+ 81d7432433f9879d159e042e59515f7a5cd005bc759f0471196c14f32165d8fb 1766112 ros-controller-manager-dbgsym_0.19.6-2023.01.29.17.13_amd64.deb
+ 8a153ff87d0a04f15d2e21174fd7d2df05f7e4c1acf16acaf4bad9a1570ef727 11730 ros-controller-manager_0.19.6-2023.01.29.17.13_amd64.buildinfo
+ f8ace023420ed32fa3e15d20671bdda76817b91ca66b409dfe050218a2d63048 156560 ros-controller-manager_0.19.6-2023.01.29.17.13_amd64.deb
+Files:
+ dcf5da3e5402ef7e7e8026d5e5c5d1a6 1766112 debug optional ros-controller-manager-dbgsym_0.19.6-2023.01.29.17.13_amd64.deb
+ 542c7fea10a35eb75328ff35b42d804b 11730 misc optional ros-controller-manager_0.19.6-2023.01.29.17.13_amd64.buildinfo
+ b2569e38b62fa73bc15b86b6cc46cd3e 156560 misc optional ros-controller-manager_0.19.6-2023.01.29.17.13_amd64.deb

@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Thu, 18 Feb 2021 00:00:00 -0000
+Source: ros-rqt-bag-plugins
+Binary: ros-rqt-bag-plugins
+Architecture: amd64
+Version: 0.5.1-2023.01.29.18.36
+Distribution: bookworm
+Urgency: high
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Changed-By: Mabel Zhang <mabel@openrobotics.org>
+Description:
+ ros-rqt-bag-plugins - rqt_bag provides a GUI plugin for displaying and replaying ROS ba
+Changes:
+ ros-rqt-bag-plugins (0.5.1-2023.01.29.18.36) bookworm; urgency=high
+Checksums-Sha1:
+ 147b03e15595a1004a7b0806ccd13ca9c120d055 6660 ros-rqt-bag-plugins_0.5.1-2023.01.29.18.36_amd64.buildinfo
+ 05e1325b4ee96e9470b021e078008abd327f0594 33616 ros-rqt-bag-plugins_0.5.1-2023.01.29.18.36_amd64.deb
+Checksums-Sha256:
+ dab4aa8c6bb0900505ff6332705466c376e32781cff50aa0c5af3dd5ade28680 6660 ros-rqt-bag-plugins_0.5.1-2023.01.29.18.36_amd64.buildinfo
+ 8d08ff4c661939fef058381281a3fef370450bdceeee5b66c598e8a60b20dea9 33616 ros-rqt-bag-plugins_0.5.1-2023.01.29.18.36_amd64.deb
+Files:
+ 635c17b7aecc2f01b0655defbb54c2a2 6660 misc optional ros-rqt-bag-plugins_0.5.1-2023.01.29.18.36_amd64.buildinfo
+ 1f6afd1c6d09173b9018e7ee41877d65 33616 misc optional ros-rqt-bag-plugins_0.5.1-2023.01.29.18.36_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-joint-state-controller
+Binary: ros-joint-state-controller ros-joint-state-controller-dbgsym
+Architecture: amd64
+Version: 0.19.0-23-gb144fda-2023.01.29.18.10
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-joint-state-controller - Controller to publish joint state
+Changes:
+ ros-joint-state-controller (0.19.0-23-gb144fda-2023.01.29.18.10) bookworm; urgency=high
+Checksums-Sha1:
+ f31235eb508c58e1c127dfc79035150bf1d74650 651580 ros-joint-state-controller-dbgsym_0.19.0-23-gb144fda-2023.01.29.18.10_amd64.deb
+ 4d84d916c3c4ce8338cd368bdefdcec4cd5561e6 11379 ros-joint-state-controller_0.19.0-23-gb144fda-2023.01.29.18.10_amd64.buildinfo
+ 1dac0425f327e4295a6b9083775ae2ef0c6c4214 51868 ros-joint-state-controller_0.19.0-23-gb144fda-2023.01.29.18.10_amd64.deb
+Checksums-Sha256:
+ 039dc9128a60610e86b5c9ece1c85d6a91426cb3f0f286fde6d917a7da846f41 651580 ros-joint-state-controller-dbgsym_0.19.0-23-gb144fda-2023.01.29.18.10_amd64.deb
+ d8339540d7824a0b37f8cbfddd159cc07c242d762cfd8284978d100ecdd8c42b 11379 ros-joint-state-controller_0.19.0-23-gb144fda-2023.01.29.18.10_amd64.buildinfo
+ 6dbba9445a4a65b1a85e87d5bb8faa5db2498a6a68f5ec0abebd21c8ee79118f 51868 ros-joint-state-controller_0.19.0-23-gb144fda-2023.01.29.18.10_amd64.deb
+Files:
+ 343101fea77cf3daee90eff7524be0ac 651580 debug optional ros-joint-state-controller-dbgsym_0.19.0-23-gb144fda-2023.01.29.18.10_amd64.deb
+ 96c6576c9a28e13d0470455a1429ac2c 11379 misc optional ros-joint-state-controller_0.19.0-23-gb144fda-2023.01.29.18.10_amd64.buildinfo
+ 549ffeecf6071565abf87ba666b75ae4 51868 misc optional ros-joint-state-controller_0.19.0-23-gb144fda-2023.01.29.18.10_amd64.deb

@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-kinematics
+Binary: ros-moveit-kinematics ros-moveit-kinematics-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.29.20.47
+Distribution: bookworm
+Urgency: high
+Maintainer: Dave Coleman <dave@picknik.ai>
+Changed-By: Dave Coleman <dave@picknik.ai>
+Description:
+ ros-moveit-kinematics - Package for all inverse kinematics solvers in MoveIt
+Changes:
+ ros-moveit-kinematics (1.1.10-73-g05ef19048-2023.01.29.20.47) bookworm; urgency=high
+ .
+   * kinematics: add ``program_options`` as required boost component (#3269 <https://github.com/ros-planning/moveit/issues/3269>)
+   * Contributors: Jochen Sprickerhof
+Checksums-Sha1:
+ b0cd566e7b814bc5267aca5b909463ba3427c07f 10553260 ros-moveit-kinematics-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.47_amd64.deb
+ dc6698eae99af5b9bf4cae3642f9cafaad2a08b2 26035 ros-moveit-kinematics_1.1.10-73-g05ef19048-2023.01.29.20.47_amd64.buildinfo
+ b1683e57e84a6ddd54f63cb06a995f438ec77219 270824 ros-moveit-kinematics_1.1.10-73-g05ef19048-2023.01.29.20.47_amd64.deb
+Checksums-Sha256:
+ 15077f8533270467a23365f0a4f967e0c520ab0662979872f15e23ff751d8e0f 10553260 ros-moveit-kinematics-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.47_amd64.deb
+ 97c0e3a2de7dbba0335aa1ec92dc69cbf34aea08774051fbcba4129502e77a81 26035 ros-moveit-kinematics_1.1.10-73-g05ef19048-2023.01.29.20.47_amd64.buildinfo
+ b3707736dee0145c83013bb0e4864823b4732e81f6832ba36c16fc0cde8ee80a 270824 ros-moveit-kinematics_1.1.10-73-g05ef19048-2023.01.29.20.47_amd64.deb
+Files:
+ f35ab83d00b52edcc99b99aab92cee52 10553260 debug optional ros-moveit-kinematics-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.47_amd64.deb
+ 200f926dd3a353f75771bc4f48a44a20 26035 misc optional ros-moveit-kinematics_1.1.10-73-g05ef19048-2023.01.29.20.47_amd64.buildinfo
+ 05deacf649a8277449f0aa2fd4368470 270824 misc optional ros-moveit-kinematics_1.1.10-73-g05ef19048-2023.01.29.20.47_amd64.deb

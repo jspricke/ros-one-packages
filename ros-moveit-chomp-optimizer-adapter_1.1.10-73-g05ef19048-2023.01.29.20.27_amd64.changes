@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-chomp-optimizer-adapter
+Binary: ros-moveit-chomp-optimizer-adapter ros-moveit-chomp-optimizer-adapter-dbgsym
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.29.20.27
+Distribution: bookworm
+Urgency: high
+Maintainer: Raghavender Sahdev <raghavendersahdev@gmail.com>
+Changed-By: Raghavender Sahdev <raghavendersahdev@gmail.com>
+Description:
+ ros-moveit-chomp-optimizer-adapter - MoveIt planning request adapter utilizing chomp for solution opti
+Changes:
+ ros-moveit-chomp-optimizer-adapter (1.1.10-73-g05ef19048-2023.01.29.20.27) bookworm; urgency=high
+Checksums-Sha1:
+ b3fed5294d964490ccd32a82673836cc630300ab 1778332 ros-moveit-chomp-optimizer-adapter-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.27_amd64.deb
+ 1e4e9c7edb156b656adaba6039351a3bf2bd8109 18723 ros-moveit-chomp-optimizer-adapter_1.1.10-73-g05ef19048-2023.01.29.20.27_amd64.buildinfo
+ 401f1354f74c65b8151b5493e16b06464a9f3196 30364 ros-moveit-chomp-optimizer-adapter_1.1.10-73-g05ef19048-2023.01.29.20.27_amd64.deb
+Checksums-Sha256:
+ 945628f38ba0855ceedca871924744dd3ef46bb4a66aebfcbca196db9d216be3 1778332 ros-moveit-chomp-optimizer-adapter-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.27_amd64.deb
+ 4239415a186472d73ec55e44804e037a68c79291f8e9ba171a0ab6f1ca9121c0 18723 ros-moveit-chomp-optimizer-adapter_1.1.10-73-g05ef19048-2023.01.29.20.27_amd64.buildinfo
+ e846138316fd2b3a9585f8b43a4878d388c1f1690ee3d48385bf458fba20efc9 30364 ros-moveit-chomp-optimizer-adapter_1.1.10-73-g05ef19048-2023.01.29.20.27_amd64.deb
+Files:
+ a125e032c7f59f03de29dfd7bf3f9929 1778332 debug optional ros-moveit-chomp-optimizer-adapter-dbgsym_1.1.10-73-g05ef19048-2023.01.29.20.27_amd64.deb
+ 7d802ef26e7ec5b254077cc29aeeb4dd 18723 misc optional ros-moveit-chomp-optimizer-adapter_1.1.10-73-g05ef19048-2023.01.29.20.27_amd64.buildinfo
+ 04bd668ec82e879c01c9e4cddd800bbd 30364 misc optional ros-moveit-chomp-optimizer-adapter_1.1.10-73-g05ef19048-2023.01.29.20.27_amd64.deb

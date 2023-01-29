@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 26 Apr 2017 00:00:00 -0000
+Source: ros-rqt-nav-view
+Binary: ros-rqt-nav-view
+Architecture: amd64
+Version: 0.5.7-4-ge7277bf-2023.01.29.18.54
+Distribution: bookworm
+Urgency: high
+Maintainer: Aaron Blasdel <ablasdel@gmail.com>
+Changed-By: Aaron Blasdel <ablasdel@gmail.com>
+Description:
+ ros-rqt-nav-view - rqt_nav_view provides a gui for viewing navigation maps and paths
+Changes:
+ ros-rqt-nav-view (0.5.7-4-ge7277bf-2023.01.29.18.54) bookworm; urgency=high
+Checksums-Sha1:
+ 2d8fcbb0daf5063e939271316575d232a89d0894 6689 ros-rqt-nav-view_0.5.7-4-ge7277bf-2023.01.29.18.54_amd64.buildinfo
+ 81183bcb788f9d686fe77b62a4d51a1237a88484 25780 ros-rqt-nav-view_0.5.7-4-ge7277bf-2023.01.29.18.54_amd64.deb
+Checksums-Sha256:
+ dc773ecb5311ea2973cc56deeb6176c2549209ba4fb370c7ffca7c43465c47f4 6689 ros-rqt-nav-view_0.5.7-4-ge7277bf-2023.01.29.18.54_amd64.buildinfo
+ 297b5bf453646bc96ca6c71ba3d2b9ba4e00d4154f0780c1d3244f37d4dba7f8 25780 ros-rqt-nav-view_0.5.7-4-ge7277bf-2023.01.29.18.54_amd64.deb
+Files:
+ 86815307005ec79ee6665dfa83f60b8c 6689 misc optional ros-rqt-nav-view_0.5.7-4-ge7277bf-2023.01.29.18.54_amd64.buildinfo
+ 3f9c380f223d56c0e520bba23581780c 25780 misc optional ros-rqt-nav-view_0.5.7-4-ge7277bf-2023.01.29.18.54_amd64.deb
