@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 27 Oct 2023 00:00:00 -0000
+Source: controller-manager-msgs
+Binary: controller-manager-msgs
+Architecture: amd64
+Version: 0.20.0-2024.09.20.16.58
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ controller-manager-msgs - Messages and services for the controller manager.
+Changes:
+ controller-manager-msgs (0.20.0-2024.09.20.16.58) bookworm; urgency=high
+Checksums-Sha1:
+ df779afba85e3fca9b0e0e4b7258b6ad5b67ad46 7657 controller-manager-msgs_0.20.0-2024.09.20.16.58_amd64.buildinfo
+ 3da1c075d31f293ac8ba9787716db929c3bd1e62 54468 controller-manager-msgs_0.20.0-2024.09.20.16.58_amd64.deb
+Checksums-Sha256:
+ 072a4f8a906e27f8a43bb83b4f645b5d6d927eb08cbd46db502221f7b551ab3d 7657 controller-manager-msgs_0.20.0-2024.09.20.16.58_amd64.buildinfo
+ 1f5a6656a3f1f9e83ec9e277ae0d4279af600a4a9ca86720c15323ae8d19b30a 54468 controller-manager-msgs_0.20.0-2024.09.20.16.58_amd64.deb
+Files:
+ 403a455e1aff09dcf4a3989e28c79e78 7657 misc optional controller-manager-msgs_0.20.0-2024.09.20.16.58_amd64.buildinfo
+ bd0477ccfa42a09c8ebec95fcae6736d 54468 misc optional controller-manager-msgs_0.20.0-2024.09.20.16.58_amd64.deb

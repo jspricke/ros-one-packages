@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Wed, 21 Apr 2021 00:00:00 -0000
+Source: rqt-py-console
+Binary: rqt-py-console
+Architecture: amd64
+Version: 0.4.10-1-gf9bf603-2024.09.20.18.39
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ rqt-py-console - rqt_py_console is a Python GUI plugin providing an interactive Py
+Changes:
+ rqt-py-console (0.4.10-1-gf9bf603-2024.09.20.18.39) bookworm; urgency=high
+ .
+   * Merge pull request #10 <https://github.com/ros-visualization/rqt_py_console/issues/10> from ros-visualization/sloretz-update-maintainer
+     Update maintainer in package.xml
+   * Update maintainer in package.xml
+   * fix shebang line for python3 (#9 <https://github.com/ros-visualization/rqt_py_console/issues/9>)
+   * Contributors: Michael Carroll, Mikael Arguedas, Shane Loretz
+Checksums-Sha1:
+ d5bcac0651e3387d228e60336dee5d4817730b3d 7025 rqt-py-console_0.4.10-1-gf9bf603-2024.09.20.18.39_amd64.buildinfo
+ a63a6b725f6edcdcbcaf5149b1d3ef0836244d7e 14672 rqt-py-console_0.4.10-1-gf9bf603-2024.09.20.18.39_amd64.deb
+Checksums-Sha256:
+ 9ed63ec243aa4dd58d6cbd376c71b7c4c5549eb0a961f2b15a4dd74349efaf6a 7025 rqt-py-console_0.4.10-1-gf9bf603-2024.09.20.18.39_amd64.buildinfo
+ 10b7386220ec9439497e31a416ff5bdfc36587c594c89f50200daf42031dae38 14672 rqt-py-console_0.4.10-1-gf9bf603-2024.09.20.18.39_amd64.deb
+Files:
+ b4d0c423f018e0a37a0d7c5e0b79834d 7025 misc optional rqt-py-console_0.4.10-1-gf9bf603-2024.09.20.18.39_amd64.buildinfo
+ 38945b1ab268ec53254535b138abe475 14672 misc optional rqt-py-console_0.4.10-1-gf9bf603-2024.09.20.18.39_amd64.deb

@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Fri, 24 Jul 2020 00:00:00 -0000
+Source: qt-gui-cpp
+Binary: qt-gui-cpp qt-gui-cpp-dbgsym
+Architecture: amd64
+Version: 0.4.2-7-g8f06b8d-2024.09.20.17.50
+Distribution: bookworm
+Urgency: high
+Maintainer: Scott Logan <cottsay@openrobotics.org>
+Changed-By: Scott Logan <cottsay@openrobotics.org>
+Description:
+ qt-gui-cpp - qt_gui_cpp provides the foundation for C++-bindings for qt_gui an
+Changes:
+ qt-gui-cpp (0.4.2-7-g8f06b8d-2024.09.20.17.50) bookworm; urgency=high
+ .
+   * quiet upstream Qt5 warnings (#210 <https://github.com/ros-visualization/qt_gui_core/issues/210>) (#229 <https://github.com/ros-visualization/qt_gui_core/issues/229>)
+   * declare private assignment operator for SIP (#226 <https://github.com/ros-visualization/qt_gui_core/issues/226>)
+Checksums-Sha1:
+ 66775690ef26fc1133b7cf9595bdd83acdd09291 6770764 qt-gui-cpp-dbgsym_0.4.2-7-g8f06b8d-2024.09.20.17.50_amd64.deb
+ 6d694fceb7c2e6f3b07b0fce6955e8c76456c407 13477 qt-gui-cpp_0.4.2-7-g8f06b8d-2024.09.20.17.50_amd64.buildinfo
+ 989646bdddb706a6fd07bb14a76ab4a5aa26ed5c 211256 qt-gui-cpp_0.4.2-7-g8f06b8d-2024.09.20.17.50_amd64.deb
+Checksums-Sha256:
+ b71ceafbf1ffb0c80409518b399384dcd5c1fa7d4499964711ed29421d242741 6770764 qt-gui-cpp-dbgsym_0.4.2-7-g8f06b8d-2024.09.20.17.50_amd64.deb
+ 45d64474bd7bedd567ec3141f21338f0038b44efed61af003547585923fa1b98 13477 qt-gui-cpp_0.4.2-7-g8f06b8d-2024.09.20.17.50_amd64.buildinfo
+ e1a304c26af59a981b37e3ac68927d69f897ce9183fcca14073ba21ce503982a 211256 qt-gui-cpp_0.4.2-7-g8f06b8d-2024.09.20.17.50_amd64.deb
+Files:
+ de68dbf045e19b2479f839efab48aaa8 6770764 debug optional qt-gui-cpp-dbgsym_0.4.2-7-g8f06b8d-2024.09.20.17.50_amd64.deb
+ 636da29aaf2f499102d0eb3b20057b81 13477 misc optional qt-gui-cpp_0.4.2-7-g8f06b8d-2024.09.20.17.50_amd64.buildinfo
+ 0fa43d932e0834ac6cb6f8d53cfc4491 211256 misc optional qt-gui-cpp_0.4.2-7-g8f06b8d-2024.09.20.17.50_amd64.deb

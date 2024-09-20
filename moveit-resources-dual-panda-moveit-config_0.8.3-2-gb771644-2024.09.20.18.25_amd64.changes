@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 10 Nov 2023 00:00:00 -0000
+Source: moveit-resources-dual-panda-moveit-config
+Binary: moveit-resources-dual-panda-moveit-config
+Architecture: amd64
+Version: 0.8.3-2-gb771644-2024.09.20.18.25
+Distribution: bookworm
+Urgency: high
+Maintainer: Cristian C. Beltran-Hernandez <cristianbehe@gmail.com>
+Changed-By: Cristian C. Beltran-Hernandez <cristianbehe@gmail.com>
+Description:
+ moveit-resources-dual-panda-moveit-config - An automatically generated package with all the configuration and
+Changes:
+ moveit-resources-dual-panda-moveit-config (0.8.3-2-gb771644-2024.09.20.18.25) bookworm; urgency=high
+ .
+   * Add ResolveConstraintFrames to all planning pipelines
+   * Disable dependencies to avoid circular dependencies (#149 <https://github.com/ros-planning/moveit_resources/issues/149>)
+   * Add dual_panda_moveit_config (#133 <https://github.com/ros-planning/moveit_resources/issues/133>)
+   * Contributors: Robert Haschke, Cristian Beltran
+Checksums-Sha1:
+ 0d45fcd3b2efa3ff8a5c313fde3e1d172f02722d 7156 moveit-resources-dual-panda-moveit-config_0.8.3-2-gb771644-2024.09.20.18.25_amd64.buildinfo
+ 369a94c7b2318d0224e3a12b278b73559ca73db7 18404 moveit-resources-dual-panda-moveit-config_0.8.3-2-gb771644-2024.09.20.18.25_amd64.deb
+Checksums-Sha256:
+ dd46b709f0484530d62a2b79acfb9e7017904495fe5ec4d94ca203583177328c 7156 moveit-resources-dual-panda-moveit-config_0.8.3-2-gb771644-2024.09.20.18.25_amd64.buildinfo
+ 0238a107f5ef43a8e2aa912071c42c1e49a21a5720cba24e7b7a7c760575c6e0 18404 moveit-resources-dual-panda-moveit-config_0.8.3-2-gb771644-2024.09.20.18.25_amd64.deb
+Files:
+ b2f28ae3f280f1ce5501ca2e5b9be3b2 7156 misc optional moveit-resources-dual-panda-moveit-config_0.8.3-2-gb771644-2024.09.20.18.25_amd64.buildinfo
+ 969b8b9036140714277cf4739b3c08cd 18404 misc optional moveit-resources-dual-panda-moveit-config_0.8.3-2-gb771644-2024.09.20.18.25_amd64.deb

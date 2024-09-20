@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 11 Mar 2020 00:00:00 -0000
+Source: control-msgs
+Binary: control-msgs
+Architecture: amd64
+Version: 1.5.2-6-g36e2e30-2024.09.20.16.57
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ control-msgs - control_msgs contains base messages and actions useful for contro
+Changes:
+ control-msgs (1.5.2-6-g36e2e30-2024.09.20.16.57) bookworm; urgency=high
+ .
+   * Bump CMake version to avoid CMP0048 (#40 <https://github.com/ros-controls/control_msgs/issues/40>)
+   * Contributors: Shane Loretz
+Checksums-Sha1:
+ 556d8912a90ceefb8bf4640044442bdc57fd5742 7981 control-msgs_1.5.2-6-g36e2e30-2024.09.20.16.57_amd64.buildinfo
+ 92a08f013c069db9bdbfc907396e962d24e8f33d 112404 control-msgs_1.5.2-6-g36e2e30-2024.09.20.16.57_amd64.deb
+Checksums-Sha256:
+ ad53aa5e7ef033abad891bf8ed3f1c777834e97f8574124e4339ecbd9b7e557b 7981 control-msgs_1.5.2-6-g36e2e30-2024.09.20.16.57_amd64.buildinfo
+ 3fc6d1de48e475cb914dd58e0aa2deeaf3263c7fc27bf9d7ca4e84c4ab910af6 112404 control-msgs_1.5.2-6-g36e2e30-2024.09.20.16.57_amd64.deb
+Files:
+ acf558871c0b1a93b339d304c21b6ccd 7981 misc optional control-msgs_1.5.2-6-g36e2e30-2024.09.20.16.57_amd64.buildinfo
+ 3f4a96d52067f12358a2e58dc99f2428 112404 misc optional control-msgs_1.5.2-6-g36e2e30-2024.09.20.16.57_amd64.deb

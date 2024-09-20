@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 18 Dec 2019 00:00:00 -0000
+Source: fake-joint
+Binary: fake-joint
+Architecture: amd64
+Version: 0.0.4-5-gff3a9d9-2024.09.20.19.05
+Distribution: bookworm
+Urgency: high
+Maintainer: Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>
+Changed-By: Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>
+Description:
+ fake-joint - This metapackage depends on fake-joint related package for ros_co
+Changes:
+ fake-joint (0.0.4-5-gff3a9d9-2024.09.20.19.05) bookworm; urgency=high
+Checksums-Sha1:
+ 337579ffea20726169baec664f4690a388bc687c 6998 fake-joint_0.0.4-5-gff3a9d9-2024.09.20.19.05_amd64.buildinfo
+ b99f8c9595158bd3a476fe64a688853bd84b9465 2260 fake-joint_0.0.4-5-gff3a9d9-2024.09.20.19.05_amd64.deb
+Checksums-Sha256:
+ 0ef1bf28cb8201aad9c1b33518c2cd1d32ca65051049bea05c13ae1b1cbe3b9f 6998 fake-joint_0.0.4-5-gff3a9d9-2024.09.20.19.05_amd64.buildinfo
+ ffc885ee00b64a62709c2bd08d692fffdd4631f2e5c300525366ea0a8c1616c2 2260 fake-joint_0.0.4-5-gff3a9d9-2024.09.20.19.05_amd64.deb
+Files:
+ fac30bce33244db77d7a90e7aac41c93 6998 misc optional fake-joint_0.0.4-5-gff3a9d9-2024.09.20.19.05_amd64.buildinfo
+ 1b9e74c99d685f9f9006925f3f090a16 2260 misc optional fake-joint_0.0.4-5-gff3a9d9-2024.09.20.19.05_amd64.deb

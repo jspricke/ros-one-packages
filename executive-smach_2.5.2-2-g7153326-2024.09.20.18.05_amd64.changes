@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 13 Jun 2023 00:00:00 -0000
+Source: executive-smach
+Binary: executive-smach
+Architecture: amd64
+Version: 2.5.2-2-g7153326-2024.09.20.18.05
+Distribution: bookworm
+Urgency: high
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I. Y. Saito <gm130s@gmail.com>
+Description:
+ executive-smach - This metapackage depends on the SMACH library and ROS SMACH integ
+Changes:
+ executive-smach (2.5.2-2-g7153326-2024.09.20.18.05) bookworm; urgency=high
+Checksums-Sha1:
+ 6997261eb51142b1b91ff41c09e1af32aeedac7b 7023 executive-smach_2.5.2-2-g7153326-2024.09.20.18.05_amd64.buildinfo
+ 524df453bb920ebbf94832488b578910fb556ebc 3248 executive-smach_2.5.2-2-g7153326-2024.09.20.18.05_amd64.deb
+Checksums-Sha256:
+ d651eb320acb063ae262c2d095d49a5e675cb96ca9ae3269fbf55e747ed2b0d6 7023 executive-smach_2.5.2-2-g7153326-2024.09.20.18.05_amd64.buildinfo
+ 08c73b4ad71f98f852e9309fbabfccc0257eb4ad06fd3ee46ca02384bfcfb95f 3248 executive-smach_2.5.2-2-g7153326-2024.09.20.18.05_amd64.deb
+Files:
+ 5d1d5e7e6ea77a5c1d3a9523afa1c349 7023 misc optional executive-smach_2.5.2-2-g7153326-2024.09.20.18.05_amd64.buildinfo
+ 7e24d2eeb90e23e120a3502ce769ea3a 3248 misc optional executive-smach_2.5.2-2-g7153326-2024.09.20.18.05_amd64.deb

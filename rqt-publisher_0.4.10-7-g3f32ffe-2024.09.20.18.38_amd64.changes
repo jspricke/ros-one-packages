@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 21 Apr 2021 00:00:00 -0000
+Source: rqt-publisher
+Binary: rqt-publisher
+Architecture: amd64
+Version: 0.4.10-7-g3f32ffe-2024.09.20.18.38
+Distribution: bookworm
+Urgency: high
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Changed-By: Geoffrey Biggs <geoff@openrobotics.org>
+Description:
+ rqt-publisher - rqt_publisher provides a GUI plugin for publishing arbitrary mess
+Changes:
+ rqt-publisher (0.4.10-7-g3f32ffe-2024.09.20.18.38) bookworm; urgency=high
+ .
+   * Update maintainer in package.xml (#25 <https://github.com/ros-visualization/rqt_publisher/issues/25>)
+   * fix shebang line for python3 (#20 <https://github.com/ros-visualization/rqt_publisher/issues/20>)
+   * Contributors: Mikael Arguedas, Shane Loretz
+Checksums-Sha1:
+ ae3d23711e54a14e55d7b6061929b3de20cc5e89 7020 rqt-publisher_0.4.10-7-g3f32ffe-2024.09.20.18.38_amd64.buildinfo
+ 8caa560f5bf53f8c167bb00d7d3afc1c4e3a256e 28684 rqt-publisher_0.4.10-7-g3f32ffe-2024.09.20.18.38_amd64.deb
+Checksums-Sha256:
+ 4dbc497b23c8e007b0b78c82f635ffbf235700279edea50b90b88f1538b6aeb5 7020 rqt-publisher_0.4.10-7-g3f32ffe-2024.09.20.18.38_amd64.buildinfo
+ 08b6d805347609dd750c17d314c927ea87f67fa15eacb4c98ed465a324000318 28684 rqt-publisher_0.4.10-7-g3f32ffe-2024.09.20.18.38_amd64.deb
+Files:
+ 988abfe7d46b7168468c1d80d98004e9 7020 misc optional rqt-publisher_0.4.10-7-g3f32ffe-2024.09.20.18.38_amd64.buildinfo
+ 3106cfbf754c572a26fed8d04b1d6b5c 28684 misc optional rqt-publisher_0.4.10-7-g3f32ffe-2024.09.20.18.38_amd64.deb

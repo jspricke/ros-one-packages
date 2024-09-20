@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: moveit
+Binary: moveit
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2024.09.20.19.33
+Distribution: bookworm
+Urgency: high
+Maintainer: Dave Coleman <dave@picknik.ai>
+Changed-By: Dave Coleman <dave@picknik.ai>
+Description:
+ moveit     - Meta package that contains all essential package of MoveIt.
+Changes:
+ moveit (1.1.10-73-g05ef19048-2024.09.20.19.33) bookworm; urgency=high
+Checksums-Sha1:
+ b4d1f4614967c766291929bcc3ad3ac428fc600f 6997 moveit_1.1.10-73-g05ef19048-2024.09.20.19.33_amd64.buildinfo
+ 3299df54b42a2d0c2d42a6d627f6dff2858ede57 10452 moveit_1.1.10-73-g05ef19048-2024.09.20.19.33_amd64.deb
+Checksums-Sha256:
+ 4df60a617bc0866e7229aba481a7e1e5ff513c75827e1db39a230dcd3b7b746d 6997 moveit_1.1.10-73-g05ef19048-2024.09.20.19.33_amd64.buildinfo
+ 84452fd8751d044b3eda9c3170c43a5b87a4da351697022b575224bc2f0306d1 10452 moveit_1.1.10-73-g05ef19048-2024.09.20.19.33_amd64.deb
+Files:
+ 56c41debc136af034c43858c6d33c719 6997 misc optional moveit_1.1.10-73-g05ef19048-2024.09.20.19.33_amd64.buildinfo
+ 1cdc03f1c3ed7dcca5ebd53f524fcafe 10452 misc optional moveit_1.1.10-73-g05ef19048-2024.09.20.19.33_amd64.deb

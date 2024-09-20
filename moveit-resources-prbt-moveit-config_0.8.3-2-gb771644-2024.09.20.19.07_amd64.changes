@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 10 Nov 2023 00:00:00 -0000
+Source: moveit-resources-prbt-moveit-config
+Binary: moveit-resources-prbt-moveit-config
+Architecture: amd64
+Version: 0.8.3-2-gb771644-2024.09.20.19.07
+Distribution: bookworm
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ moveit-resources-prbt-moveit-config - MoveIt Resources for testing: Pilz PRBT 6 A project-internal conf
+Changes:
+ moveit-resources-prbt-moveit-config (0.8.3-2-gb771644-2024.09.20.19.07) bookworm; urgency=high
+ .
+   * Add ResolveConstraintFrames to all planning pipelines
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ 59b407d7fe06e24af9a7d27c82bc73119d8f8605 7126 moveit-resources-prbt-moveit-config_0.8.3-2-gb771644-2024.09.20.19.07_amd64.buildinfo
+ 0bdafef453e51d06b3f1a27722503209b4f9b22e 17380 moveit-resources-prbt-moveit-config_0.8.3-2-gb771644-2024.09.20.19.07_amd64.deb
+Checksums-Sha256:
+ a22293044f7019110d2d75bcc28a313d650dbfe09e2be746f691cdc57d606622 7126 moveit-resources-prbt-moveit-config_0.8.3-2-gb771644-2024.09.20.19.07_amd64.buildinfo
+ 2e83b5a996f04798d9efcc02996e794bf0e4e5b8e1f480b60a669b514eec2a86 17380 moveit-resources-prbt-moveit-config_0.8.3-2-gb771644-2024.09.20.19.07_amd64.deb
+Files:
+ f0d5c7e07006dfd78d2a3ab492365abf 7126 misc optional moveit-resources-prbt-moveit-config_0.8.3-2-gb771644-2024.09.20.19.07_amd64.buildinfo
+ a288a9c274c445d3573dffbc97a6c9ee 17380 misc optional moveit-resources-prbt-moveit-config_0.8.3-2-gb771644-2024.09.20.19.07_amd64.deb

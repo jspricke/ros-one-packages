@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Sun, 23 May 2021 00:00:00 -0000
+Source: key-teleop
+Binary: key-teleop
+Architecture: amd64
+Version: 0.4.1-1-g735e46c-2024.09.20.17.05
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ key-teleop - A text-based interface to send a robot movement commands
+Changes:
+ key-teleop (0.4.1-1-g735e46c-2024.09.20.17.05) bookworm; urgency=high
+Checksums-Sha1:
+ 32348a6c70761da1807eba6829a9575146097f44 6998 key-teleop_0.4.1-1-g735e46c-2024.09.20.17.05_amd64.buildinfo
+ 050e484f5d3acf64df4420e511bff7bb3349b50f 7376 key-teleop_0.4.1-1-g735e46c-2024.09.20.17.05_amd64.deb
+Checksums-Sha256:
+ 357ded6ae8ce63aed89f578e2d19366717d69d39025e3c117737bc26f79f0954 6998 key-teleop_0.4.1-1-g735e46c-2024.09.20.17.05_amd64.buildinfo
+ 02ad1672c73035c189e97d10bbf0e40fc7481984e3aea8de843d08aaaeeecdae 7376 key-teleop_0.4.1-1-g735e46c-2024.09.20.17.05_amd64.deb
+Files:
+ b51e1b22bfb3f211ad97b58df40b7b92 6998 misc optional key-teleop_0.4.1-1-g735e46c-2024.09.20.17.05_amd64.buildinfo
+ dcc9a698b606b7a12f0dc230bc3d4f65 7376 misc optional key-teleop_0.4.1-1-g735e46c-2024.09.20.17.05_amd64.deb

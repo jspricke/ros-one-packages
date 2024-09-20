@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 24 Feb 2023 00:00:00 -0000
+Source: executive-smach-visualization
+Binary: executive-smach-visualization
+Architecture: amd64
+Version: 4.1.0-7-ge82d7ef-2024.09.20.18.21
+Distribution: bookworm
+Urgency: high
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Changed-By: Jonathan Bohren <jbo@jhu.edu>
+Description:
+ executive-smach-visualization - This metapackage depends on the SMACH visualization tools.
+Changes:
+ executive-smach-visualization (4.1.0-7-ge82d7ef-2024.09.20.18.21) bookworm; urgency=high
+Checksums-Sha1:
+ f10e036341b26f1741b67eaaa063a2f7d31e932d 7093 executive-smach-visualization_4.1.0-7-ge82d7ef-2024.09.20.18.21_amd64.buildinfo
+ df74a751296ae4f49f4fc82f8cd61da2870fa40a 2388 executive-smach-visualization_4.1.0-7-ge82d7ef-2024.09.20.18.21_amd64.deb
+Checksums-Sha256:
+ 4ffc9d43dac12cfae513f3228946853c0a467e7f2c03d339ae1261715b6c3493 7093 executive-smach-visualization_4.1.0-7-ge82d7ef-2024.09.20.18.21_amd64.buildinfo
+ 8b4a22f8ec57e9297cd8e5cc16a833172afd3a2f64731c4dfac1b87781cabe49 2388 executive-smach-visualization_4.1.0-7-ge82d7ef-2024.09.20.18.21_amd64.deb
+Files:
+ 8f2d8aaadbbd29822d77ea415a8b2121 7093 misc optional executive-smach-visualization_4.1.0-7-ge82d7ef-2024.09.20.18.21_amd64.buildinfo
+ 25514662c19454ca53dbeaafa5c9ff8c 2388 misc optional executive-smach-visualization_4.1.0-7-ge82d7ef-2024.09.20.18.21_amd64.deb

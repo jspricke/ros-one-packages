@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Wed, 26 Jun 2024 00:00:00 -0000
+Source: behaviortree-cpp
+Binary: behaviortree-cpp behaviortree-cpp-dbgsym
+Architecture: amd64
+Version: 4.6.2-4-g28267ff-2024.09.20.16.49
+Distribution: bookworm
+Urgency: high
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Changed-By: Davide Faconti <davide.faconti@gmail.com>
+Description:
+ behaviortree-cpp - This package provides the Behavior Trees core library.
+Changes:
+ behaviortree-cpp (4.6.2-4-g28267ff-2024.09.20.16.49) bookworm; urgency=high
+ .
+   * Initialize template variable T out (#839 <https://github.com/BehaviorTree/BehaviorTree.CPP/issues/839>)
+   * Building with a recent compiler fails due incompatible expected library (#833 <https://github.com/BehaviorTree/BehaviorTree.CPP/issues/833>)
+     * nonstd::expected updated to 0.8
+   * fix issue #829 <https://github.com/BehaviorTree/BehaviorTree.CPP/issues/829>: support again custom JSON converters
+   * fix issue #834 <https://github.com/BehaviorTree/BehaviorTree.CPP/issues/834>: enable minitrace
+   * allow multiple instances of the loggers
+   * fix issue #827 <https://github.com/BehaviorTree/BehaviorTree.CPP/issues/827> : verify <BehaviorTree> name
+   * add TickMonitorCallback
+   * Fix typo in FallbackNode constructor parameter name (#830 <https://github.com/BehaviorTree/BehaviorTree.CPP/issues/830>)
+   * fix segfault and throw instead when manifest is nullptr
+   * Add in call to ament_export_targets. (#826 <https://github.com/BehaviorTree/BehaviorTree.CPP/issues/826>)
+   * Contributors: Davide Faconti, S. Messerschmidt, Sharmin Ramli, avikus-seonghyeon.kwon
+Checksums-Sha1:
+ 44ad0e5646571fbb368113d0a96f8b8845f0edf3 15367168 behaviortree-cpp-dbgsym_4.6.2-4-g28267ff-2024.09.20.16.49_amd64.deb
+ 67b12c11faa8cf00c7148921fec3e26a689fe65d 9457 behaviortree-cpp_4.6.2-4-g28267ff-2024.09.20.16.49_amd64.buildinfo
+ dd9900d1e1feacc4ffdd18d199fd36e2894df573 662872 behaviortree-cpp_4.6.2-4-g28267ff-2024.09.20.16.49_amd64.deb
+Checksums-Sha256:
+ 67e1887d0856b2d21df7ef9dfadcba5a5f8aaec531b6a7e44023e1eb58eb6255 15367168 behaviortree-cpp-dbgsym_4.6.2-4-g28267ff-2024.09.20.16.49_amd64.deb
+ cc9cdf71eebd0886dc45e6484b0cbf3b86251f66c076d4d9de153166904ed2ad 9457 behaviortree-cpp_4.6.2-4-g28267ff-2024.09.20.16.49_amd64.buildinfo
+ abbe077943074310deecce1b46f6bba2ad17698d23581b23e24276d10517ce1e 662872 behaviortree-cpp_4.6.2-4-g28267ff-2024.09.20.16.49_amd64.deb
+Files:
+ d3c76772d6ad168e9afe7b9792fa0d6c 15367168 debug optional behaviortree-cpp-dbgsym_4.6.2-4-g28267ff-2024.09.20.16.49_amd64.deb
+ 94b81405d56a957183a442bb2ebb8d63 9457 misc optional behaviortree-cpp_4.6.2-4-g28267ff-2024.09.20.16.49_amd64.buildinfo
+ 23e84159f83002cd9653798566f0c5cb 662872 misc optional behaviortree-cpp_4.6.2-4-g28267ff-2024.09.20.16.49_amd64.deb

@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 10 Nov 2023 00:00:00 -0000
+Source: moveit-resources-pr2-description
+Binary: moveit-resources-pr2-description
+Architecture: amd64
+Version: 0.8.3-2-gb771644-2024.09.20.17.08
+Distribution: bookworm
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ moveit-resources-pr2-description - PR2 Resources used for MoveIt! testing
+Changes:
+ moveit-resources-pr2-description (0.8.3-2-gb771644-2024.09.20.17.08) bookworm; urgency=high
+Checksums-Sha1:
+ 4cc5ea25c60d63d3ff1c8c40d330964f18cf1559 7120 moveit-resources-pr2-description_0.8.3-2-gb771644-2024.09.20.17.08_amd64.buildinfo
+ 4b2643c00b18d3df21cc5bd20313d33ec401626f 23574360 moveit-resources-pr2-description_0.8.3-2-gb771644-2024.09.20.17.08_amd64.deb
+Checksums-Sha256:
+ 9555d98434ef35c90d9f8cbd8731e06b831923ffef1d2b30e44c15a1a5cafa13 7120 moveit-resources-pr2-description_0.8.3-2-gb771644-2024.09.20.17.08_amd64.buildinfo
+ 7b5c4e3286c217eb8de84f896a8cbb651a74bd60b82e3eb1706896066ea805a2 23574360 moveit-resources-pr2-description_0.8.3-2-gb771644-2024.09.20.17.08_amd64.deb
+Files:
+ 71c91538cc42f94fc9153e2c718e8561 7120 misc optional moveit-resources-pr2-description_0.8.3-2-gb771644-2024.09.20.17.08_amd64.buildinfo
+ 4c52de8b5148ada22859ba0189914e8a 23574360 misc optional moveit-resources-pr2-description_0.8.3-2-gb771644-2024.09.20.17.08_amd64.deb

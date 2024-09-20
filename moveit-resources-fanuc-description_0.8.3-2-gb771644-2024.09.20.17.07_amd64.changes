@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 10 Nov 2023 00:00:00 -0000
+Source: moveit-resources-fanuc-description
+Binary: moveit-resources-fanuc-description
+Architecture: amd64
+Version: 0.8.3-2-gb771644-2024.09.20.17.07
+Distribution: bookworm
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ moveit-resources-fanuc-description - Fanuc Resources used for MoveIt! testing
+Changes:
+ moveit-resources-fanuc-description (0.8.3-2-gb771644-2024.09.20.17.07) bookworm; urgency=high
+Checksums-Sha1:
+ b6ecc8be86c85c9e4004155faeb993fced98da16 7124 moveit-resources-fanuc-description_0.8.3-2-gb771644-2024.09.20.17.07_amd64.buildinfo
+ 8c9839a33f113220e764d9d2e2c9806bdf304f05 113016 moveit-resources-fanuc-description_0.8.3-2-gb771644-2024.09.20.17.07_amd64.deb
+Checksums-Sha256:
+ c80be190765e14684a804ef5a605ca9778eec52406190498c43fff6a06fc6f23 7124 moveit-resources-fanuc-description_0.8.3-2-gb771644-2024.09.20.17.07_amd64.buildinfo
+ 792f2de4af65d3b0debd2fd3c233c26a475ecd3b3ea02bd0264e02be9f4ed77b 113016 moveit-resources-fanuc-description_0.8.3-2-gb771644-2024.09.20.17.07_amd64.deb
+Files:
+ 55d8a879b23954a613e36435f71bc07c 7124 misc optional moveit-resources-fanuc-description_0.8.3-2-gb771644-2024.09.20.17.07_amd64.buildinfo
+ 5291d2b150e69ac488bb76a41d0ebf08 113016 misc optional moveit-resources-fanuc-description_0.8.3-2-gb771644-2024.09.20.17.07_amd64.deb

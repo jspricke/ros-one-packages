@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 23 Apr 2020 00:00:00 -0000
+Source: object-recognition-msgs
+Binary: object-recognition-msgs
+Architecture: amd64
+Version: 0.4.2-2024.09.20.17.09
+Distribution: bookworm
+Urgency: high
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Changed-By: Vincent Rabaud <vincent.rabaud@gmail.com>
+Description:
+ object-recognition-msgs - Object_recognition_msgs contains the ROS message and the actionli
+Changes:
+ object-recognition-msgs (0.4.2-2024.09.20.17.09) bookworm; urgency=high
+ .
+   * Bump CMake version to avoid CMP0048
+   * Contributors: Jonathan Binney, Shane Loretz
+Checksums-Sha1:
+ 580fcfcfd52e702dfd2f22d050c58dcffaba0bc1 8077 object-recognition-msgs_0.4.2-2024.09.20.17.09_amd64.buildinfo
+ 93b0db8b0e3108b14e0af726be22d784844dcfde 72260 object-recognition-msgs_0.4.2-2024.09.20.17.09_amd64.deb
+Checksums-Sha256:
+ 6bf45560f85dc1f291b5c977a9215fd436bc223dd50a011daaa1b6ace21760b3 8077 object-recognition-msgs_0.4.2-2024.09.20.17.09_amd64.buildinfo
+ 07fc793603c45f1e8af9d2c66c70c064bc733eb5b40fd6d81b7c1932bbf6ab77 72260 object-recognition-msgs_0.4.2-2024.09.20.17.09_amd64.deb
+Files:
+ dfbaee05afa85178767644daec2132ea 8077 misc optional object-recognition-msgs_0.4.2-2024.09.20.17.09_amd64.buildinfo
+ 1e1cd03c4eea5d8e65977fb395aa005f 72260 misc optional object-recognition-msgs_0.4.2-2024.09.20.17.09_amd64.deb

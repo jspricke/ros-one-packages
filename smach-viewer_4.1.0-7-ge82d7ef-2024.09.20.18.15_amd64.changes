@@ -1,0 +1,44 @@
+Format: 1.8
+Date: Fri, 24 Feb 2023 00:00:00 -0000
+Source: smach-viewer
+Binary: smach-viewer
+Architecture: amd64
+Version: 4.1.0-7-ge82d7ef-2024.09.20.18.15
+Distribution: bookworm
+Urgency: high
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Changed-By: Jonathan Bohren <jbo@jhu.edu>
+Description:
+ smach-viewer - The smach viewer is a GUI that shows the state of hierarchical SM
+Changes:
+ smach-viewer (4.1.0-7-ge82d7ef-2024.09.20.18.15) bookworm; urgency=high
+ .
+   * add timestamp in published image (#50 <https://github.com/ros-visualization/executive_smach_visualization/issues/50>)
+ .
+       * some tools, for example jsk_rosbag_tools requries all message have time stamp
+ .
+   * [smach_viewer] remove smach image in /tmp when the node is killed (#48 <https://github.com/ros-visualization/executive_smach_visualization/issues/48>)
+ .
+       * remove smach image in /tmp when the node is killed
+ .
+   * [smach_viewer] add smach_image_publisher.py for headless environment (#46 <https://github.com/ros-visualization/executive_smach_visualization/issues/46>)
+ .
+       * add time stamp in image topics
+       * add compressed image publisher
+       * change file name and set constant image size
+       * check if file is proper
+       * change color in active states
+       * import not local file
+       * add smach_image_publisher.py
+       * split and make SmachViewerBase, utils and text_wrapper
+ .
+   * Contributors: Kei Okada, Shingo Kitagawa
+Checksums-Sha1:
+ 6b8c8716b3d1009a966bf925c1ff314b13cfdc8d 8831 smach-viewer_4.1.0-7-ge82d7ef-2024.09.20.18.15_amd64.buildinfo
+ 77bb9297a62437c2b91b03dc9a7dc169c921f2b6 127848 smach-viewer_4.1.0-7-ge82d7ef-2024.09.20.18.15_amd64.deb
+Checksums-Sha256:
+ 8a179b806d9a15eea661da7827d1605fb5961c7ed9d638cce32f62585fc4fad2 8831 smach-viewer_4.1.0-7-ge82d7ef-2024.09.20.18.15_amd64.buildinfo
+ 862ccda4c820c25c8ddf7a196091066b836d7512720eb24afa8e9950db1fa875 127848 smach-viewer_4.1.0-7-ge82d7ef-2024.09.20.18.15_amd64.deb
+Files:
+ 61f78b25b9e4ed2362e0c74351d8ce39 8831 misc optional smach-viewer_4.1.0-7-ge82d7ef-2024.09.20.18.15_amd64.buildinfo
+ fd703b78df33af69a07a8e9a02d5cffb 127848 misc optional smach-viewer_4.1.0-7-ge82d7ef-2024.09.20.18.15_amd64.deb

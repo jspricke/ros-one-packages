@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 09 Mar 2020 00:00:00 -0000
+Source: media-export
+Binary: media-export
+Architecture: amd64
+Version: 0.3.0-2024.09.20.17.06
+Distribution: bookworm
+Urgency: high
+Maintainer: William Woodall <william@osrfoundation.org>
+Changed-By: William Woodall <william@osrfoundation.org>
+Description:
+ media-export - Placeholder package enabling generic export of media paths.
+Changes:
+ media-export (0.3.0-2024.09.20.17.06) bookworm; urgency=high
+ .
+   * Bump CMake version to avoid CMP0048 warning (#2 <https://github.com/ros/media_export/issues/2>)
+   * Contributors: Shane Loretz
+Checksums-Sha1:
+ 13fca11a8285c25874573dc50bbd64113982d614 6964 media-export_0.3.0-2024.09.20.17.06_amd64.buildinfo
+ ed81bb76b154cd2882237e852f3b8959ffab2343 5056 media-export_0.3.0-2024.09.20.17.06_amd64.deb
+Checksums-Sha256:
+ fcf71f2b909dcaa5c8000437c4cc92a01b8cdaaa4651132dc736e90074288e2b 6964 media-export_0.3.0-2024.09.20.17.06_amd64.buildinfo
+ 8319330ade010f32c4732023bde89ec42269277f330239a7a0fea8fdbbc31170 5056 media-export_0.3.0-2024.09.20.17.06_amd64.deb
+Files:
+ ce895d8cfd3a18920c8f0b7512340db0 6964 misc optional media-export_0.3.0-2024.09.20.17.06_amd64.buildinfo
+ 81857edce4e5d798a0fa3bec64f5420f 5056 misc optional media-export_0.3.0-2024.09.20.17.06_amd64.deb

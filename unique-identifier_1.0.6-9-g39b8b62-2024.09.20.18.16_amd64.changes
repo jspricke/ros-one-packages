@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 04 Apr 2017 00:00:00 -0000
+Source: unique-identifier
+Binary: unique-identifier
+Architecture: amd64
+Version: 1.0.6-9-g39b8b62-2024.09.20.18.16
+Distribution: bookworm
+Urgency: high
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Changed-By: Jack O'Quin <jack.oquin@gmail.com>
+Description:
+ unique-identifier - ROS messages and interfaces for universally unique identifiers.
+Changes:
+ unique-identifier (1.0.6-9-g39b8b62-2024.09.20.18.16) bookworm; urgency=high
+Checksums-Sha1:
+ 475187c141773b64cfd5d5bb3bb9ccff1366e909 7033 unique-identifier_1.0.6-9-g39b8b62-2024.09.20.18.16_amd64.buildinfo
+ 4f719941a6d7b9a33c4e295ade25eae8a083e21d 2584 unique-identifier_1.0.6-9-g39b8b62-2024.09.20.18.16_amd64.deb
+Checksums-Sha256:
+ 2137ba727cbe77245ad8b3215ac06bab7720b96f65e95af8f7bed7534da7a3ba 7033 unique-identifier_1.0.6-9-g39b8b62-2024.09.20.18.16_amd64.buildinfo
+ 50e092ef6045d04393404e2579d58d59218117c4fa94af27d0810047546628af 2584 unique-identifier_1.0.6-9-g39b8b62-2024.09.20.18.16_amd64.deb
+Files:
+ 147cd336b25a07a9358b21368da5b943 7033 misc optional unique-identifier_1.0.6-9-g39b8b62-2024.09.20.18.16_amd64.buildinfo
+ 8ea5a42fdea591f76e86df424a40cf49 2584 misc optional unique-identifier_1.0.6-9-g39b8b62-2024.09.20.18.16_amd64.deb

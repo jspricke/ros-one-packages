@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Mon, 22 Mar 2021 00:00:00 -0000
+Source: driver-base
+Binary: driver-base
+Architecture: amd64
+Version: 1.6.9-2024.09.20.16.59
+Distribution: bookworm
+Urgency: high
+Maintainer: Chad Rockey <chadrockey@gmail.com>
+Changed-By: Chad Rockey <chadrockey@gmail.com>
+Description:
+ driver-base - A framework for writing drivers that helps with runtime reconfigu
+Changes:
+ driver-base (1.6.9-2024.09.20.16.59) bookworm; urgency=high
+Checksums-Sha1:
+ 313971b9e3c1bf18da0b0637f1b70ec758f861e6 9930 driver-base_1.6.9-2024.09.20.16.59_amd64.buildinfo
+ 0fcb9b7893a6b10f019fa196d8cd65522cdbb2d5 22768 driver-base_1.6.9-2024.09.20.16.59_amd64.deb
+Checksums-Sha256:
+ 9bdbf65bfff71fa6e3b00cdacd3f98e9162eeff2664fb617eea9f0766c2bccb4 9930 driver-base_1.6.9-2024.09.20.16.59_amd64.buildinfo
+ 9632b0ea020d1181b8f057b46403bf103bc8a80843811c87fbf7fde3c4aafc1b 22768 driver-base_1.6.9-2024.09.20.16.59_amd64.deb
+Files:
+ 7e0f66894ea55a6e521723b272f5fc39 9930 misc optional driver-base_1.6.9-2024.09.20.16.59_amd64.buildinfo
+ ee9c9d61f0b64157467da6831beb090e 22768 misc optional driver-base_1.6.9-2024.09.20.16.59_amd64.deb

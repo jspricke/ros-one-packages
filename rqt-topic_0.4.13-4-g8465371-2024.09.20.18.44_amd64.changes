@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Thu, 18 Nov 2021 00:00:00 -0000
+Source: rqt-topic
+Binary: rqt-topic
+Architecture: amd64
+Version: 0.4.13-4-g8465371-2024.09.20.18.44
+Distribution: bookworm
+Urgency: high
+Maintainer: Dorian Scholz <scholz@sim.tu-darmstadt.de>
+Changed-By: Dorian Scholz <scholz@sim.tu-darmstadt.de>
+Description:
+ rqt-topic  - rqt_topic provides a GUI plugin for displaying debug information
+Changes:
+ rqt-topic (0.4.13-4-g8465371-2024.09.20.18.44) bookworm; urgency=high
+ .
+   * fix python3 install (#36 <https://github.com/ros-visualization/rqt_topic/issues/36>)
+   * Update Open Robotics Maintainer (#27 <https://github.com/ros-visualization/rqt_topic/issues/27>)
+   * fix shebang line for python3 (#18 <https://github.com/ros-visualization/rqt_topic/issues/18>)
+   * Contributors: Mabel Zhang, Mikael Arguedas, Scott K Logan
+Checksums-Sha1:
+ 170c11d195e391a2d18509f3803a9747bc268588 7000 rqt-topic_0.4.13-4-g8465371-2024.09.20.18.44_amd64.buildinfo
+ 120377bd2409951823f933b46cfcb0c0a21a2859 25132 rqt-topic_0.4.13-4-g8465371-2024.09.20.18.44_amd64.deb
+Checksums-Sha256:
+ 82f52892d222aff648ddae0efbba2037dcc2c5544c59300f2130f16f9d029f81 7000 rqt-topic_0.4.13-4-g8465371-2024.09.20.18.44_amd64.buildinfo
+ 0c2324b27f5ef0b62cac4ab3e3f80fffb5a04732a393da04f5b78480f028a530 25132 rqt-topic_0.4.13-4-g8465371-2024.09.20.18.44_amd64.deb
+Files:
+ a95c2e66f7faaaf6a7d73abd8037f426 7000 misc optional rqt-topic_0.4.13-4-g8465371-2024.09.20.18.44_amd64.buildinfo
+ 81cea66f3036b72fdfa75ccab1ff5eb1 25132 misc optional rqt-topic_0.4.13-4-g8465371-2024.09.20.18.44_amd64.deb
