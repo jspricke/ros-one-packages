@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 21 Apr 2021 00:00:00 -0000
+Source: rqt-srv
+Binary: rqt-srv
+Architecture: amd64
+Version: 0.4.9-1-g876365e-2024.09.22.09.42
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ rqt-srv    - A Python GUI plugin for introspecting available ROS message types
+Changes:
+ rqt-srv (0.4.9-1-g876365e-2024.09.22.09.42) bookworm; urgency=high
+ .
+   * Merge pull request #6 <https://github.com/ros-visualization/rqt_srv/issues/6> from ros-visualization/sloretz-update-packagexml
+     Update package.xml maintainer
+   * Update package.xml maintainer
+   * fix shebang line for python3 (#5 <https://github.com/ros-visualization/rqt_srv/issues/5>)
+   * bump CMake minimum version to avoid CMP0048 warning
+   * autopep8 (#1 <https://github.com/ros-visualization/rqt_srv/issues/1>)
+   * Contributors: Dirk Thomas, Michael Carroll, Mikael Arguedas, Mike Lautman, Shane Loretz
+Checksums-Sha1:
+ d5536143af13d67fb835e8b857aa4bc1b9bd404e 6983 rqt-srv_0.4.9-1-g876365e-2024.09.22.09.42_amd64.buildinfo
+ 8936d5288591cfe89a7c110ff0574e65299e8f31 9428 rqt-srv_0.4.9-1-g876365e-2024.09.22.09.42_amd64.deb
+Checksums-Sha256:
+ 90f6bf96b9a37858b3a76c4c207374e6df77603c9334f92b94d745805ad31a2d 6983 rqt-srv_0.4.9-1-g876365e-2024.09.22.09.42_amd64.buildinfo
+ 19deb2bb12651d350597abf0c1365615b5a0361fe593df000ee8feb8b267f7ea 9428 rqt-srv_0.4.9-1-g876365e-2024.09.22.09.42_amd64.deb
+Files:
+ c17ca23f994ff56669eccbc528318294 6983 misc optional rqt-srv_0.4.9-1-g876365e-2024.09.22.09.42_amd64.buildinfo
+ 204e033f65ae256ddd0a207dfaecf4bc 9428 misc optional rqt-srv_0.4.9-1-g876365e-2024.09.22.09.42_amd64.deb

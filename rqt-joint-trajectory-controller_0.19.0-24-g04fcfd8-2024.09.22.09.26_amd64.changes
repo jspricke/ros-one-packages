@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: rqt-joint-trajectory-controller
+Binary: rqt-joint-trajectory-controller
+Architecture: amd64
+Version: 0.19.0-24-g04fcfd8-2024.09.22.09.26
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ rqt-joint-trajectory-controller - Graphical frontend for interacting with joint_trajectory_controll
+Changes:
+ rqt-joint-trajectory-controller (0.19.0-24-g04fcfd8-2024.09.22.09.26) bookworm; urgency=high
+ .
+   * [rqt_joint_trajectory_controller] Added Timestamp to the outgoing command message
+   * Contributors: Bence Magyar, Caedael
+Checksums-Sha1:
+ 9072974043265885601572145f14a43e3c3d03b3 7114 rqt-joint-trajectory-controller_0.19.0-24-g04fcfd8-2024.09.22.09.26_amd64.buildinfo
+ 48deb08448665635c6f9e3ece875e0d8e94e2523 35904 rqt-joint-trajectory-controller_0.19.0-24-g04fcfd8-2024.09.22.09.26_amd64.deb
+Checksums-Sha256:
+ 09c428d33200a8f3306de6e97b806fb27239a9d42215a3770312fd404e1d3a04 7114 rqt-joint-trajectory-controller_0.19.0-24-g04fcfd8-2024.09.22.09.26_amd64.buildinfo
+ a66e3810161afddba2f10b7091837de79a7d9fd9a08092a69f7da85b4f15c915 35904 rqt-joint-trajectory-controller_0.19.0-24-g04fcfd8-2024.09.22.09.26_amd64.deb
+Files:
+ f0d30fcc4a60130c2e3ae5803ff75ae7 7114 misc optional rqt-joint-trajectory-controller_0.19.0-24-g04fcfd8-2024.09.22.09.26_amd64.buildinfo
+ f314e0e37511252703638ed8b6522b4c 35904 misc optional rqt-joint-trajectory-controller_0.19.0-24-g04fcfd8-2024.09.22.09.26_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 23 Apr 2020 00:00:00 -0000
+Source: octomap-msgs
+Binary: octomap-msgs
+Architecture: amd64
+Version: 0.3.5-1-gdcaaf62-2024.09.22.08.39
+Distribution: bookworm
+Urgency: high
+Maintainer: Armin Hornung <armin@hornung.io>
+Changed-By: Armin Hornung <armin@hornung.io>
+Description:
+ octomap-msgs - This package provides messages and serializations / conversion fo
+Changes:
+ octomap-msgs (0.3.5-1-gdcaaf62-2024.09.22.08.39) bookworm; urgency=high
+ .
+   * Add myself to maintainers
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 20d6825eaf27bfe392f528eceaeba3b3fb400122 7751 octomap-msgs_0.3.5-1-gdcaaf62-2024.09.22.08.39_amd64.buildinfo
+ 5e1743f96bb0b1aa5f0b9d2d9f03aa9fc02a0b83 29576 octomap-msgs_0.3.5-1-gdcaaf62-2024.09.22.08.39_amd64.deb
+Checksums-Sha256:
+ 921305596a166bc619ecf67de7ca58895ce11abf862d389555cb30a1d75f23e6 7751 octomap-msgs_0.3.5-1-gdcaaf62-2024.09.22.08.39_amd64.buildinfo
+ d976b583896f2f39b2e4d4a02975d5debd24b03ead6be07c20e635e2fb397297 29576 octomap-msgs_0.3.5-1-gdcaaf62-2024.09.22.08.39_amd64.deb
+Files:
+ de5f3c604dbddeba4fef9c77d665206c 7751 misc optional octomap-msgs_0.3.5-1-gdcaaf62-2024.09.22.08.39_amd64.buildinfo
+ e4e6da7396531d690246dcb2d79ae2cb 29576 misc optional octomap-msgs_0.3.5-1-gdcaaf62-2024.09.22.08.39_amd64.deb

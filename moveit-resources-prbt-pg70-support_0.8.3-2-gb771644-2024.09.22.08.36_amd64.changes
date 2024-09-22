@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 10 Nov 2023 00:00:00 -0000
+Source: moveit-resources-prbt-pg70-support
+Binary: moveit-resources-prbt-pg70-support
+Architecture: amd64
+Version: 0.8.3-2-gb771644-2024.09.22.08.36
+Distribution: bookworm
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ moveit-resources-prbt-pg70-support - PRBT support for Schunk pg70 gripper.
+Changes:
+ moveit-resources-prbt-pg70-support (0.8.3-2-gb771644-2024.09.22.08.36) bookworm; urgency=high
+Checksums-Sha1:
+ db62b3e7cf6708bd55e64bd4d4accb32d8ace8dd 7118 moveit-resources-prbt-pg70-support_0.8.3-2-gb771644-2024.09.22.08.36_amd64.buildinfo
+ 9322843afe24e3eea45a3f69f36b42b24914868d 9692 moveit-resources-prbt-pg70-support_0.8.3-2-gb771644-2024.09.22.08.36_amd64.deb
+Checksums-Sha256:
+ 5a5f077039ba656bba5605774f6086dd532cae5588eb6be677d7e60a06bc4ee3 7118 moveit-resources-prbt-pg70-support_0.8.3-2-gb771644-2024.09.22.08.36_amd64.buildinfo
+ a9ff6ecb68824453e8f226a5aa1bab14f9d9853ec1cdd5ad856a760234256e09 9692 moveit-resources-prbt-pg70-support_0.8.3-2-gb771644-2024.09.22.08.36_amd64.deb
+Files:
+ 83811dc4c6df8569f5ae352fdbff3f0d 7118 misc optional moveit-resources-prbt-pg70-support_0.8.3-2-gb771644-2024.09.22.08.36_amd64.buildinfo
+ 2a80e4fccbce1f2de4041668496a47ad 9692 misc optional moveit-resources-prbt-pg70-support_0.8.3-2-gb771644-2024.09.22.08.36_amd64.deb

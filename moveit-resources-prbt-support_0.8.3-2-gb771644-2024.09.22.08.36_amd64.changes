@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 10 Nov 2023 00:00:00 -0000
+Source: moveit-resources-prbt-support
+Binary: moveit-resources-prbt-support
+Architecture: amd64
+Version: 0.8.3-2-gb771644-2024.09.22.08.36
+Distribution: bookworm
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ moveit-resources-prbt-support - Mechanical, kinematic and visual description of the Pilz light we
+Changes:
+ moveit-resources-prbt-support (0.8.3-2-gb771644-2024.09.22.08.36) bookworm; urgency=high
+Checksums-Sha1:
+ 61c49f57894a2885047027ad425ac850fd5e2e8c 7099 moveit-resources-prbt-support_0.8.3-2-gb771644-2024.09.22.08.36_amd64.buildinfo
+ 9a60280e0ff1fa44f96fe4d51c7516a0ce98956e 676532 moveit-resources-prbt-support_0.8.3-2-gb771644-2024.09.22.08.36_amd64.deb
+Checksums-Sha256:
+ ba79be37ef1a6786c4c2b0b4627ad26e0e1091bf8064164e4251796679da1974 7099 moveit-resources-prbt-support_0.8.3-2-gb771644-2024.09.22.08.36_amd64.buildinfo
+ a3c4dd871f1f2e568fd4fb303d420a07d557513d09dd94b852d70a33c7df7c13 676532 moveit-resources-prbt-support_0.8.3-2-gb771644-2024.09.22.08.36_amd64.deb
+Files:
+ fe857856402a50fe075f432b42d1c50e 7099 misc optional moveit-resources-prbt-support_0.8.3-2-gb771644-2024.09.22.08.36_amd64.buildinfo
+ c190fea6f91557f77ab0e8f75ac3a5e5 676532 misc optional moveit-resources-prbt-support_0.8.3-2-gb771644-2024.09.22.08.36_amd64.deb

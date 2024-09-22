@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 24 Jul 2020 00:00:00 -0000
+Source: qt-gui
+Binary: qt-gui
+Architecture: amd64
+Version: 0.4.2-7-g8f06b8d-2024.09.22.08.51
+Distribution: bookworm
+Urgency: high
+Maintainer: Scott Logan <cottsay@openrobotics.org>
+Changed-By: Scott Logan <cottsay@openrobotics.org>
+Description:
+ qt-gui     - qt_gui provides the infrastructure for an integrated graphical us
+Changes:
+ qt-gui (0.4.2-7-g8f06b8d-2024.09.22.08.51) bookworm; urgency=high
+ .
+   * fix exporting perspective for Python 3.6 (#228 <https://github.com/ros-visualization/qt_gui_core/issues/228>)
+Checksums-Sha1:
+ a1434b1b621cb2038dc53d3bd1bd8c5424f77e06 11774 qt-gui_0.4.2-7-g8f06b8d-2024.09.22.08.51_amd64.buildinfo
+ d895d6daf5f508e6c37b2dc5cadc3473a8ed10c8 128920 qt-gui_0.4.2-7-g8f06b8d-2024.09.22.08.51_amd64.deb
+Checksums-Sha256:
+ 0c78377bcbce533ea2d43a77620352c17a3e7fff34214cdc174d2e8427737ce5 11774 qt-gui_0.4.2-7-g8f06b8d-2024.09.22.08.51_amd64.buildinfo
+ ed10405ca14aa09d6e459fb1a100a14e8fa55cbc84ee65576ab8a63289c7231f 128920 qt-gui_0.4.2-7-g8f06b8d-2024.09.22.08.51_amd64.deb
+Files:
+ d9212aa1857278cac40cdbcc85a13819 11774 misc optional qt-gui_0.4.2-7-g8f06b8d-2024.09.22.08.51_amd64.buildinfo
+ b66dde757796b53f2b732086f41efafe 128920 misc optional qt-gui_0.4.2-7-g8f06b8d-2024.09.22.08.51_amd64.deb

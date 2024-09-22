@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 18 Feb 2021 00:00:00 -0000
+Source: rqt-bag
+Binary: rqt-bag
+Architecture: amd64
+Version: 0.5.1-7-g2f6fbd5-2024.09.22.09.17
+Distribution: bookworm
+Urgency: high
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Changed-By: Mabel Zhang <mabel@openrobotics.org>
+Description:
+ rqt-bag    - rqt_bag provides a GUI plugin for displaying and replaying ROS ba
+Changes:
+ rqt-bag (0.5.1-7-g2f6fbd5-2024.09.22.09.17) bookworm; urgency=high
+ .
+   * Fix merge sort in bag export. (#96 <https://github.com/ros-visualization/rqt_bag/issues/96>)
+   * Reset timeline zoom after loading a new bag. (#97 <https://github.com/ros-visualization/rqt_bag/issues/97>)
+   * Fix raw view (#94 <https://github.com/ros-visualization/rqt_bag/issues/94>)
+   * Fix crash during merge sort of bag entries (fixes #90 <https://github.com/ros-visualization/rqt_bag/issues/90>) (#93 <https://github.com/ros-visualization/rqt_bag/issues/93>)
+   * Contributors: Martin Pecka, Michael Grupp
+Checksums-Sha1:
+ d87046d91ff73ee7835b9b2045c74561d16ab695 6989 rqt-bag_0.5.1-7-g2f6fbd5-2024.09.22.09.17_amd64.buildinfo
+ 1e3bda0412f1ed4341f5e68cb433ed80475916af 102648 rqt-bag_0.5.1-7-g2f6fbd5-2024.09.22.09.17_amd64.deb
+Checksums-Sha256:
+ 82db7bf23a804fad2023980776c49e48ce926149e6b2a52fe646160c749595da 6989 rqt-bag_0.5.1-7-g2f6fbd5-2024.09.22.09.17_amd64.buildinfo
+ 73da802427855dec68abb1f400ece5a6e4ba7f5b7888c625725d283394179a8d 102648 rqt-bag_0.5.1-7-g2f6fbd5-2024.09.22.09.17_amd64.deb
+Files:
+ e197b9c2d9ffddea39beac46a1f22397 6989 misc optional rqt-bag_0.5.1-7-g2f6fbd5-2024.09.22.09.17_amd64.buildinfo
+ 735e8b86fb232c550ae3ab03b3a59064 102648 misc optional rqt-bag_0.5.1-7-g2f6fbd5-2024.09.22.09.17_amd64.deb

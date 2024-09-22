@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 10 May 2022 00:00:00 -0000
+Source: warehouse-ros
+Binary: warehouse-ros warehouse-ros-dbgsym
+Architecture: amd64
+Version: 0.9.5-1-gfababc9-2024.09.22.10.12
+Distribution: bookworm
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ warehouse-ros - Persistent storage of ROS messages
+Changes:
+ warehouse-ros (0.9.5-1-gfababc9-2024.09.22.10.12) bookworm; urgency=high
+ .
+   * Drop compile option -std=c++11 (C++11 or later is default anyway) (#92 <https://github.com/ros-planning/warehouse_ros/issues/92>)
+   * Remove user-provided constructors and destructors (#51 <https://github.com/ros-planning/warehouse_ros/issues/51>)
+     ``ResultIterator::metadata_only_`` is now non-const to allow moving and assigning
+   * Add virtual destructor to ``MessageCollectionHelper`` and ``ResultIteratorHelper`` (#50 <https://github.com/ros-planning/warehouse_ros/issues/50>)
+   * Contributors: Bjar Ne, Jochen Sprickerhof
+Checksums-Sha1:
+ d93609db5ba3f6ec303c1ff07f2c04016cae7894 1807176 warehouse-ros-dbgsym_0.9.5-1-gfababc9-2024.09.22.10.12_amd64.deb
+ ed3e436ae734c2da4f31a6a222d91dd70f58c47c 14021 warehouse-ros_0.9.5-1-gfababc9-2024.09.22.10.12_amd64.buildinfo
+ 04ae26faeba446d91825c857c0f07e07ea60f7f6 134588 warehouse-ros_0.9.5-1-gfababc9-2024.09.22.10.12_amd64.deb
+Checksums-Sha256:
+ 2caf225a5a53900c5016dce6315bf5d8d9e271ba0cc54e6d48d63b8f03095eb3 1807176 warehouse-ros-dbgsym_0.9.5-1-gfababc9-2024.09.22.10.12_amd64.deb
+ 0fc5f2c7e2dead9d3b580c5eef43e9a45976f2cf7f84db6b578853f65f34ea3d 14021 warehouse-ros_0.9.5-1-gfababc9-2024.09.22.10.12_amd64.buildinfo
+ d6ae27640460d7ce99d281e5d319b6d5eb631af4a71d64d25ab4fd3102088692 134588 warehouse-ros_0.9.5-1-gfababc9-2024.09.22.10.12_amd64.deb
+Files:
+ a9622880b551c26cfbf335aa90986e6b 1807176 debug optional warehouse-ros-dbgsym_0.9.5-1-gfababc9-2024.09.22.10.12_amd64.deb
+ 0bf7969012408ffbbb141e57ce054972 14021 misc optional warehouse-ros_0.9.5-1-gfababc9-2024.09.22.10.12_amd64.buildinfo
+ 9fc4d23e82cebaa0327f74c5789dffde 134588 misc optional warehouse-ros_0.9.5-1-gfababc9-2024.09.22.10.12_amd64.deb

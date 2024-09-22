@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Wed, 08 May 2024 00:00:00 -0000
+Source: plotjuggler
+Binary: plotjuggler plotjuggler-dbgsym
+Architecture: amd64
+Version: 3.9.2-5-gf4f9d419-2024.09.22.08.42
+Distribution: bookworm
+Urgency: high
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Changed-By: Davide Faconti <davide.faconti@gmail.com>
+Description:
+ plotjuggler - PlotJuggler: juggle with data
+Changes:
+ plotjuggler (3.9.2-5-gf4f9d419-2024.09.22.08.42) bookworm; urgency=high
+ .
+   * Save NlohmannParser (JSON) settings (#971 <https://github.com/facontidavide/PlotJuggler/issues/971>)
+   * Fix infinite streaming buffer regression (#953 <https://github.com/facontidavide/PlotJuggler/issues/953>)
+     Co-authored-by: paul <mailto:paul@WorkLaptop>
+   * fix warning and includes
+   * updated fastcdr
+   * Added support for empty messages (#960 <https://github.com/facontidavide/PlotJuggler/issues/960>)
+   * add a parser for the Line Protocol (InfluxDB)
+   * Fixed the value dereference for ULog information messages (#946 <https://github.com/facontidavide/PlotJuggler/issues/946>)
+   * adding pre-commit check in CI
+   * fmt updated to 10.2.1
+   * apply clang format and move PlotJuggler/fmt
+   * moved KissFFT
+   * pre-commit
+   * Contributors: Davide Faconti, Declan Mullen, Jonathan, Michel Jansson, Paul, ubaldot
+Checksums-Sha1:
+ 5acdc011d0b60485da0afe0ba6f58534be728191 93858164 plotjuggler-dbgsym_3.9.2-5-gf4f9d419-2024.09.22.08.42_amd64.deb
+ acba555e804b7af5f89dabbe4927e8f388369bc4 19423 plotjuggler_3.9.2-5-gf4f9d419-2024.09.22.08.42_amd64.buildinfo
+ f30f377d86361f04c7dc15f0226e4e8f88e5fb6c 8929884 plotjuggler_3.9.2-5-gf4f9d419-2024.09.22.08.42_amd64.deb
+Checksums-Sha256:
+ 50d15a0ba4464a48aec3a2ed7fafa6c3fe5ca13a6bf0478f8cc1fc9573502d29 93858164 plotjuggler-dbgsym_3.9.2-5-gf4f9d419-2024.09.22.08.42_amd64.deb
+ 877c199b7bc45da36dc3b59c2268abeed66a7de49a97ebfb1b0c2632722c7b40 19423 plotjuggler_3.9.2-5-gf4f9d419-2024.09.22.08.42_amd64.buildinfo
+ 585a6e638f8a31cd8537a6e1461dba8b13879c61dfec756dd1f800c81050e4df 8929884 plotjuggler_3.9.2-5-gf4f9d419-2024.09.22.08.42_amd64.deb
+Files:
+ df70859ac83d0a395705c9bde6f367ff 93858164 debug optional plotjuggler-dbgsym_3.9.2-5-gf4f9d419-2024.09.22.08.42_amd64.deb
+ f6b4c932e6112defae2d75a22aa02d97 19423 misc optional plotjuggler_3.9.2-5-gf4f9d419-2024.09.22.08.42_amd64.buildinfo
+ 8be15aa4d5ef3b95678bab3c2e7fdd11 8929884 misc optional plotjuggler_3.9.2-5-gf4f9d419-2024.09.22.08.42_amd64.deb

@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 10 Nov 2023 00:00:00 -0000
+Source: moveit-resources
+Binary: moveit-resources
+Architecture: amd64
+Version: 0.8.3-2-gb771644-2024.09.22.08.31
+Distribution: bookworm
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ moveit-resources - Resources used for MoveIt! testing
+Changes:
+ moveit-resources (0.8.3-2-gb771644-2024.09.22.08.31) bookworm; urgency=high
+Checksums-Sha1:
+ e358a746f7cf1df7b3575cf23dde8ae581cee143 7028 moveit-resources_0.8.3-2-gb771644-2024.09.22.08.31_amd64.buildinfo
+ 778b01357a0e6021db95cdbdc0b45fa1638e2359 3832 moveit-resources_0.8.3-2-gb771644-2024.09.22.08.31_amd64.deb
+Checksums-Sha256:
+ e1aa1d76d7badd3bf436df79bfde6f328eb6b9d8b438b80e097ffbe224dc8e54 7028 moveit-resources_0.8.3-2-gb771644-2024.09.22.08.31_amd64.buildinfo
+ c1ea8f86b9b3e7b15ab63b72e7175d94b429ddf287ea40dc2c6f3515103a3f80 3832 moveit-resources_0.8.3-2-gb771644-2024.09.22.08.31_amd64.deb
+Files:
+ b84ee9e8bf6ca876ae4e3a2528c97759 7028 misc optional moveit-resources_0.8.3-2-gb771644-2024.09.22.08.31_amd64.buildinfo
+ f352f895ea80d1dbe92faee4313d9c22 3832 misc optional moveit-resources_0.8.3-2-gb771644-2024.09.22.08.31_amd64.deb

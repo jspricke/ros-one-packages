@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Sun, 23 May 2021 00:00:00 -0000
+Source: teleop-tools
+Binary: teleop-tools
+Architecture: amd64
+Version: 0.4.1-1-g735e46c-2024.09.22.09.58
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ teleop-tools - A set of generic teleoperation tools for any robot.
+Changes:
+ teleop-tools (0.4.1-1-g735e46c-2024.09.22.09.58) bookworm; urgency=high
+Checksums-Sha1:
+ 34a2e8e4c3dc54d57d7999040365306a5078e467 7008 teleop-tools_0.4.1-1-g735e46c-2024.09.22.09.58_amd64.buildinfo
+ 246b8c77fb58c4824b0465d77c723d564304723d 2428 teleop-tools_0.4.1-1-g735e46c-2024.09.22.09.58_amd64.deb
+Checksums-Sha256:
+ 64a1a2394387ee5df2f624eb3c91c35fd72b63fcd420478ee68188e02b2186eb 7008 teleop-tools_0.4.1-1-g735e46c-2024.09.22.09.58_amd64.buildinfo
+ ddc6dc05f70e86f3a4918691ebbcf56740a9c97cae871dc728ae7553bc1aeefe 2428 teleop-tools_0.4.1-1-g735e46c-2024.09.22.09.58_amd64.deb
+Files:
+ a4998f7d2b01a601c65eaa7640622756 7008 misc optional teleop-tools_0.4.1-1-g735e46c-2024.09.22.09.58_amd64.buildinfo
+ 803afe02724f56b42ebd945fea654530 2428 misc optional teleop-tools_0.4.1-1-g735e46c-2024.09.22.09.58_amd64.deb

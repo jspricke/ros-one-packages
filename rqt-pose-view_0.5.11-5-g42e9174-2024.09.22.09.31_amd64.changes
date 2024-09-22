@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 21 Apr 2021 00:00:00 -0000
+Source: rqt-pose-view
+Binary: rqt-pose-view
+Architecture: amd64
+Version: 0.5.11-5-g42e9174-2024.09.22.09.31
+Distribution: bookworm
+Urgency: high
+Maintainer: Scott Logan <scott@openrobotics.org>
+Changed-By: Scott Logan <scott@openrobotics.org>
+Description:
+ rqt-pose-view - rqt_pose_view provides a GUI plugin for visualizing 3D poses.
+Changes:
+ rqt-pose-view (0.5.11-5-g42e9174-2024.09.22.09.31) bookworm; urgency=high
+ .
+   * fix shebang line for python3 (#7 <https://github.com/ros-visualization/rqt_pose_view/issues/7>)
+   * Contributors: Mikael Arguedas
+Checksums-Sha1:
+ e91687f9bcf3f7da0ef262b256c52daf1cf08020 7020 rqt-pose-view_0.5.11-5-g42e9174-2024.09.22.09.31_amd64.buildinfo
+ cfc70d211716c8374d5157a05bdb9e0d75c5ed8d 23324 rqt-pose-view_0.5.11-5-g42e9174-2024.09.22.09.31_amd64.deb
+Checksums-Sha256:
+ c125cfb5b9d053d00c7aa0e1f725bdbf30a376c67480ae21f073dfa16ca575fa 7020 rqt-pose-view_0.5.11-5-g42e9174-2024.09.22.09.31_amd64.buildinfo
+ 1b0ee16f3d9d2ed13e1ed80aa8605933e07cdf16cf92eaba5a9f13da5fda4a73 23324 rqt-pose-view_0.5.11-5-g42e9174-2024.09.22.09.31_amd64.deb
+Files:
+ 3b663aba7d8c91043aa0cc05e9b0037e 7020 misc optional rqt-pose-view_0.5.11-5-g42e9174-2024.09.22.09.31_amd64.buildinfo
+ 30f5da6b9bc51fe96201f0f3a41a7d9b 23324 misc optional rqt-pose-view_0.5.11-5-g42e9174-2024.09.22.09.31_amd64.deb

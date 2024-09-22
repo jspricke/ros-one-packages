@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Tue, 02 Jun 2020 00:00:00 -0000
+Source: rqt-robot-monitor
+Binary: rqt-robot-monitor
+Architecture: amd64
+Version: 0.5.12-2024.09.22.09.37
+Distribution: bookworm
+Urgency: high
+Maintainer: Aaron Blasdel <ablasdel@gmail.com>
+Changed-By: Aaron Blasdel <ablasdel@gmail.com>
+Description:
+ rqt-robot-monitor - rqt_robot_monitor displays diagnostics_agg topics messages that a
+Changes:
+ rqt-robot-monitor (0.5.12-2024.09.22.09.37) bookworm; urgency=high
+ .
+   * use catkin_install_python instead of install
+Checksums-Sha1:
+ ef6bc534ef6483750026f5ec09f4322760d707d4 6996 rqt-robot-monitor_0.5.12-2024.09.22.09.37_amd64.buildinfo
+ d0f9b80fbe185359557a738667c69b0c940f5886 36856 rqt-robot-monitor_0.5.12-2024.09.22.09.37_amd64.deb
+Checksums-Sha256:
+ bcabf56fa38e2c250663a63166e471b8c41b84e801ad2764556d80c4fb9b65b7 6996 rqt-robot-monitor_0.5.12-2024.09.22.09.37_amd64.buildinfo
+ 23e7a4d467071754e35c106ad9051ee7bfa6593776ea417a5c582fa48ada60b8 36856 rqt-robot-monitor_0.5.12-2024.09.22.09.37_amd64.deb
+Files:
+ 03d9c3d1b26eaf2cbda1572e8e222b34 6996 misc optional rqt-robot-monitor_0.5.12-2024.09.22.09.37_amd64.buildinfo
+ 8c7e255e094a5e1660a275c9b8eea801 36856 misc optional rqt-robot-monitor_0.5.12-2024.09.22.09.37_amd64.deb

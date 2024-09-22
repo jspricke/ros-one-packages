@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 27 Oct 2023 00:00:00 -0000
+Source: rqt-controller-manager
+Binary: rqt-controller-manager
+Architecture: amd64
+Version: 0.20.0-2024.09.22.09.20
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ rqt-controller-manager - Graphical frontend for interacting with the controller manager.
+Changes:
+ rqt-controller-manager (0.20.0-2024.09.22.09.20) bookworm; urgency=high
+Checksums-Sha1:
+ 1d5a203b09a5467cff63e8383f7ca371b71a7bfd 7021 rqt-controller-manager_0.20.0-2024.09.22.09.20_amd64.buildinfo
+ eaeaf9e8e13ec4a8e4f2aeee3312883cf3e06417 39092 rqt-controller-manager_0.20.0-2024.09.22.09.20_amd64.deb
+Checksums-Sha256:
+ 9fb9f2f9047c6603ff4acc556f20d673063e8909d658ae0f5a9c2e94887cb394 7021 rqt-controller-manager_0.20.0-2024.09.22.09.20_amd64.buildinfo
+ 6b26c3883fa72db923449f77e4809502994c53b503d128cfef2f0b51a16157e2 39092 rqt-controller-manager_0.20.0-2024.09.22.09.20_amd64.deb
+Files:
+ 3e1684c09f291272cff1f695cd6d2af6 7021 misc optional rqt-controller-manager_0.20.0-2024.09.22.09.20_amd64.buildinfo
+ d3ef25934c714c9cb3848489206b041c 39092 misc optional rqt-controller-manager_0.20.0-2024.09.22.09.20_amd64.deb

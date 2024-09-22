@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Sun, 19 Feb 2023 00:00:00 -0000
+Source: rgbd-launch
+Binary: rgbd-launch
+Architecture: amd64
+Version: 2.4.0-2024.09.22.09.02
+Distribution: bookworm
+Urgency: high
+Maintainer: Piyush Khandelwal <piyushk@gmail.com>
+Changed-By: Piyush Khandelwal <piyushk@gmail.com>
+Description:
+ rgbd-launch - Launch files to open an RGBD device and load all nodelets to conv
+Changes:
+ rgbd-launch (2.4.0-2024.09.22.09.02) bookworm; urgency=high
+ .
+   * Capability: Add queue_size option #52 <https://github.com/ros-drivers/rgbd_launch/issues/52>
+   * Maintenance: Synced with older master branch #54 <https://github.com/ros-drivers/rgbd_launch/issues/54>, #53 <https://github.com/ros-drivers/rgbd_launch/issues/53>
+Checksums-Sha1:
+ 38183ea4790de43d8306578e7b4d04cd42dbd8a6 23005 rgbd-launch_2.4.0-2024.09.22.09.02_amd64.buildinfo
+ 69a58f2b38455db40b340198c2e8d9c1e18577b4 9548 rgbd-launch_2.4.0-2024.09.22.09.02_amd64.deb
+Checksums-Sha256:
+ 1d6f6985dd5d3177277182fc1b41d5525ee52c0b0267c0c1ceedece248e8a0ac 23005 rgbd-launch_2.4.0-2024.09.22.09.02_amd64.buildinfo
+ a835dfe1fe260f78a2f75ddd1a7c5d00869a8288e991ebf4352abcd048245c8f 9548 rgbd-launch_2.4.0-2024.09.22.09.02_amd64.deb
+Files:
+ 8cfd847ff0d6f8a6b14b4a901eadc8fa 23005 misc optional rgbd-launch_2.4.0-2024.09.22.09.02_amd64.buildinfo
+ b8aff740c8c30f918c6a0f6a5bff45a6 9548 misc optional rgbd-launch_2.4.0-2024.09.22.09.02_amd64.deb

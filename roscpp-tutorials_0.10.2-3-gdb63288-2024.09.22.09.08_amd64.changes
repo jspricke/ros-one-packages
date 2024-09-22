@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 31 Jul 2020 00:00:00 -0000
+Source: roscpp-tutorials
+Binary: roscpp-tutorials roscpp-tutorials-dbgsym
+Architecture: amd64
+Version: 0.10.2-3-gdb63288-2024.09.22.09.08
+Distribution: bookworm
+Urgency: high
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Changed-By: Mabel Zhang <mabel@openrobotics.org>
+Description:
+ roscpp-tutorials - This package attempts to show the features of ROS step-by-step, i
+Changes:
+ roscpp-tutorials (0.10.2-3-gdb63288-2024.09.22.09.08) bookworm; urgency=high
+Checksums-Sha1:
+ 66baef6f102dfed3bcc6a9f960b580f912046aac 5702828 roscpp-tutorials-dbgsym_0.10.2-3-gdb63288-2024.09.22.09.08_amd64.deb
+ 5433dcccdc527b8ded4c8c26f2389a7ac2f8095c 9697 roscpp-tutorials_0.10.2-3-gdb63288-2024.09.22.09.08_amd64.buildinfo
+ 47a284dde2517e0ab55a825fcbc108992ccf9636 162324 roscpp-tutorials_0.10.2-3-gdb63288-2024.09.22.09.08_amd64.deb
+Checksums-Sha256:
+ 28d3dc52117b2bce809c1175753c0eacd7dd093ed9f1f883202383b2ebf453ca 5702828 roscpp-tutorials-dbgsym_0.10.2-3-gdb63288-2024.09.22.09.08_amd64.deb
+ 50fc65250c7728d92af2be7c16530a56e37815936833683b7c2cf678264ae869 9697 roscpp-tutorials_0.10.2-3-gdb63288-2024.09.22.09.08_amd64.buildinfo
+ 73763c8dd80f25cc78fb64a8ea5c0fdde0db64fba19b27a13e4e8e2c08d1a973 162324 roscpp-tutorials_0.10.2-3-gdb63288-2024.09.22.09.08_amd64.deb
+Files:
+ 3bbeebaadd93ca1a353152ee63ca6e71 5702828 debug optional roscpp-tutorials-dbgsym_0.10.2-3-gdb63288-2024.09.22.09.08_amd64.deb
+ 4d6be9fd90515a511461a6ea721b72f2 9697 misc optional roscpp-tutorials_0.10.2-3-gdb63288-2024.09.22.09.08_amd64.buildinfo
+ 6f1b33dff17eb933dbafa980a42a0f62 162324 misc optional roscpp-tutorials_0.10.2-3-gdb63288-2024.09.22.09.08_amd64.deb

@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 04 Apr 2017 00:00:00 -0000
+Source: uuid-msgs
+Binary: uuid-msgs
+Architecture: amd64
+Version: 1.0.6-9-g39b8b62-2024.09.22.10.09
+Distribution: bookworm
+Urgency: high
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Changed-By: Jack O'Quin <jack.oquin@gmail.com>
+Description:
+ uuid-msgs  - ROS messages for universally unique identifiers.
+Changes:
+ uuid-msgs (1.0.6-9-g39b8b62-2024.09.22.10.09) bookworm; urgency=high
+Checksums-Sha1:
+ ebc874cd477acfc5fb2585ff7e03ca342508393a 7627 uuid-msgs_1.0.6-9-g39b8b62-2024.09.22.10.09_amd64.buildinfo
+ 78a9d16ad30a5bab044313205c6124d4bcca6763 11684 uuid-msgs_1.0.6-9-g39b8b62-2024.09.22.10.09_amd64.deb
+Checksums-Sha256:
+ cbd5feb487e6cdd69e2fed5e89278a4e526d140e48ba666fe0127c8270dd383d 7627 uuid-msgs_1.0.6-9-g39b8b62-2024.09.22.10.09_amd64.buildinfo
+ 7fe3daa683454ff6c947748ef421c7619e59a0510d01830e05ca897d4cb86298 11684 uuid-msgs_1.0.6-9-g39b8b62-2024.09.22.10.09_amd64.deb
+Files:
+ 292e0f7373c77b40815c0eaea73bd0b2 7627 misc optional uuid-msgs_1.0.6-9-g39b8b62-2024.09.22.10.09_amd64.buildinfo
+ 72923e740324fd769599e595d2aa7a04 11684 misc optional uuid-msgs_1.0.6-9-g39b8b62-2024.09.22.10.09_amd64.deb

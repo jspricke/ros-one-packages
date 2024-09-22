@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 30 Jan 2023 00:00:00 -0000
+Source: compressed-image-transport
+Binary: compressed-image-transport compressed-image-transport-dbgsym
+Architecture: amd64
+Version: 1.15.0-9-gcae592c-2024.09.22.08.10
+Distribution: bookworm
+Urgency: high
+Maintainer: Kenji Brameld <kenjibrameld@gmail.com>
+Changed-By: Kenji Brameld <kenjibrameld@gmail.com>
+Description:
+ compressed-image-transport - Compressed_image_transport provides a plugin to image_transport f
+Changes:
+ compressed-image-transport (1.15.0-9-gcae592c-2024.09.22.08.10) bookworm; urgency=high
+ .
+   * Update maintainer in ros1 branches (#132 <https://github.com/ros-perception/image_transport_plugins/issues/132>)
+   * Fix number of elements in vector parameter to call cv::imencode for OpenCV 4.7 (#130 <https://github.com/ros-perception/image_transport_plugins/issues/130>)
+   * Performance optimizations for JPEG decompression (#60 <https://github.com/ros-perception/image_transport_plugins/issues/60>)
+   * Fix copyright year 20012 -> 2012 (#80 <https://github.com/ros-perception/image_transport_plugins/issues/80>)
+   * Add a basic loopback unit test (#61 <https://github.com/ros-perception/image_transport_plugins/issues/61>)
+   * Contributors: Johannes Meyer, Kenji Brameld, Lucas Walter, Max Schwarz, Michael Carroll, ijnek, v4hn
+Checksums-Sha1:
+ 70a54ca402e2d6458400f28e2c81cbabdf58a867 2095456 compressed-image-transport-dbgsym_1.15.0-9-gcae592c-2024.09.22.08.10_amd64.deb
+ da1fa2a9877808337f50946d10c3bd202dea8d3e 22569 compressed-image-transport_1.15.0-9-gcae592c-2024.09.22.08.10_amd64.buildinfo
+ 4c7f58ae8948f0952be5358116fe75f83438e735 100500 compressed-image-transport_1.15.0-9-gcae592c-2024.09.22.08.10_amd64.deb
+Checksums-Sha256:
+ 48f7c64bd2f43b4c23fe635c6695c103b777d77d195e5aa86161a27b4bd11efc 2095456 compressed-image-transport-dbgsym_1.15.0-9-gcae592c-2024.09.22.08.10_amd64.deb
+ 415863d441a4cc291e2809e36f585f290c4cbe81f47f188e42dc211da2df6c17 22569 compressed-image-transport_1.15.0-9-gcae592c-2024.09.22.08.10_amd64.buildinfo
+ 7d5e6e34bb1791c849168dd83699b388c78e93422273fb7bd801466003377001 100500 compressed-image-transport_1.15.0-9-gcae592c-2024.09.22.08.10_amd64.deb
+Files:
+ 0aff10e37c523203fd9fa49c471da639 2095456 debug optional compressed-image-transport-dbgsym_1.15.0-9-gcae592c-2024.09.22.08.10_amd64.deb
+ 58aa0a46a535c76c2d6ce8242ca0a31d 22569 misc optional compressed-image-transport_1.15.0-9-gcae592c-2024.09.22.08.10_amd64.buildinfo
+ dcb4c38e20dd2a903cf6bba2e08b4b0a 100500 misc optional compressed-image-transport_1.15.0-9-gcae592c-2024.09.22.08.10_amd64.deb

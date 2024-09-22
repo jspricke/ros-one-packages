@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 02 Oct 2023 00:00:00 -0000
+Source: rqt-logger-level
+Binary: rqt-logger-level
+Architecture: amd64
+Version: 0.4.12-2024.09.22.09.27
+Distribution: bookworm
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ rqt-logger-level - rqt_logger_level provides a GUI plugin for configuring the logger
+Changes:
+ rqt-logger-level (0.4.12-2024.09.22.09.27) bookworm; urgency=high
+ .
+   * added LICENSE
+   * Import setup from setuptools instead of distutils.core
+   * Add xml-model
+Checksums-Sha1:
+ 1f00abdb12dedd0c693364c0627886276c5d8d6e 6991 rqt-logger-level_0.4.12-2024.09.22.09.27_amd64.buildinfo
+ b1370e3169ec3060bc4957de185400fff5860434 15836 rqt-logger-level_0.4.12-2024.09.22.09.27_amd64.deb
+Checksums-Sha256:
+ e7ae5c8124be3a02234158b914ead647dc2c07fd18a33ef79b2f6e1e5b0ff44d 6991 rqt-logger-level_0.4.12-2024.09.22.09.27_amd64.buildinfo
+ ad19475315bf0f9a3b6cf35a5d8de411920aae0d03e2e90b2fda8ea36b18aad1 15836 rqt-logger-level_0.4.12-2024.09.22.09.27_amd64.deb
+Files:
+ f506b3757055e52d2044166a07718f58 6991 misc optional rqt-logger-level_0.4.12-2024.09.22.09.27_amd64.buildinfo
+ 30fc4fb81f118882080217785b5bd05d 15836 misc optional rqt-logger-level_0.4.12-2024.09.22.09.27_amd64.deb

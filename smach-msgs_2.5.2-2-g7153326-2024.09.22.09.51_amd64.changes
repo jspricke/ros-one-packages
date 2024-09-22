@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 13 Jun 2023 00:00:00 -0000
+Source: smach-msgs
+Binary: smach-msgs
+Architecture: amd64
+Version: 2.5.2-2-g7153326-2024.09.22.09.51
+Distribution: bookworm
+Urgency: high
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I. Y. Saito <gm130s@gmail.com>
+Description:
+ smach-msgs - this package contains a set of messages that are used by the intr
+Changes:
+ smach-msgs (2.5.2-2-g7153326-2024.09.22.09.51) bookworm; urgency=high
+Checksums-Sha1:
+ 384dfa24b5fef9e53e30903c1b1c8e562af3bad9 7632 smach-msgs_2.5.2-2-g7153326-2024.09.22.09.51_amd64.buildinfo
+ 4646c5566cda2b433d8ea9f05ef78c78ed931aed 20308 smach-msgs_2.5.2-2-g7153326-2024.09.22.09.51_amd64.deb
+Checksums-Sha256:
+ 5b763fa0446dd8140d08934194e0ce29e7cf6008db52e7bccd3012256bb4a6d5 7632 smach-msgs_2.5.2-2-g7153326-2024.09.22.09.51_amd64.buildinfo
+ f807cea07b8017eb5cca62526b2362c558510834eed098bc9852b02462302704 20308 smach-msgs_2.5.2-2-g7153326-2024.09.22.09.51_amd64.deb
+Files:
+ 81fc73d87058b9f8624b7827ba850ac4 7632 misc optional smach-msgs_2.5.2-2-g7153326-2024.09.22.09.51_amd64.buildinfo
+ ebde1e8fcb51918d91ddd9aef438b430 20308 misc optional smach-msgs_2.5.2-2-g7153326-2024.09.22.09.51_amd64.deb

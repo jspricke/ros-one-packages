@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 22 May 2020 00:00:00 -0000
+Source: rqt-graph
+Binary: rqt-graph
+Architecture: amd64
+Version: 0.4.14-5-g759e210-2024.09.22.09.22
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Changed-By: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Description:
+ rqt-graph  - rqt_graph provides a GUI plugin for visualizing the ROS computati
+Changes:
+ rqt-graph (0.4.14-5-g759e210-2024.09.22.09.22) bookworm; urgency=high
+ .
+   * readd rqt_graph global executable, regression from 0.4.13 (#45 <https://github.com/ros-visualization/rqt_graph/issues/45>)
+Checksums-Sha1:
+ 24efff2061dad335e2161734906fa1197489f565 7000 rqt-graph_0.4.14-5-g759e210-2024.09.22.09.22_amd64.buildinfo
+ cd1dee5f5a4b869d8bae1900a9e2eaabd03f2771 43708 rqt-graph_0.4.14-5-g759e210-2024.09.22.09.22_amd64.deb
+Checksums-Sha256:
+ 3e695639954ec6520707cf4ace5ade5a726a5019c170afc5d01e618329e21c74 7000 rqt-graph_0.4.14-5-g759e210-2024.09.22.09.22_amd64.buildinfo
+ 8f9d98c51df53ce7bafc7b808e6e03c462b23ffc5e7fedfb5fc40d12e213886b 43708 rqt-graph_0.4.14-5-g759e210-2024.09.22.09.22_amd64.deb
+Files:
+ 9556db534bcd6c7db041900d584943fc 7000 misc optional rqt-graph_0.4.14-5-g759e210-2024.09.22.09.22_amd64.buildinfo
+ 40a2ed3cb869388336da2afe006bb409 43708 misc optional rqt-graph_0.4.14-5-g759e210-2024.09.22.09.22_amd64.deb

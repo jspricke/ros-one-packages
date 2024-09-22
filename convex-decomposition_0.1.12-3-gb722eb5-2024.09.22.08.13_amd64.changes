@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 07 Sep 2018 00:00:00 -0000
+Source: convex-decomposition
+Binary: convex-decomposition convex-decomposition-dbgsym
+Architecture: amd64
+Version: 0.1.12-3-gb722eb5-2024.09.22.08.13
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ convex-decomposition - Convex Decomposition Tool for Robot Model
+Changes:
+ convex-decomposition (0.1.12-3-gb722eb5-2024.09.22.08.13) bookworm; urgency=high
+ .
+   * Merge pull request #8 <https://github.com/ros/convex_decomposition/issues/8> from k-okada/add_travis
+     update travis.yml
+   * Change maintainer to ROS Orphaned Package
+   * update travis.yml
+   * mv readme to README.md
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ cf4ff8a476a054824f0e03b83c8d971a423e2c12 424528 convex-decomposition-dbgsym_0.1.12-3-gb722eb5-2024.09.22.08.13_amd64.deb
+ 8f124953cabed1042438cda0a70ddae2fc5f42de 7484 convex-decomposition_0.1.12-3-gb722eb5-2024.09.22.08.13_amd64.buildinfo
+ c92043b99a1ece886706fb966466a6598894e9fd 70724 convex-decomposition_0.1.12-3-gb722eb5-2024.09.22.08.13_amd64.deb
+Checksums-Sha256:
+ 1c398091d25c6116f3e5cb92fa56b898d4d3974cb5e719147d93b2ca5cddfa33 424528 convex-decomposition-dbgsym_0.1.12-3-gb722eb5-2024.09.22.08.13_amd64.deb
+ f59809e488da79c32cb1c0106664481f3e39c9075a56e0483b8234decc29b5c8 7484 convex-decomposition_0.1.12-3-gb722eb5-2024.09.22.08.13_amd64.buildinfo
+ 34a534b40db4c166acff92ebed0ae2e0c25d5e287efd53a3301bb681210e1225 70724 convex-decomposition_0.1.12-3-gb722eb5-2024.09.22.08.13_amd64.deb
+Files:
+ c0295e64f84e1b51168cc6b849bfa865 424528 debug optional convex-decomposition-dbgsym_0.1.12-3-gb722eb5-2024.09.22.08.13_amd64.deb
+ d5950cdc4f82e3dbbd32617fcc924a25 7484 misc optional convex-decomposition_0.1.12-3-gb722eb5-2024.09.22.08.13_amd64.buildinfo
+ d0bed2d81eebe052a8aad4192f521725 70724 misc optional convex-decomposition_0.1.12-3-gb722eb5-2024.09.22.08.13_amd64.deb

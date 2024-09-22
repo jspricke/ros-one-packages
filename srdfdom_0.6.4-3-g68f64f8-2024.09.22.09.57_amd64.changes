@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sat, 13 May 2023 00:00:00 -0000
+Source: srdfdom
+Binary: srdfdom srdfdom-dbgsym
+Architecture: amd64
+Version: 0.6.4-3-g68f64f8-2024.09.22.09.57
+Distribution: bookworm
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ srdfdom    - Parser for Semantic Robot Description Format (SRDF).
+Changes:
+ srdfdom (0.6.4-3-g68f64f8-2024.09.22.09.57) bookworm; urgency=high
+ .
+   * Allow generic joint properties (#109 <https://github.com/ros-planning/srdfdom/issues/109>, #111 <https://github.com/ros-planning/srdfdom/issues/111>)
+   * Contributors: Scott Chow, Robert Haschke
+Checksums-Sha1:
+ 10f3701c1b5c9119499f91fcf173ffb6eec9bfc2 985148 srdfdom-dbgsym_0.6.4-3-g68f64f8-2024.09.22.09.57_amd64.deb
+ 8b28f55574a8801993c44db65c527ccac1e230a8 16296 srdfdom_0.6.4-3-g68f64f8-2024.09.22.09.57_amd64.buildinfo
+ c08657b2fdbbdd7d89fc8c85f6d8ba914391630a 68228 srdfdom_0.6.4-3-g68f64f8-2024.09.22.09.57_amd64.deb
+Checksums-Sha256:
+ cc78a9cde2f3c82937b8681915f1224ab13639c75b2e5f014f2c2207e97d8861 985148 srdfdom-dbgsym_0.6.4-3-g68f64f8-2024.09.22.09.57_amd64.deb
+ 623df3e5ed87cd215f8693d40951c4f5759b5fe64fd89e50423f63e5783291f1 16296 srdfdom_0.6.4-3-g68f64f8-2024.09.22.09.57_amd64.buildinfo
+ 560499afd8a4b635cf1acb0c4ac56cad7584fdcf5b047122d8047d7d80fd9bd8 68228 srdfdom_0.6.4-3-g68f64f8-2024.09.22.09.57_amd64.deb
+Files:
+ 889ffce2d9a17a2e613da6cd509623e6 985148 debug optional srdfdom-dbgsym_0.6.4-3-g68f64f8-2024.09.22.09.57_amd64.deb
+ a9661f2cc0a4c4f05ab567e8806aa0eb 16296 misc optional srdfdom_0.6.4-3-g68f64f8-2024.09.22.09.57_amd64.buildinfo
+ 4e1aa6b0e9bb75dcb269616d8c98189b 68228 misc optional srdfdom_0.6.4-3-g68f64f8-2024.09.22.09.57_amd64.deb

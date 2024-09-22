@@ -1,2219 +1,2271 @@
 Package: audio-common-msgs
 Architecture: amd64
-Version: 0.3.18-2024.09.20.16.48
+Version: 0.3.18-2024.09.22.08.02
 Priority: optional
 Section: misc
 Maintainer: Austin Hendrix <namniart@gmail.com>
 Installed-Size: 143
 Depends: libstd-msgs-dev, python3-std-msgs, ros-message-runtime, ros-std-msgs
-Filename: ./audio-common-msgs_0.3.18-2024.09.20.16.48_amd64.deb
+Filename: ./audio-common-msgs_0.3.18-2024.09.22.08.02_amd64.deb
 Size: 19040
-MD5sum: 4dea8ffd48157e4752054a2f27bc7497
-SHA1: 32a5ca6e9959fcdcab3ed59de2e118c0c910de38
-SHA256: f45b02f8cc22838df2ba564990964a981433222679007360d613c4822fa60af2
-SHA512: 0c808701e68a116ac98a9f7ba94a052bf14e180174751aa96845658ab664109c542bd6000796955d44f5d70d779e3ae0767338853452f6758f16343b22396491
+MD5sum: cd836cf90dce60476f01b28d4d7e106c
+SHA1: d06f801060effb3672c937ad970f4acd356a3c9f
+SHA256: eec7edffa822b620f908d95c60821d3ef2dc3d178b52d8a82202406d86db8fc4
+SHA512: fc9a6ac406d974ba68de8b5a679cb1429afefe76510c81e0c63dc5da2227bd1ebfbdaf36490ee8f9f26e524ece4bb74226c1ce87faba0e859f1a77fc6c6b0fe5
 Homepage: http://ros.org/wiki/audio_common_msgs
 Description: Messages for transmitting audio via ROS
 
 Package: audio-common
 Architecture: amd64
-Version: 0.3.18-2024.09.20.18.03
+Version: 0.3.18-2024.09.22.08.02
 Priority: optional
 Section: misc
 Maintainer: Austin Hendrix <namniart@gmail.com>
 Installed-Size: 11
 Depends: ros-audio-capture, ros-audio-common-msgs, ros-audio-play, ros-sound-play
-Filename: ./audio-common_0.3.18-2024.09.20.18.03_amd64.deb
+Filename: ./audio-common_0.3.18-2024.09.22.08.02_amd64.deb
 Size: 2888
-MD5sum: 3558ffcb2bb63d5dcc13401e79cd1bd6
-SHA1: 4ceb022073de9ad96026e26276d26c6770bac811
-SHA256: ff4f1f00f1973028bdb3996b26f546dce086a0976369864e6f5f5f32c8e0c4b9
-SHA512: 6b47e3645d0dc978f6fcef15c6ba25dbccd029515184330ad962eda2cfe383dfc39f389feaba24f3666dd7a383ac9bc247916b13daa3d33c924675be0b1944e6
+MD5sum: 8735d666a56542b7b684191ee2e9e693
+SHA1: de120ded10b40c49414e77a3d3b54b30fdb8c969
+SHA256: bdad77f41ead8e97f9e1e36417976bc77fa6226f65aef53b1ac2ca6c006d7a72
+SHA512: 4fdce52db7816c370311b4a4d572b78cc3363cebbc4e3cca80e2425c564d3a228423fdc719feebf1d3724accc026daddd713f1709915236345485edb1cdc4d5b
 Homepage: http://ros.org/wiki/audio_common
 Description: Common code for working with audio in ROS
 
 Package: backward-ros-dbgsym
 Architecture: amd64
-Version: 0.1.8-2024.09.20.16.48
+Version: 0.1.8-2024.09.22.08.03
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: backward-ros
 Maintainer: Victor López <victor.lopez@pal-robotics.com>
 Installed-Size: 270
-Depends: backward-ros (= 0.1.8-2024.09.20.16.48)
-Filename: ./backward-ros-dbgsym_0.1.8-2024.09.20.16.48_amd64.deb
+Depends: backward-ros (= 0.1.8-2024.09.22.08.03)
+Filename: ./backward-ros-dbgsym_0.1.8-2024.09.22.08.03_amd64.deb
 Size: 251480
-MD5sum: d49e2247ed74a65eb0665312d182f702
-SHA1: dac21fc7ae215874df82969bd1ceef8c13793c6f
-SHA256: 0f33ebb7b5e0391167e1ebc3b0f9c68ed2b4cd29d03709d129113c9dca65b897
-SHA512: 24887048a0cc197b0d94a851fc1e6a6749f9979a943efb4388529b972c3905f56c25e95e604e26707158ffcb2fbbc56939eabd22f50dcb8f1c7bad4328706f0b
+MD5sum: 9d7dc1905b9bbbe9cb4837d771c2538f
+SHA1: 717348e179540377ab00939616a60ebfff6ae6ac
+SHA256: c2f8b32707fa171a22f97be4624ec5c04554fe3a4206da34714d5aa2c22146b4
+SHA512: 71703c1f61c22bd7a3c863fcff4357ae7a9ba0d8139f0c76f466144721a7c0eaa856ab698ea538f00077a5124410c5acf9d0b6878ead1f496fd64fe4fcc6ba9b
 Description: debug symbols for backward-ros
 Build-Ids: 09049407a69e970d24d9758ffe524fc5ad08a704
 
 Package: backward-ros
 Architecture: amd64
-Version: 0.1.8-2024.09.20.16.48
+Version: 0.1.8-2024.09.22.08.03
 Priority: optional
 Section: misc
 Maintainer: Victor López <victor.lopez@pal-robotics.com>
 Installed-Size: 253
 Depends: libc6 (>= 2.14), libdw1 (>= 0.126), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libdw-dev, libroscpp-core-dev, libroscpp-dev
-Filename: ./backward-ros_0.1.8-2024.09.20.16.48_amd64.deb
-Size: 61008
-MD5sum: d06ce439d9192c075debb41a1f12e793
-SHA1: 4f2c8103806ff5a60d007a4f56de6abf359633ea
-SHA256: f9f22ae88eb38f90882403693c0f176563cf980229d89c30e103632e9814c6ad
-SHA512: d2f66649822b1d9dc66a143d4ae9133edbd541632431abc3046c67a1197f62a1fb635c71d3b074739da098e0e65e3c3230d699a5199db56ec70bb3676284fa89
+Filename: ./backward-ros_0.1.8-2024.09.22.08.03_amd64.deb
+Size: 61012
+MD5sum: 60e9fa66728f3e03c2da333b8bcb0151
+SHA1: df80797cf78385a1e2085c084e8083a265e6ca6b
+SHA256: cd0753cee04aabb397361111645008853f6db2e81cb045f0a5867b62aaba2604
+SHA512: f870fdcee02d0620bb18319710eadb734512ad82717453082ff6141d016870f0578e1020d3047cd2b191b84463deb042e9267a29d6762b2458ffc75823f112ea
 Description: The backward_ros package is a ros wrapper of backward-cpp from https://github.com/bombela/backward-cpp
 
 Package: behaviortree-cpp-dbgsym
 Architecture: amd64
-Version: 4.6.2-4-g28267ff-2024.09.20.16.49
+Version: 4.6.2-10-g1fcb624-2024.09.22.08.04
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: behaviortree-cpp
 Maintainer: Davide Faconti <davide.faconti@gmail.com>
-Installed-Size: 15491
-Depends: behaviortree-cpp (= 4.6.2-4-g28267ff-2024.09.20.16.49)
-Filename: ./behaviortree-cpp-dbgsym_4.6.2-4-g28267ff-2024.09.20.16.49_amd64.deb
-Size: 15367168
-MD5sum: d3c76772d6ad168e9afe7b9792fa0d6c
-SHA1: 44ad0e5646571fbb368113d0a96f8b8845f0edf3
-SHA256: 67e1887d0856b2d21df7ef9dfadcba5a5f8aaec531b6a7e44023e1eb58eb6255
-SHA512: a56bfedd1e35310be4da7822c36c0d830a8855e2570f21499b6dacc8a5cfaa5a17d1a66cffa981b0f0469603eb627e4055051e77cf97a3b0349452e0cd1ec9b7
+Installed-Size: 15505
+Depends: behaviortree-cpp (= 4.6.2-10-g1fcb624-2024.09.22.08.04)
+Filename: ./behaviortree-cpp-dbgsym_4.6.2-10-g1fcb624-2024.09.22.08.04_amd64.deb
+Size: 15378388
+MD5sum: c079a28f0b57ebb8882cd1c0801149ff
+SHA1: e2a962877edf1368da934ed1fff5a0f07e592ce4
+SHA256: 34c1a528c0746fcfe3386ed7a285081508933542059bd8292b89b9dbfe02ba21
+SHA512: bda624b0f8b44ddd52ddc045a88d01f6ded5301fe3390c5e3af1c41345933d1e318144c4f76fb8cd249864d704c2f95176471528132dbb39e0cb442a87d04ac8
 Description: debug symbols for behaviortree-cpp
-Build-Ids: 21e57c0eb9875c27eef6372c11f00ed3e2b19322 24622448297b665cf558c54a43bab631bd9e5ad1 8ae9660638c40badc1a2ec1b3ff90be8ce5183a1 9debf8d64e07767cea7b764d6763ecb9b950f6b6 fe40f31d2fba6146f1c99d5709e734375f64f3d7
+Build-Ids: 21e57c0eb9875c27eef6372c11f00ed3e2b19322 24622448297b665cf558c54a43bab631bd9e5ad1 8ae9660638c40badc1a2ec1b3ff90be8ce5183a1 9a97984932f12c26cf99f297ad6b89e01416a715 fe40f31d2fba6146f1c99d5709e734375f64f3d7
 
 Package: behaviortree-cpp
 Architecture: amd64
-Version: 4.6.2-4-g28267ff-2024.09.20.16.49
+Version: 4.6.2-10-g1fcb624-2024.09.22.08.04
 Priority: optional
 Section: misc
 Maintainer: Davide Faconti <davide.faconti@gmail.com>
-Installed-Size: 3324
+Installed-Size: 4331
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libroslib0d (>= 1.15.8), libsqlite3-0 (>= 3.10.0), libstdc++6 (>= 12), libzmq5 (>= 4.0.1+dfsg), cppzmq-dev, libroslib-dev, libsqlite3-dev, libzmq3-dev, python3-roslib
-Filename: ./behaviortree-cpp_4.6.2-4-g28267ff-2024.09.20.16.49_amd64.deb
-Size: 662872
-MD5sum: 23e84159f83002cd9653798566f0c5cb
-SHA1: dd9900d1e1feacc4ffdd18d199fd36e2894df573
-SHA256: abbe077943074310deecce1b46f6bba2ad17698d23581b23e24276d10517ce1e
-SHA512: dd453be17119752353c88572baf9f668f541d5052e6bac4bb9a53b88e25688834121d69ac981fc2239426f4d7b85053f6829dab01297df4af7840c691403cd1d
+Filename: ./behaviortree-cpp_4.6.2-10-g1fcb624-2024.09.22.08.04_amd64.deb
+Size: 781940
+MD5sum: 4a6526eac35ee02627a06997e6ef6989
+SHA1: 8e92e49eb93f6422aef083e70ffc40adcc5d0542
+SHA256: 91b98060d1f3ac79c4abdcd73de82e4b251d50dfcf89087237eccaf200e07ec1
+SHA512: 0ccb0a8bc9a338f3e628418096e5a4bc9c96f6bff01c60a6e36426dd63398fd2ffbd4010905044da9f6bf9ef788d1a45ca68fb7ca8478653ba02128a5d0204c9
 Description: This package provides the Behavior Trees core library.
 
 Package: code-coverage
 Architecture: amd64
-Version: 0.4.4-5-g7c273b3-2024.09.20.16.53
+Version: 0.4.4-5-g7c273b3-2024.09.22.08.08
 Priority: optional
 Section: misc
 Maintainer: Michael Ferguson <mike@vanadiumlabs.com>
 Installed-Size: 39
 Depends: lcov, python3-coverage
-Filename: ./code-coverage_0.4.4-5-g7c273b3-2024.09.20.16.53_amd64.deb
-Size: 10276
-MD5sum: a3c4ca6ea7dc35a9bda0bcb50f0a39cf
-SHA1: 59ada61f871301464c8d47f6f954b50cc5d53e8f
-SHA256: 13bfdc08af42739c0db74a5b76d63a2fa46f460a8d4e7fd5882657afe8513ed2
-SHA512: 01bc3e1fceda7d1418c716cf0a8cadcf8a433b980915b6872e1bd3f013e44265e4152eafb47ce9587856fd78d254beea6700be319372106f29a8aa55b8f860b3
+Filename: ./code-coverage_0.4.4-5-g7c273b3-2024.09.22.08.08_amd64.deb
+Size: 10280
+MD5sum: ecba86f4c52dfd1dbc889c4c3b304130
+SHA1: 6130855b0f555dc5020e7698155feb8bbb781510
+SHA256: 9a6e8d604bc6d9b64e418168b18b4c24e7ccb45a625a5ee59dbb495a10afbe0e
+SHA512: 8be186b2c62d4d8902c76199b3a179176d95abe03cf070694165b0bbe67112f6d0312b5981bd57df2244e93ca49fef4aceba8f7ad304941b50da3c49dbe3de23
 Description: CMake configuration to run coverage
 
 Package: compressed-depth-image-transport-dbgsym
 Architecture: amd64
-Version: 1.15.0-9-gcae592c-2024.09.20.16.54
+Version: 1.15.0-9-gcae592c-2024.09.22.08.09
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: compressed-depth-image-transport
 Maintainer: Kenji Brameld <kenjibrameld@gmail.com>
 Installed-Size: 1898
-Depends: compressed-depth-image-transport (= 1.15.0-9-gcae592c-2024.09.20.16.54)
-Filename: ./compressed-depth-image-transport-dbgsym_1.15.0-9-gcae592c-2024.09.20.16.54_amd64.deb
+Depends: compressed-depth-image-transport (= 1.15.0-9-gcae592c-2024.09.22.08.09)
+Filename: ./compressed-depth-image-transport-dbgsym_1.15.0-9-gcae592c-2024.09.22.08.09_amd64.deb
 Size: 1810608
-MD5sum: dacdb3ad7b83c556e041e52b3e4ee082
-SHA1: b532e8d22352f9956408308a54c2f50ec9734abb
-SHA256: 5a80d5253f8ca69a05db300763ad49fceecf8db57e5eac2ed9c767258d782621
-SHA512: fe49eb2aa5cbfb136c086943016157f7a4754a6e9a6532374d84d152ca93461119b52cf141c22452563fce5d513997ae3b39b8bb31ee549bacca9f9a467f3e7b
+MD5sum: f46cf6e4e28b1287b98fd37358080927
+SHA1: aeef026923947beecc913d3dcf1128854be67674
+SHA256: 883027cf508f6522de01af237632095e5934c45ea0daf1362747782d5979aa70
+SHA512: 322a607005301f9f557744671cdf18e42da105920b7334d8c1773fc2150cc62015c5ad09f9af5ea37788678e6f4fb165020b94d07bb76b01c6bd38a075799e4b
 Description: debug symbols for compressed-depth-image-transport
 Build-Ids: 7a5f8686a18e2daa1a25ed5d37390832d26008c4
 
 Package: compressed-depth-image-transport
 Architecture: amd64
-Version: 1.15.0-9-gcae592c-2024.09.20.16.54
+Version: 1.15.0-9-gcae592c-2024.09.22.08.09
 Priority: optional
 Section: misc
 Maintainer: Kenji Brameld <kenjibrameld@gmail.com>
 Installed-Size: 328
 Depends: libc6 (>= 2.34), libclass-loader3d (>= 2.4.0), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libcv-bridge2d (>= 1.16.2+ds), libdynamic-reconfigure-config-init-mutex0d (>= 1.7.3), libgcc-s1 (>= 3.0), libimage-transport0d (>= 1.12.0), libopencv-core406 (>= 4.6.0+dfsg), libopencv-imgcodecs406 (>= 4.6.0+dfsg), librosconsole3d (>= 1.14.3), libroscpp-serialization0d (>= 0.7.2), libroscpp4d (>= 1.15.15+ds), librostime1d (>= 0.7.2), libstdc++6 (>= 11), image-transport-tools, libcv-bridge-dev, libdynamic-reconfigure-config-init-mutex-dev, libimage-transport-dev, python3-cv-bridge, python3-dynamic-reconfigure
-Filename: ./compressed-depth-image-transport_1.15.0-9-gcae592c-2024.09.20.16.54_amd64.deb
-Size: 92304
-MD5sum: 3a847930dd096db35c4d0a4a721ffd1b
-SHA1: 233bad81480539c2b9122cbcc6e7b0e19ea3c978
-SHA256: 14549fb2c756cdfe82fd8622606d2184b431e20dd95e16e677aa7c1e3520a0f1
-SHA512: 47b78474181f818130a1c50157994b5071952f3cc66d69bd503be8d6d1e3f821d459852a8a5e90b8166d5ff9d0812ef6b0da308ee026e6d411372196db6d3861
+Filename: ./compressed-depth-image-transport_1.15.0-9-gcae592c-2024.09.22.08.09_amd64.deb
+Size: 92308
+MD5sum: 01052aa99e45bbbdbcf3454df2f38c0b
+SHA1: 37eda239a1ec5c1b6cf3bad7678cc6eceec0c6fa
+SHA256: 03d335e2f903f35483049efb0ab5cb9f6c4b613c42e60df8ee889346ce97e363
+SHA512: 36ac78ae4d316ce6da70fabf4cd1373c09a852819aa17958943a3255f4ad2421b863c798188984e2e944879158c2a9471865d33f78f9608ef99b50f81787f08c
 Homepage: http://www.ros.org/wiki/image_transport_plugins
 Description: Compressed_depth_image_transport provides a plugin to image_transport for transparently sending depth images (raw, floating-point) using PNG compression.
 
 Package: compressed-image-transport-dbgsym
 Architecture: amd64
-Version: 1.15.0-9-gcae592c-2024.09.20.16.55
+Version: 1.15.0-9-gcae592c-2024.09.22.08.10
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: compressed-image-transport
 Maintainer: Kenji Brameld <kenjibrameld@gmail.com>
 Installed-Size: 2196
-Depends: compressed-image-transport (= 1.15.0-9-gcae592c-2024.09.20.16.55)
-Filename: ./compressed-image-transport-dbgsym_1.15.0-9-gcae592c-2024.09.20.16.55_amd64.deb
-Size: 2095460
-MD5sum: cedd3f93e37ae6b13a076400828c8382
-SHA1: d6d73ea25bac17fac1a6045397b1865b1fbc4474
-SHA256: 410fb2a4a66ff260c52ec305328a5f90d88cd64704563b21629241e62629c364
-SHA512: ac41c59d2fd18f8700adf7db325d3a2fbe40af459884e2a7bc56ac1a361525c2bd4ac0b2b928739f06ac118f5b41b58c37f179b13c95b875e30f2b4c252e9280
+Depends: compressed-image-transport (= 1.15.0-9-gcae592c-2024.09.22.08.10)
+Filename: ./compressed-image-transport-dbgsym_1.15.0-9-gcae592c-2024.09.22.08.10_amd64.deb
+Size: 2095456
+MD5sum: 0aff10e37c523203fd9fa49c471da639
+SHA1: 70a54ca402e2d6458400f28e2c81cbabdf58a867
+SHA256: 48f7c64bd2f43b4c23fe635c6695c103b777d77d195e5aa86161a27b4bd11efc
+SHA512: 6c4466a3be5a43f63ff9690a505e90f49e3e7eb3b19e9165f3e0cddd658c1c6cf96249d17c4755426f23d088cf4daaf10fc756a9d1744c7b57597f20b5538a8e
 Description: debug symbols for compressed-image-transport
 Build-Ids: 25aefa6e481591d405ebd7a93eef634d467123c1
 
 Package: compressed-image-transport
 Architecture: amd64
-Version: 1.15.0-9-gcae592c-2024.09.20.16.55
+Version: 1.15.0-9-gcae592c-2024.09.22.08.10
 Priority: optional
 Section: misc
 Maintainer: Kenji Brameld <kenjibrameld@gmail.com>
 Installed-Size: 392
 Depends: libc6 (>= 2.34), libclass-loader3d (>= 2.4.0), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libcv-bridge2d (>= 1.16.2+ds), libdynamic-reconfigure-config-init-mutex0d (>= 1.7.3), libgcc-s1 (>= 3.0), libimage-transport0d (>= 1.12.0), libopencv-core406 (>= 4.6.0+dfsg), libopencv-imgcodecs406 (>= 4.6.0+dfsg), libopencv-imgproc406 (>= 4.6.0+dfsg), librosconsole3d (>= 1.14.3), libroscpp-serialization0d (>= 0.7.2), libroscpp4d (>= 1.15.15+ds), librostime1d (>= 0.7.2), libstdc++6 (>= 11), libturbojpeg0 (>= 1:1.4.0), image-transport-tools, libcv-bridge-dev, libdynamic-reconfigure-config-init-mutex-dev, libimage-transport-dev, libturbojpeg0-dev, python3-cv-bridge, python3-dynamic-reconfigure
-Filename: ./compressed-image-transport_1.15.0-9-gcae592c-2024.09.20.16.55_amd64.deb
+Filename: ./compressed-image-transport_1.15.0-9-gcae592c-2024.09.22.08.10_amd64.deb
 Size: 100500
-MD5sum: 18d55ae28bbbc13c8d0b30a0e7fdc967
-SHA1: d06197636068f19de19adcabb3423a83ae5898c9
-SHA256: f4de5a6af510f3af9012d92dca49ec3edd5d3f7c095ddee7d2491a5343c09e3f
-SHA512: 1a4dfc21648b597c057931fb5132782bc8d7f4b826573982d842649120ac2880bef30e7b815c816fa62c77b7d292b954b12d2b2f9a6f4ef6efc7bd945c504dcd
+MD5sum: dcb4c38e20dd2a903cf6bba2e08b4b0a
+SHA1: 4c7f58ae8948f0952be5358116fe75f83438e735
+SHA256: 7d5e6e34bb1791c849168dd83699b388c78e93422273fb7bd801466003377001
+SHA512: b439d4b791dc4b982f84be966407a502630ed7f6292cc3628d6ca4d41ee2bb71386bec41ef171590193d1c451fc9210cf4d14acce756a5c003920fdb1941d808
 Homepage: http://www.ros.org/wiki/image_transport_plugins
 Description: Compressed_image_transport provides a plugin to image_transport for transparently sending images encoded as JPEG or PNG.
 
 Package: control-msgs
 Architecture: amd64
-Version: 1.5.2-6-g36e2e30-2024.09.20.16.57
+Version: 1.5.2-6-g36e2e30-2024.09.22.08.11
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 2627
 Depends: libactionlib-msgs-dev, libgeometry-msgs-dev, libstd-msgs-dev, libtrajectory-msgs-dev, python3-actionlib-msgs, python3-geometry-msgs, python3-std-msgs, python3-trajectory-msgs, ros-actionlib-msgs, ros-geometry-msgs, ros-message-runtime, ros-std-msgs, ros-trajectory-msgs
-Filename: ./control-msgs_1.5.2-6-g36e2e30-2024.09.20.16.57_amd64.deb
-Size: 112404
-MD5sum: 3f4a96d52067f12358a2e58dc99f2428
-SHA1: 92a08f013c069db9bdbfc907396e962d24e8f33d
-SHA256: 3fc6d1de48e475cb914dd58e0aa2deeaf3263c7fc27bf9d7ca4e84c4ab910af6
-SHA512: 0441ab24033f42dacfaefaf5e7a812155a51776e728d8138244ed621cedda17d8cca46d96b3e668a08e3dd7dd7978697e21e01ece837851fb71c1ddecb7d2d78
+Filename: ./control-msgs_1.5.2-6-g36e2e30-2024.09.22.08.11_amd64.deb
+Size: 112400
+MD5sum: 9b55814aab79f62f81b2b49a429f067f
+SHA1: 3540cfe1ba95ecd766b19da59f7059ee177730b0
+SHA256: ec8330df80bed2a084d0f3e8ed07ba0752e6ba24dc6ff97744f98bfbe13b74f2
+SHA512: f28453360b467f604d9f706822bb9c4ff742673bb302d51102d4b0af7c35ef26386b5d9c5aa715b4316cfc82e408fa1c28df171d4297a384b33a916ba49f3cb1
 Homepage: http://ros.org/wiki/control_msgs
 Description: control_msgs contains base messages and actions useful for controlling robots.
  It provides representations for controller setpoints and joint and cartesian trajectories.
 
 Package: controller-manager-msgs
 Architecture: amd64
-Version: 0.20.0-2024.09.20.16.58
+Version: 0.20.0-2024.09.22.08.12
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 640
 Depends: libstd-msgs-dev, python3-rospy, python3-rosservice, python3-std-msgs, ros-message-runtime, ros-std-msgs
-Filename: ./controller-manager-msgs_0.20.0-2024.09.20.16.58_amd64.deb
-Size: 54468
-MD5sum: bd0477ccfa42a09c8ebec95fcae6736d
-SHA1: 3da1c075d31f293ac8ba9787716db929c3bd1e62
-SHA256: 1f5a6656a3f1f9e83ec9e277ae0d4279af600a4a9ca86720c15323ae8d19b30a
-SHA512: 0e90c4478bd511e59838ea12d093876dff909c4b278cab827e3276ac3185160f77f7e6835d1a5e684090aef402e57bcb8e4b97befa7f82b39e2fe0530c6daf3b
+Filename: ./controller-manager-msgs_0.20.0-2024.09.22.08.12_amd64.deb
+Size: 54480
+MD5sum: 1b70b526fc810acfb6c861d3520bebc6
+SHA1: aaf34cc4876a1b9b1a4b7f7ded6bc568260df6f1
+SHA256: 0a277f580d67e6e0794a352fd637809062200ef1335b2e852cc6245d3e3a0752
+SHA512: 292f1f2f2e96978f4c0b97662edbcad4a33fb0bab553587b972bb0b8973eba97c93e793de9e9ee090ebf51ed2d51e140d2cb9f16fb931cd2c65a8784e6c16043
 Homepage: https://github.com/ros-controls/ros_control/wiki
 Description: Messages and services for the controller manager.
 
 Package: convex-decomposition-dbgsym
 Architecture: amd64
-Version: 0.1.12-3-gb722eb5-2024.09.20.16.58
+Version: 0.1.12-3-gb722eb5-2024.09.22.08.13
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: convex-decomposition
 Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
 Installed-Size: 451
-Depends: convex-decomposition (= 0.1.12-3-gb722eb5-2024.09.20.16.58)
-Filename: ./convex-decomposition-dbgsym_0.1.12-3-gb722eb5-2024.09.20.16.58_amd64.deb
+Depends: convex-decomposition (= 0.1.12-3-gb722eb5-2024.09.22.08.13)
+Filename: ./convex-decomposition-dbgsym_0.1.12-3-gb722eb5-2024.09.22.08.13_amd64.deb
 Size: 424528
-MD5sum: 49fa33887e714d3b8b0f6670ab42917b
-SHA1: e30f64e82882f74d964b89fb484f944c681e6e43
-SHA256: 4dc205582b97f4d7b1ec19fcb32726b861f2190ad0fab1531009473512017d15
-SHA512: 97ce776ac6ff050a2478f77a838d68fb0fa404fb19f98a348779db71c52111a0a246bd4a49923e31d980fae5f3e31bb07d009e9de4f023cf349afcc73ade600e
+MD5sum: c0295e64f84e1b51168cc6b849bfa865
+SHA1: cf4ff8a476a054824f0e03b83c8d971a423e2c12
+SHA256: 1c398091d25c6116f3e5cb92fa56b898d4d3974cb5e719147d93b2ca5cddfa33
+SHA512: 144b303548c1ba85dd4b35544e22680122355bcd4adc927db91beb97e3518a5a6051293134d36a1999a8415bee6205aabc60d5161b32a2c0edb3ef43e33483c4
 Description: debug symbols for convex-decomposition
 Build-Ids: c237bae1706cca46f475c588ece58271ba5532ca
 
 Package: convex-decomposition
 Architecture: amd64
-Version: 0.1.12-3-gb722eb5-2024.09.20.16.58
+Version: 0.1.12-3-gb722eb5-2024.09.22.08.13
 Priority: optional
 Section: misc
 Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
 Installed-Size: 193
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), unzip
-Filename: ./convex-decomposition_0.1.12-3-gb722eb5-2024.09.20.16.58_amd64.deb
+Filename: ./convex-decomposition_0.1.12-3-gb722eb5-2024.09.22.08.13_amd64.deb
 Size: 70724
-MD5sum: ba2bb3ff1d4737e1922efd5641f1f3fc
-SHA1: bf300a6c98bca9184ec3a58dd4e8f7457550e425
-SHA256: 907d451d34c8ed489a988b312fe993176b58386c2e684c4938c5f1174bcd08fe
-SHA512: d31cc3a61d7e054571106df41e3edadfc94761a678b1645a41a25c2731a313653ef212ef25349e4342ad04509e5291062a6d7f30e40e16e9641457b48db7981b
+MD5sum: d0bed2d81eebe052a8aad4192f521725
+SHA1: c92043b99a1ece886706fb966466a6598894e9fd
+SHA256: 34a534b40db4c166acff92ebed0ae2e0c25d5e287efd53a3301bb681210e1225
+SHA512: 97dc479f066ad93d7d5d8c31a44a822f1fcc686f8b6c62a16f18b2986e62ea5f44805d1bbff3c420eeb1b9ca229b754c0ffd2f97a1aa19427c81b7e27a2a266b
 Homepage: http://codesuppository.blogspot.com
 Description: Convex Decomposition Tool for Robot Model
 
 Package: driver-base
 Architecture: amd64
-Version: 1.6.9-2024.09.20.16.59
+Version: 1.6.9-2024.09.22.08.13
 Priority: optional
 Section: misc
 Maintainer: Chad Rockey <chadrockey@gmail.com>
 Installed-Size: 149
 Depends: libdiagnostic-updater-dev, libdynamic-reconfigure-config-init-mutex-dev, libroscpp-core-dev, libroscpp-dev, libself-test-dev, libself-test-tools, libstd-msgs-dev, python3-diagnostic-updater, python3-dynamic-reconfigure, python3-std-msgs, ros-message-runtime, ros-std-msgs
-Filename: ./driver-base_1.6.9-2024.09.20.16.59_amd64.deb
+Filename: ./driver-base_1.6.9-2024.09.22.08.13_amd64.deb
 Size: 22768
-MD5sum: ee9c9d61f0b64157467da6831beb090e
-SHA1: 0fcb9b7893a6b10f019fa196d8cd65522cdbb2d5
-SHA256: 9632b0ea020d1181b8f057b46403bf103bc8a80843811c87fbf7fde3c4aafc1b
-SHA512: 5e44786c5188f843bbf20a9f0b26c2940fa7aee8f52b3d8005978d7920a82f1ef679ba2b1d6fd1e8acbcaec4914c2457967023ff0022c6b91ae6558f892d971d
+MD5sum: 0454e001cab004f9aeb3418383a57e0c
+SHA1: 5ecae037cd81b127169fcfca24b36baff95aabf9
+SHA256: 96879b2e78f5a3a7b74057acb6894950b8406d4c1e51bedc0d39668547fccfdf
+SHA512: 04eb1209dd687593fc5ad8a3abcbffefc16557acfb26d598dc0fba32514f3499e82347cd4be74a84d83f96f1d6167a80e5659015db4061128232683aabaf6e88
 Homepage: http://www.ros.org/wiki/driver_base
 Description: A framework for writing drivers that helps with runtime reconfiguration, diagnostics and self-test.
  This package is deprecated.
 
 Package: driver-common
 Architecture: amd64
-Version: 1.6.9-2024.09.20.17.44
+Version: 1.6.9-2024.09.22.08.14
 Priority: optional
 Section: misc
 Maintainer: Chad Rockey <chadrockey@gmail.com>
 Installed-Size: 11
 Depends: ros-driver-base, ros-timestamp-tools
-Filename: ./driver-common_1.6.9-2024.09.20.17.44_amd64.deb
-Size: 2560
-MD5sum: a78be9736262e879c4a6d6498a67db63
-SHA1: 41c062d0930bda14325831720b188cfdf86a6e78
-SHA256: bba98fb1e307bc373a2b1f44f572768baab4f3590a8cc1ffd80ab5b35581e7bf
-SHA512: b0118d0cedabebd946d590a367a5107c530d9cdbddb1c9a292ee2e7c969832b9ffa85c2f9cb68d0caf3947de07d1aff1435c8d318ea1e3eca45794a62b132a0c
+Filename: ./driver-common_1.6.9-2024.09.22.08.14_amd64.deb
+Size: 2564
+MD5sum: 19380a9fcac43fee3beed0c00c534aa8
+SHA1: 7494c921438be61dee14935dcb4580c48780740e
+SHA256: b5d38b429b9f0e82053b48eec8fca67fca603ff07242b4611dcfeb05b577d776
+SHA512: 9fcb323768ccd57e33c2f20f287e58b49a71c269fe39961b363fa25ec966494f032ff69af5c1ef72d1c02ad4e4e81866e9f6b532c85e5b03b83b4ee060dd79d0
 Homepage: http://www.ros.org/wiki/driver_common
 Description: The driver_common stack contains classes and tools that are useful throughout the driver stacks.
  It currently contains: driver_base: A base class for sensors to provide a consistent state machine (retries, error handling, etc.) and interface timestamp_tools: Classes to help timestamp hardware events
 
 Package: eml-dbgsym
 Architecture: amd64
-Version: 0-2024.09.20.17.00
+Version: 0-2024.09.22.08.15
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: eml
 Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
 Installed-Size: 181
-Depends: eml (= 0-2024.09.20.17.00)
-Filename: ./eml-dbgsym_0-2024.09.20.17.00_amd64.deb
+Depends: eml (= 0-2024.09.22.08.15)
+Filename: ./eml-dbgsym_0-2024.09.22.08.15_amd64.deb
 Size: 144216
-MD5sum: 072285ea174d719a78f2bf5a126bae71
-SHA1: de1859f840117afb32433e1d511a45cd84131d19
-SHA256: da3eceeb63c33048df47864dbe4d9a12e72594e93a6cbe2a8ff5e80958f62dbf
-SHA512: af906cfe56a50422852a4fcc25f20d92be49adc083611ff2fe75d6555f70cc9c9dbd8a10eecbee8ca66a8ac204e52494ccbda486333998d0ac4b128db76daa00
+MD5sum: 7d281c49da7f1f8a7e555fdf35c24e83
+SHA1: f1deca77934e60fd0d65f56e2453445253661cfe
+SHA256: 3b77f9bb569a0de325e2f8b3c81a91bdd81b5bf7618c9805beefb2f26ce8c2ca
+SHA512: 1ea1f49cbe74328f59821ceba62751b14edf6ce10f339b8495f1061aa5499642ea4758b3bf58439fba26d714267f6fe4c44ef2f239a010dc9f28bf15b25c0d7c
 Description: debug symbols for eml
 Build-Ids: d663f380de9bb4afeb23ea0ca0af9d40bafebb92
 
 Package: eml
 Architecture: amd64
-Version: 0-2024.09.20.17.00
+Version: 0-2024.09.22.08.15
 Priority: optional
 Section: misc
 Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
 Installed-Size: 264
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5), catkin, libgmock-dev, libgtest-dev
-Filename: ./eml_0-2024.09.20.17.00_amd64.deb
-Size: 52800
-MD5sum: e29da17e667f556d57cc403f8a676fa0
-SHA1: 7824c61238d0c61fad8c1df301a243ac79fd881e
-SHA256: 95a5e81214585c56f3ba74d18a3ea44acaef49d9e9b51f4b7ab0d0290122bfa8
-SHA512: 54fa3d6b5c365d454ee9f496b3efa927358ae76961685090f69716ec1075bed017821dd3a9d7826f4421e3474859997a31f07820608b0734885689327f529340
+Filename: ./eml_0-2024.09.22.08.15_amd64.deb
+Size: 52700
+MD5sum: d37dfe881d696aecafbdaec2692d0291
+SHA1: 70ccdcab36689acaaae8dceae3748d6411557353
+SHA256: 732636f25ede88b47dbc9e4ee607365842aa42526d70f3985f591b88529bea7a
+SHA512: d099c3a7f314253852c8a952270f9b8e03b8a59e1866571d55db4b201a8460d6814e2777f8065cd5bcf466f82af5615082067a904b80c08a0d2fad53b19bf990
 Description: This is an implementation of the EtherCAT master protocol for the PR2 robot based on the work done at Flanders' Mechatronics Technology Centre.
 
 Package: ethercat-grant-dbgsym
 Architecture: amd64
-Version: 0.3.2-2024.09.20.17.00
+Version: 0.3.2-2024.09.22.08.15
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ethercat-grant
 Maintainer: Shadow Robot's software team <software@shadowrobot.com>
 Installed-Size: 43
-Depends: ethercat-grant (= 0.3.2-2024.09.20.17.00)
-Filename: ./ethercat-grant-dbgsym_0.3.2-2024.09.20.17.00_amd64.deb
+Depends: ethercat-grant (= 0.3.2-2024.09.22.08.15)
+Filename: ./ethercat-grant-dbgsym_0.3.2-2024.09.22.08.15_amd64.deb
 Size: 29192
-MD5sum: 4e31b068f1195ea3ee5b56870e327613
-SHA1: 224b59dc3b6cf788bae62c71a434a1ddb98b24a8
-SHA256: 309f988e6925c5aba2d8dbfb99e12f99bf2b468107efd2d2c39c8c3fbfb75178
-SHA512: 0aae864f8238c517ed4ea01680b9b1ef65ace0d7e64532875af8706770c39f356d331e968918cf70ea32d9b009340c0f9eb30ce8781c879438300604acdea645
+MD5sum: f5ffe2a9119937ed46bd93e60de07674
+SHA1: 6d94f7a56e434f8a565b51338974f449609a864d
+SHA256: 1ee7ba19368a36f391f290cf430d16db9a10c2cbfc2b47d905d6f3d9d884af6f
+SHA512: 9397ec72022486bd3e32c9a68798a0c32eb30c62da5b5c51ddcfa05b4e3d3fffefbbae36592463ee4dd566c12b325a738feb8ab99f7a519e60ed9d6e7503c2ad
 Description: debug symbols for ethercat-grant
 Build-Ids: c5b05c383ef7fda1e88c1c941865215870c63d66
 
 Package: ethercat-grant
 Architecture: amd64
-Version: 0.3.2-2024.09.20.17.00
+Version: 0.3.2-2024.09.22.08.15
 Priority: optional
 Section: misc
 Maintainer: Shadow Robot's software team <software@shadowrobot.com>
 Installed-Size: 44
 Depends: libc6 (>= 2.34), libcap2 (>= 1:2.10), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libcap-dev, libroscpp-core-dev, libroscpp-dev
-Filename: ./ethercat-grant_0.3.2-2024.09.20.17.00_amd64.deb
-Size: 9056
-MD5sum: 0d8c467dfd8f8bb20e9b3214ed8236dc
-SHA1: 66dd8378c41e08f4a05267fee64a83ed951285d9
-SHA256: 1c26c2fab68e3ab8c5c3a3ac4ddf2f41e9d89187543f04282151fc83b0a6fa99
-SHA512: 67a42058a39e92273559b6fa26b24c36c432a13a11f22f009b41106c9c80417a5d76f4895885209db666d7fa6c9123ea86ad856a5df63cb3a04ec1b18a0c4330
+Filename: ./ethercat-grant_0.3.2-2024.09.22.08.15_amd64.deb
+Size: 9068
+MD5sum: 048e5cebbb77fb6334951f711670381d
+SHA1: f763355ad88c1eb2547711caaa5c01292c9f6944
+SHA256: 015e60fb7ed4a71570b69c8e723eff9f08d3271f1607ae16b60881ac053602c3
+SHA512: 25826b9cffd0694074f5a13c919852c5ae9b81ed8cf0c89600428e5ed7fadd238d0d3dd413b46e4ee01882e63a13bb8c3f6b68a4376bf316d2cc983c47fd6cff
 Homepage: http://www.shadowrobot.com/
 Description: Makes it possible to run the ros_ethercat_loop without using sudo.
  Forked from pr2-grant
 
 Package: executive-smach-visualization
 Architecture: amd64
-Version: 4.1.0-7-ge82d7ef-2024.09.20.18.21
+Version: 4.1.0-7-ge82d7ef-2024.09.22.08.16
 Priority: optional
 Section: misc
 Maintainer: Jonathan Bohren <jbo@jhu.edu>
 Installed-Size: 11
 Depends: ros-smach-viewer
-Filename: ./executive-smach-visualization_4.1.0-7-ge82d7ef-2024.09.20.18.21_amd64.deb
-Size: 2388
-MD5sum: 25514662c19454ca53dbeaafa5c9ff8c
-SHA1: df74a751296ae4f49f4fc82f8cd61da2870fa40a
-SHA256: 8b4a22f8ec57e9297cd8e5cc16a833172afd3a2f64731c4dfac1b87781cabe49
-SHA512: a4d4fb5c7e7ccca2a482cc2e26d4382e0e3d6cdeecde8f141ce40c685cd15660a81acacd8e7fa8ac2d0d6e843350db474b64fc05eed03fd7354ffc5e0dc747a3
+Filename: ./executive-smach-visualization_4.1.0-7-ge82d7ef-2024.09.22.08.16_amd64.deb
+Size: 2392
+MD5sum: f8d58df5cbd711a5007e077c535ff5d3
+SHA1: 7b95c1fbe6e98f6f90a11f41836a790bc5f205a1
+SHA256: 1fce6adaa7f89cd0a009141a9d6c1c6cfb6bed36c09ba1c580ff5c4919e98778
+SHA512: c298be7d2c3d280b403cd9293bc2b903adf3e1c505ba263a7aabed67fc7df31ed327e6fb5ab0c61e864bf2a047393e206555e49b8cbd627dfd1f8657001f1983
 Homepage: http://ros.org/wiki/smach
 Description: This metapackage depends on the SMACH visualization tools.
 
 Package: executive-smach
 Architecture: amd64
-Version: 2.5.2-2-g7153326-2024.09.20.18.05
+Version: 2.5.2-2-g7153326-2024.09.22.08.16
 Priority: optional
 Section: misc
 Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
 Installed-Size: 11
 Depends: ros-smach, ros-smach-msgs, ros-smach-ros
-Filename: ./executive-smach_2.5.2-2-g7153326-2024.09.20.18.05_amd64.deb
-Size: 3248
-MD5sum: 7e24d2eeb90e23e120a3502ce769ea3a
-SHA1: 524df453bb920ebbf94832488b578910fb556ebc
-SHA256: 08c73b4ad71f98f852e9309fbabfccc0257eb4ad06fd3ee46ca02384bfcfb95f
-SHA512: fb05a65ba93eb3f4e1440f14ec218f1012eb8c41bc0f23d06a2e21adbe47682b09a4c90e7235aef3121a4da8b4ac2ee74907606ec27100264d6f32ad1162e003
+Filename: ./executive-smach_2.5.2-2-g7153326-2024.09.22.08.16_amd64.deb
+Size: 3244
+MD5sum: f15e628f9b7c070a64d06bff4903370c
+SHA1: bd482ba43fe299e34a4e60e5b2ebe12c4a069f12
+SHA256: fd55b28a396e5db120f9d4e62b28734898c55efa391dc46684b1663cdbd4e074
+SHA512: 29840d167a7b3b94a98f6b0df37b8976694b5a9bfe3f49907ea605d61a445ffd3f91a771c95cca7a72f97bed7db692ae6fdbc8470e795269a137fe80af682542
 Homepage: http://ros.org/wiki/smach
 Description: This metapackage depends on the SMACH library and ROS SMACH integration packages.
 
 Package: fake-joint
 Architecture: amd64
-Version: 0.0.4-5-gff3a9d9-2024.09.20.19.05
+Version: 0.0.4-5-gff3a9d9-2024.09.22.08.17
 Priority: optional
 Section: misc
 Maintainer: Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>
 Installed-Size: 11
 Depends: ros-fake-joint-driver, ros-fake-joint-launch
-Filename: ./fake-joint_0.0.4-5-gff3a9d9-2024.09.20.19.05_amd64.deb
-Size: 2260
-MD5sum: 1b9e74c99d685f9f9006925f3f090a16
-SHA1: b99f8c9595158bd3a476fe64a688853bd84b9465
-SHA256: ffc885ee00b64a62709c2bd08d692fffdd4631f2e5c300525366ea0a8c1616c2
-SHA512: ea2377c50bd76a665f125b63132b1bb49552ae8716b85417e71a78cbd277b57eb97078ba46affb858e4d8e07b63d1693099e53717ad03403a6ccdd865b9ada69
+Filename: ./fake-joint_0.0.4-5-gff3a9d9-2024.09.22.08.17_amd64.deb
+Size: 2264
+MD5sum: d9445af2a8cf1c1ff583f1d3dfbcf1e9
+SHA1: e2f11f80db1afd859b43b18b249c7a75642167b6
+SHA256: a4b4043b930ec14374e90ae1b25459d520836768d9e895b0f154a0c3c092a059
+SHA512: 0bb68a22681eab2d71ca197e2c6c9d27f021d06bf107c8c3459c1a8d15b0bf25e2170a26fa892f7aae340fd47d3aca35131c439f71f023e77aa2d6ef448c814f
 Homepage: http://wiki.ros.org/fake_joint
 Description: This metapackage depends on fake-joint related package for ros_control.
 
 Package: filters-dbgsym
 Architecture: amd64
-Version: 1.9.2-4-g310202e-2024.09.20.17.01
+Version: 1.9.2-4-g310202e-2024.09.22.08.18
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: filters
 Maintainer: Tully Foote <tfoote@willowgarage.com>
 Installed-Size: 1782
-Depends: filters (= 1.9.2-4-g310202e-2024.09.20.17.01)
-Filename: ./filters-dbgsym_1.9.2-4-g310202e-2024.09.20.17.01_amd64.deb
-Size: 1673112
-MD5sum: c6aca70ff54953d70024f535ed8e8ab9
-SHA1: 714de7dd9ea9d0a954a0be01502add051247fd74
-SHA256: c5474d789c77cd6fde76a55a78a3366f52f88b752ea209dce6d86fe63f3c6504
-SHA512: a2e7cb96633975f910eded06fd28430658941ea0efe82f09c66dfe90e447f5e759d1edcbc8df449c241f34e9570e615c658382457753ad492fb584225fb7ea30
+Depends: filters (= 1.9.2-4-g310202e-2024.09.22.08.18)
+Filename: ./filters-dbgsym_1.9.2-4-g310202e-2024.09.22.08.18_amd64.deb
+Size: 1673116
+MD5sum: 358928d1bbf0ba06a8b247cf69265262
+SHA1: d53700a3c6f57c2f32d4414ebd421aabbb87bdec
+SHA256: 360d18418cea30acd57a1f25466ca28a9334bc0cbed7a30d5b2d4262fc301e5c
+SHA512: 28bce23462cd8120cc84c9a5538aa780fd7ac7effcd1f16930ef91a5af459a5538b94add56b06d9f1b8dee2b3f42f23694586080d08a7b503c83ef5558544b30
 Description: debug symbols for filters
 Build-Ids: 3a4f6aa121d6e3da5a369d6d1f542748bd57a26c 91322c8a4fece2e283e0b2dd16359e030e58071e 9395b463c722b8825bf929480068baabc0dbbee0 b1591e39b813841df56faed1b117ae387bd9b4a4 cfbce0fcc7ac70e9716149117b82bae830bfab92
 
 Package: filters
 Architecture: amd64
-Version: 1.9.2-4-g310202e-2024.09.20.17.01
+Version: 1.9.2-4-g310202e-2024.09.22.08.18
 Priority: optional
 Section: misc
 Maintainer: Tully Foote <tfoote@willowgarage.com>
 Installed-Size: 534
 Depends: libc6 (>= 2.14), libclass-loader3d (>= 2.4.0), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.0), librosconsole3d (>= 1.14.3), libstdc++6 (>= 11), libxmlrpcpp3d (>= 1.15.15+ds), libboost-dev, librosconsole-dev, libroscpp-core-dev, libroscpp-dev, libroslib-dev, pluginlib-dev, python3-roslib
-Filename: ./filters_1.9.2-4-g310202e-2024.09.20.17.01_amd64.deb
+Filename: ./filters_1.9.2-4-g310202e-2024.09.22.08.18_amd64.deb
 Size: 78616
-MD5sum: 52789ba357e1f36e938878932456b95d
-SHA1: 687fbc7fe7c47475fc57787e378fb9b3b40b602a
-SHA256: a99e9bdc7ac79c7f18c97e154b7481b8502541d24c36aee63e566392e9ec4472
-SHA512: 926043386dd69d61e8c1a4ccc20dd39b980308a1da921677f4edd101e28e35d9f28692a776e493cad60b15e7b977268232f2a1c074e64370aef8edc672d9efab
+MD5sum: bfb93a466abdb68aed2758c90b98315f
+SHA1: daa13ad7bb94276e82752ab6a067225680365841
+SHA256: e9dab6aab1f24daf0c0477e17034bbdfe2315fbf26b61bb53664c9c76b6e5799
+SHA512: 90bd5bd9cf19043a0b0edb254d052eb19e3113f6084bbdadd4cb4eb312bdd4c9fb6b186a894f537568da9e83829588273fd93ad1cf26953e60114c2478e3e704
 Homepage: http://ros.org/wiki/filters
 Description: This library provides a standardized interface for processing data as a sequence of filters.
  This package contains a base class upon which to build specific implementations as well as an interface which dynamically loads filters based on runtime parameters.
 
 Package: four-wheel-steering-msgs
 Architecture: amd64
-Version: 1.1.1-2024.09.20.17.02
+Version: 1.1.1-2024.09.22.08.18
 Priority: optional
 Section: misc
 Maintainer: Vincent Rousseau <vincentrou@gmail.com>
 Installed-Size: 141
 Depends: libstd-msgs-dev, python3-std-msgs, ros-message-runtime, ros-std-msgs
-Filename: ./four-wheel-steering-msgs_1.1.1-2024.09.20.17.02_amd64.deb
+Filename: ./four-wheel-steering-msgs_1.1.1-2024.09.22.08.18_amd64.deb
 Size: 17520
-MD5sum: 76da5d90d7c3dddd0f30bb5f14073164
-SHA1: 2d65b317fe347015423100bfbde8ed4293937599
-SHA256: 238a405a23fa88d0554a2ae1e567d644134816538549187a8d0e430d458bb5e0
-SHA512: 9e190e9e0f3a896648ba35c778e8454295cbcac72cc83dcedeb47323f64319cecab1741bd7d32d08a31273d41985b850f62d08c501117aa5e32b901ce496a579
+MD5sum: de062cc8f4d48ec61c3ab7f7a278ccf4
+SHA1: fb3dcb1439e36dba587f7625dce0a929f4e27b15
+SHA256: 396e45d663b8b3e44fb1c0ad35a320b5440186fc160df7cc12e0e3b541b468b3
+SHA512: cc0984215348db4039155393c79777e59f32eab89df5943d072d06bb6b16884400635753683ca560fa289284ce72d897c51788704dbdf3f5c67ff3e60d9c20bd
 Homepage: http://ros.org/wiki/four_wheel_steering_msgs
 Description: ROS messages for robots using FourWheelSteering.
 
 Package: gl-dependency
 Architecture: amd64
-Version: 1.1.2-1-g337fcfc-2024.09.20.17.02
+Version: 1.1.2-1-g337fcfc-2024.09.22.08.19
 Priority: optional
 Section: misc
 Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
 Installed-Size: 23
 Depends: python3-pyqt5.qtopengl
-Filename: ./gl-dependency_1.1.2-1-g337fcfc-2024.09.20.17.02_amd64.deb
-Size: 4636
-MD5sum: 31f2d5ee282d991797c0f970c76312d7
-SHA1: 562b9143e2866d1fc1bcde960d5b75e8569d7a28
-SHA256: 5039a71b919011f6204397abc8c2d0a2a49acb4e6e7c438e4b1ee114aafda3c1
-SHA512: a32a1c2333e813e7c82102256ff91cb4e94243fd75515e11aad8ad07a1617e58d5d510f0715f7b0bcd23919286d5c0190aaedfbbf31d5d3f20544a653cd04f33
+Filename: ./gl-dependency_1.1.2-1-g337fcfc-2024.09.22.08.19_amd64.deb
+Size: 4648
+MD5sum: 72314e7fc151e625e5981573b03662d1
+SHA1: 8b899a2e81f6757ab3f93037b42cd7f5d764d8fe
+SHA256: 081d199868616117f7b47711111f5f74267a98c3a73d493d1be2bbb85ec1ec9f
+SHA512: 98abe5b8d3946ad1d4126c31dee909075b23071a437ce9b468074d9346c2597b3c827ea7bb7782a22fd40925772d1430bd4ec41fa793a69b904f22ef308309ba
 Description: This encapsulates the GL dependency for a specific ROS distribution and its Qt version
 
 Package: graph-msgs
 Architecture: amd64
-Version: 0.1.0-3-g530fe7c-2024.09.20.17.03
+Version: 0.1.0-3-g530fe7c-2024.09.22.08.20
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <davetcoleman@gmail.com>
 Installed-Size: 125
 Depends: libgeometry-msgs-dev, libstd-msgs-dev, python3-geometry-msgs, python3-std-msgs, ros-geometry-msgs, ros-message-runtime, ros-std-msgs
-Filename: ./graph-msgs_0.1.0-3-g530fe7c-2024.09.20.17.03_amd64.deb
-Size: 17728
-MD5sum: ea517a71f0cda6481068b3eb26a4c83c
-SHA1: a149058ae9e521b2589b4f2d141f4c71c0234cf9
-SHA256: fc1c67d5115bf47cbb5925a7be4f698c20cba159ff575d2e7edadeb80b978b53
-SHA512: 73bf612296435f1be03ef37801e05dedfdd38ab8b0663000b16baff8f7748b3e01eff076b2b5470c61f4de0892a2bfaf1d8d7f2f08ff16ba595dcfc3927204c4
+Filename: ./graph-msgs_0.1.0-3-g530fe7c-2024.09.22.08.20_amd64.deb
+Size: 17724
+MD5sum: ae26f1f1e92f9f3a4acb3a0c89add6ac
+SHA1: 63610362ff50f9d14a4d3a45bb3c315a8d4a8ae6
+SHA256: 7ead21d6d91020b066c0d695a1b22691101a3dd6ef68613ba5e70258f5167ce0
+SHA512: 5597ba0403747b081a8b36ba53f795af513feb398446de985744f9f2adc41f254337935fa96ee6bcbda0b78e27a73de49420312604cef193d912fb9011beb7d0
 Homepage: https://github.com/davetcoleman/graph_msgs
 Description: ROS messages for publishing graphs of different data types
 
 Package: hardware-interface
 Architecture: amd64
-Version: 0.20.0-2024.09.20.17.04
+Version: 0.20.0-2024.09.22.08.20
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 137
 Depends: libroscpp-core-dev, libroscpp-dev
-Filename: ./hardware-interface_0.20.0-2024.09.20.17.04_amd64.deb
-Size: 27836
-MD5sum: 64eec9673369588528b1beaba53f949a
-SHA1: c92bd6150fa1db698423e9508cabd08b23594c47
-SHA256: 3a0f57bb294e9298475461caf420220dc836971d68e0086db1d36a39dfa11580
-SHA512: d9bbcc9a0e5651a156948bf457ff06c1e0bf4fa8e3fda99ec75fe83c4803dcf09f356bd8e617d2b98700096af319f528a880736e58b3831f683228631a62fdb9
+Filename: ./hardware-interface_0.20.0-2024.09.22.08.20_amd64.deb
+Size: 27840
+MD5sum: 67117b94298effbf9632ea07d8d98c29
+SHA1: 80689a0c1db94742aab7bdd1dae1bcd1c2a45195
+SHA256: 5176ff245fa42fe510c874276d717516d1bc8db6852344ba1e0e10c4bae1e9ae
+SHA512: 180002378e6ed6c83682de3cb1083c161e147417386c63d81e63c06d548277e80cd286fd0b4a5e4ce3f9ed6dc120501b57aa2033b62296cc30a8256d90645cb1
 Homepage: https://github.com/ros-controls/ros_control/wiki
 Description: Hardware Interface base class.
 
 Package: image-transport-plugins
 Architecture: amd64
-Version: 1.15.0-9-gcae592c-2024.09.20.17.44
+Version: 1.15.0-9-gcae592c-2024.09.22.08.23
 Priority: optional
 Section: misc
 Maintainer: Kenji Brameld <kenjibrameld@gmail.com>
 Installed-Size: 12
 Depends: ros-compressed-depth-image-transport, ros-compressed-image-transport, ros-theora-image-transport
-Filename: ./image-transport-plugins_1.15.0-9-gcae592c-2024.09.20.17.44_amd64.deb
-Size: 3328
-MD5sum: d15012a3a6021d277e23fbc168da8380
-SHA1: ee01cf67a1788e14e7dd1e541e722b91989b1e7b
-SHA256: 6e32982487dbd707ea82dad18e82bf7a95b0d56343356c9787a4b1ca96aeb042
-SHA512: d612143c3a60250bda6ef6c14fdff86eb49142de1f755aa0d2c986e87bd3a916e08016e9be632a428d5f724fcb09a744e0313b01a4fb6594d13558da6e3f0b4b
+Filename: ./image-transport-plugins_1.15.0-9-gcae592c-2024.09.22.08.23_amd64.deb
+Size: 3332
+MD5sum: cef23a1dfe94c88a3f1e7686f86cefea
+SHA1: 7ddc4e7e123b4cf1f55ce5bd84d94efe9596d69d
+SHA256: 299dfae4c5e41f537b1496d8b04190ec6b7c125bd51615a6f6b69836ff00378e
+SHA512: bdcc3225f5a3abe581136b27be840d7da4981f60fbf29781229bd65c1715136858f21d6a0358a5c458a234005e60e0fd557270a33f2ec00a15ca07214b5fba8e
 Homepage: http://www.ros.org/wiki/image_transport_plugins
 Description: A set of plugins for publishing and subscribing to sensor_msgs/Image topics in representations other than raw pixel data.
  For example, for viewing a stream of images off-robot, a video codec will give much lower bandwidth and latency. For low frame rate tranport of high-definition images, you might prefer sending them as JPEG or PNG-compressed form.
 
 Package: ivcon-dbgsym
 Architecture: amd64
-Version: 0.1.7-2-g5c97b19-2024.09.20.17.04
+Version: 0.1.7-2-g5c97b19-2024.09.22.08.24
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ivcon
 Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
 Installed-Size: 200
-Depends: ivcon (= 0.1.7-2-g5c97b19-2024.09.20.17.04)
-Filename: ./ivcon-dbgsym_0.1.7-2-g5c97b19-2024.09.20.17.04_amd64.deb
+Depends: ivcon (= 0.1.7-2-g5c97b19-2024.09.22.08.24)
+Filename: ./ivcon-dbgsym_0.1.7-2-g5c97b19-2024.09.22.08.24_amd64.deb
 Size: 186016
-MD5sum: 966ae70773f7505316318d4db1cae235
-SHA1: c55902744624c3d127abe3a6e0065084b7c9d1b2
-SHA256: 2e288e84684ed40b9a5c071282f8aa375490e8a7c7f35e8731983d406c6d7c13
-SHA512: 9efa733aca5abcfe99a80ff43a32da8a2ecd413b0ab1be4ad794c4f5c1d5ceb6beb85faad3dc484fc7461f0e097424d77335c8375400753233c9292ff8f8da61
+MD5sum: bc02b421f63ea2da673bfd98421c9e30
+SHA1: cf6079a9d5440aa86bef6009688fa46495b47e6f
+SHA256: 2977e0fac944e2f0753c2776d568746ba1f79a5a605189799f212f7e04347339
+SHA512: 9df8edf8b596f0c7c4560d4d0b4e8b8265f398a0b9a881f4d6a5eabf1e24a149785e0607f77b3e05c41684a60c7950abc652dd5d45270b813a174013d6f81791
 Description: debug symbols for ivcon
 Build-Ids: c2478631b8c15fdd36acf9cdd93c199e53f95617
 
 Package: ivcon
 Architecture: amd64
-Version: 0.1.7-2-g5c97b19-2024.09.20.17.04
+Version: 0.1.7-2-g5c97b19-2024.09.22.08.24
 Priority: optional
 Section: misc
 Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
 Installed-Size: 192
 Depends: libc6 (>= 2.34)
-Filename: ./ivcon_0.1.7-2-g5c97b19-2024.09.20.17.04_amd64.deb
-Size: 71176
-MD5sum: b64e3063051bc36e101cdfe3ebee1f1e
-SHA1: 66a17bac12adda75c3789c89631ced20c15c4739
-SHA256: fea7bd582d1c96cd8186605d03f8e44128dcc70b26b50a6b94bcc32f49e782b8
-SHA512: 381f496455f94b85b02d3b8bc4027ecceb24349922ecd17d5d2e093ca3f71e52026bd7404530f1cd38da1b6a73f6d41ac15573d9ee1505e9f013864c68d1d5e4
+Filename: ./ivcon_0.1.7-2-g5c97b19-2024.09.22.08.24_amd64.deb
+Size: 71168
+MD5sum: 4b0548c092ba9631ea997f993fa47668
+SHA1: 059cca88c154e2fdc3dacea2f078d55f0d1127b3
+SHA256: 6372b402c23b2757bab212a1af0ddaf33c8842b3bacb1dac1fc3f6df1ed8c108
+SHA512: 7d075dad116d0a18fa6b5a388a010ff1ad30f3c043ea5af4d7421be33a69f5511de8a3929692044ef860a05cca0061e2fd0c229e5d660cb685e90474adfc1e1d
 Homepage: https://sourceforge.net/projects/ivcon/
 Description: Mesh Conversion Utility Used to generate '.iv' files from '.stl' files.
  This package has not been changed since 2001 and appears to be very stable. We plan on keeping this package in this revision for mesh conversions. This package is only available as a single source file for download. There are no local modifications to this package.
 
 Package: joy-teleop
 Architecture: amd64
-Version: 0.4.1-1-g735e46c-2024.09.20.18.08
+Version: 0.4.1-1-g735e46c-2024.09.22.08.25
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 48
 Depends: libactionlib-dev, libsensor-msgs-dev, python3-actionlib, python3-rospy, python3-rosservice, python3-rostopic, python3-sensor-msgs, ros-sensor-msgs, ros-teleop-tools-msgs
-Filename: ./joy-teleop_0.4.1-1-g735e46c-2024.09.20.18.08_amd64.deb
-Size: 10580
-MD5sum: 173a9b07466dba252ed7b316e571f304
-SHA1: cc9427719076cdaea8f240e5a1991fc7cfe0d30b
-SHA256: f2fb1e9f7aaa816ce7c3e6e883336df78f94e9b29b1b92e229595430a42fc77d
-SHA512: 0bad37cacd4732f623a884f9e6cb9ddd264eeddfde4d8a60dc0534c4c1a30a1d0f1b4722bc94cb4b8c8947c7d388fddf7e7c21d76286db2dc3937b677ae31432
+Filename: ./joy-teleop_0.4.1-1-g735e46c-2024.09.22.08.25_amd64.deb
+Size: 10584
+MD5sum: 8fbff8280a84c59c3bbb4c42fb8c10c6
+SHA1: 6fb3b047a759f9fa13ef34828222907595cd5843
+SHA256: 80706c3752613b4ed9dcd5b51a5476e97dd6bf0f7b3e8dc22949a4fa21bb8835
+SHA512: bd5954fe3c8255b31f5d3754de86827a6f5ec08692b63f21e5b6fb914b953915279d6bbf03bffd838562b2246fdcf158e895b067da27d295e202bcd96d657838
 Description: A (to be) generic joystick interface to control a robot
 
 Package: joystick-drivers
 Architecture: amd64
-Version: 0-2024.09.20.18.09
+Version: 0-2024.09.22.08.26
 Priority: optional
 Section: misc
 Maintainer: Jonathan Bohren <jbo@jhu.edu>
 Installed-Size: 11
 Depends: ros-joy, ros-spacenav-node
-Filename: ./joystick-drivers_0-2024.09.20.18.09_amd64.deb
+Filename: ./joystick-drivers_0-2024.09.22.08.26_amd64.deb
 Size: 2448
-MD5sum: 6f2bcfbc9ad457995bebce2564c65609
-SHA1: 39a89cbbdc383601cccb8cee0e4a3b8a88e69bfe
-SHA256: e091d94283a0e974bc05f3f8317e6c829a14de99a43b29c8334de7a2bfec250c
-SHA512: c22965adbe432e5c5360aec82dfa56aa8ebc997e94569c9622292ef0d6ab437f03163359ebe132206609c9654feedc840371b0658475b9aa14f0eaefb5593475
+MD5sum: ef1a8eb4d10fd30d1afad931da39602e
+SHA1: 932798b1d915c70e0e42a0674048313f97621c7d
+SHA256: 25d6259b1fed58c7eca16f05e056375f049a41a7cfa402dbf614af6b6c03db79
+SHA512: d13a5900b6ef0ea6cd9ac1b71a0c52143a0175fea39f74bcb00356e60e7173f0b075875c44a4125c997fe35b6bac474f093f24505d8ed8aa75f10e69e2d4029c
 Homepage: http://www.ros.org/wiki/joystick_drivers
 Description: This metapackage depends on packages for interfacing common joysticks and human input devices with ROS.
 
 Package: key-teleop
 Architecture: amd64
-Version: 0.4.1-1-g735e46c-2024.09.20.17.05
+Version: 0.4.1-1-g735e46c-2024.09.22.08.26
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 34
 Depends: libgeometry-msgs-dev, python3-geometry-msgs, python3-rospy, ros-geometry-msgs
-Filename: ./key-teleop_0.4.1-1-g735e46c-2024.09.20.17.05_amd64.deb
+Filename: ./key-teleop_0.4.1-1-g735e46c-2024.09.22.08.26_amd64.deb
 Size: 7376
-MD5sum: dcc9a698b606b7a12f0dc230bc3d4f65
-SHA1: 050e484f5d3acf64df4420e511bff7bb3349b50f
-SHA256: 02ad1672c73035c189e97d10bbf0e40fc7481984e3aea8de843d08aaaeeecdae
-SHA512: d83ea86e65e7a68bf05e453dc5860cbf62f6295f168b39faca006d87c7c7d505a07e0ad45527b07f3cb2b2db2f50814298226885d216c67e094ada9d4fec232b
+MD5sum: 3fd52d6eaeb942f68c592f00462ddc51
+SHA1: 58a250ca0a154b2c05e530044c7e8b41b7e12fa4
+SHA256: 358c6bb530573dd12e9164bac577ff1c163b27128d6ff79c5e21dd50c21a208e
+SHA512: d508a5913d3ef5f96ab3a2429f81ce011415339ba4132e008ffb12fc3e84bf028ce60253db7642df8b40650cc0be58eff072b0abdbd1e0cadf02de3cdcec6280
 Description: A text-based interface to send a robot movement commands
 
 Package: media-export
 Architecture: amd64
-Version: 0.3.0-2024.09.20.17.06
+Version: 0.3.0-2024.09.22.08.28
 Priority: optional
 Section: misc
 Maintainer: William Woodall <william@osrfoundation.org>
 Installed-Size: 24
-Filename: ./media-export_0.3.0-2024.09.20.17.06_amd64.deb
+Filename: ./media-export_0.3.0-2024.09.22.08.28_amd64.deb
 Size: 5056
-MD5sum: 81857edce4e5d798a0fa3bec64f5420f
-SHA1: ed81bb76b154cd2882237e852f3b8959ffab2343
-SHA256: 8319330ade010f32c4732023bde89ec42269277f330239a7a0fea8fdbbc31170
-SHA512: 0befa70399456d80e0b1aa22ad7745b557967b1643475dfde3f2cfb2ed49e071c5e20cc426b27cc5b1e1966da2228fe67779f7332f8e38c5c2382a9c73ad5a17
+MD5sum: 71f5d28d2e91eb6633cad3927eb2e82b
+SHA1: 5219e07f9adb44afdddf0db754ee0eb38a603771
+SHA256: 55889913e0477927a4bc33f2781175ec052a11c2fe090bbc2229a56a815cb34c
+SHA512: fd183764ffc92cdea2be5a3a690cf285ee05b794842f5e572fd508afdfd188c0625ca3be9319641c7366b6fedef46b8c169dc3899501847b23645fd4058b54ba
 Homepage: http://ros.org/wiki/media_export
 Description: Placeholder package enabling generic export of media paths.
 
 Package: mouse-teleop
 Architecture: amd64
-Version: 0.4.1-1-g735e46c-2024.09.20.17.06
+Version: 0.4.1-1-g735e46c-2024.09.22.08.28
 Priority: optional
 Section: misc
 Maintainer: Enrique Fernandez <enrique.fernandez.perdomo@gmail.com>
 Installed-Size: 37
 Depends: libgeometry-msgs-dev, python3-geometry-msgs, python3-numpy, python3-rospy, python3-tk, ros-geometry-msgs
-Filename: ./mouse-teleop_0.4.1-1-g735e46c-2024.09.20.17.06_amd64.deb
-Size: 7480
-MD5sum: 280e6b0fb4b22d9863a859414dc1c673
-SHA1: f21f4f753c57d28863bce660c8f52407bda2d3df
-SHA256: 9428b38b2f979f2bf546754548d187af611f36b88a74c4705d34693a499920a5
-SHA512: 54629bf8b04656bb8d1a3e12418b3436b984b20a08d713a0978904c1b7939262398f2fa352aee8a1ed3638fc4e351de0aa9e565d3d1e55222817f67e9509bed1
+Filename: ./mouse-teleop_0.4.1-1-g735e46c-2024.09.22.08.28_amd64.deb
+Size: 7476
+MD5sum: b900efafc654e05b597294ddff553101
+SHA1: 6d8c6211c0feec213caf882b621aa477714cc982
+SHA256: 24f05324b9cfc509139ab5338c356043b0812371c27907c4826958316b40e0e5
+SHA512: b550099f9fb0d7c6a592bdcec04b738ceb9f3e5f7f29c5096631188c3ab51aec38d490ac621c9e147162d83e793296c7de6013312fe7f59f3cbc47ea389ad017
 Description: A mouse teleop tool for holonomic mobile robots.
 
 Package: moveit-planners
 Architecture: amd64
-Version: 1.1.10-73-g05ef19048-2024.09.20.19.30
+Version: 1.1.10-73-g05ef19048-2024.09.22.08.29
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <dave@picknik.ai>
 Installed-Size: 11
 Depends: ros-chomp-motion-planner, ros-moveit-planners-chomp, ros-moveit-planners-ompl
-Filename: ./moveit-planners_1.1.10-73-g05ef19048-2024.09.20.19.30_amd64.deb
-Size: 2860
-MD5sum: 803327ee80acb05df479c33661ae0102
-SHA1: dbe33a8ea7f072f3b05133a3f22bdce2f51b8547
-SHA256: d2bdc306884f6e7e25cc6e5792cfa6b64becfbe45786d883348907d0bb83db98
-SHA512: 4fcdcc6e084157161ab0df509e57082721096ecfda603e476f4348f129d116d81c78ac28d556905531f54456879d4341938f63d2bb7189ad2d5fce9079acbef2
+Filename: ./moveit-planners_1.1.10-73-g05ef19048-2024.09.22.08.29_amd64.deb
+Size: 2856
+MD5sum: 4c0541d85bfcdcc64bb55af0da2915e3
+SHA1: 2dd4e98a029e1d73ee8ffeb30cee5f02cde9a38f
+SHA256: 604675a5e7086beff60df80c48cef031f00f217841a93d30755f89ba6210624e
+SHA512: 92be00b8e98356954cd4ac6a1b2cc5c1b13605976523203b4c9ef9c979f36a9ebf9759b3f03167d43b982d7a338d14138a0a8843b70788f0839d63cf31dd41f0
 Homepage: http://moveit.ros.org
 Description: Metapacakge that installs all available planners for MoveIt
 
 Package: moveit-plugins
 Architecture: amd64
-Version: 1.1.10-73-g05ef19048-2024.09.20.19.21
+Version: 1.1.10-73-g05ef19048-2024.09.22.08.30
 Priority: optional
 Section: misc
 Maintainer: Michael Görner <me@v4hn.de>
 Installed-Size: 11
 Depends: ros-moveit-fake-controller-manager, ros-moveit-ros-control-interface, ros-moveit-simple-controller-manager
-Filename: ./moveit-plugins_1.1.10-73-g05ef19048-2024.09.20.19.21_amd64.deb
+Filename: ./moveit-plugins_1.1.10-73-g05ef19048-2024.09.22.08.30_amd64.deb
 Size: 3128
-MD5sum: 32a0c291ff58e6efdb277f24b740daaa
-SHA1: 3e303368b3fe619ddc1f7a12beeff9dc1f924500
-SHA256: 47034875695dffd257690d25496ea85e7719ce84e029ea021654fb9f5b911ccf
-SHA512: a95c4dc88e891e7aa6ddecd6bde49eceacf54283807d4323aeabe79f4703464c72c2e3a18e8a1b69f86b245eb9ef89a4933e32252a0db080f434062b679fa24b
+MD5sum: 0090cd0b222b9d56d29681b9a8f3b1e5
+SHA1: 00bd3af2470c8e064ada87c47b8609503beb87bd
+SHA256: e2fc0555535e77dcc5e0d35d3cea70f7fd744decaef7ff35cf3e22a3db6d1f38
+SHA512: 94d2ad0a8f951acdfe8595f07504386181350835ce7471eb06fc74211cff448b7923c005576b5fd9778ecd1814e93b9ba123edfe2f5893fd68d10d43d1722010
 Homepage: http://moveit.ros.org
 Description: Metapackage for MoveIt plugins.
 
 Package: moveit-resources-dual-panda-moveit-config
 Architecture: amd64
-Version: 0.8.3-2-gb771644-2024.09.20.18.25
+Version: 0.8.3-2-gb771644-2024.09.22.08.31
 Priority: optional
 Section: misc
 Maintainer: Cristian C. Beltran-Hernandez <cristianbehe@gmail.com>
 Installed-Size: 123
 Depends: joint-state-publisher, joint-state-publisher-gui, librobot-state-publisher-dev, librviz-dev, libtf2-ros-dev, python3-tf2-ros, ros-moveit-resources-panda-description, ros-robot-state-publisher, ros-xacro, rviz
-Filename: ./moveit-resources-dual-panda-moveit-config_0.8.3-2-gb771644-2024.09.20.18.25_amd64.deb
-Size: 18404
-MD5sum: 969b8b9036140714277cf4739b3c08cd
-SHA1: 369a94c7b2318d0224e3a12b278b73559ca73db7
-SHA256: 0238a107f5ef43a8e2aa912071c42c1e49a21a5720cba24e7b7a7c760575c6e0
-SHA512: 3f37a644135b84e0a55cb39128140910e4fcd5124f0647db997de51c6cc0c0582f5aa7b6a4d1695f30c582dc18fdfad54579cf562eb0f11df7668c054c1ddf46
+Filename: ./moveit-resources-dual-panda-moveit-config_0.8.3-2-gb771644-2024.09.22.08.31_amd64.deb
+Size: 18408
+MD5sum: 683e77c8d7e128044b987eef8a58fae4
+SHA1: 08412737b0470bb458f370ae1be78e93049544de
+SHA256: 4d49c897f9153170f03c8b16cd47be58da5b9ec923dd729ec8e7ab37eab524fb
+SHA512: 991411ae9c4763379599511e5e5b330fd591e5e22e5bc79f47d6f1d70f464a8852190d97037908250d4ee21d2d6e3307d6dc80e7922f26feb13ef6c9f36b31e8
 Homepage: http://moveit.ros.org/
 Description: An automatically generated package with all the configuration and launch files for using the panda with the MoveIt Motion Planning Framework
 
 Package: moveit-resources-fanuc-description
 Architecture: amd64
-Version: 0.8.3-2-gb771644-2024.09.20.17.07
+Version: 0.8.3-2-gb771644-2024.09.22.08.32
 Priority: optional
 Section: misc
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
 Installed-Size: 721
-Filename: ./moveit-resources-fanuc-description_0.8.3-2-gb771644-2024.09.20.17.07_amd64.deb
-Size: 113016
-MD5sum: 5291d2b150e69ac488bb76a41d0ebf08
-SHA1: 8c9839a33f113220e764d9d2e2c9806bdf304f05
-SHA256: 792f2de4af65d3b0debd2fd3c233c26a475ecd3b3ea02bd0264e02be9f4ed77b
-SHA512: 64e22fb7319e361715f5b31662c8bf66d425bb20d27b7c7d52bc9cc4bbff64c82d04e0e6d5fbb7c7a24148246e5fe26e66099ef2fbfef5e9d101b3f714ade2ac
+Filename: ./moveit-resources-fanuc-description_0.8.3-2-gb771644-2024.09.22.08.32_amd64.deb
+Size: 113020
+MD5sum: fb22b637a3a312a6cb39aeaf3b34e4f8
+SHA1: 9fd84633f0d96a9e28fafdbcfed6afcb804574ab
+SHA256: b613a16a82dd235485b0b0544342588ffa1e2ac0c0550f698da97a64c37b2684
+SHA512: 09069f60fc89831264edf3f6dad43e21029b62f7848d0da7b742bae56405d23ba6bd74b51ea6a206e21cee20df3bb1f5bcffd586a9cb71e3bab03a358cfb756a
 Homepage: http://moveit.ros.org
 Description: Fanuc Resources used for MoveIt! testing
 
 Package: moveit-resources-fanuc-moveit-config
 Architecture: amd64
-Version: 0.8.3-2-gb771644-2024.09.20.18.09
+Version: 0.8.3-2-gb771644-2024.09.22.08.33
 Priority: optional
 Section: misc
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
 Installed-Size: 103
 Depends: joint-state-publisher, librobot-state-publisher-dev, libtf2-ros-dev, python3-tf2-ros, ros-moveit-resources-fanuc-description, ros-robot-state-publisher, ros-xacro
-Filename: ./moveit-resources-fanuc-moveit-config_0.8.3-2-gb771644-2024.09.20.18.09_amd64.deb
+Filename: ./moveit-resources-fanuc-moveit-config_0.8.3-2-gb771644-2024.09.22.08.33_amd64.deb
 Size: 18132
-MD5sum: ee3b5d5b740fa456f0d3b0a153d8145b
-SHA1: e7f3e16cb2bda9d4fcce031732953be63e28034d
-SHA256: b22631f04f6aad2a5f82e7fdda11b18a5e3c5d8399c6d2dacfbbae10b3d5b1d1
-SHA512: e49670b137ad162a0e24f34f142020045b7468c9dd3341463f7351fc9acbba17b27ba82215c1323a95dac751c8d7e10a5e041c83b5148e865d77ac661415cbfa
+MD5sum: 2ace540ba11cdc0cf0c6b8385d60d6fb
+SHA1: 6e1c3ebcbc1b5e88e63d84ceca02d488680b11f6
+SHA256: 3bfe6d4a7cfd7c53006400c864def3f71962c2338af0d78c1a849c6e25e05da2
+SHA512: c03bbded23848de1bb4478c9b4469d6550f0cc5cc02a87bfa240ae427d715e78bb162746e4af34d224b4a94a44add187025f8e4ef1e8cf1a61b9834e88ca456e
 Homepage: http://moveit.ros.org
 Description: MoveIt Resources for testing: Fanuc M-10iA.
  A project-internal configuration for testing in MoveIt.
 
 Package: moveit-resources-panda-moveit-config
 Architecture: amd64
-Version: 0.8.3-2-gb771644-2024.09.20.18.26
+Version: 0.8.3-2-gb771644-2024.09.22.08.33
 Priority: optional
 Section: misc
 Maintainer: MoveIt maintainer team <moveit_releasers@googlegroups.com>
 Installed-Size: 111
 Depends: joint-state-publisher, joint-state-publisher-gui, librobot-state-publisher-dev, librviz-dev, libtf2-ros-dev, python3-tf2-ros, ros-moveit-resources-panda-description, ros-robot-state-publisher, ros-xacro, rviz
-Filename: ./moveit-resources-panda-moveit-config_0.8.3-2-gb771644-2024.09.20.18.26_amd64.deb
-Size: 21024
-MD5sum: 8462aa9fbdff1c00a06beaec625c7007
-SHA1: 4751d0adcb6d2df2d0c22b762eef18ccc0a45596
-SHA256: 9dd36455127b4e250262b67770a735c8eca3104e3d02959eb321470046ac4a3d
-SHA512: 1977891a8eec2bb7658fdff86ff14ed610d2959179aeb53a9203719248ec8b1150706e2792d15853b773822dc8a92a65906f53a81a0ba41c0b0737f7c7639e3c
+Filename: ./moveit-resources-panda-moveit-config_0.8.3-2-gb771644-2024.09.22.08.33_amd64.deb
+Size: 21028
+MD5sum: 673f17a6483341a6f05cd3b0b9139543
+SHA1: fcb6d558c943d745a37db6d9b449ccf76f41424b
+SHA256: 1018b58212e3770557f01a443b68f0e98eefe86e93a2b81eaa1b731bedb968aa
+SHA512: cbca08a9b41ce3471034bdddeb13a3328fbd817ad361ceedc983be014cb02adcafd081615856e3cf482935df061158809ba33baadf3334a98674100d33f4e070
 Homepage: http://moveit.ros.org/
 Description: MoveIt Resources for testing: Franka Emika Panda A project-internal configuration for testing in MoveIt.
 
 Package: moveit-resources-pr2-description
 Architecture: amd64
-Version: 0.8.3-2-gb771644-2024.09.20.17.08
+Version: 0.8.3-2-gb771644-2024.09.22.08.34
 Priority: optional
 Section: misc
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
 Installed-Size: 48609
-Filename: ./moveit-resources-pr2-description_0.8.3-2-gb771644-2024.09.20.17.08_amd64.deb
-Size: 23574360
-MD5sum: 4c52de8b5148ada22859ba0189914e8a
-SHA1: 4b2643c00b18d3df21cc5bd20313d33ec401626f
-SHA256: 7b5c4e3286c217eb8de84f896a8cbb651a74bd60b82e3eb1706896066ea805a2
-SHA512: aa995c99dead7b6a89c678ce59eaf60f408f3fe1e9633743cfcd0fb56ec83d7d0e32627a4218366a56953da9f4a44e9417cee3f17a4bd89f19ab000b9fd6b920
+Filename: ./moveit-resources-pr2-description_0.8.3-2-gb771644-2024.09.22.08.34_amd64.deb
+Size: 23567712
+MD5sum: f32ea4d9038450cd4ff4280d6dfd4e98
+SHA1: 66fcc55fb77e81558c4a5388dd935655e80df2eb
+SHA256: 7620122895169b9304f3da69ca1332ddf1b023c31f860c2bb6fd7c766bc30c71
+SHA512: eff902987f6744571a490a5813d7335c391aa407c94204611658b412f4dbb9fe843d1bcabfc098c4b2558864f6db3bcbc3cb2a091245f335422693b3d3a2c1e5
 Homepage: http://moveit.ros.org
 Description: PR2 Resources used for MoveIt! testing
 
 Package: moveit-resources-prbt-moveit-config
 Architecture: amd64
-Version: 0.8.3-2-gb771644-2024.09.20.19.07
+Version: 0.8.3-2-gb771644-2024.09.22.08.35
 Priority: optional
 Section: misc
 Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
 Installed-Size: 98
 Depends: joint-state-publisher, librobot-state-publisher-dev, librviz-dev, ros-moveit-resources-prbt-ikfast-manipulator-plugin, ros-moveit-resources-prbt-support, ros-robot-state-publisher, ros-xacro, rviz
-Filename: ./moveit-resources-prbt-moveit-config_0.8.3-2-gb771644-2024.09.20.19.07_amd64.deb
-Size: 17380
-MD5sum: a288a9c274c445d3573dffbc97a6c9ee
-SHA1: 0bdafef453e51d06b3f1a27722503209b4f9b22e
-SHA256: 2e83b5a996f04798d9efcc02996e794bf0e4e5b8e1f480b60a669b514eec2a86
-SHA512: 16872417aad9d9c82ed8674fd2869f5d1c66f6457b435fdf1ba76fdd1f75a0043597ca88b5b87df39cf30d8516e2c2509ccc65ed908be2db7229df5d67602295
+Filename: ./moveit-resources-prbt-moveit-config_0.8.3-2-gb771644-2024.09.22.08.35_amd64.deb
+Size: 17372
+MD5sum: 04e14009650f497e53313938b7c2e2b7
+SHA1: 49ffef193281fb520970c18774a9af6a26a8579a
+SHA256: 1540f423c55522c1b6eb1d73065d5adc80a200ad452bf0d612483f68ae9bdfdc
+SHA512: b11e2588d091205226ebb42bf3f20938d68b0e9d449da959a1cab9789f3c361d87413e9e5ea0ff9a324ca5ef19a864fb8e0564745989890ab06343214ca61ab6
 Homepage: http://moveit.ros.org
 Description: MoveIt Resources for testing: Pilz PRBT 6 A project-internal configuration for testing in MoveIt.
 
 Package: moveit-resources-prbt-pg70-support
 Architecture: amd64
-Version: 0.8.3-2-gb771644-2024.09.20.19.15
+Version: 0.8.3-2-gb771644-2024.09.22.08.36
 Priority: optional
 Section: misc
 Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
 Installed-Size: 52
 Depends: ros-moveit-resources-prbt-ikfast-manipulator-plugin, ros-moveit-resources-prbt-moveit-config, ros-moveit-resources-prbt-support, ros-xacro
-Filename: ./moveit-resources-prbt-pg70-support_0.8.3-2-gb771644-2024.09.20.19.15_amd64.deb
-Size: 9688
-MD5sum: e7db69c524142d351cb534ba46dcaf02
-SHA1: 3e405009b23e389229a57311a1f774dbe74f8a13
-SHA256: 9ef0a7ea7dd83984e4e1e52f6c8361462a0ef7728f6b3f26c1c5b656f729125a
-SHA512: ee097a8e5d928db647a09bcb3389edef1472a0e9ec5d23d1da2c440c18352289cf657fa971f4a71e226139c24cc310d72a0a71b71a00828e2493e166102c91b1
+Filename: ./moveit-resources-prbt-pg70-support_0.8.3-2-gb771644-2024.09.22.08.36_amd64.deb
+Size: 9692
+MD5sum: 2a80e4fccbce1f2de4041668496a47ad
+SHA1: 9322843afe24e3eea45a3f69f36b42b24914868d
+SHA256: a9ff6ecb68824453e8f226a5aa1bab14f9d9853ec1cdd5ad856a760234256e09
+SHA512: 81c6c9cbd4611dcf258d26d38681bc4a002b3971a9f605d15933c14dd8379e9e4e9f66d90a0edfce573db73b67de7764afbdd195815f902763c59353733b2290
 Homepage: http://moveit.ros.org
 Description: PRBT support for Schunk pg70 gripper.
 
 Package: moveit-resources-prbt-support
 Architecture: amd64
-Version: 0.8.3-2-gb771644-2024.09.20.18.11
+Version: 0.8.3-2-gb771644-2024.09.22.08.36
 Priority: optional
 Section: misc
 Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
 Installed-Size: 3839
 Depends: ros-xacro
-Filename: ./moveit-resources-prbt-support_0.8.3-2-gb771644-2024.09.20.18.11_amd64.deb
-Size: 673872
-MD5sum: 4d7a7d8842ed8f256b0ecdc3cd426784
-SHA1: 1ee0afc5a9c7d283f28e413fa8a3ab4c03b2fc19
-SHA256: 93ace020cbff382c4cf74d78dc21435faf602d37424ab287ea7010af25ccd410
-SHA512: 5b90a8d7b974ce60d5ad2c314612390f51b822f911b1546ee3e378cce228684cc55ef20949ccb6d8bd235e21ff3c062dbd3760cbde6c74f6125e268c97ff6853
+Filename: ./moveit-resources-prbt-support_0.8.3-2-gb771644-2024.09.22.08.36_amd64.deb
+Size: 676532
+MD5sum: c190fea6f91557f77ab0e8f75ac3a5e5
+SHA1: 9a60280e0ff1fa44f96fe4d51c7516a0ce98956e
+SHA256: a3c4dd871f1f2e568fd4fb303d420a07d557513d09dd94b852d70a33c7df7c13
+SHA512: 1a34bbbe4695ff9e69d730b30ce75d89aca12ce64982d1ef44ae05ad8b73fd33e31483201c50932c5d0c440c6189871cc9cdf95a37abec5b953c5789f216aa05
 Homepage: http://moveit.ros.org
 Description: Mechanical, kinematic and visual description of the Pilz light weight arm PRBT.
 
 Package: moveit-resources
 Architecture: amd64
-Version: 0.8.3-2-gb771644-2024.09.20.19.22
+Version: 0.8.3-2-gb771644-2024.09.22.08.31
 Priority: optional
 Section: misc
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
 Installed-Size: 13
 Depends: joint-state-publisher, librobot-state-publisher-dev, ros-moveit-resources-dual-panda-moveit-config, ros-moveit-resources-fanuc-description, ros-moveit-resources-fanuc-moveit-config, ros-moveit-resources-panda-description, ros-moveit-resources-panda-moveit-config, ros-moveit-resources-pr2-description, ros-moveit-resources-prbt-ikfast-manipulator-plugin, ros-moveit-resources-prbt-moveit-config, ros-moveit-resources-prbt-pg70-support, ros-moveit-resources-prbt-support, ros-robot-state-publisher
-Filename: ./moveit-resources_0.8.3-2-gb771644-2024.09.20.19.22_amd64.deb
-Size: 3836
-MD5sum: daecce0ffae9cd6b3895c712f4296c84
-SHA1: 39b5ededb43b14ca40f2a6907c03c0f4e7422583
-SHA256: 8530442debfcf078480d191ab07e97276344939f3d6efc9e394929ce1ad5bf04
-SHA512: 130f85085849d2b64d110fee0b83d11223ac64519fa611351662632af58820830c7dfce4f75faf87e1f4371b9f7e9056bbd66d7c9f2f9c55142fa19b2050b937
+Filename: ./moveit-resources_0.8.3-2-gb771644-2024.09.22.08.31_amd64.deb
+Size: 3832
+MD5sum: f352f895ea80d1dbe92faee4313d9c22
+SHA1: 778b01357a0e6021db95cdbdc0b45fa1638e2359
+SHA256: c1ea8f86b9b3e7b15ab63b72e7175d94b429ddf287ea40dc2c6f3515103a3f80
+SHA512: a538f154b52d9c09efe29f3c3c66d55d65e67dd7ff2ddb068fa5e1a128778d8f6165d53342a70766960b960e8e6cccc3dbc47fc855efa5f4bb37be9b3e518ff5
 Homepage: http://moveit.ros.org
 Description: Resources used for MoveIt! testing
 
 Package: moveit-ros
 Architecture: amd64
-Version: 1.1.10-73-g05ef19048-2024.09.20.19.31
+Version: 1.1.10-73-g05ef19048-2024.09.22.08.37
 Priority: optional
 Section: misc
 Maintainer: Michael Ferguson <mferguson@fetchrobotics.com>
 Installed-Size: 12
 Depends: ros-moveit-ros-benchmarks, ros-moveit-ros-manipulation, ros-moveit-ros-move-group, ros-moveit-ros-perception, ros-moveit-ros-planning, ros-moveit-ros-planning-interface, ros-moveit-ros-robot-interaction, ros-moveit-ros-visualization, ros-moveit-ros-warehouse
-Filename: ./moveit-ros_1.1.10-73-g05ef19048-2024.09.20.19.31_amd64.deb
+Filename: ./moveit-ros_1.1.10-73-g05ef19048-2024.09.22.08.37_amd64.deb
 Size: 3536
-MD5sum: 4f974b9fdf6823cab14b9325bd4b29b9
-SHA1: 94fc436b16f5f88306effd86cb5b7eb7256931e2
-SHA256: a9dca6c92f756ad294cc4e15fa11c87212534deace77112de9d5c80347f2f494
-SHA512: fd5cce4b249ea8c671b67ebe99531ff7fe8a9141fdf71ae431ee682e193fee621efa0207c014fbc7f40fe831a966001190e47f414dc2b030c8893a48a54a2546
+MD5sum: 31c3f8f4e71ce19223dc9957d7f8c0c2
+SHA1: a2e151ba74d6232585cb293e3864b0aeaf308a7f
+SHA256: 2373f873f6921b11b10ca33761d5f7f525a613b770aab45c5bd6320250afe221
+SHA512: a0103464f7aa159ccd8b53fff967eb5a1c5f270241169ae137bca3958c58f44da342758fa4728ab2e1a4b30c6923a2ce4857757d02693db42686f7c9ddea3eb8
 Homepage: http://moveit.ros.org
 Description: Components of MoveIt that use ROS
 
 Package: moveit-runtime
 Architecture: amd64
-Version: 1.1.10-73-g05ef19048-2024.09.20.19.34
+Version: 1.1.10-73-g05ef19048-2024.09.22.08.38
 Priority: optional
 Section: misc
 Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
 Installed-Size: 12
 Depends: ros-moveit-core, ros-moveit-planners, ros-moveit-plugins, ros-moveit-ros-manipulation, ros-moveit-ros-move-group, ros-moveit-ros-perception, ros-moveit-ros-planning, ros-moveit-ros-planning-interface, ros-moveit-ros-warehouse
-Filename: ./moveit-runtime_1.1.10-73-g05ef19048-2024.09.20.19.34_amd64.deb
-Size: 3064
-MD5sum: d8458657fce4285d66ea170b900a1364
-SHA1: e4c2362278fe9ab9fbb6964857db4529f85aa21c
-SHA256: b19d683d1901e2183aa6e7a5c200654946a0280fc92b2e6d8a106972a79ea29a
-SHA512: 8efe308966b65f9ec9d768c326a92e529f5e85bd9337129c059349c0521e702ac7616a77983d6a119c76cc60d1af86a5a83b71bdfdf8af24bce6c36b06561855
+Filename: ./moveit-runtime_1.1.10-73-g05ef19048-2024.09.22.08.38_amd64.deb
+Size: 3068
+MD5sum: 2f0046ec54f8f67622080ab4bacdc654
+SHA1: 178a2034e581e0455be41d10e870dd5260e6af89
+SHA256: d04cb19c4637426bc2c97496cb5a18b44f7286fd4a6db5d02cba0c8560b653d2
+SHA512: 8ffe1a9d13d3fc8804191a836f02db5389257db6a6ac47386268c93203dab5c659d80fbe6fb87b708bac67c99ff86ef81b628950f31f119b84dc87def3e2396b
 Homepage: http://moveit.ros.org
 Description: moveit_runtime meta package contains MoveIt packages that are essential for its runtime (e.g.
  running MoveIt on robots).
 
 Package: moveit
 Architecture: amd64
-Version: 1.1.10-73-g05ef19048-2024.09.20.19.33
+Version: 1.1.10-73-g05ef19048-2024.09.22.08.29
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <dave@picknik.ai>
 Installed-Size: 19
 Depends: ros-moveit-commander, ros-moveit-core, ros-moveit-planners, ros-moveit-plugins, ros-moveit-ros, ros-moveit-setup-assistant
-Filename: ./moveit_1.1.10-73-g05ef19048-2024.09.20.19.33_amd64.deb
-Size: 10452
-MD5sum: 1cdc03f1c3ed7dcca5ebd53f524fcafe
-SHA1: 3299df54b42a2d0c2d42a6d627f6dff2858ede57
-SHA256: 84452fd8751d044b3eda9c3170c43a5b87a4da351697022b575224bc2f0306d1
-SHA512: 3a4463ad706a2e1325b408e9fddf89f6c1ed18898be43940e21066a00ce9a6a15cd14aaf3b6a29a41bf510628da7ed9d04783309391684a08bfe9a05e5a94800
+Filename: ./moveit_1.1.10-73-g05ef19048-2024.09.22.08.29_amd64.deb
+Size: 10456
+MD5sum: 4b14e1d411ba56061c8cb0f208efdcb4
+SHA1: 5e776776c39876b749887b10dd1d2a3dcbf55b4e
+SHA256: eb01446ae2e615b62f940fe8e26e33de44eec2667186a31b77b74f55ba8df9c7
+SHA512: 470db5ac1f7fe1e287b0edacb01651639233592ef3a48a89cfc62b26d9d8ab3e826e03f33b48e32ec7ac9717f5f2ad4af795c1d7bc8056fb73c0b14f3a1bdbd1
 Homepage: http://moveit.ros.org
 Description: Meta package that contains all essential package of MoveIt.
  Until Summer 2016 MoveIt had been developed over multiple repositories, where developers' usability and maintenance effort was non-trivial. See the detailed discussion for the merge of several repositories.
 
 Package: object-recognition-msgs
 Architecture: amd64
-Version: 0.4.2-2024.09.20.17.09
+Version: 0.4.2-2024.09.22.08.38
 Priority: optional
 Section: misc
 Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
 Installed-Size: 1268
 Depends: libactionlib-msgs-dev, libgeometry-msgs-dev, libsensor-msgs-dev, libshape-msgs-dev, libstd-msgs-dev, python3-actionlib-msgs, python3-geometry-msgs, python3-sensor-msgs, python3-shape-msgs, python3-std-msgs, ros-actionlib-msgs, ros-geometry-msgs, ros-message-runtime, ros-sensor-msgs, ros-shape-msgs, ros-std-msgs
-Filename: ./object-recognition-msgs_0.4.2-2024.09.20.17.09_amd64.deb
+Filename: ./object-recognition-msgs_0.4.2-2024.09.22.08.38_amd64.deb
 Size: 72260
-MD5sum: 1e1cd03c4eea5d8e65977fb395aa005f
-SHA1: 93b0db8b0e3108b14e0af726be22d784844dcfde
-SHA256: 07fc793603c45f1e8af9d2c66c70c064bc733eb5b40fd6d81b7c1932bbf6ab77
-SHA512: bf4aa6fec8f676552f954edf86dee6b3a490d083a348621664600d919cb2d3ae6a812977423c47145fe2dbd3433b30aac010c48f2b0d1b7c1ca88e3d8873f5c9
+MD5sum: 8c1895b21f3eabf4f8ce7db0f38e1486
+SHA1: 3762e2fc877786bd792b6c01e3795a75988d0e9f
+SHA256: 666571f8dfffc2aebebd6107d0a0e838ef388693381b40c48ee0723bc0de1140
+SHA512: 73e41fa1f0f2cc2255bcfa40f26b5560bb9f322e1eec6034bf97373709a225afc54e86cd24aaa70870ef7718b700d3419911922cce9580717e0b74f343afc266
 Homepage: http://www.ros.org/wiki/object_recognition
 Description: Object_recognition_msgs contains the ROS message and the actionlib definition used in object_recognition_core
 
 Package: octomap-msgs
 Architecture: amd64
-Version: 0.3.5-1-gdcaaf62-2024.09.20.17.09
+Version: 0.3.5-1-gdcaaf62-2024.09.22.08.39
 Priority: optional
 Section: misc
 Maintainer: Armin Hornung <armin@hornung.io>
 Installed-Size: 272
 Depends: libgeometry-msgs-dev, libstd-msgs-dev, python3-geometry-msgs, python3-std-msgs, ros-geometry-msgs, ros-message-runtime, ros-std-msgs
-Filename: ./octomap-msgs_0.3.5-1-gdcaaf62-2024.09.20.17.09_amd64.deb
-Size: 29572
-MD5sum: 22b581c4310fd2347326367ef21be8b3
-SHA1: e0382217387585dc70af8bf3b383c69ab3b39fcb
-SHA256: 42ef28f5291a639ad21e203c5dd0fab541c3f1009367d5bcf4ac67646a9b5ec7
-SHA512: 09d1334c22066d2226b2b8d1ffc3c846c77da9d319b118f9f25cc33872730b21150fa9e0798a6e79c5d619f4ffd74dfe9025ed490ea9f17de75948c47f575ca2
+Filename: ./octomap-msgs_0.3.5-1-gdcaaf62-2024.09.22.08.39_amd64.deb
+Size: 29576
+MD5sum: e4e6da7396531d690246dcb2d79ae2cb
+SHA1: 5e1743f96bb0b1aa5f0b9d2d9f03aa9fc02a0b83
+SHA256: d976b583896f2f39b2e4d4a02975d5debd24b03ead6be07c20e635e2fb397297
+SHA512: 7d43b22e56406129c447a48f2c4b84e106322e3c42477f47c54d22fb8126f2b329766f4b7584cb6648611456173a78eff7190aabf1acd1e04ba35a73057bdc6f
 Homepage: http://ros.org/wiki/octomap_msgs
 Description: This package provides messages and serializations / conversion for the OctoMap library.
 
 Package: plotjuggler-dbgsym
 Architecture: amd64
-Version: 3.9.2-5-gf4f9d419-2024.09.20.17.10
+Version: 3.9.2-5-gf4f9d419-2024.09.22.08.42
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: plotjuggler
 Maintainer: Davide Faconti <davide.faconti@gmail.com>
 Installed-Size: 94340
-Depends: plotjuggler (= 3.9.2-5-gf4f9d419-2024.09.20.17.10)
-Filename: ./plotjuggler-dbgsym_3.9.2-5-gf4f9d419-2024.09.20.17.10_amd64.deb
+Depends: plotjuggler (= 3.9.2-5-gf4f9d419-2024.09.22.08.42)
+Filename: ./plotjuggler-dbgsym_3.9.2-5-gf4f9d419-2024.09.22.08.42_amd64.deb
 Size: 93858164
-MD5sum: c8bda202040eb2351b60f9b50ec08088
-SHA1: e8cb41959854b7193c1528ba733c5ebd6507fa27
-SHA256: 5e3b662e376d2e4b4042653161e5415b0631c08a37d3e2aecda5313e03710ca4
-SHA512: c1b3197f5ccb55667fe1ff4b6ce461b8d2fa6a41a8db4edbb668f33e5b85e678639664bd5dd992c3c4cf25c6ab108f79adf2850ac2bb9838ff186ee6b447668c
+MD5sum: df70859ac83d0a395705c9bde6f367ff
+SHA1: 5acdc011d0b60485da0afe0ba6f58534be728191
+SHA256: 50d15a0ba4464a48aec3a2ed7fafa6c3fe5ca13a6bf0478f8cc1fc9573502d29
+SHA512: a9b2400e2be5b9a7d01315dbd9b3239ed12a46aef22111e0937d8e05aee4ebf1d76748deffd022da844ac7f0e5cf8614aa4a5023e58c20a9fc72ca32b6055095
 Description: debug symbols for plotjuggler
 Build-Ids: 09e345bbc7a3de997f8420cb3d14327f4aca7c62 105626129cae1706ae61e8c1728e5ec839ff2ef3 1d5ccdcf7a64bd7c4d7784e439cb74bf1c1a22fd 1d64b606b5e4e2844bf0194973cf4cff4ed3c29f 313c0e74fb3476d46b96489624d34d5bb080b2c6 3fc924f7fcef4960cbd61514433ac3231247be91 433fe04787789b8b6f627fc96284050cc3598e94 570334a43c58e255db77edd70e448a6dbddc1091 5826a6ccb81c3fb1397f460c622147df2fdba612 5a386429bdb5591e2faa5e6b955ca15960dd370c 9ddc989d3eba5ef15c00efe1e5c0ecf069aabedd a27e3b7a848991955ea506304be168d933db6ade db3a95c232528b953e065e68e4464c9823e0710d deaa3f83effb6afaacd811532f5cd8290e62c8eb e43656682f9a063ce182eca394237b5c8824b9ad eef13166c20e18266102bbc3ca34bf881509bf9e f3f480cf9d23070b872932e8b352894e1bf69fe0 f7c318a61aa082844b330991bd6681cd18b6f3fb
 
 Package: plotjuggler-msgs
 Architecture: amd64
-Version: 0.1.1-2024.09.20.17.18
+Version: 0.1.1-2024.09.22.08.49
 Priority: optional
 Section: misc
 Maintainer: daf <davide.faconti@gmail.com>
 Installed-Size: 132
 Depends: libstd-msgs-dev, python3-std-msgs, ros-message-generation, ros-message-runtime, ros-std-msgs
-Filename: ./plotjuggler-msgs_0.1.1-2024.09.20.17.18_amd64.deb
-Size: 16244
-MD5sum: 87fab5f1189a385b12176af69e294bfc
-SHA1: eae2e18e62d171ccf2d65d2675b03166d9847aff
-SHA256: 30c245afaacc3f1bce82aa59e5fa3c73c1b318400139502d9c4798ac991f1326
-SHA512: 72a3be85af5bf44a60d5596022b58ff3b8ae2d7f26ba99b45a11c87de06b6008b2be1e18b562011e2df29b8906277e5f01479e94e3ae04d12374f96f99a8775e
+Filename: ./plotjuggler-msgs_0.1.1-2024.09.22.08.49_amd64.deb
+Size: 16236
+MD5sum: f03b08a9284a8ea8e9575b2eccf627cf
+SHA1: f5bd0fb29af937a073305f2f853a8e6d1250c86a
+SHA256: d79fa6d83b55caecaff5929001c4c000a48f947157b7abc80969d4ee9750f47a
+SHA512: 74117adf8ad647ae2fd956861e986e815b13dd2409efcc363499d613f8dd36caf9a142359ac8ac4623d0e6e61b25210f1ac67d85ad63a8c653569a0e85e7c131
 Description: Special Messages for PlotJuggler
 
 Package: plotjuggler
 Architecture: amd64
-Version: 3.9.2-5-gf4f9d419-2024.09.20.17.10
+Version: 3.9.2-5-gf4f9d419-2024.09.22.08.42
 Priority: optional
 Section: misc
 Maintainer: Davide Faconti <davide.faconti@gmail.com>
 Installed-Size: 23278
 Depends: libbinutils (>= 2.40), libbinutils (<< 2.40.1), libc6 (>= 2.35), libgcc-s1 (>= 4.2), libprotobuf32 (>= 3.21.12), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5websockets5 (>= 5.6.0), libqt5widgets5 (>= 5.14.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libroscpp4d (>= 1.15.15+ds), libstdc++6 (>= 11), libxcb1, libzmq5 (>= 3.2.3+dfsg), binutils-dev, cppzmq-dev, libboost-all-dev, liblz4-dev, libprotobuf-dev, libprotoc-dev, libqt5opengl5-dev, libqt5svg5-dev, libqt5websockets5-dev, libqt5x11extras5-dev, libroscpp-core-dev, libroscpp-dev, libroslib-dev, libzmq3-dev, libzstd-dev, protobuf-compiler, python3-roslib, qtbase5-dev
-Filename: ./plotjuggler_3.9.2-5-gf4f9d419-2024.09.20.17.10_amd64.deb
-Size: 8929864
-MD5sum: e3e1739b41a13972a159f0c22350e3e8
-SHA1: 322e30d179efee7f564efadc66a4402078d5ae8d
-SHA256: 5ea4e48fd6bf9418b9f25ad649d5be6d47dd7b2dc0835be74d9150395349056f
-SHA512: 621ce86f4aabc51d332e6a6eb14b7e4081d1280aaea4493c28c506a39f081d2bf62e2ad915c75017d299bab6f47b52f11007306cc2d3edc6036d01cd9488dd52
+Filename: ./plotjuggler_3.9.2-5-gf4f9d419-2024.09.22.08.42_amd64.deb
+Size: 8929884
+MD5sum: 8be15aa4d5ef3b95678bab3c2e7fdd11
+SHA1: f30f377d86361f04c7dc15f0226e4e8f88e5fb6c
+SHA256: 585a6e638f8a31cd8537a6e1461dba8b13879c61dfec756dd1f800c81050e4df
+SHA512: ce58503edb49179cbaec8975a8ea3ac433b73d26622ad7a162e86af19a71c768c2a734755331bd66eed692d44e1d1661e203d2acbf63512ef2c370f3e939f55f
 Homepage: https://github.com/facontidavide/PlotJuggler
 Description: PlotJuggler: juggle with data
 
 Package: qt-dotgraph
 Architecture: amd64
-Version: 0.4.2-7-g8f06b8d-2024.09.20.17.18
+Version: 0.4.2-7-g8f06b8d-2024.09.22.08.50
 Priority: optional
 Section: misc
 Maintainer: Scott Logan <cottsay@openrobotics.org>
 Installed-Size: 145
 Depends: python3-pydot, python3-python-qt-binding (>= 0.3.0)
-Filename: ./qt-dotgraph_0.4.2-7-g8f06b8d-2024.09.20.17.18_amd64.deb
-Size: 31196
-MD5sum: 8e68f4133adcfc1da4dddc4f6e9d9719
-SHA1: 5b090a7502f8727b6ef0d49b7037a44ba589a31c
-SHA256: ef8d6f6454cafb462b16f1dd840cc84f25b68e20986a4b43b4238ee82f8f7392
-SHA512: 0cb73dbd0a44d462d03232c8df7126818f58c9b822860c7d6154c56694f83f0a43a2df1794953680b5a9d7a0d260641173312b5fccb07552e6848ef9864ba934
+Filename: ./qt-dotgraph_0.4.2-7-g8f06b8d-2024.09.22.08.50_amd64.deb
+Size: 31200
+MD5sum: 215bdbec1532c7f72e766ed8dd2ccde2
+SHA1: a9f6e49c5523fa043cc8f99e3cc7c7ece8c91ff8
+SHA256: 4542656d181ad236b7c4919df6acc4a556ebe8cb0d21e9d9261cfd5b30754a13
+SHA512: 05f00716a61580a7d67c2ab19737ae17789bd587fa61ba38acb4fbbb9a9eab6065cb396c37eb73102ea0d9ed72de1e9e9fbb2c3b9d40930a200c9fd340566ffa
 Homepage: http://ros.org/wiki/qt_dotgraph
 Description: qt_dotgraph provides helpers to work with dot graphs.
 
+Package: qt-gui-app
+Architecture: amd64
+Version: 0.4.2-7-g8f06b8d-2024.09.22.08.52
+Priority: optional
+Section: misc
+Maintainer: Scott Logan <cottsay@openrobotics.org>
+Installed-Size: 34
+Depends: ros-qt-gui (>= 0.3.0)
+Filename: ./qt-gui-app_0.4.2-7-g8f06b8d-2024.09.22.08.52_amd64.deb
+Size: 6612
+MD5sum: d60291bf38037b4948ddc9fd01067d33
+SHA1: 96f3c73f88b07b660a8046374cfad6bb29902b45
+SHA256: e91d3cbaf244f9a1a327e1231ca6789c4b92bfb52aa697fb83da2a0b9c0a5fd5
+SHA512: e69049bbdc4654fcf2381007404034cafd4f04f61f78a32d5ecf434f3cd7cd50035af021c17653da614d68a528d9601af0f5cc31827b3ad87424d3670a58aa21
+Homepage: http://ros.org/wiki/qt_gui_app
+Description: qt_gui_app provides the main to start an instance of the integrated graphical user interface provided by qt_gui.
+
 Package: qt-gui-core
 Architecture: amd64
-Version: 0.4.2-7-g8f06b8d-2024.09.20.18.12
+Version: 0.4.2-7-g8f06b8d-2024.09.22.08.53
 Priority: optional
 Section: misc
 Maintainer: Scott Logan <cottsay@openrobotics.org>
 Installed-Size: 11
 Depends: ros-qt-dotgraph (>= 0.3.0), ros-qt-gui (>= 0.3.0), ros-qt-gui-app (>= 0.3.0), ros-qt-gui-cpp (>= 0.3.0), ros-qt-gui-py-common (>= 0.3.0)
-Filename: ./qt-gui-core_0.4.2-7-g8f06b8d-2024.09.20.18.12_amd64.deb
-Size: 2068
-MD5sum: c7a6e12373e24b5cf6fc7e4425e8a4ec
-SHA1: 32fc6d8b1647ceab8d5fbde54fb6c839861ca0ab
-SHA256: 46dfa283ce0492e12cdaccbc917a32a5d75b051936fca45ffb83652d944c98be
-SHA512: 37d1571457c0d38702ca9f8291854118269d47f95e9df449a0c755d9c2a242208703419812d43969591d3652138acdfc7d3ec80c8e83bc03af94fcb264a9f80a
+Filename: ./qt-gui-core_0.4.2-7-g8f06b8d-2024.09.22.08.53_amd64.deb
+Size: 2064
+MD5sum: 6e22f5a52880119f9141d9f50ed8bdbf
+SHA1: 048abda25014930c6e2034cbb22107b730ff6128
+SHA256: 40aff47b98c2bef505105852bceae0741ac1f887fcf8cfa9919a1213201a33b6
+SHA512: bbd88ddfc47879002933092a10d2562f7a1330c04380454e443e970a5574513e28bfd3418c8fa134ec50b8f69cdd648e2e4b4fd1629386a35638f242ee196e78
 Homepage: http://ros.org/wiki/qt_gui_core
 Description: Integration of the ROS package system and ROS-specific plugins for a Qt-based GUI.
 
 Package: qt-gui-cpp-dbgsym
 Architecture: amd64
-Version: 0.4.2-7-g8f06b8d-2024.09.20.17.50
+Version: 0.4.2-7-g8f06b8d-2024.09.22.08.53
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: qt-gui-cpp
 Maintainer: Scott Logan <cottsay@openrobotics.org>
 Installed-Size: 6864
-Depends: qt-gui-cpp (= 0.4.2-7-g8f06b8d-2024.09.20.17.50)
-Filename: ./qt-gui-cpp-dbgsym_0.4.2-7-g8f06b8d-2024.09.20.17.50_amd64.deb
-Size: 6770764
-MD5sum: de68dbf045e19b2479f839efab48aaa8
-SHA1: 66775690ef26fc1133b7cf9595bdd83acdd09291
-SHA256: b71ceafbf1ffb0c80409518b399384dcd5c1fa7d4499964711ed29421d242741
-SHA512: ac167d979d5c03cb005eea01db4986e0b301e32fcd23597d89de871c4b63d8547fee5823591328d5ad3c4be14173086b41bf69afed00f3d5002e6da667896a4a
+Depends: qt-gui-cpp (= 0.4.2-7-g8f06b8d-2024.09.22.08.53)
+Filename: ./qt-gui-cpp-dbgsym_0.4.2-7-g8f06b8d-2024.09.22.08.53_amd64.deb
+Size: 6770768
+MD5sum: 7e9a1e5b03b33f82122adb05a9cd47f9
+SHA1: e3d8016b9bbe9296daa88f828141de306eab5256
+SHA256: 6936e425e3117124d5c9b8d50825bb45c49b3b630bb5e99476ec308c07f59e90
+SHA512: 483dd4566e12a73db4eabc20375f168ccf10cee5726e8521814a4466ae3a40fdb49366e981bfccfffd4bef4c8e3e74b254c816cc8374266f79815544c514cbfb
 Description: debug symbols for qt-gui-cpp
 Build-Ids: 5ce3442f1939597be7efd1cf6e11fcd6cee31403 e0e3d749fbf37abef4f5c77b083e164a45389345
 
 Package: qt-gui-cpp
 Architecture: amd64
-Version: 0.4.2-7-g8f06b8d-2024.09.20.17.50
+Version: 0.4.2-7-g8f06b8d-2024.09.22.08.53
 Priority: optional
 Section: misc
 Maintainer: Scott Logan <cottsay@openrobotics.org>
 Installed-Size: 987
 Depends: libament-index-cpp0d (>= 1.5.1), libboost-filesystem1.74.0 (>= 1.74.0+ds1), libc6 (>= 2.32), libclass-loader3d (>= 2.4.0), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), librcpputils1d (>= 2.6.0), librcutils1d (>= 6.0.0), libroslib0d (>= 1.15.8), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libtinyxml2.6.2v5 (>= 2.6.2), libtinyxml-dev, pluginlib-dev (>= 1.9.23), ros-qt-gui (>= 0.3.0)
-Filename: ./qt-gui-cpp_0.4.2-7-g8f06b8d-2024.09.20.17.50_amd64.deb
+Filename: ./qt-gui-cpp_0.4.2-7-g8f06b8d-2024.09.22.08.53_amd64.deb
 Size: 211256
-MD5sum: 0fa43d932e0834ac6cb6f8d53cfc4491
-SHA1: 989646bdddb706a6fd07bb14a76ab4a5aa26ed5c
-SHA256: e1a304c26af59a981b37e3ac68927d69f897ce9183fcca14073ba21ce503982a
-SHA512: d119078a7a8c24c994753d8534eb87a0e625d3e36f2cd2dd40930b29e284a44f3fd417e531043f1b01bf2cec307b3506ce9588247348f765032fba32d9eb8b2b
+MD5sum: 302f01a59495032b240613cf3152147c
+SHA1: 1972b6acb07798e546eca02bcac06d337b8a4d2f
+SHA256: 490406ceaacc3fa7258d3e1d815a13fc8f59dee3d727256ce1d54b431d2fc357
+SHA512: 249705b7bee58b95e4ef366ae45ca002a921efda9f4792e268e4b91e1f9d95e89fb93ebba0298f4d4108cdfa44d04bf45240e52fcbba439e106116e7be70e079
 Homepage: http://ros.org/wiki/qt_gui_cpp
 Description: qt_gui_cpp provides the foundation for C++-bindings for qt_gui and creates bindings for every generator available.
  At least one specific binding must be available in order to use C++-plugins.
 
 Package: qt-gui-py-common
 Architecture: amd64
-Version: 0.4.2-7-g8f06b8d-2024.09.20.17.20
+Version: 0.4.2-7-g8f06b8d-2024.09.22.08.55
 Priority: optional
 Section: misc
 Maintainer: Scott Logan <cottsay@openrobotics.org>
 Installed-Size: 88
 Depends: python3-python-qt-binding (>= 0.3.0), python3-rospkg
-Filename: ./qt-gui-py-common_0.4.2-7-g8f06b8d-2024.09.20.17.20_amd64.deb
+Filename: ./qt-gui-py-common_0.4.2-7-g8f06b8d-2024.09.22.08.55_amd64.deb
 Size: 18212
-MD5sum: 4921b5022c98f6337aa121b19d193b8b
-SHA1: 0ef37c1b089da3ed32723e5299b79a3c89948acd
-SHA256: 651d957ad56930a2fdb2170c4b5a3a5a43d6935ff5eec67693b9a0385590cc81
-SHA512: e5d167636cf832260250eca37fe1a1f1379a8a25aac1e1d6c9198ea0fd1ec2ffaaca0b9f8ac555f07ac2f4638fa9cfb2bfa6c5e1f495c216a9c4376bde66bc75
+MD5sum: c91ca8c390ed7dc02d416415efc7d232
+SHA1: 431a3f58c460c320eced5810207342973ab6480c
+SHA256: 5cca48f7bd7723f7ac9f01d73556e56f99d9b8ed6800863a930bad6042d773f7
+SHA512: cdcf01cd88e637a18743661e10c8c0672b9a52052ba636dd124801f2b9eaf9a58926120e3b68477736f5c1056064099ff594b90691a53092c45190d9dda28be1
 Homepage: http://ros.org/wiki/qt_gui_py_common
 Description: qt_gui_py_common provides common functionality for GUI plugins written in Python.
 
 Package: qt-gui
 Architecture: amd64
-Version: 0.4.2-7-g8f06b8d-2024.09.20.17.19
+Version: 0.4.2-7-g8f06b8d-2024.09.22.08.51
 Priority: optional
 Section: misc
 Maintainer: Scott Logan <cottsay@openrobotics.org>
 Installed-Size: 656
 Depends: python3-python-qt-binding (>= 0.3.0), python3-rospkg, tango-icon-theme
-Filename: ./qt-gui_0.4.2-7-g8f06b8d-2024.09.20.17.19_amd64.deb
-Size: 128916
-MD5sum: b51029a5161d602c8c6f3f0d340804cd
-SHA1: 24711bc80eebcefadd2ee68232cb5804d3ef5a5e
-SHA256: b8991bc8e6820d6d2a86ceb1a7a69ee735b322cf834773d3e77fc79ba2cc55dc
-SHA512: 55508a1a7e2d85a50e06e700fd02d91a3730eb828e58f4e3c2755241aff9e447e01129b6ffdc65e9991730ae6c7daf7f4f58408d71e64fda0afc76d82bce0648
+Filename: ./qt-gui_0.4.2-7-g8f06b8d-2024.09.22.08.51_amd64.deb
+Size: 128920
+MD5sum: b66dde757796b53f2b732086f41efafe
+SHA1: d895d6daf5f508e6c37b2dc5cadc3473a8ed10c8
+SHA256: ed10405ca14aa09d6e459fb1a100a14e8fa55cbc84ee65576ab8a63289c7231f
+SHA512: 754d2a3a7deaec53e2f9da721d4bb99e81c39e86a0459f071887067d6a8a2a2907b99368b8c555eaabdb360a44c4c25c8898114731fbf7d5f1ca99af63375e6c
 Homepage: http://ros.org/wiki/qt_gui
 Description: qt_gui provides the infrastructure for an integrated graphical user interface based on Qt.
  It is extensible with Python- and C++-based plugins (implemented in separate packages) which can contribute arbitrary widgets. It requires either PyQt or PySide bindings.
 
 Package: qwt-dependency
 Architecture: amd64
-Version: 1.1.1-2-g91d8aee-2024.09.20.17.21
+Version: 1.1.1-2-g91d8aee-2024.09.22.08.56
 Priority: optional
 Section: misc
 Maintainer: Mabel Zhang <mabel@openrobotics.org>
 Installed-Size: 23
-Filename: ./qwt-dependency_1.1.1-2-g91d8aee-2024.09.20.17.21_amd64.deb
+Filename: ./qwt-dependency_1.1.1-2-g91d8aee-2024.09.22.08.56_amd64.deb
 Size: 4600
-MD5sum: edce6eb398292e703bc15f3c6b290e21
-SHA1: ef402df37b7b296a5d70f89ce3d03e248a8400d9
-SHA256: 672367d3985dd39d54699159dea24647d3fddd24c52bde1824890cc1bbc9c89d
-SHA512: aa751cb6fd2dfeca0c7ab5dcc7830e0813d72ff33aff87cce3ebf54b4c1419b54722b36a299c879c8a04ca81b32d15a1885bc5526bae3221b3288bbfd978cbe7
+MD5sum: 7baaf792ccda315a03c6352b99056437
+SHA1: 891f864d2f6e53137389fd1fd02bb5e166898c0f
+SHA256: 886cc17fc814b6b81c0c50e797959dfb6bb8758c76734b3c8ed47c71e34bb1b2
+SHA512: eff62d155795df5ea5fa2dab6df66b7b2416c92af41054059838c5a8ce173657ffe0955c628aea24f43a435993c0a4c96b646359ae145b4ba1800ea9833ea23e
 Description: This encapsulates the Qwt dependency for a specific ROS distribution and its Qt version
 
 Package: realtime-tools-dbgsym
 Architecture: amd64
-Version: 1.15.1-3-ga5a5a5e-2024.09.20.17.22
+Version: 1.15.1-3-ga5a5a5e-2024.09.22.08.56
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: realtime-tools
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 137
-Depends: realtime-tools (= 1.15.1-3-ga5a5a5e-2024.09.20.17.22)
-Filename: ./realtime-tools-dbgsym_1.15.1-3-ga5a5a5e-2024.09.20.17.22_amd64.deb
-Size: 119764
-MD5sum: 679d32db14f884d86c9e8cd17ef2d059
-SHA1: 7bb725fb86c2a618ed608a5824bf4d70e5af4956
-SHA256: 788c06fdd3c1e169214027ed39fd7c0edaa71e053e2eb1c8e8f7b92d42079e78
-SHA512: 5da0e954e6ce471b325aaee40007809d3b73cb7f34a1b5f062b2ffae7f87d190b54aa0d6314f805a1bd85d44f30e0f6ff467aa4e6b6132af708a18a76e3dc8dc
+Depends: realtime-tools (= 1.15.1-3-ga5a5a5e-2024.09.22.08.56)
+Filename: ./realtime-tools-dbgsym_1.15.1-3-ga5a5a5e-2024.09.22.08.56_amd64.deb
+Size: 119760
+MD5sum: f705b708af6bbbe1492dfb28d6cc5bf9
+SHA1: 396babeaa63c551749c7b03f3cb922b4a14786f9
+SHA256: 161832a0ba23c4b85840946134b8d6c031d130dad6e674493480018a7e45ac87
+SHA512: c14fb995ef889affb3f5acbbaae54db4a5adf8e0be6e8a5d40127f9e4679abdf0f7befce25a288df769b7baf70aff9f7a532e7637d0a5c67f09b9947c7ed28e2
 Description: debug symbols for realtime-tools
 Build-Ids: 469508dd130acb04b5d38353ee36d7f79a2c1df7
 
 Package: realtime-tools
 Architecture: amd64
-Version: 1.15.1-3-ga5a5a5e-2024.09.20.17.22
+Version: 1.15.1-3-ga5a5a5e-2024.09.22.08.56
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 88
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), librosconsole3d (>= 1.14.3), librostime1d (>= 0.7.2), libstdc++6 (>= 6), libactionlib-dev, libroscpp-core-dev, libroscpp-dev, python3-actionlib
-Filename: ./realtime-tools_1.15.1-3-ga5a5a5e-2024.09.20.17.22_amd64.deb
-Size: 20864
-MD5sum: 7360742f931f9eb5fa4b663dd6236872
-SHA1: bd07ce31d2d99a7b64a38332930765a46af0cfd5
-SHA256: 9b9e1b47eaa9d79f484189b2c696f1bbd9a94b1212f07dcf12d4109180e1be33
-SHA512: 9077e95375916975d9d35c36810470aea3527b4ba1b6d4de024f7bef5aaa31d5e04735e4dba105da356d801bd34083d1a800e61162a7166fd26835513281fc65
+Filename: ./realtime-tools_1.15.1-3-ga5a5a5e-2024.09.22.08.56_amd64.deb
+Size: 20872
+MD5sum: face7556444087d024d1d3c71f6ad887
+SHA1: 83b50d22db1e8191a372fe95429a1e73e60ae6ac
+SHA256: 3624c78d2a20f58641c1606cb83b1caec5babafc62d6a94ab3e386a32cbd1c12
+SHA512: fbc495d8d448c5089390f1cef031dcc51e3b5b55803fc8d46e380dac0689d5c357e206561fb0bc94e921fd8230ab0664d7c1960ec44144a1ad5b738560d95bf7
 Homepage: http://ros.org/wiki/realtime_tools
 Description: Contains a set of tools that can be used from a hard realtime thread, without breaking the realtime behavior.
 
 Package: rgbd-launch
 Architecture: amd64
-Version: 2.4.0-2024.09.20.17.23
+Version: 2.4.0-2024.09.22.09.02
 Priority: optional
 Section: misc
 Maintainer: Piyush Khandelwal <piyushk@gmail.com>
 Installed-Size: 51
 Depends: libdepth-image-proc-dev, libimage-proc-dev, libnodelet-dev, libnodeletlib-dev, libtf2-ros-dev, python3-image-proc, python3-nodelet, python3-tf2-ros, ros-image-proc
-Filename: ./rgbd-launch_2.4.0-2024.09.20.17.23_amd64.deb
+Filename: ./rgbd-launch_2.4.0-2024.09.22.09.02_amd64.deb
 Size: 9548
-MD5sum: 2004a9f76ba858699b1bdfc1b74b16ea
-SHA1: 6bbc1a1675f374345826744246d3c2a98dbef10a
-SHA256: 7e066dad54037f71467719b4c5d117d81b8b15e1e261312bd0e24ec31d1714e4
-SHA512: 19299476890f316324d3f1c8d5a3b579d92a51fe1e4a8c4a0497f34df0cd33cad8c05425975f04ef236c7f3ad498adee336103f2ac4c9c711736b6c0fbfc0429
+MD5sum: b8aff740c8c30f918c6a0f6a5bff45a6
+SHA1: 69a58f2b38455db40b340198c2e8d9c1e18577b4
+SHA256: a835dfe1fe260f78a2f75ddd1a7c5d00869a8288e991ebf4352abcd048245c8f
+SHA512: a44dc34f876d66d3f4f1d2e61d7242aee8da0372065dadb3ef9c6fe6be0b4d5f55b691145bf7a24700335b59ecaf98fea33900c7d74d05ac88a1f677b93d77e6
 Homepage: http://www.ros.org/wiki/rgbd_launch
 Description: Launch files to open an RGBD device and load all nodelets to convert raw depth/RGB/IR streams to depth images, disparity images, and (registered) point clouds.
 
 Package: ros-control
 Architecture: amd64
-Version: 0.20.0-2024.09.20.18.27
+Version: 0.20.0-2024.09.22.09.03
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 12
 Depends: ros-combined-robot-hw, ros-controller-interface, ros-controller-manager, ros-controller-manager-msgs, ros-hardware-interface, ros-joint-limits-interface, ros-realtime-tools, ros-transmission-interface
-Filename: ./ros-control_0.20.0-2024.09.20.18.27_amd64.deb
-Size: 3476
-MD5sum: cbb19aea6246265281e0f3cda99da87d
-SHA1: 414dffaec94a59d453f56b4599c7e5abd46c03c9
-SHA256: 093e6f8d344633f93e5bcc5b43042b5297d76a04e48a03e5e0a2eb2364732f9a
-SHA512: fadd229b11f2fca40060650cf3901fd4fb83324c3e318ac42a9e3f70692e618e05b2f3d9a43a13f7487ee3e0217f9710cb10e7a15d9604127c1c1371981c4d4c
+Filename: ./ros-control_0.20.0-2024.09.22.09.03_amd64.deb
+Size: 3480
+MD5sum: df5f71beeb7d12c0e3d38ac4bbf53581
+SHA1: 8ab23a45af3a2f36bcee3ac418e99027c6df785e
+SHA256: 3f2445f2b2dca793a1c92f3fc189b180fba5d5c3dfb3ffa2f9147b58cfbf9fb1
+SHA512: 261301cd12949419479846eb8d9d6bb22c82c3ada1f5c616dbf2f0c8ff9cefd8dc7fe64d192f2cdb18c58fa477a38d9e91ba7d53763503a13d0636a4209e0cee
 Homepage: http://ros.org/wiki/ros_control
 Description: A set of packages that include controller interfaces, controller managers, transmissions and hardware_interfaces.
 
 Package: ros-controllers
 Architecture: amd64
-Version: 0.19.0-24-g04fcfd8-2024.09.20.19.00
+Version: 0.19.0-24-g04fcfd8-2024.09.22.09.04
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 12
 Depends: ros-ackermann-steering-controller, ros-diff-drive-controller, ros-effort-controllers, ros-force-torque-sensor-controller, ros-forward-command-controller, ros-gripper-action-controller, ros-imu-sensor-controller, ros-joint-state-controller, ros-joint-trajectory-controller, ros-position-controllers, ros-velocity-controllers
-Filename: ./ros-controllers_0.19.0-24-g04fcfd8-2024.09.20.19.00_amd64.deb
-Size: 3408
-MD5sum: 4573341180908a636f97568a92f1b145
-SHA1: d52598a204c61c7e69c9852a44aa44c07d2b4609
-SHA256: 3cc7dcbd69f08616a52ef32f89d7fee79795ab4d62c2bc18c0182bdb07152b46
-SHA512: 5e90bdab566738bffcbb8f2980740d1b6698fcfbcbb6dcd8752f8a75ad756b4a6177427b142a02a0d1bb85102cc1c222b9a7c3dfff9c68b6eb1ebdf93c1cc72d
+Filename: ./ros-controllers_0.19.0-24-g04fcfd8-2024.09.22.09.04_amd64.deb
+Size: 3412
+MD5sum: c89c9af1087f5fb6cccb040fe639ba34
+SHA1: a718829b77479867220231515de716df332fb6ad
+SHA256: a59742f66b931c7f7aad6491d582f21dc1c61175d185c6283625a561ddf8b2c3
+SHA512: a2935acfa544429a6920592095c3d684377add851c0690764f991c2555448a00b113da09b43b866e6c16417b965e32a4f968b8d8cb782c912c0abeafcc0e9b07
 Homepage: http://ros.org/wiki/ros_controllers
 Description: Library of ros controllers
 
 Package: ros-pytest
 Architecture: amd64
-Version: 0.2.1-7-gcd936a5-2024.09.20.17.24
+Version: 0.2.1-7-gcd936a5-2024.09.22.09.05
 Priority: optional
 Section: misc
 Maintainer: Alexander Rössler <alex@machinekoder.com>
 Installed-Size: 48
 Depends: python3-pytest, python3-pytest-cov, python3-rospy
-Filename: ./ros-pytest_0.2.1-7-gcd936a5-2024.09.20.17.24_amd64.deb
-Size: 10232
-MD5sum: 3cdac12b6b8395df4b980dac43eea5b4
-SHA1: a31c79b26e722e65d3f7c7e3ef9c20c68789ad57
-SHA256: 6cc7bc7ecfeef33b4ac255cf91c6331e4ee16776cbb83bdcfa35262677593bed
-SHA512: 79317a5fa9bbb3e0f85c4b99ec5e027ac9cb8e4a9166c8745d6b86700d997943b885fc15c65a3a4dadd4c387acd6edb11d9e4bd30ded15114142ea29410d132d
+Filename: ./ros-pytest_0.2.1-7-gcd936a5-2024.09.22.09.05_amd64.deb
+Size: 10240
+MD5sum: ae871f7d5c9828e6a1b948c711bc5982
+SHA1: 9d9a0150fdd50154d2e14737f07e644376a8bcd8
+SHA256: 7a6b4939a29961f4ca9eccc2f36a23444bdef9340cae5a01b1a989ca44ba5054
+SHA512: e17dde94959f34aa495245c408c25be30c6bf513e869003ff61beb0408c3429933f5aad119ae961a102cf1f023ee035368d287a2456554566831c49d0f838eaf
 Description: The ros_pytest package
 
 Package: ros-tutorials
 Architecture: amd64
-Version: 0.10.2-3-gdb63288-2024.09.20.18.13
+Version: 0.10.2-3-gdb63288-2024.09.22.09.06
 Priority: optional
 Section: misc
 Maintainer: Mabel Zhang <mabel@openrobotics.org>
 Installed-Size: 11
 Depends: ros-roscpp-tutorials, ros-rospy-tutorials, ros-turtlesim
-Filename: ./ros-tutorials_0.10.2-3-gdb63288-2024.09.20.18.13_amd64.deb
+Filename: ./ros-tutorials_0.10.2-3-gdb63288-2024.09.22.09.06_amd64.deb
 Size: 2740
-MD5sum: ff37cc1dcb23082a7897fcc7bd95b0de
-SHA1: 5dca586a8561a797c9bd98e70de33ddba8e62666
-SHA256: 7daa98d76013ed1ead2f46e6811b1a898aa32899c2556295406ab85a9072c8a6
-SHA512: 70e44bd0065b465bff2e64b759aaa3ec0e5f9e1f88a8eda0f1fb2404622b057df08e0f44ab00149ba1c2f419e8ff7c61419046cb58557b4b954c7fb6bf6bfa73
+MD5sum: 5949af29e6db423fdd602b83531cf5bb
+SHA1: 18c409183d503702a289c0abd413f697854f82fc
+SHA256: 4e695ec8359a4c0841b33551584d40e2cdbb2f1baeab944f3994d28b8fee97c6
+SHA512: b4a097100ed3318557ad53010312de53809ce7a9a27e7849f32b482a3a03b30be38e28d0c6e59d4ab21bf24397bd9b7550a5f3b32c955ee5e4ddcf0c76e19f2c
 Homepage: http://www.ros.org/wiki/ros_tutorials
 Description: ros_tutorials contains packages that demonstrate various features of ROS, as well as support packages which help demonstrate those features.
 
 Package: rosbag-migration-rule
 Architecture: amd64
-Version: 1.0.1-1-g2269b62-2024.09.20.17.25
+Version: 1.0.1-1-g2269b62-2024.09.22.09.07
 Priority: optional
 Section: misc
 Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
 Installed-Size: 24
-Filename: ./rosbag-migration-rule_1.0.1-1-g2269b62-2024.09.20.17.25_amd64.deb
+Filename: ./rosbag-migration-rule_1.0.1-1-g2269b62-2024.09.22.09.07_amd64.deb
 Size: 4616
-MD5sum: fe9266f0d21cb2c97989295a576fb784
-SHA1: 15c44a5788d5f892ec31dbbbfcd51ff46ccaf2ab
-SHA256: 6977f9de362f49b824159fa6db823a3a044ec26e8b634e02bde3149946ffb422
-SHA512: f4586c4cc94f4ab8646b04521e96e04c693a0583114cbd6383374f94bbfa795f30f40889b7e50f3ecb8d4278cd48d3f9da58044afb46817d6b66ec6ec134b8da
+MD5sum: 034d75f655dc9951e86a70e2e442cf94
+SHA1: 419dd426eeea64618a520ed134153efc00c3e23f
+SHA256: e55bdc3f957bb0bfddcc5e86ba5ed9a2831f27d8713ed11a808259bea0785b6b
+SHA512: 898ecece5c7597e358151760f14efae7fa40db4d6aa4bda094d40bcfcd34356227df45dc315d6ca251898f3a50fbe89a0a927c7bf2d2bf6274a44aae7e2c82c0
 Homepage: http://ros.org/wiki/rosbag_migration_rule
 Description: This empty package allows to export rosbag migration rule files without depending on rosbag.
 
 Package: rosbag-snapshot-msgs
 Architecture: amd64
-Version: 1.0.5-2024.09.20.17.26
+Version: 1.0.5-2024.09.22.09.07
 Priority: optional
 Section: misc
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 184
 Depends: libros-rosgraph-msgs-dev, python3-rosgraph-msgs, ros-message-runtime, ros-rosgraph-msgs
-Filename: ./rosbag-snapshot-msgs_1.0.5-2024.09.20.17.26_amd64.deb
-Size: 21120
-MD5sum: a34dd55a6b11166ce3d1756489d28a49
-SHA1: b10848a18dee201c07adea064e0342554b8ed879
-SHA256: fb763af6be148110982de5fb9f5e6ea6f31925d3dc0b8cb3c3fb0c521c97ff43
-SHA512: bf46abf39778107d94538c736b3871d16051fe85b3b6f78cbbe3478f8d7bc85d4d7a477472e7c8643a13a7b28893488487099ac71bd17c43644d92f21a7e1c04
+Filename: ./rosbag-snapshot-msgs_1.0.5-2024.09.22.09.07_amd64.deb
+Size: 21128
+MD5sum: cecc37636d5a184e3121e3cd8c045c5e
+SHA1: 86481068be4c799781b0a501f2fa456f3ad71607
+SHA256: 546aeef0e9ebfc825d61dfca4b523e7d94835844221e3f40d783427471a41014
+SHA512: c5fbbffc7b38ef194846bd40d882ba410405607ea041e38fbd7dbe4f684d4d2b772b89dfa6f59ec30cfa01032323388de6aab09b117616233089052ba3af02cd
 Description: Service and message definitions for rosbag_snapshot
 
 Package: roscpp-tutorials-dbgsym
 Architecture: amd64
-Version: 0.10.2-3-gdb63288-2024.09.20.17.26
+Version: 0.10.2-3-gdb63288-2024.09.22.09.08
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: roscpp-tutorials
 Maintainer: Mabel Zhang <mabel@openrobotics.org>
 Installed-Size: 6165
-Depends: roscpp-tutorials (= 0.10.2-3-gdb63288-2024.09.20.17.26)
-Filename: ./roscpp-tutorials-dbgsym_0.10.2-3-gdb63288-2024.09.20.17.26_amd64.deb
+Depends: roscpp-tutorials (= 0.10.2-3-gdb63288-2024.09.22.09.08)
+Filename: ./roscpp-tutorials-dbgsym_0.10.2-3-gdb63288-2024.09.22.09.08_amd64.deb
 Size: 5702828
-MD5sum: b172749942656c3d98bc49407a263db0
-SHA1: aca2c37903c4d851de5a2fb473725cb5cec33a73
-SHA256: bf1d35ca79204869c9db57b4ebc0a91f5481ab391f4b9c1870e918266c323be3
-SHA512: 1a6c7cc244a1afaeea9e9021c637b298ae8f22f6df473e72874bf573e7ebbf0e1445e09d3d04971dff38b260786eb8520deaee7366b2a4a661caea4a983e2c52
+MD5sum: 3bbeebaadd93ca1a353152ee63ca6e71
+SHA1: 66baef6f102dfed3bcc6a9f960b580f912046aac
+SHA256: 28d3dc52117b2bce809c1175753c0eacd7dd093ed9f1f883202383b2ebf453ca
+SHA512: 86202f86be474bec2de0d250acc9863002fde536dc56e9ae381ef75c8bbadc6850f52178562018b0ac8d292ace849dc5a273e24bbaab62a1367f494916350d29
 Description: debug symbols for roscpp-tutorials
 Build-Ids: 0b67ffcfda17620d9ac07a0c951a4ae19ec84484 0bf112746a4d1475485c60d987e1c908c2c24c3f 33030a9e0dc594dfa9ecceced91531c0bd0178ce 3f468bbe7a5a59c9ff6a14fceebc194756737b83 5074d6cb59899a0241f106257ff25fbd39cde3f0 5557bd0e9546113a9ff5c17330e8d8eaa52a882b 606ad1466bee8aca44adacab9afd416f0711cc69 6d91f918dc52bb63263d783da7fe1b0c62599bb2 775dca857473fa8ad7c8a53ca48020c084029e44 78ff6b0e84f8b34d5dc0f8593b1e90571731a4ca 79922e4fec71911d2fbd68da81c0e740179a99ad 89df185907aa6385d7409ab6ae70fe31106713dd 9c396b45b392320bbfe6797e4342909c71d68837 c127307c84f5daa196abf9ef04b7a879a7eac657 cf9614b956be875892bcc6a10b38152d807dfe35 d6526b02cd1e8c6761567eccfa87ef529327b8d7 d75ea0032a29536e3cff4919cb6a4b7e6383e3f7 df0cacb25bff3e7d3f160f95717e5cfa391f2757 e9c0031f6dfc564d9047b0761b2389191e59cf8b ec475faedfdcb5867d362bfd6a616c95fd75d1b7 ec52bf8ca0d74942ba48581abe91cbb4d99c4825
 
 Package: roscpp-tutorials
 Architecture: amd64
-Version: 0.10.2-3-gdb63288-2024.09.20.17.26
+Version: 0.10.2-3-gdb63288-2024.09.22.09.08
 Priority: optional
 Section: misc
 Maintainer: Mabel Zhang <mabel@openrobotics.org>
 Installed-Size: 1463
 Depends: libboost-thread1.74.0 (>= 1.74.0+ds1), libc6 (>= 2.34), libgcc-s1 (>= 3.0), librosconsole3d (>= 1.14.3), libroscpp-serialization0d (>= 0.7.2), libroscpp4d (>= 1.15.15+ds), librostime1d (>= 0.7.2), libstdc++6 (>= 11), libboost-date-time-dev, libboost-thread-dev, librosconsole-dev, libroscpp-core-dev, libroscpp-dev, libstd-msgs-dev, python3-std-msgs, ros-message-runtime, ros-std-msgs
-Filename: ./roscpp-tutorials_0.10.2-3-gdb63288-2024.09.20.17.26_amd64.deb
-Size: 162328
-MD5sum: 1172fefa765b745a1d01b3d99db22bba
-SHA1: 10756525014df09f824d1c9fa9e418eb4543c69e
-SHA256: 8a042b592aff2daa01070c4e9f98da0bdb7a8618cd9aca37d879259f005ea323
-SHA512: 5cf02b2e3d0016c101b2b9ea6e722612e762db5b097a5e0eea92e0f6cfd440875f7d579167eb8292a8a890d8dbad2fd11d63ffb22ba66d8e24e66023900d78f2
+Filename: ./roscpp-tutorials_0.10.2-3-gdb63288-2024.09.22.09.08_amd64.deb
+Size: 162324
+MD5sum: 6f1b33dff17eb933dbafa980a42a0f62
+SHA1: 47a284dde2517e0ab55a825fcbc108992ccf9636
+SHA256: 73763c8dd80f25cc78fb64a8ea5c0fdde0db64fba19b27a13e4e8e2c08d1a973
+SHA512: 2428fd3c31f0be4bf95c9ebf2b7c87d05826dbac364dca016eb7c141443afb807745ca645519f9b60d5d2da647687578a3be2e3208fd21a22a5f61a5fb05ab2d
 Homepage: http://www.ros.org/wiki/roscpp_tutorials
 Description: This package attempts to show the features of ROS step-by-step, including using messages, servers, parameters, etc.
 
 Package: rosdoc-lite
 Architecture: amd64
-Version: 0.2.11-2-gddd0835-2024.09.20.17.28
+Version: 0.2.11-2-gddd0835-2024.09.22.09.10
 Priority: optional
 Section: misc
 Maintainer: Jack O'Quin <jack.oquin@gmail.com>
 Installed-Size: 292
 Depends: doxygen, graphviz, python3-catkin-pkg, python3-genmsg, python3-kitchen, python3-rospkg, python3-sphinx, python3-yaml
-Filename: ./rosdoc-lite_0.2.11-2-gddd0835-2024.09.20.17.28_amd64.deb
+Filename: ./rosdoc-lite_0.2.11-2-gddd0835-2024.09.22.09.10_amd64.deb
 Size: 71836
-MD5sum: 9acaa5dd1674f3db00f987ccac3e3d8a
-SHA1: b5493794024481d4b27fe22f7b4fac2a7f447800
-SHA256: 8a9e1eb4756de78abc94b926fb1f6ec4714276c1c2bf086e4af018962ff1f3c8
-SHA512: 4e634e8225b2242ec12b8b4c40c0d72562d7aa0dfbd81e03c4eb160d1f597f5cf27a6e70f6930799c8066c7a4b8760be303870ce9ad8ab5ad015daa77c6ff2da
+MD5sum: b0155e0c67d4f436b6a493aae57d67a7
+SHA1: e31fedb4a2635e55839e86329b292232a68fc055
+SHA256: 085df520bd0633d0245a381d9478937221d7f632cc1268d8f4e871be5bc6f24b
+SHA512: 53ee38332c04acee8041d76099db27571cc5cbc77e3733c0581d754b17fa7d1fd8de1c77ae6f996a8527a8ccbd45f89927782ecfb92c2d809c68c4d621e81142
 Homepage: http://wiki.ros.org/rosdoc_lite
 Description: This ROS package wraps documentation tools like doxygen, sphinx, and epydoc, making it convenient to generate ROS package documentation.
  It also generates online documentation for the ROS wiki.
 
 Package: roslint
 Architecture: amd64
-Version: 0.12.0-4-gac02636-2024.09.20.17.29
+Version: 0.12.0-4-gac02636-2024.09.22.09.11
 Priority: optional
 Section: misc
 Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
 Installed-Size: 733
-Filename: ./roslint_0.12.0-4-gac02636-2024.09.20.17.29_amd64.deb
-Size: 189144
-MD5sum: 3fee128c2204ef6360710372f411190f
-SHA1: 69dec2f61202ce1eeca01db33b9ce5466586ac5e
-SHA256: 9e242ea2b9019506a9ac644a951c4b8d4d4676b89a9ffaa2e8c13876aa3e7772
-SHA512: 9399f1c4b888275c6994518992f5133a514616d1f4edaa716b7a7794b930564aa9eca7e80442ebf9191c46e237c60767ba4f8cc2a5e0da50c7ca423eb747852d
+Filename: ./roslint_0.12.0-4-gac02636-2024.09.22.09.11_amd64.deb
+Size: 189132
+MD5sum: 3c8026f706dce03ca9f98de2de3a64a5
+SHA1: 3d8610648f8fa7a35302e3a445d635dd5a3d7df9
+SHA256: 8b60f12a724c92a87f24da9a7f4a200585b810ed66722bcc21ce7b3b57b13c9d
+SHA512: cf41cf8e66b7b459625d18d26f53b9d6b1d9f7ec144b87dedcc3240ee4b8cf0baee2d1742b18f3928868b28333f2d6e17cacdc7d43435eba49d2a32362edcdfe
 Homepage: http://ros.org/wiki/roslint
 Description: CMake lint commands for ROS packages.
  The lint commands perform static checking of Python or C++ source code for errors and standards compliance.
 
 Package: rqt-action
 Architecture: amd64
-Version: 0.4.9-14-gfd461f4-2024.09.20.19.10
+Version: 0.4.9-14-gfd461f4-2024.09.22.09.16
 Priority: optional
 Section: misc
 Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
 Installed-Size: 42
 Depends: python3-rospy, ros-rqt-msg, ros-rqt-py-common
-Filename: ./rqt-action_0.4.9-14-gfd461f4-2024.09.20.19.10_amd64.deb
+Filename: ./rqt-action_0.4.9-14-gfd461f4-2024.09.22.09.16_amd64.deb
 Size: 9024
-MD5sum: a9fd9d38c252c10635861f7a4e133982
-SHA1: a2ccdcb9a501ec93cb008c17f57faebb6fe160e1
-SHA256: e93b558954f899519a1fa89a9190861f0106fd8c7b71297adefc47af12aeb73e
-SHA512: 94249b62b7d29e233cb26f760940fbf94d6da8859f7135d97437ed53dcbbdfc1425f6d8b883328ec1c672e117aeadbb0e94399526bfc076ac1edea635b8c7109
+MD5sum: 39f03444d52a2278676edf5383a568a4
+SHA1: 9ab4e11d3a1d2d5078936f0a1f81affaf04c849e
+SHA256: 167a5b7234172ff62e858a0390b73c60fb0162f975bb1bd917e8831d8ce4a4da
+SHA512: 522a0335f28504befd1a5a8e179f60a1b7bd1be10da09d3e9ce166f66b755ae9cda106a437bed9e534383fee795b9efe32c674eca6ced83cffa938d71e546848
 Homepage: http://wiki.ros.org/rqt_action
 Description: rqt_action provides a feature to introspect all available ROS action (from actionlib) types.
  By utilizing rqt_msg, the output format is unified with it and rqt_srv. Note that the actions shown on this plugin is the ones that are stored on your machine, not on the ROS core your rqt instance connects to.
 
 Package: rqt-bag-plugins
 Architecture: amd64
-Version: 0.5.1-7-g2f6fbd5-2024.09.20.18.51
+Version: 0.5.1-7-g2f6fbd5-2024.09.22.09.18
 Priority: optional
 Section: misc
 Maintainer: Mabel Zhang <mabel@openrobotics.org>
 Installed-Size: 137
 Depends: libgeometry-msgs-dev, librosbag-dev, libroslib-dev, libsensor-msgs-dev, libstd-msgs-dev, python3-cairo, python3-geometry-msgs, python3-pil, python3-rosbag, python3-roslib, python3-rospy, python3-sensor-msgs, python3-std-msgs, ros-geometry-msgs, ros-rqt-bag, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-plot, ros-sensor-msgs, ros-std-msgs
-Filename: ./rqt-bag-plugins_0.5.1-7-g2f6fbd5-2024.09.20.18.51_amd64.deb
-Size: 33888
-MD5sum: 8dc2a39490b0cfa7e2152b9f4da460d8
-SHA1: da5003ce731af23b3124cc5030c64fea1cd7f097
-SHA256: 71f26e138e6faed2d8a10a5922aaf2bb4ef904d09453d51350ca5fc5fd54080a
-SHA512: fd7702c285a72710fdc4f5e5e9199242da69d4e66b727a0300efb1e0d61ed928a9d5bf6729b805ebf33e42b83254aff9f7e335cd0fb783e5095454abed67b66f
+Filename: ./rqt-bag-plugins_0.5.1-7-g2f6fbd5-2024.09.22.09.18_amd64.deb
+Size: 33880
+MD5sum: 49057bf8bd08168523be0dd171837025
+SHA1: a2f07eee85af4a252e04649c72e45e6f8b6ac1d1
+SHA256: e75b4369067c3e377b1a0f8c00e75db42d787b19d3980b7aa9ac92481d885b32
+SHA512: 17aad1c1e297b20a6cc934f10530100b726e591149bf59dbc391502535f288b3e3b137f049847a8d37715621d3993db19b12470980c60f9155c61547f1656491
 Homepage: http://wiki.ros.org/rqt_bag
 Description: rqt_bag provides a GUI plugin for displaying and replaying ROS bag files.
 
 Package: rqt-bag
 Architecture: amd64
-Version: 0.5.1-7-g2f6fbd5-2024.09.20.18.29
+Version: 0.5.1-7-g2f6fbd5-2024.09.22.09.17
 Priority: optional
 Section: misc
 Maintainer: Mabel Zhang <mabel@openrobotics.org>
 Installed-Size: 490
 Depends: libros-rosgraph-msgs-dev, librosbag-dev, libroslib-dev, python3-python-qt-binding (>= 0.2.19), python3-rosbag, python3-rosgraph-msgs, python3-roslib, python3-rosnode, python3-rospkg, python3-rospy, ros-rosgraph-msgs, ros-rqt-gui (>= 0.2.12), ros-rqt-gui-py
-Filename: ./rqt-bag_0.5.1-7-g2f6fbd5-2024.09.20.18.29_amd64.deb
-Size: 102652
-MD5sum: 495619024fa8704f18ea7993ca484e7c
-SHA1: b1f6153eafa535be1a32753633075771dd28305f
-SHA256: 1d1f1559d91e0c93fd6f93b46debd6382b29fb764127584d70630a7bda6d1027
-SHA512: 8863eaaabde5a5cf1c4d7f3e41f171ebed53c3148203497bd58f4dd49dfdb518917196fc6a5e2c9fcd77b2432303ebfe05793a2b40c19bb3f4241884505d9b64
+Filename: ./rqt-bag_0.5.1-7-g2f6fbd5-2024.09.22.09.17_amd64.deb
+Size: 102648
+MD5sum: 735e8b86fb232c550ae3ab03b3a59064
+SHA1: 1e3bda0412f1ed4341f5e68cb433ed80475916af
+SHA256: 73da802427855dec68abb1f400ece5a6e4ba7f5b7888c625725d283394179a8d
+SHA512: b130c418e435efdf6fb2a8e44024a98da2a997a3cae28c1662d438d0b3339e126cd6fe8c7d12acd607393dfc558e553e488d7b5b6300184b1aafb262c581bcfc
 Homepage: http://wiki.ros.org/rqt_bag
 Description: rqt_bag provides a GUI plugin for displaying and replaying ROS bag files.
 
 Package: rqt-common-plugins
 Architecture: amd64
-Version: 0.4.9-2-gb89e918e-2024.09.20.19.20
+Version: 0.4.9-2-gb89e918e-2024.09.22.09.18
 Priority: optional
 Section: misc
 Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
 Installed-Size: 13
 Depends: ros-rqt-action, ros-rqt-bag, ros-rqt-bag-plugins, ros-rqt-console, ros-rqt-dep, ros-rqt-graph, ros-rqt-image-view, ros-rqt-launch, ros-rqt-logger-level, ros-rqt-msg, ros-rqt-plot, ros-rqt-publisher, ros-rqt-py-common, ros-rqt-py-console, ros-rqt-reconfigure, ros-rqt-service-caller, ros-rqt-shell, ros-rqt-srv, ros-rqt-top, ros-rqt-topic, ros-rqt-web
-Filename: ./rqt-common-plugins_0.4.9-2-gb89e918e-2024.09.20.19.20_amd64.deb
+Filename: ./rqt-common-plugins_0.4.9-2-gb89e918e-2024.09.22.09.18_amd64.deb
 Size: 3700
-MD5sum: d36ae1d410a328747a96f2e9808b6fc4
-SHA1: afddc8c256faef277edc3725a8f36cc65c01c0ff
-SHA256: 70de72b328231e622388b4f117b2d148c56edaf54a299819d7a2b7853fd91260
-SHA512: c440cffb7a605503d0f6b50525286a56d1e09e22c7ef1b0336a74ed4f0b3b8f189da05e25cf8cbe963239f4e42f16dfe83b91d97b5265e68d21544571013df3c
+MD5sum: ff4578c92ebb11ee89518275af6ec4b1
+SHA1: 35ad0c23fc82c6ede8870105bddebee8a485b0e5
+SHA256: 6357ec9b32ea91dc50f7ce0881a9081146b582ec5989b787e42dde8a0010618d
+SHA512: 1d422e8a2c7d2dc2df5351892d811271bd96bcfb13ce92b70fab282517aeaa7d76c9111686f4d6002335aea592982ee5712b706db282a2058a573e14dae8b228
 Homepage: http://ros.org/wiki/rqt_common_plugins
 Description: rqt_common_plugins metapackage provides ROS backend graphical tools suite that can be used on/off of robot runtime.
  To run any rqt plugins, just type in a single command &quot;rqt&quot;, then select any plugins you want from the GUI that launches afterwards. rqt consists of three following metapackages: rqt - core modules of rqt (ROS GUI) framework. rqt plugin developers barely needs to pay attention to this metapackage. rqt_common_plugins (you're here!) rqt_robot_plugins - rqt plugins that are particularly used with robots during their runtime.
 
 Package: rqt-console
 Architecture: amd64
-Version: 0.4.12-2-gce13191-2024.09.20.18.52
+Version: 0.4.12-2-gce13191-2024.09.22.09.19
 Priority: optional
 Section: misc
 Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
 Installed-Size: 378
 Depends: libroslib-dev, python3-python-qt-binding (>= 0.2.19), python3-roslib, python3-rospkg, python3-rospy, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-logger-level, ros-rqt-py-common
-Filename: ./rqt-console_0.4.12-2-gce13191-2024.09.20.18.52_amd64.deb
+Filename: ./rqt-console_0.4.12-2-gce13191-2024.09.22.09.19_amd64.deb
 Size: 67952
-MD5sum: d0d027d646a20470f2aa842affc4c6fe
-SHA1: 311b96960b572ef863353c86d23538e33c93b4d3
-SHA256: 3a0e495597c90ba1ac9be4f9f20e804f1a3fc3c83303d3605ac0af690de0a7d0
-SHA512: 7864de8968b075e762a5bff44bf49c92b804571433713e7d3bfffb7cbb4fc7d297f20650d8694699460ad7e75ce85ad5e5f1709f90b44121aa4fe9df9cc4acca
+MD5sum: 6e6453b527145b2269cadde7c84260dd
+SHA1: 93326d2d87d3be783939e15db37ba8be64da7501
+SHA256: b13633e7995f16f7e69cb4b3974ee7a900f18d819d6f146f0ab2093dbef92f5a
+SHA512: a6b961940500c8d3025438bff0f191722e6222422a7021abd05f2982e28891bc22045c49ed7eb9eae4bda731eeca355aeb0656c6e0ddd02b3c3ea48232f1c13b
 Homepage: http://wiki.ros.org/rqt_console
 Description: rqt_console provides a GUI plugin for displaying and filtering ROS messages.
 
 Package: rqt-controller-manager
 Architecture: amd64
-Version: 0.20.0-2024.09.20.18.30
+Version: 0.20.0-2024.09.22.09.20
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 115
 Depends: python3-rospy, ros-controller-manager-msgs, ros-rqt-gui, ros-rqt-gui-py
-Filename: ./rqt-controller-manager_0.20.0-2024.09.20.18.30_amd64.deb
-Size: 39096
-MD5sum: 2e1c22f9f729bbada43fa020b3d4ed28
-SHA1: c2bf8b0f4f7d995a2888b9235fee3e114c614d13
-SHA256: 9f893fc5495113c863cc704578a6d2bd9a656deac0da57d082bee5383528ea43
-SHA512: fadd483517d21b4e94f286d0e28220de97d7e5f1374ec43e5d72693ec9cc4e9b44d86585f0bbd79a69660e4bd7a07f931c544e4e3226091ab3c341d727a4b4b2
+Filename: ./rqt-controller-manager_0.20.0-2024.09.22.09.20_amd64.deb
+Size: 39092
+MD5sum: d3ef25934c714c9cb3848489206b041c
+SHA1: eaeaf9e8e13ec4a8e4f2aeee3312883cf3e06417
+SHA256: 6b26c3883fa72db923449f77e4809502994c53b503d128cfef2f0b51a16157e2
+SHA512: 7210b27abc0120625b744c0bbefe4959f815965234868245d12df40634716c8cb2d7bcb11b4356cb882b8def2612c96edebdf88e3ef3269dd2485954e64af128
 Homepage: http://ros.org/wiki/rqt_controller_manager
 Description: Graphical frontend for interacting with the controller manager.
 
 Package: rqt-dep
 Architecture: amd64
-Version: 0.4.12-4-gebf0f6e-2024.09.20.18.53
+Version: 0.4.12-4-gebf0f6e-2024.09.22.09.21
 Priority: optional
 Section: misc
 Maintainer: Ivan Paunovic <ivanpauno@ekumenlabs.com>
 Installed-Size: 139
 Depends: python3-python-qt-binding (>= 0.2.19), python3-rospkg, ros-qt-dotgraph, ros-qt-gui, ros-qt-gui-py-common, ros-rqt-graph, ros-rqt-gui-py
-Filename: ./rqt-dep_0.4.12-4-gebf0f6e-2024.09.20.18.53_amd64.deb
-Size: 31404
-MD5sum: 9e1847b0516e9750601c1b45d5bde50a
-SHA1: 69e08bba2f34af99902b62e3a550b31332929e20
-SHA256: 788beebef32cfa7598cea3a097de8646c18ef98b3ac2754e82efc3939060c3d9
-SHA512: 968f14a047c3fc14aeba0869ac9893be980b6450a773afb8d016bb3119afb9a9fa4895a941d512238a97761a1122cabe7b05fa3cd86d462c7e6736b0a112dd71
+Filename: ./rqt-dep_0.4.12-4-gebf0f6e-2024.09.22.09.21_amd64.deb
+Size: 31392
+MD5sum: 1458dc7e580a9077effefe4d42aebab0
+SHA1: 7856840c3a4d8df79df8c1334f3ee136b10c868a
+SHA256: 31486fcef78c3db2434947f3d23356e22572e255541781dd6bc83c3486475d3e
+SHA512: c84ec43988c64154b1542c683d994f87f5f9824fe153131f7d59adc88ff155cec744622ae6a57f874a80c4a596c58e15c9b870566ef8c8ac8faff9d3f665f9c2
 Homepage: http://wiki.ros.org/rqt_dep
 Description: rqt_dep provides a GUI plugin for visualizing the ROS dependency graph.
 
 Package: rqt-graph
 Architecture: amd64
-Version: 0.4.14-5-g759e210-2024.09.20.18.31
+Version: 0.4.14-5-g759e210-2024.09.22.09.22
 Priority: optional
 Section: misc
 Maintainer: Michael Jeronimo <michael.jeronimo@openrobotics.org>
 Installed-Size: 202
 Depends: libros-rosgraph-msgs-dev, libroslib-dev, python3-python-qt-binding (>= 0.2.19), python3-rosgraph, python3-rosgraph-msgs, python3-roslib, python3-rosnode, python3-rospkg, python3-rospy, python3-rosservice, python3-rostopic, ros-qt-dotgraph, ros-rosgraph-msgs, ros-rqt-gui, ros-rqt-gui-py
-Filename: ./rqt-graph_0.4.14-5-g759e210-2024.09.20.18.31_amd64.deb
-Size: 43720
-MD5sum: ebd9dcaec51228ca3a4d4cd3c9aff992
-SHA1: 0860d857834e1046590c04a1826cf0145a7a87e4
-SHA256: ec8da8ac85ace8f2da5009b657a9d8662de7dd7c382ffab2b8155fbbd91702d9
-SHA512: d31eb8317cfd5d3ea61b4df65badff52b3527ea681a4930e72a2b3adbb4703c068ac7edc5cbd124998a70d185c4a927bd3521590113c906567d75a888e33736c
+Filename: ./rqt-graph_0.4.14-5-g759e210-2024.09.22.09.22_amd64.deb
+Size: 43708
+MD5sum: 40a2ed3cb869388336da2afe006bb409
+SHA1: cd1dee5f5a4b869d8bae1900a9e2eaabd03f2771
+SHA256: 8f9d98c51df53ce7bafc7b808e6e03c462b23ffc5e7fedfb5fc40d12e213886b
+SHA512: 285f8c68643d02f87b55be4718a3196e64494e807a763824726b2d218c60c133331497e477a8a73db5357486efa593dab1de8057cb6a0a71b525abd419e603c6
 Homepage: http://wiki.ros.org/rqt_graph
 Description: rqt_graph provides a GUI plugin for visualizing the ROS computation graph.
  Its components are made generic so that other packages where you want to achieve graph representation can depend upon this pkg (use rqt_dep to find out the pkgs that depend. rqt_dep itself depends on rqt_graph too).
 
 Package: rqt-joint-trajectory-controller
 Architecture: amd64
-Version: 0.19.0-24-g04fcfd8-2024.09.20.18.33
+Version: 0.19.0-24-g04fcfd8-2024.09.22.09.26
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 156
 Depends: libtrajectory-msgs-dev, python3-python-qt-binding, python3-rospkg, python3-rospy, python3-trajectory-msgs, ros-control-msgs, ros-controller-manager-msgs, ros-qt-gui, ros-rqt-gui, ros-rqt-gui-py, ros-trajectory-msgs
-Filename: ./rqt-joint-trajectory-controller_0.19.0-24-g04fcfd8-2024.09.20.18.33_amd64.deb
+Filename: ./rqt-joint-trajectory-controller_0.19.0-24-g04fcfd8-2024.09.22.09.26_amd64.deb
 Size: 35904
-MD5sum: ff49d21c43c5120c6dfbf85b4b5560b8
-SHA1: 03d982e964e57cc2d3b400694ad7c9b9bab9b3fe
-SHA256: 0bb6e41dedd57c51d38151eb8299964477d0c90467ce7c953ce7f6a23a4b636d
-SHA512: 7586a8540dd401d318ef9f60969df75febdfd1b27290e078150c6dcb46e0cdb91b51c5add56fdd78d1a4a07220a03e4c9057f0beec3efa57181686bb5e30b73b
+MD5sum: f314e0e37511252703638ed8b6522b4c
+SHA1: 48deb08448665635c6f9e3ece875e0d8e94e2523
+SHA256: a66e3810161afddba2f10b7091837de79a7d9fd9a08092a69f7da85b4f15c915
+SHA512: 53ae52759181eff416a4fddaf700c244c1c3cba093400b2af838d1b79154e590d13d443b278206503760420ea4de08fa56073fb9e525722fbcb80a010a0a29c2
 Homepage: http://wiki.ros.org/rqt_joint_trajectory_controller
 Description: Graphical frontend for interacting with joint_trajectory_controller instances.
 
 Package: rqt-logger-level
 Architecture: amd64
-Version: 0.4.12-2024.09.20.18.34
+Version: 0.4.12-2024.09.22.09.27
 Priority: optional
 Section: misc
 Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
 Installed-Size: 77
 Depends: python3-python-qt-binding (>= 0.2.19), python3-rosnode, python3-rospkg, python3-rospy, python3-rosservice, ros-rqt-gui, ros-rqt-gui-py
-Filename: ./rqt-logger-level_0.4.12-2024.09.20.18.34_amd64.deb
+Filename: ./rqt-logger-level_0.4.12-2024.09.22.09.27_amd64.deb
 Size: 15836
-MD5sum: daf2596624869654c963330c2adbbd09
-SHA1: 5cae696997923384e1fd8b25c3a3cd7d376faa7f
-SHA256: c6e0e5505ac5b25cd996ad7f5e365e9884e8d30944152e6182691ead0894d0cb
-SHA512: b0709e05ef8a8fe1029292b8a3b83ef04d27b6d7ca8466c32bca78135a86e52897dde55466251dd7918afa2ade51566105c8b36c2f9b9aa62be1144fe7af4d11
+MD5sum: 30fc4fb81f118882080217785b5bd05d
+SHA1: b1370e3169ec3060bc4957de185400fff5860434
+SHA256: ad19475315bf0f9a3b6cf35a5d8de411920aae0d03e2e90b2fda8ea36b18aad1
+SHA512: 4d15f740ac0336644620cad906659edb2774cecf60abf5434ab7f1cd6e747f00af656609ff5506fc2a7ecca60a8c78a52539a42e36068170426f97fcad58d2a4
 Homepage: http://wiki.ros.org/rqt_logger_level
 Description: rqt_logger_level provides a GUI plugin for configuring the logger level of ROS nodes.
  rqt_logger_level takes over `wx`-based tool [[rxloggerlevel]].
 
 Package: rqt-moveit
 Architecture: amd64
-Version: 0.5.9-2024.09.20.18.54
+Version: 0.5.9-2024.09.22.09.28
 Priority: optional
 Section: misc
 Maintainer: Isaac I.Y. Saito <iisaito@kinugarage.com>
 Installed-Size: 84
 Depends: libsensor-msgs-dev, python3-python-qt-binding (>= 0.2.19), python3-rosnode, python3-rospy, python3-rostopic, python3-sensor-msgs, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-py-common, ros-rqt-topic, ros-sensor-msgs
-Filename: ./rqt-moveit_0.5.9-2024.09.20.18.54_amd64.deb
-Size: 19120
-MD5sum: 748656a0d5e159b92fe1033286111647
-SHA1: e50b29a788cd94a9484f245732a03c86c01d3f42
-SHA256: 6a7f64421902671c2f7cfb2a414efcd6178018935e74b1576488a920e73d8920
-SHA512: f22e8e1020b2d6ba80c2b827fdffc1b117a5d1eb2548a66bc73c223227c4fe32496574dd97146903c515a581a96c58bdccd340c3b87908ba5df5a0a5b70aac00
+Filename: ./rqt-moveit_0.5.9-2024.09.22.09.28_amd64.deb
+Size: 19124
+MD5sum: c5bd075a7c98c416b8439042dc98f1c9
+SHA1: ed9b5178786307f1808ad215673f4f0448000596
+SHA256: 369220894731433e67a11fa9892ef57bfd029db28fcafacf60fc8f5146bf3593
+SHA512: 7cfe48aeb8e8e12a54527c783db1f605cd6f434fc5cd99f52aa86300eaa1c6266bd8f590c0909d78ccfd3886e76e1e3564a56cb6ad83567b3ef2f696c6de5831
 Homepage: http://wiki.ros.org/rqt_moveit
 Description: An rqt-based tool that assists monitoring tasks for MoveIt! motion planner developers and users.
  Currently the following items are monitored if they are either running, existing or published: Node: /move_group Parameter: [/robot_description, /robot_description_semantic] Topic: Following types are monitored. Published &quot;names&quot; are ignored. [sensor_msgs/PointCloud, sensor_msgs/PointCloud2, sensor_msgs/Image, sensor_msgs/CameraInfo] Since this package is not made by the MoveIt! development team (although with assistance from the them), please post issue reports to the designated tracker (not MoveIt!'s main tracker).
 
 Package: rqt-msg
 Architecture: amd64
-Version: 0.4.10-5-gcd226dd-2024.09.20.19.02
+Version: 0.4.10-5-gcd226dd-2024.09.22.09.28
 Priority: optional
 Section: misc
 Maintainer: Michael Carroll <michael@openrobotics.org>
 Installed-Size: 81
 Depends: libroslib-dev, python3-python-qt-binding (>= 0.2.19), python3-roslib, python3-rosmsg, python3-rospkg, python3-rospy, ros-rqt-console, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-py-common
-Filename: ./rqt-msg_0.4.10-5-gcd226dd-2024.09.20.19.02_amd64.deb
-Size: 17544
-MD5sum: c6472428c4b0c5eeab1d601dd6238665
-SHA1: 2300b80c839168dcd940eb14a736574e37c0300e
-SHA256: edcc6f560854da0ae4798d1bb9a7bd6b05ba8390a225642bb1b4e8c58505174e
-SHA512: 819e5c7a1b46a799ecaa3de9ae66fe87f35c11e464b76f59031aad3746213e14d69bff61513e317fe94dfe4915a0ddafc67f8a686cdb06898f08c371af5b5458
+Filename: ./rqt-msg_0.4.10-5-gcd226dd-2024.09.22.09.28_amd64.deb
+Size: 17540
+MD5sum: e879a5a57ff07e70882f08abcd63a1d4
+SHA1: 65d2c754fefe80534e3a5cfae37b028edb940ea7
+SHA256: 69194f020475297db604a2063881c9e3e810f963754f5fdbd77e8d62ec0cdef4
+SHA512: 84f4c48509466d67f98f20c8bc65f520b4a3b5562a823db3c0f4d5455b1522f692c142504e73ca73b553913d7128b25a75bf99a5b70eee2b326125d22ded1da5
 Homepage: http://wiki.ros.org/rqt_msg
 Description: A Python GUI plugin for introspecting available ROS message types.
  Note that the msgs available through this plugin is the ones that are stored on your machine, not on the ROS core your rqt instance connects to.
 
 Package: rqt-nav-view
 Architecture: amd64
-Version: 0.5.7-5-g3df965e-2024.09.20.18.35
+Version: 0.5.7-5-g3df965e-2024.09.22.09.29
 Priority: optional
 Section: misc
 Maintainer: Aaron Blasdel <ablasdel@gmail.com>
 Installed-Size: 110
 Depends: libgeometry-msgs-dev, libnav-msgs-dev, libtf-dev, python3-geometry-msgs, python3-nav-msgs, python3-python-qt-binding (>= 0.2.19), python3-rospy, python3-tf, ros-geometry-msgs, ros-nav-msgs, ros-qt-gui, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-py-common, tf-tools
-Filename: ./rqt-nav-view_0.5.7-5-g3df965e-2024.09.20.18.35_amd64.deb
-Size: 25996
-MD5sum: ccb957a069838b3fdda3675a706fe82b
-SHA1: a7b4a770f9b3d2eaeb16593420348d052a077c0c
-SHA256: 2c55ad70f27ff2c1b439980d287582c3fc8cf190c31ba6dd7d27669d867e51e1
-SHA512: f34166e0e820948619832cac6b10dd38f79ce725f0f7c49261efe5fc998c6f76612a90d9ecc415bb41321aa4b4fc3eb3c25caee860662e172b1cd33559e82ec7
+Filename: ./rqt-nav-view_0.5.7-5-g3df965e-2024.09.22.09.29_amd64.deb
+Size: 25988
+MD5sum: ea1cbbf3ad1f4d3f1e32729df0b4ae13
+SHA1: b85ce29e5496c8ff11082f2728baba77f752f40a
+SHA256: 5e9742da10dba1b98c31edce8d262440d53e4975cd9bbc6dd78f969e7499d6e8
+SHA512: 815db28e9520fd9d6db55667ead60abf280708f39656c909a96799c7f804b5d85c2d9984e1fbf6931652855dcd8468186ae69c2dae0da2852ba69d879bf7060d
 Homepage: http://wiki.ros.org/rqt_nav_view
 Description: rqt_nav_view provides a gui for viewing navigation maps and paths.
 
 Package: rqt-plot
 Architecture: amd64
-Version: 0.4.13-2024.09.20.18.36
+Version: 0.4.13-2024.09.22.09.30
 Priority: optional
 Section: misc
 Maintainer: Mabel Zhang <mabel@openrobotics.org>
 Installed-Size: 221
 Depends: libstd-msgs-dev, python3-matplotlib, python3-numpy, python3-python-qt-binding (>= 0.2.19), python3-rosgraph, python3-rospkg, python3-rostopic, python3-std-msgs, ros-qt-gui-py-common (>= 0.2.25), ros-qwt-dependency, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-py-common, ros-std-msgs
-Filename: ./rqt-plot_0.4.13-2024.09.20.18.36_amd64.deb
-Size: 52352
-MD5sum: d65123ecc2c41cafd70129ab5f838a0a
-SHA1: 64a0213aa3e64e074dc4066bc4c40069012e6c71
-SHA256: a9886f2338b1f79726667f71273383f0a0f1eacecc6b8358dd48a71ec7b6ad03
-SHA512: e7860ef101a573743144d15cf9a976ce6f806cec84ac0c43a068df1539143daed5dc29159e3438db7e447a32f69b99887c39bd2a018c97d313b9b0345dc66027
+Filename: ./rqt-plot_0.4.13-2024.09.22.09.30_amd64.deb
+Size: 52360
+MD5sum: 9aa76b4f920c34b2f97541739871e785
+SHA1: 1308994db2329b026c3349610eb1b6e23428e51e
+SHA256: a32b9a06bfc43633d7664ae71d56f35c248925e21bf3378afaccbadb7e93e9a4
+SHA512: 054fd12d13dad688608e289f9592139f75b357bbab4785a1721346da0d09e8a72cd8e6abfa520b619aa69298dc354e48a88eda6893aef9e38930fb0a67a5a52c
 Homepage: http://wiki.ros.org/rqt_plot
 Description: rqt_plot provides a GUI plugin visualizing numeric values in a 2D plot using different plotting backends.
 
 Package: rqt-pose-view
 Architecture: amd64
-Version: 0.5.11-5-g42e9174-2024.09.20.18.37
+Version: 0.5.11-5-g42e9174-2024.09.22.09.31
 Priority: optional
 Section: misc
 Maintainer: Scott Logan <scott@openrobotics.org>
 Installed-Size: 101
 Depends: libgeometry-msgs-dev, libtf-dev, python3-geometry-msgs, python3-opengl, python3-python-qt-binding (>= 0.2.19), python3-rospkg, python3-rospy, python3-rostopic, python3-tf, ros-geometry-msgs, ros-gl-dependency, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-py-common, tf-tools
-Filename: ./rqt-pose-view_0.5.11-5-g42e9174-2024.09.20.18.37_amd64.deb
-Size: 23328
-MD5sum: 21d8d274e7263eb949444a67ecc2ec62
-SHA1: c90759da8e638d91c865e512b594509150c1d354
-SHA256: df3c5c476c0429208b83d5892610987f4d7c16a5daf8b82e9b0ff178964bec7e
-SHA512: 2f02f4c6850c62d04c686eb2f71e3e1dcb0eed5bef823a2aabf5ba62edce6b28217560c4c722c55d8538ae2535d9d434a45aa53a7a32be0487cfd9f5ed2467d5
+Filename: ./rqt-pose-view_0.5.11-5-g42e9174-2024.09.22.09.31_amd64.deb
+Size: 23324
+MD5sum: 30f5da6b9bc51fe96201f0f3a41a7d9b
+SHA1: cfc70d211716c8374d5157a05bdb9e0d75c5ed8d
+SHA256: 1b0ee16f3d9d2ed13e1ed80aa8605933e07cdf16cf92eaba5a9f13da5fda4a73
+SHA512: 18e33a1f8211703e686e9b0fbd87dd5092825d225270a6954c009e325e42d87b3fd0aaa60536b9a2d016c26cc62c413b5a5ac0fb3b1dbd2610b3d520c39c6ad6
 Homepage: http://wiki.ros.org/rqt_pose_view
 Description: rqt_pose_view provides a GUI plugin for visualizing 3D poses.
 
 Package: rqt-publisher
 Architecture: amd64
-Version: 0.4.10-7-g3f32ffe-2024.09.20.18.38
+Version: 0.4.10-7-g3f32ffe-2024.09.22.09.32
 Priority: optional
 Section: misc
 Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
 Installed-Size: 124
 Depends: libroslib-dev, python3-python-qt-binding (>= 0.2.19), python3-roslib, python3-rosmsg (>= 1.9.49), python3-rospkg, ros-qt-gui-py-common, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-py-common
-Filename: ./rqt-publisher_0.4.10-7-g3f32ffe-2024.09.20.18.38_amd64.deb
-Size: 28684
-MD5sum: 3106cfbf754c572a26fed8d04b1d6b5c
-SHA1: 8caa560f5bf53f8c167bb00d7d3afc1c4e3a256e
-SHA256: 08b6d805347609dd750c17d314c927ea87f67fa15eacb4c98ed465a324000318
-SHA512: 0adec854114b7993150eca55b11704b371c7f7a7b6cf99d7a9f01d32e7df865a7dba702188f83300de76bf2c9db336413e4262db9bdc1fe1956219ce7b3c83d5
+Filename: ./rqt-publisher_0.4.10-7-g3f32ffe-2024.09.22.09.32_amd64.deb
+Size: 28680
+MD5sum: 33b70e7d3ed02bcbcfed9a07bfd50d07
+SHA1: 2c413704fb3a678eeadf11d25f03206b6ba39c3a
+SHA256: 782dc36389a2e01c6a1dd2a3087830bb9800d7f8af637dfd806288483ba19255
+SHA512: d5421fa76d3565198ff42120f7c900119edc3e03eb500cc3aebb47fce0df30175145a3d58200703c11e6a544c3b5ea6276201bb3e96f671ad17424c087512593
 Homepage: http://wiki.ros.org/rqt_publisher
 Description: rqt_publisher provides a GUI plugin for publishing arbitrary messages with fixed or computed field values.
 
 Package: rqt-py-common
 Architecture: amd64
-Version: 0.5.2-8-gb606144-2024.09.20.17.55
+Version: 0.5.2-8-gb606144-2024.09.22.09.33
 Priority: optional
 Section: misc
 Maintainer: Dharini Dutia <dharini@openrobotics.org>
 Installed-Size: 258
 Depends: libactionlib-dev, librosbag-dev, libroslib-dev, python3-actionlib, python3-genpy, python3-python-qt-binding (>= 0.2.19), python3-rosbag, python3-roslib, python3-rospy, python3-rostopic, ros-qt-gui
-Filename: ./rqt-py-common_0.5.2-8-gb606144-2024.09.20.17.55_amd64.deb
-Size: 58536
-MD5sum: de5dac96e1e3ba8b194a6a9525e0824a
-SHA1: d22f1f3de22369daa8b0bc2725ded503ba837409
-SHA256: e9e0449d536656dd194c9348273c2376f86091cc06dbf91fb076b874460b172b
-SHA512: e6187e3a95fd41f3e9cfb2bdbbb6e8322e9262d0f4b0a90aef7963b9ffd0202ea0e9411905fc2abf74251fd200e480f47e88a471b8f6899d83bdef2fbad965c4
+Filename: ./rqt-py-common_0.5.2-8-gb606144-2024.09.22.09.33_amd64.deb
+Size: 58528
+MD5sum: 06e44f63068c972dc74b4220a590bff6
+SHA1: e6fb10f6eba936ba2844c731bfd678c914d7a9e5
+SHA256: f51ed1d31adfd21bf2165fe83724f9ae15b57477127808093aa145d58cf772f6
+SHA512: 4e8c58b6b590d884363ead4253c23240edbf416d1ac7089d1c0e56d1c1cd53035bc96652f284c02c82b79983d042f71891f6c1a7eecb8cbcd19105ec3a30bc98
 Homepage: http://ros.org/wiki/rqt_py_common
 Description: rqt_py_common provides common functionality for rqt plugins written in Python.
  Despite no plugin is provided, this package is part of the rqt_common_plugins repository to keep refactoring generic functionality from these common plugins into this package as easy as possible. Functionality included in this package should cover generic ROS concepts and should not introduce any special dependencies beside &quot;ros_base&quot;.
 
 Package: rqt-py-console
 Architecture: amd64
-Version: 0.4.10-1-gf9bf603-2024.09.20.18.39
+Version: 0.4.10-1-gf9bf603-2024.09.22.09.35
 Priority: optional
 Section: misc
 Maintainer: Michael Carroll <michael@openrobotics.org>
 Installed-Size: 69
 Depends: python3-python-qt-binding (>= 0.2.19), python3-rospkg, python3-rospy, ros-qt-gui, ros-qt-gui-py-common, ros-rqt-gui, ros-rqt-gui-py
-Filename: ./rqt-py-console_0.4.10-1-gf9bf603-2024.09.20.18.39_amd64.deb
-Size: 14672
-MD5sum: 38945b1ab268ec53254535b138abe475
-SHA1: a63a6b725f6edcdcbcaf5149b1d3ef0836244d7e
-SHA256: 10b7386220ec9439497e31a416ff5bdfc36587c594c89f50200daf42031dae38
-SHA512: 73282b25a0ec6c1a971590ac480d4627e1949706b18cd97100e22720bf0190a0034e58db507875474cbabd5656c30aefd553ffc6cecf1cc09f4b397ee3e99fd5
+Filename: ./rqt-py-console_0.4.10-1-gf9bf603-2024.09.22.09.35_amd64.deb
+Size: 14660
+MD5sum: 348d24268eb307df4bcb4d2768aefbb9
+SHA1: 5205c2a8de41fd92697796b9d6cbd12fb55a3ade
+SHA256: 442718602bd8ac349f36c0e0fa9d8ce8ec1e515ec6de875ca230afba515ba924
+SHA512: 17a8fee31ed18a607ceee8c0db39d4e9456ae1b58117114cb9e9ee7c6e01451c427359eedbb95eeb546aa6a3fefe4ca72cac2744439a4fa1700742b91efcf684
 Homepage: http://wiki.ros.org/rqt_py_console
 Description: rqt_py_console is a Python GUI plugin providing an interactive Python console.
 
 Package: rqt-robot-dashboard
 Architecture: amd64
-Version: 0.5.8-1-g3d890a9-2024.09.20.19.04
+Version: 0.5.8-1-g3d890a9-2024.09.22.09.36
 Priority: optional
 Section: misc
 Maintainer: Aaron Blasdel <ablasdel@gmail.com>
 Installed-Size: 4172
 Depends: libdiagnostic-msgs-dev, python3-diagnostic-msgs, python3-python-qt-binding (>= 0.2.19), python3-rospy, ros-diagnostic-msgs, ros-qt-gui, ros-rqt-console (>= 0.3.1), ros-rqt-gui, ros-rqt-gui-py, ros-rqt-nav-view, ros-rqt-robot-monitor
-Filename: ./rqt-robot-dashboard_0.5.8-1-g3d890a9-2024.09.20.19.04_amd64.deb
-Size: 1554176
-MD5sum: 31a6a2d47e057c23afe2514c170bed8d
-SHA1: 61d9b300a0e37a610ab6f911a456562da6cce0a3
-SHA256: 58375e9c0ea1e37942ec9064ece23630bc19abfdca70108bcb6ef131ca02247c
-SHA512: 8843c892be882f43296307ffd481f28f360e22621b645714a13e22a9688042c33d6e7732de9fcd2fdfda3812a9ce1390496f00233d25a1c5326382232cb1fd0c
+Filename: ./rqt-robot-dashboard_0.5.8-1-g3d890a9-2024.09.22.09.36_amd64.deb
+Size: 1554204
+MD5sum: 14d15a0e9db9262a049d482c77eb87f8
+SHA1: 1e6615af74ff922bca8130582419801ee538ea40
+SHA256: 06d0531f8a6d8979ccd7038d6c494f7b14d944b6c84b284000b31d8f60c2edf1
+SHA512: 610832d0f14002cc577fe900a63b54fcf41551a6a693a1b93ab21eb30d7d6be4d81cd406e8a4f873bd050b64c47fbfdea45053cebf071342632ba597d5f2a462
 Homepage: http://wiki.ros.org/rqt_robot_dashboard
 Description: rqt_robot_dashboard provides an infrastructure for building robot dashboard plugins in rqt.
 
 Package: rqt-robot-monitor
 Architecture: amd64
-Version: 0.5.12-2024.09.20.18.55
+Version: 0.5.12-2024.09.22.09.37
 Priority: optional
 Section: misc
 Maintainer: Aaron Blasdel <ablasdel@gmail.com>
 Installed-Size: 177
 Depends: libdiagnostic-msgs-dev, python3-diagnostic-msgs, python3-python-qt-binding (>= 0.2.19), python3-rospkg, python3-rospy, ros-diagnostic-msgs, ros-qt-gui, ros-qt-gui-py-common, ros-rqt-bag, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-py-common
-Filename: ./rqt-robot-monitor_0.5.12-2024.09.20.18.55_amd64.deb
-Size: 36864
-MD5sum: 1a037adfaf9ac346ad6369133fc6127e
-SHA1: 62f9f41c0552d551b724faa1720cbaed65812e15
-SHA256: e004a8189d90244c3e89ef6b8d4c1e18cfefe714fac28e1745566bd651a5d9ab
-SHA512: d289d4ebcd9c52dcb969f9151d093c8b4d0e04f2b0af1d604a612b8099028aa70237d352b992f0bc0a3f1781a8604792778c08f1374fda10757ed67cf959700a
+Filename: ./rqt-robot-monitor_0.5.12-2024.09.22.09.37_amd64.deb
+Size: 36856
+MD5sum: 8c7e255e094a5e1660a275c9b8eea801
+SHA1: d0f9b80fbe185359557a738667c69b0c940f5886
+SHA256: 23e7a4d467071754e35c106ad9051ee7bfa6593776ea417a5c582fa48ada60b8
+SHA512: 263c7a7d323f17654354b3bacf2b9dcc30522947aa5b5e6b757196967dbbb8e71b2fff50823ef255be581ec9a5996c16eb5003b6840983de0eda0fa687e5274e
 Homepage: http://wiki.ros.org/rqt_robot_monitor
 Description: rqt_robot_monitor displays diagnostics_agg topics messages that are published by diagnostic_aggregator.
  rqt_robot_monitor is a direct port to rqt of robot_monitor. All diagnostics are fall into one of three tree panes depending on the status of diagnostics (normal, warning, error/stale). Status are shown in trees to represent their hierarchy. Worse status dominates the higher level status. Ex. 'Computer' category has 3 sub devices. 2 are green but 1 is error. Then 'Computer' becomes error. You can look at the detail of each status by double-clicking the tree nodes. Currently re-usable API to other pkgs are not explicitly provided.
 
 Package: rqt-robot-steering
 Architecture: amd64
-Version: 0.5.12-5-g3076940-2024.09.20.18.39
+Version: 0.5.12-5-g3076940-2024.09.22.09.38
 Priority: optional
 Section: misc
 Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
 Installed-Size: 93
 Depends: libgeometry-msgs-dev, python3-geometry-msgs, python3-python-qt-binding (>= 0.2.19), python3-rospkg, python3-rostopic, ros-geometry-msgs, ros-rqt-gui, ros-rqt-gui-py
-Filename: ./rqt-robot-steering_0.5.12-5-g3076940-2024.09.20.18.39_amd64.deb
-Size: 15884
-MD5sum: d86848305df0b3097ffd81d43cb35cf3
-SHA1: afbb8db349992e3ae72031d08440a61054c7ebfa
-SHA256: 563662facc37b599b5a6c72f61390439104ce1e9f9ea98bfb44b19f7bf5f61e8
-SHA512: 2f058f7514f877a2d12cfa3003f92855236b9fe0e622c71dd9d484c0468dac30c4953414b59d286cfdfdbea18b434785bdcd27ae62d972b9fc0e3883f5e0b978
+Filename: ./rqt-robot-steering_0.5.12-5-g3076940-2024.09.22.09.38_amd64.deb
+Size: 15880
+MD5sum: 080b083f8971c8995a1356a43cbcbf54
+SHA1: 36b1387a9e9a057ac2ff1339a73754cd369edec2
+SHA256: ae4ad43f42efdb63befe1947a49ed71f70b2353fca834267e462697687d0cfca
+SHA512: 28d95ee749266e3b6d766bebb3b732b12c19663d6886a45fa82f476899cdaf96f45e8cfb7f1f256a06b4817739e42f1535a65b2aa1d2145ebe22afb4b3f49de4
 Homepage: http://wiki.ros.org/rqt_robot_steering
 Description: rqt_robot_steering provides a GUI plugin for steering a robot using Twist messages.
 
 Package: rqt-runtime-monitor
 Architecture: amd64
-Version: 0.5.10-1-g8cc5884-2024.09.20.18.40
+Version: 0.5.10-1-g8cc5884-2024.09.22.09.39
 Priority: optional
 Section: misc
 Maintainer: Aaron Blasdel <ablasdel@gmail.com>
 Installed-Size: 84
 Depends: libdiagnostic-msgs-dev, python3-diagnostic-msgs, python3-python-qt-binding (>= 0.2.19), python3-rospkg, python3-rospy, ros-diagnostic-msgs, ros-qt-gui, ros-rqt-gui, ros-rqt-gui-py
-Filename: ./rqt-runtime-monitor_0.5.10-1-g8cc5884-2024.09.20.18.40_amd64.deb
+Filename: ./rqt-runtime-monitor_0.5.10-1-g8cc5884-2024.09.22.09.39_amd64.deb
 Size: 18580
-MD5sum: 7589736393dad4abf50d86439c19f34d
-SHA1: bfd081067500c57b459936b8e6501c615dd7a9e0
-SHA256: 51498962ba404b02ec23a14a88f297ca74a6ae0b1e7770388445110671cc3499
-SHA512: da963cd96dd2fa941e32d74223729192259492a906cb161fe1ea57541ef60e5cb9f051831fd0320cf91d486181096461ffc30c7cbc92eac3ed5e2278b4bc8046
+MD5sum: 5df0360719b310dc6d7c86783890cb54
+SHA1: e2edf57d3048b8b00d0d87340e194247e55d36ae
+SHA256: aebc7b71aa6fa715143b63b1f31eef10332258d83b95d522eb1a9b76646831f1
+SHA512: 4d96b00e033936aa715085390cc32b45b387bb4e9f541b4d5a556c29cae9ba643df883200278cdf960a01937e1aec7d201313d2665ee49efb8ccc45d433e0482
 Homepage: http://wiki.ros.org/rqt_runtime_monitor
 Description: rqt_runtime_monitor provides a GUI plugin viewing DiagnosticsArray messages.
 
 Package: rqt-service-caller
 Architecture: amd64
-Version: 0.4.10-1-g08ff4cc-2024.09.20.18.41
+Version: 0.4.10-1-g08ff4cc-2024.09.22.09.40
 Priority: optional
 Section: misc
 Maintainer: Michael Carroll <michael@openrobotics.org>
 Installed-Size: 85
 Depends: python3-rospkg, python3-rosservice, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-py-common
-Filename: ./rqt-service-caller_0.4.10-1-g08ff4cc-2024.09.20.18.41_amd64.deb
-Size: 18944
-MD5sum: 58418118ca8fe5d935e3a19c95a62c7b
-SHA1: a35443d26aaf5b6b9e11511c5db8098f97515763
-SHA256: ba28e8748bcb1dc086da6d928bc609f3f95abdd7c546188c42a0a8ffb4479c88
-SHA512: 5ec9d2b6e6343060d021112db42339a237985d87827672a281a14a4752280f76118f59a98823c389775dea4e78d0b9e6a72c362c5352533eef02e9162ba7b368
+Filename: ./rqt-service-caller_0.4.10-1-g08ff4cc-2024.09.22.09.40_amd64.deb
+Size: 18936
+MD5sum: b3b640e192ea9a2def5bbd09dbbbc4b8
+SHA1: 9d3f7f2055459b3ba3c0cbddc7abf1d2fec22434
+SHA256: 49463537360676806fc202eccb7f900000c22e0fa1621607c026ea47e7fa0f00
+SHA512: 4e7160bba849eaeb7515361d949ded90f25ed29235d2d6eece3fcd45c88f02c4c90ef8f5203a8212f4195bf54c99492a14b0f4a88f2eacd015006ba5af968ce7
 Homepage: http://wiki.ros.org/rqt_service_caller
 Description: rqt_service_caller provides a GUI plugin for calling arbitrary services.
 
 Package: rqt-shell
 Architecture: amd64
-Version: 0.4.12-2024.09.20.18.42
+Version: 0.4.12-2024.09.22.09.41
 Priority: optional
 Section: misc
 Maintainer: Michael Carroll <michael@openrobotics.org>
 Installed-Size: 85
 Depends: python3-python-qt-binding (>= 0.2.19), python3-rospkg, ros-qt-gui, ros-qt-gui-py-common, ros-rqt-gui, ros-rqt-gui-py
-Filename: ./rqt-shell_0.4.12-2024.09.20.18.42_amd64.deb
+Filename: ./rqt-shell_0.4.12-2024.09.22.09.41_amd64.deb
 Size: 18800
-MD5sum: aafad90281c6bbd73254bfe27c892630
-SHA1: f15f97d581e88eb5a73e2a932296f6380b3b680b
-SHA256: 9028a12d92984f23ef8e0035d13db6f45f35f9be1a6b394ff990b8c13c12b725
-SHA512: 99958ab525b33c41f2efb769349a2c1f54489bd007fc5494dc7d862b83b3b8989c9695ee36cd7c6f45cfa471b275dc2406b36fba4096729b3025b6f3f9e6148c
+MD5sum: b50f2f0166ae2c687acdaf884509700d
+SHA1: 9162cb499d248014b1f5c8f7a115dee469d51ebf
+SHA256: 25ee4621942231b9dbd6a540bf301f6d608f455668e23e3f5bcfb954c975af05
+SHA512: 262ae36f6b2e74536342351e00c7c9f186c02ff9132fd13bd6e84bff1e979a3bdcea8d6adf19223fe386276fb37f50673c410f693929bba86a83bc2b8af79207
 Homepage: http://wiki.ros.org/rqt_shell
 Description: rqt_shell is a Python GUI plugin providing an interactive shell.
 
 Package: rqt-srv
 Architecture: amd64
-Version: 0.4.9-1-g876365e-2024.09.20.19.11
+Version: 0.4.9-1-g876365e-2024.09.22.09.42
 Priority: optional
 Section: misc
 Maintainer: Michael Carroll <michael@openrobotics.org>
 Installed-Size: 44
 Depends: python3-rosmsg, python3-rospy, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-msg
-Filename: ./rqt-srv_0.4.9-1-g876365e-2024.09.20.19.11_amd64.deb
-Size: 9424
-MD5sum: 2544dd18e1fe93c5eb29021b85fcbd29
-SHA1: d1c6141812646d68570b4f63b447459ee018b307
-SHA256: c038b2bdc49351e1fd9543b03737af37d4c5200210ed04ec4c4025df791b33ad
-SHA512: d15c34c386eb200f0acf4ea98dc9666cbc50b4a3bb161232833bac5fea846282b9518b328b4571a2f78b0b419e74b2be4b5ae29962b4d23810d7ea1f117959db
+Filename: ./rqt-srv_0.4.9-1-g876365e-2024.09.22.09.42_amd64.deb
+Size: 9428
+MD5sum: 204e033f65ae256ddd0a207dfaecf4bc
+SHA1: 8936d5288591cfe89a7c110ff0574e65299e8f31
+SHA256: 19deb2bb12651d350597abf0c1365615b5a0361fe593df000ee8feb8b267f7ea
+SHA512: 7b853a0f7368aa0c6e2955945de5bff79cce9aeba109e5ed7cf90f4ddaf62767011bd8da26d72dbf52ed1dfe1aaa610ba6dbc795566be990eac8a8c5c444cbbc
 Homepage: http://wiki.ros.org/rqt_srv
 Description: A Python GUI plugin for introspecting available ROS message types.
  Note that the srvs available through this plugin is the ones that are stored on your machine, not on the ROS core your rqt instance connects to.
 
 Package: rqt-tf-tree
 Architecture: amd64
-Version: 0.6.4-2024.09.20.18.56
+Version: 0.6.4-2024.09.22.09.43
 Priority: optional
 Section: misc
 Maintainer: Isaac I.Y. Saito <gm130s@gmail.com>
 Installed-Size: 84
 Depends: libtf2-msgs-dev, libtf2-ros-dev, python3-python-qt-binding (>= 0.2.19), python3-rospkg, python3-rospy, python3-tf2-msgs, python3-tf2-ros, ros-qt-dotgraph, ros-rqt-graph, ros-rqt-gui, ros-rqt-gui-py, ros-tf2-msgs
-Filename: ./rqt-tf-tree_0.6.4-2024.09.20.18.56_amd64.deb
-Size: 19208
-MD5sum: 2d21713e5d2f7c5f2cac61e276e10ad4
-SHA1: 114e01420f8a92094d27630fc6266d534ff5cf31
-SHA256: f65a6accb0e2e5e33298066531880d24d94b1c2ac6c850000a52fa28411d0577
-SHA512: ec4d36e65670f216175d03e6f0d2eb2e066f57757d1d17e8a7a60d9cb521f21a125da9990c588e3475ba63bc2b4e941b48e2767936b4004fa4618662af446385
+Filename: ./rqt-tf-tree_0.6.4-2024.09.22.09.43_amd64.deb
+Size: 19212
+MD5sum: 58e3c0955ef98970a7afe0843153ca9e
+SHA1: 62b2d627c148a0cf61909a698c48db26211a92b6
+SHA256: 49216db3b91a20f94a14c7ee0e6ed51f9f3258e38490b09a44d8d3d5118badde
+SHA512: 06848f684e12c9389351238bde07460618e0d6ed9fabd238861bb9f695302cdd2747e06aa82f903f277b5dd89ba8d93fa828538ac9dbf5edea6b0924f19b944c
 Homepage: http://wiki.ros.org/rqt_tf_tree
 Description: rqt_tf_tree provides a GUI plugin for visualizing the ROS TF frame tree.
 
 Package: rqt-top
 Architecture: amd64
-Version: 0.4.10-1-gb2caab1-2024.09.20.18.43
+Version: 0.4.10-1-gb2caab1-2024.09.22.09.44
 Priority: optional
 Section: misc
 Maintainer: Michael Carroll <michael@openrobotics.org>
 Installed-Size: 72
 Depends: python3-psutil, python3-python-qt-binding (>= 0.2.19), python3-rospy, ros-rqt-gui, ros-rqt-gui-py
-Filename: ./rqt-top_0.4.10-1-gb2caab1-2024.09.20.18.43_amd64.deb
-Size: 17868
-MD5sum: cca9eb4ead26a0e3a16a301440732411
-SHA1: 6ef481afd0e4b40456885138cc0a61794d196c27
-SHA256: 1aeead2fcf330262facc5968044e94694fe659db66c5090d59a1ba8dc0ffb726
-SHA512: 1f9c6ae9c5f7a92975baea8a2562c55c63f4edb4dc007ce44ce6aeb32d3928d40a8c257a1bdd3a5e6d848e365551d14c4e89b199b7c1cc968350e3ee07ca3db4
+Filename: ./rqt-top_0.4.10-1-gb2caab1-2024.09.22.09.44_amd64.deb
+Size: 17872
+MD5sum: 08dd72482f7dd0dc0c2e91cb39aba32b
+SHA1: 34630153ac32c23d024fa110d7bc0517689c0f57
+SHA256: b407623082582c8e833d2b3e84596727053c7f209bccd92da30b0167f7670aab
+SHA512: b3a9148f700aaaefd0a65b2330d75831504f8ee122d5cbf3fa638ef20f1c38e715bce4dbfa8ffba2e0c7d4b9030d728e7ec69c96cc8b3f67de996c22cb53f8ab
 Homepage: http://wiki.ros.org/rqt_top
 Description: RQT plugin for monitoring ROS processes.
 
 Package: rqt-topic
 Architecture: amd64
-Version: 0.4.13-4-g8465371-2024.09.20.18.44
+Version: 0.4.13-4-g8465371-2024.09.22.09.45
 Priority: optional
 Section: misc
 Maintainer: Dorian Scholz <scholz@sim.tu-darmstadt.de>
 Installed-Size: 104
 Depends: libstd-msgs-dev, python3-python-qt-binding (>= 0.2.19), python3-rospkg, python3-rostopic, python3-std-msgs, ros-rqt-gui, ros-rqt-gui-py, ros-std-msgs
-Filename: ./rqt-topic_0.4.13-4-g8465371-2024.09.20.18.44_amd64.deb
+Filename: ./rqt-topic_0.4.13-4-g8465371-2024.09.22.09.45_amd64.deb
 Size: 25132
-MD5sum: 81cea66f3036b72fdfa75ccab1ff5eb1
-SHA1: 120377bd2409951823f933b46cfcb0c0a21a2859
-SHA256: 0c2324b27f5ef0b62cac4ab3e3f80fffb5a04732a393da04f5b78480f028a530
-SHA512: 7c6daec9abc24fc83fdb3529e7c32cab4299ff818eda6eb0c8294aa6c72b2c4665cbbcb1e6cec6bfcc2dec1f11b134455f5c796173ff0a3f0213c25ef599e82b
+MD5sum: bf52b989cfb0fcb9c5bf4810cd246f6d
+SHA1: 4c42d419e3e40674dfd56005156822825e8d43d5
+SHA256: af0e8c35810e7c94183905208894b9bd4aa3a165cdff3f7b1c419b45f697722c
+SHA512: d241105772808e59590865e1eb64ec687cb608b7baac3f4fb87e198462807c23c4f78eda7df4bcd675826863a0dd88ed0b6d10b54c0f57674218b34d9cbcff08
 Homepage: http://wiki.ros.org/rqt_topic
 Description: rqt_topic provides a GUI plugin for displaying debug information about ROS topics including publishers, subscribers, publishing rate, and ROS Messages.
 
 Package: rqt-web
 Architecture: amd64
-Version: 0.4.10-5-g49eaabf-2024.09.20.18.45
+Version: 0.4.10-5-g49eaabf-2024.09.22.09.46
 Priority: optional
 Section: misc
 Maintainer: Scott Logan <scott@openrobotics.org>
 Installed-Size: 67
 Depends: python3-python-qt-binding (>= 0.2.19), python3-rospkg, python3-rospy, ros-qt-gui, ros-rqt-gui, ros-rqt-gui-py, ros-webkit-dependency
-Filename: ./rqt-web_0.4.10-5-g49eaabf-2024.09.20.18.45_amd64.deb
-Size: 14820
-MD5sum: 6ef894a958cadfd42ce7bb0ddfdb8ac4
-SHA1: 42127ecf303b0c24492d2652b533366d7a9a07e9
-SHA256: f0c78725e65330701d669bc47e75e75e83fd0335ff75f2753023d3fb7ffaf171
-SHA512: 3c676e02f996cf8c5564b4c71bc340627356616a7f1d996b0aff671aa97bdd540d8faddcf446052ff58f78bb0c86c036bb1fb35de9c5e10acbdf6a74d9a57123
+Filename: ./rqt-web_0.4.10-5-g49eaabf-2024.09.22.09.46_amd64.deb
+Size: 14824
+MD5sum: 73b69ec97a79b290761ba2b150825031
+SHA1: 115508abcf275776c0039da09bce3bbd56671f3e
+SHA256: bad2f7885186d4f74308126088d5321624c679b85a13cafa56f8c25dd529ee8d
+SHA512: b186bd7f75de9f876c2b677a2e633ef3684dd6de96c3bbc845040ce2b285d7591ffbaa9602784e307a421744081951377e6ddb2f5a557f546f340047062f63ea
 Homepage: http://wiki.ros.org/rqt_web
 Description: rqt_web is a simple web content viewer for rqt.
  Users can show web content in Qt-based window by specifying its URL.
 
 Package: rqt
 Architecture: amd64
-Version: 0.5.2-8-gb606144-2024.09.20.18.28
+Version: 0.5.2-8-gb606144-2024.09.22.09.15
 Priority: optional
 Section: misc
 Maintainer: Dharini Dutia <dharini@openrobotics.org>
 Installed-Size: 11
 Depends: ros-rqt-gui (>= 0.3.0), ros-rqt-gui-cpp (>= 0.3.0), ros-rqt-gui-py (>= 0.3.0)
-Filename: ./rqt_0.5.2-8-gb606144-2024.09.20.18.28_amd64.deb
+Filename: ./rqt_0.5.2-8-gb606144-2024.09.22.09.15_amd64.deb
 Size: 2328
-MD5sum: 1f5d9ca13e3076567854b57f0eb6ea46
-SHA1: 3e02bdd0a1e431b3ef20f540eaa457d7eee2188d
-SHA256: cbb69b9f00d9e96f66bd6833a7884f99624792fb3539e2e5ffd7f93afefb6d6f
-SHA512: fc62df195691499c58e76c8470537b3e24f2418c9f11825a90ea81f13169484fc026f44d94a8fb9598955bae7c6515bfd3b8f40d04442b475e2e5521b0e10376
+MD5sum: e78261e7bd210e01f031857e3fd5cb7e
+SHA1: c368a150db019b896330c6800613ed12c2d1af82
+SHA256: a686d969941082f77c3333757b102d998f51f95876d2f4f4b59fbeb119caf149
+SHA512: 2e24ed335cd94942bbf061b8be9ec182997a41b2a4236a725c5f804bca52c6d4c49f276e4859ffc674d9f03f333244b801eb83b513730e3148bc3e96403142b9
 Homepage: http://ros.org/wiki/rqt
 Description: rqt is a Qt-based framework for GUI development for ROS.
  It consists of three parts/metapackages rqt (you're here) rqt_common_plugins - ROS backend tools suite that can be used on/off of robot runtime. rqt_robot_plugins - Tools for interacting with robots during their runtime. rqt metapackage provides a widget rqt_gui that enables multiple `rqt` widgets to be docked in a single window.
 
+Package: ruckig-dbgsym
+Architecture: amd64
+Version: 0.14.0-2024.09.22.09.47
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ruckig
+Maintainer: Lars Berscheid <lars.berscheid@ruckig.com>
+Installed-Size: 2662
+Depends: ruckig (= 0.14.0-2024.09.22.09.47)
+Filename: ./ruckig-dbgsym_0.14.0-2024.09.22.09.47_amd64.deb
+Size: 2562768
+MD5sum: 093ce527cdf7217eb00e9b4a11dab138
+SHA1: f1ab717cf5327cec3d652f86755e340900da2cc3
+SHA256: 9fc79224f85aa607f9511666911de00a7c2f0381fcfaf6eafe3fc01a8598101d
+SHA512: c1e8b1b6fb5e3824feaae9f378db64ac45ba7a99362c0c85d73a401646193479bc458d3332aa4b9ea8b30720439bdcc2c781d48e4e46e64cb1708e4a5a40ba1a
+Description: debug symbols for ruckig
+Build-Ids: d237cdbcbde3873b8594e6020beb9e6863db2966
+
+Package: ruckig
+Architecture: amd64
+Version: 0.14.0-2024.09.22.09.47
+Priority: optional
+Section: misc
+Maintainer: Lars Berscheid <lars.berscheid@ruckig.com>
+Installed-Size: 886
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Filename: ./ruckig_0.14.0-2024.09.22.09.47_amd64.deb
+Size: 247948
+MD5sum: 9947b4b856708fbdabada590bb330c84
+SHA1: a8b2199a6e4e3ee59d60174e181172f0cf410b72
+SHA256: 7b4ba595edf50a33ca21122fb2a5a2f49c16fafcc0cef15292d1d51ec103bea6
+SHA512: a4900beb7f06cbc2e554332d89da0adfb51b75d35bd33aa3a2ca5f0fb3a9cdf437ebb31b63d1861e1e59e0aa59c9b49ec88b38364caa55cdc4698bb7dfb066e0
+Description: Instantaneous Motion Generation for Robots and Machines.
+
 Package: smach-msgs
 Architecture: amd64
-Version: 2.5.2-2-g7153326-2024.09.20.17.30
+Version: 2.5.2-2-g7153326-2024.09.22.09.51
 Priority: optional
 Section: misc
 Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
 Installed-Size: 220
 Depends: libstd-msgs-dev, python3-std-msgs, ros-message-runtime, ros-std-msgs
-Filename: ./smach-msgs_2.5.2-2-g7153326-2024.09.20.17.30_amd64.deb
-Size: 20312
-MD5sum: ff7d0147f20124363eb8d2554741598f
-SHA1: 2016535852cecf593d6fa0fec98daa58b0da155d
-SHA256: 2adde77174c6c32c10ce4ae6421f94d1e5b9975c65dae748222cd2fe22464b05
-SHA512: 979012a4f0572afc9d607f35073515bcb6e3d4bf0fefd3ed4b3cb807d09e4fdc63780fb9a549566f525a45f81a759e1ea03e197b265bb99157cd6edd7ca29336
+Filename: ./smach-msgs_2.5.2-2-g7153326-2024.09.22.09.51_amd64.deb
+Size: 20308
+MD5sum: ebde1e8fcb51918d91ddd9aef438b430
+SHA1: 4646c5566cda2b433d8ea9f05ef78c78ed931aed
+SHA256: f807cea07b8017eb5cca62526b2362c558510834eed098bc9852b02462302704
+SHA512: 2df3e3d434c7fe44fa3ae29719696bae5bde760b1a219867154bb94ff7d0600c546c47fb8d3ea02b937541ef92261e2cf61970037bab1868091c115c154387cb
 Description: this package contains a set of messages that are used by the introspection interfaces for smach.
 
 Package: smach-ros
 Architecture: amd64
-Version: 2.5.2-2-g7153326-2024.09.20.17.56
+Version: 2.5.2-2-g7153326-2024.09.22.09.52
 Priority: optional
 Section: misc
 Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
 Installed-Size: 170
 Depends: libactionlib-dev, libactionlib-msgs-dev, libstd-msgs-dev, libstd-srvs-dev, python3-actionlib, python3-actionlib-msgs, python3-rospy, python3-rostopic, python3-std-msgs, python3-std-srvs, ros-actionlib-msgs, ros-smach, ros-smach-msgs, ros-std-msgs, ros-std-srvs
-Filename: ./smach-ros_2.5.2-2-g7153326-2024.09.20.17.56_amd64.deb
-Size: 39228
-MD5sum: 7e3b59ec5b68c8b415db67c6ff52fb13
-SHA1: 102c431e90f37b27b259bf82a18aa83c9a42db16
-SHA256: 2e4aef1e853b126a30213b4fd80e1683c206898260656890451bda75aeeb41fe
-SHA512: 95dfb9aaedb0e4d6329222c59ea84ffc67b22a62bd9f239940a746c8faa1516c3ecd923d304a81d2ab46cbafd79f8a04c38269b86b8982ce3cd32f4b180ab9c6
+Filename: ./smach-ros_2.5.2-2-g7153326-2024.09.22.09.52_amd64.deb
+Size: 39224
+MD5sum: d3963ab19425640d60872e0bacf70a82
+SHA1: 03115ce2e5d1a0624c9aed44298864581acd23e4
+SHA256: c6c1dfad8b0260de5484939c137ed8a6da30ebb0e19aeece714bc861dcc339f2
+SHA512: 18d4c69cb9f605994aedae072d432bce9cd5b81334bca461f21b1f016949ff87f9e6e4c43f20a43704fec339157e0f596e258c5f4ab833b5eeeffb9af3e78235
 Description: The smach_ros package contains extensions for the SMACH library to integrate it tightly with ROS.
  For example, SMACH-ROS can call ROS services, listen to ROS topics, and integrate with actionlib both as a client, and a provider of action servers. SMACH is a new library that takes advantage of very old concepts in order to quickly create robust robot behavior with maintainable and modular code.
 
 Package: smach-viewer
 Architecture: amd64
-Version: 4.1.0-7-ge82d7ef-2024.09.20.18.15
+Version: 4.1.0-7-ge82d7ef-2024.09.22.09.53
 Priority: optional
 Section: misc
 Maintainer: Jonathan Bohren <jbo@jhu.edu>
 Installed-Size: 644
 Depends: graphviz, libcv-bridge-dev, libgtk-3-dev, libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-cv-bridge, python3-gi, python3-gi-cairo, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-rospkg, python3-sip-dev, python3-wxgtk4.0, qtbase5-dev, ros-smach-msgs, ros-smach-ros, shiboken2, xdot
-Filename: ./smach-viewer_4.1.0-7-ge82d7ef-2024.09.20.18.15_amd64.deb
-Size: 127848
-MD5sum: fd703b78df33af69a07a8e9a02d5cffb
-SHA1: 77bb9297a62437c2b91b03dc9a7dc169c921f2b6
-SHA256: 862ccda4c820c25c8ddf7a196091066b836d7512720eb24afa8e9950db1fa875
-SHA512: 07f1452ab016776eb9c97483926454d71ead4bf43cc4db289163c5f4fd7531ec2cb1f91e7afe88dcc9343d1f4de28c4f2cc6df4c38cfd5844f9a540993bffbe8
+Filename: ./smach-viewer_4.1.0-7-ge82d7ef-2024.09.22.09.53_amd64.deb
+Size: 127844
+MD5sum: 7ccc91517f54f88181bb85948ad35583
+SHA1: f453aa82bc73954fa219b90e1afc4caec0d70d38
+SHA256: 787b91ba4359ae0cb92c076e55476a4e55ee76dd98452bffc7e2c9585d0bfa68
+SHA512: eddd52778a32838bf4cbbaaacf421281e25949d1069745daac79746e7549f44697f0126411b0f983ddefcf49a47f790596908ec445cbb172c8c3047b0af6a25f
 Homepage: http://ros.org/wiki/smach_viewer
 Description: The smach viewer is a GUI that shows the state of hierarchical SMACH state machines.
  It can visualize the possible transitions between states, as well as the currently active state and the values of user data that is passed around between states. The smach viewer uses the SMACH debugging interface based on the smach messages to gather information from running state machines.
 
 Package: smach
 Architecture: amd64
-Version: 2.5.2-2-g7153326-2024.09.20.17.29
+Version: 2.5.2-2-g7153326-2024.09.22.09.50
 Priority: optional
 Section: misc
 Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
 Installed-Size: 226
-Filename: ./smach_2.5.2-2-g7153326-2024.09.20.17.29_amd64.deb
-Size: 48568
-MD5sum: ef0201a2eb1f78c816758939cded3f90
-SHA1: 6d05f61e912b49fad549ef0b28e63ef91d3b66da
-SHA256: ff5d90b6e412b06dcb5f2bde20939277358a065637ce92f927f6dfad78b46ebf
-SHA512: c0fba3f02e528ef62c6fe015a752676124e678e57903800254f724f1e1e63ccd63141a935b6d65554fdb0d4748c26dc85920d34795d539ec1240e23174efc739
+Filename: ./smach_2.5.2-2-g7153326-2024.09.22.09.50_amd64.deb
+Size: 48576
+MD5sum: d26ae602e4e9e1203f7bb5a271cadbb4
+SHA1: 3385556ec7f82ab7acf89864529a659fee272f2c
+SHA256: ab2691f2ef2a2ea1f51f4a4fcc936c2ee94f5a3b1f6a41d0a0146cb44ce778e7
+SHA512: 2e42a885fc766cdc6473c35a46a098dd8d3f41dbc60111684e640fa9a490d5acdac12b3ad6c72ceb946378ed49abc56707ab39165d696e3a23971c6ac35c53e2
 Description: SMACH is a task-level architecture for rapidly creating complex robot behavior.
  At its core, SMACH is a ROS-independent Python library to build hierarchical state machines. SMACH is a new library that takes advantage of very old concepts in order to quickly create robust robot behavior with maintainable and modular code.
 
 Package: soem-dbgsym
 Architecture: amd64
-Version: 1.4.1003-1-g988013c-2024.09.20.17.31
+Version: 1.4.1003-1-g988013c-2024.09.22.09.54
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: soem
 Maintainer: Matthias Gruhler <matthias.gruhler@gmail.com>
 Installed-Size: 351
-Depends: soem (= 1.4.1003-1-g988013c-2024.09.20.17.31)
-Filename: ./soem-dbgsym_1.4.1003-1-g988013c-2024.09.20.17.31_amd64.deb
-Size: 303976
-MD5sum: 468c92ac784a4607b9b980488637542f
-SHA1: f7f0cfc8647634231a613c7603c61c1cecdd2568
-SHA256: ca02ae670126276dccc3c4f9791d962008303e41f90df0c99e35375073b7045c
-SHA512: 0e615764ac49dcc2a69a6edbe8b652e706f72f3b0bbc35d9f6f014a92d7d4160c8bcbc4359df6d3ec24ad129820c29817e11e76335061bc2f75be911f7378a54
+Depends: soem (= 1.4.1003-1-g988013c-2024.09.22.09.54)
+Filename: ./soem-dbgsym_1.4.1003-1-g988013c-2024.09.22.09.54_amd64.deb
+Size: 303972
+MD5sum: 8ce3e9199c826cc679f245b6270957ef
+SHA1: baf59a31daa356d0acc51ede9fe2547783481175
+SHA256: 2a95fb4b8df9fed1dc1822afba8e30fbf4fd445fbcec5327f8d6aeeafbd19d16
+SHA512: d12032b43d4c3539a83fe9eaa633d6c6f03079837ea914e5c22c9497b93e45170cef223ecc78263ffc6afd68e81eabba54382ab7fb77c0b3a4191d723bef593e
 Description: debug symbols for soem
 Build-Ids: 12b3b6fb14f8b01bfc139185a6b8be1490b2fa12 54cdf1079404efb5dc28d810fbca87aed5f614fd f90a0df1296e39bb7ecd7b88af1133409eead245
 
 Package: soem
 Architecture: amd64
-Version: 1.4.1003-1-g988013c-2024.09.20.17.31
+Version: 1.4.1003-1-g988013c-2024.09.22.09.54
 Priority: optional
 Section: misc
 Maintainer: Matthias Gruhler <matthias.gruhler@gmail.com>
 Installed-Size: 535
 Depends: libc6 (>= 2.34)
-Filename: ./soem_1.4.1003-1-g988013c-2024.09.20.17.31_amd64.deb
-Size: 89612
-MD5sum: 3783fe9a1367c6494f2c0ba7be23c1c2
-SHA1: 9e3a39f9e1f904fc9914ccf45259fce57d9d8fe7
-SHA256: 6dc216ce92249a3d6748a5f9f4fa97a2874947d313bedd0db5db220622903259
-SHA512: f84d54156a5344d984da39cc43e47a42b162bbf90c3eec16312a9d87e2a2ab4a17f5bf3d2f511b7043ade07c0bc31712cdd8e2bc5cbc9b47bcea1db62d8d9bea
+Filename: ./soem_1.4.1003-1-g988013c-2024.09.22.09.54_amd64.deb
+Size: 89616
+MD5sum: a13723f316163129e47e68e90a7a2037
+SHA1: 21ecceb292a4d41caba7e6505ae6f1a601e59909
+SHA256: 4617bb4404d83c43fb6bde8be258ff95b16ee54ef1bc5a7e49ba32bdbd1a282b
+SHA512: 50ff60f62e0e0f6eb1511ac104878f1ff23ad1122e15fcda6746ea99a973393ecee14f54c80fc5f0ad89cac557898a2866c901dd66bb27e1619d65de1cd57d9e
 Homepage: http://openethercatsociety.github.io/
 Description: ROS wrapper for the Simple Open EtherCAT Master SOEM.
  This is an updated version of the original SOEM wrapper released into ROS now including the upstream Repo as a git subtree.
 
 Package: srdfdom-dbgsym
 Architecture: amd64
-Version: 0.6.4-3-g68f64f8-2024.09.20.17.58
+Version: 0.6.4-3-g68f64f8-2024.09.22.09.57
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: srdfdom
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
 Installed-Size: 1008
-Depends: srdfdom (= 0.6.4-3-g68f64f8-2024.09.20.17.58)
-Filename: ./srdfdom-dbgsym_0.6.4-3-g68f64f8-2024.09.20.17.58_amd64.deb
+Depends: srdfdom (= 0.6.4-3-g68f64f8-2024.09.22.09.57)
+Filename: ./srdfdom-dbgsym_0.6.4-3-g68f64f8-2024.09.22.09.57_amd64.deb
 Size: 985148
-MD5sum: 6ace0bf85b5313b77f8617348a61050c
-SHA1: 745f08b1aa00da6733ca2188868678c08129d13f
-SHA256: 2da11404c5b840cbf10d97bc3dc0e678fe3cf5c590be69d431bfa098b0e99fbc
-SHA512: ef822f05ca5ae72fd5988ead84636a7be158f79b7008869a786afb749facfcd9299a1c3b37cc241f31619c33b2657a6448d1d92463c4abcd0443f324a5785328
+MD5sum: 889ffce2d9a17a2e613da6cd509623e6
+SHA1: 10f3701c1b5c9119499f91fcf173ffb6eec9bfc2
+SHA256: cc78a9cde2f3c82937b8681915f1224ab13639c75b2e5f014f2c2207e97d8861
+SHA512: 401a5d6f6fced14d95a8584abd1b6e7b06697c8d040ec325062c5efdb30a067c48274c928fedbb9948ff50595a7566f3d7850e13f0c41c83f2ea69cc029e2cf8
 Description: debug symbols for srdfdom
 Build-Ids: ec235de0a1f2d55daaab7f6ee04ea2e306f051ec
 
 Package: srdfdom
 Architecture: amd64
-Version: 0.6.4-3-g68f64f8-2024.09.20.17.58
+Version: 0.6.4-3-g68f64f8-2024.09.22.09.57
 Priority: optional
 Section: misc
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
 Installed-Size: 245
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libboost-all-dev, libtinyxml2-dev, liburdf-dev, ros-urdfdom-py
-Filename: ./srdfdom_0.6.4-3-g68f64f8-2024.09.20.17.58_amd64.deb
-Size: 68232
-MD5sum: f86706d475be0bff96ec0a0f29ae3017
-SHA1: 2901b039239a127fb5475bf6ac5f0a2076ea5d76
-SHA256: 12aea7eeb5410aca9c59414205cabd6feddddbd1fdfc0b5f46b47134a26ae51c
-SHA512: 3e4b08e5829ce6d087e232174a22fd78e598942ec33d6fddde53f92516adc42ffabd4888a21168b7f0b1d8e80a21eab0a15a1fd24fd536fab199bdb475ea6b69
+Filename: ./srdfdom_0.6.4-3-g68f64f8-2024.09.22.09.57_amd64.deb
+Size: 68228
+MD5sum: 4e1aa6b0e9bb75dcb269616d8c98189b
+SHA1: c08657b2fdbbdd7d89fc8c85f6d8ba914391630a
+SHA256: 560499afd8a4b635cf1acb0c4ac56cad7584fdcf5b047122d8047d7d80fd9bd8
+SHA512: c73559624729bb71ce23da2f9d1be577283dabb653de37d5a4db57a13f9cf67439547c1e6c2774ddc05ecefe2ba63f1456a8078578d4cdb8d736b9f9ce64df1c
 Homepage: http://ros.org/wiki/srdfdom
 Description: Parser for Semantic Robot Description Format (SRDF).
 
 Package: teleop-tools
 Architecture: amd64
-Version: 0.4.1-1-g735e46c-2024.09.20.18.46
+Version: 0.4.1-1-g735e46c-2024.09.22.09.58
 Priority: optional
 Section: misc
 Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
 Installed-Size: 11
 Depends: ros-joy-teleop, ros-key-teleop, ros-mouse-teleop, ros-teleop-tools-msgs
-Filename: ./teleop-tools_0.4.1-1-g735e46c-2024.09.20.18.46_amd64.deb
-Size: 2432
-MD5sum: 421f48240e6fd2c3e9f33a204cc9a03b
-SHA1: a9d4f9fdfce33a17bfeb52de1d8d0dcebffaf839
-SHA256: 88120594cb985215d7a815532b18fe26bb970c421bb87ca2df5a83ab14d42a1d
-SHA512: 550ed473d70d3643f66870756f33b01e16cbd311170967db40323137dc30562dca29449871b313e0d6ce8893cd207430b777d753f845fcb011f4497f333be244
+Filename: ./teleop-tools_0.4.1-1-g735e46c-2024.09.22.09.58_amd64.deb
+Size: 2428
+MD5sum: 803afe02724f56b42ebd945fea654530
+SHA1: 246b8c77fb58c4824b0465d77c723d564304723d
+SHA256: ddc6dc05f70e86f3a4918691ebbcf56740a9c97cae871dc728ae7553bc1aeefe
+SHA512: 233f9d03ce6ba9721d1231b31c831aca4ef8f09322205b8d8a66a88d3ec3e3c21425beb5b8eab4121b746f83eb0db722b5db36a21da531bcfdc7447b8ccb70f2
 Description: A set of generic teleoperation tools for any robot.
 
 Package: theora-image-transport-dbgsym
 Architecture: amd64
-Version: 1.15.0-9-gcae592c-2024.09.20.17.32
+Version: 1.15.0-9-gcae592c-2024.09.22.10.00
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: theora-image-transport
 Maintainer: Kenji Brameld <kenjibrameld@gmail.com>
 Installed-Size: 2353
-Depends: theora-image-transport (= 1.15.0-9-gcae592c-2024.09.20.17.32)
-Filename: ./theora-image-transport-dbgsym_1.15.0-9-gcae592c-2024.09.20.17.32_amd64.deb
+Depends: theora-image-transport (= 1.15.0-9-gcae592c-2024.09.22.10.00)
+Filename: ./theora-image-transport-dbgsym_1.15.0-9-gcae592c-2024.09.22.10.00_amd64.deb
 Size: 2237560
-MD5sum: 805202af71244ea9854c5977f60aa1a2
-SHA1: 09b86e874330df6ec5b16a74cf73d1781bddd057
-SHA256: 516bdc8316abc0697a033690c34bcec2fec8aad098a824c4a8d7a463d9507013
-SHA512: 76407927a5ab0176375c3f2b3cd48fc5abdd7011da6feeee4a25dbb5f3d68faf851cadf4924ba90d4e9193b48b85dd8f98ef7cdf9be91e77014b690d42e213c8
+MD5sum: 4dc295b89f46cbbf054f9c06180249b0
+SHA1: 2392a5367ee6ab3d1d98ed6c7475b6a172ca8b46
+SHA256: 24893fa74bc1631e3bbae345195823085f7f33010e1b03ad942f4e4ff4c6e1df
+SHA512: de71a0374f138ea2d57bd1876a504f97d9fde8ece3df293e83dc7de6147ee5763498104f7239e1fb817ad1c4c7c8eadd11718373f9d3da91eb5fde4fa104bce0
 Description: debug symbols for theora-image-transport
 Build-Ids: 29f2ce7c8aca1054fa35280b670b21e1806ac300 3e45b333bdf6a0215fb2cf1d2a9c8805c2ae8521
 
 Package: theora-image-transport
 Architecture: amd64
-Version: 1.15.0-9-gcae592c-2024.09.20.17.32
+Version: 1.15.0-9-gcae592c-2024.09.22.10.00
 Priority: optional
 Section: misc
 Maintainer: Kenji Brameld <kenjibrameld@gmail.com>
 Installed-Size: 513
 Depends: libc6 (>= 2.34), libclass-loader3d (>= 2.4.0), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libcv-bridge2d (>= 1.16.2+ds), libdynamic-reconfigure-config-init-mutex0d (>= 1.7.3), libgcc-s1 (>= 3.0), libimage-transport0d (>= 1.12.0), libogg0 (>= 1.0rc3), libopencv-core406 (>= 4.6.0+dfsg), libopencv-imgproc406 (>= 4.6.0+dfsg), librosconsole3d (>= 1.14.3), libroscpp-serialization0d (>= 0.7.2), libroscpp4d (>= 1.15.15+ds), libstdc++6 (>= 11), libtheora0 (>= 1.0), image-transport-tools, libcv-bridge-dev, libdynamic-reconfigure-config-init-mutex-dev, libimage-transport-dev, libogg-dev, librosbag-dev, libstd-msgs-dev, libtheora-dev, pluginlib-dev, python3-cv-bridge, python3-dynamic-reconfigure, python3-rosbag, python3-std-msgs, ros-message-runtime, ros-std-msgs
-Filename: ./theora-image-transport_1.15.0-9-gcae592c-2024.09.20.17.32_amd64.deb
-Size: 121052
-MD5sum: bb68a8fd9a20b62c191c56399ee93e5f
-SHA1: 6a09d6794be35b29c99bbc6f273a351148e6a68a
-SHA256: 6b83d36bcd08f3fafc6bcd420669ec72c0c07695f460414f8b524d745fdde3a4
-SHA512: ad5119ab06fd40a4ffef2d272228d2770a9b7bb758535e74dfa9ca626c39f0ded9bf43692ed9807ea53b602d5bdd64fb941ef53bf87bd63b0d5793f4524a28a7
+Filename: ./theora-image-transport_1.15.0-9-gcae592c-2024.09.22.10.00_amd64.deb
+Size: 121056
+MD5sum: aa02bc12dfb96eeea52b30ebcc2d5e7d
+SHA1: 8a89105e99b7b0fba400d966e0707118b17822ef
+SHA256: 499aa3c9faeb1480c0a7ac6d9f4843a41c5fb88631a08f967f93efcd7beed506
+SHA512: 61e1ae0512b1c9502c0b93131d4a29ad7b6fee4f552905839e258249acccf73ed708a2a1569108edba9b4a9454f4fb4b35486d662b8346dd5e28b9afd2d780aa
 Homepage: http://www.ros.org/wiki/image_transport_plugins
 Description: Theora_image_transport provides a plugin to image_transport for transparently sending an image stream encoded with the Theora codec.
 
 Package: timestamp-tools
 Architecture: amd64
-Version: 1.6.9-2024.09.20.17.33
+Version: 1.6.9-2024.09.22.10.02
 Priority: optional
 Section: misc
 Maintainer: Chad Rockey <chadrockey@gmail.com>
 Installed-Size: 40
 Depends: libroscpp-core-dev, libroscpp-dev, libroslib-dev, python3-roslib
-Filename: ./timestamp-tools_1.6.9-2024.09.20.17.33_amd64.deb
-Size: 9924
-MD5sum: ed21aa3e81e74b448048a91d5ddbff05
-SHA1: 8e6ff5240d7da85808e5cc0bc9be1ca678bde2d7
-SHA256: ae95e42e4f120694f1f5362eadd846a88a7f3b4c7208d3d1d062400cddb9628a
-SHA512: 14131a6983264c0ceef603cb0730d1eaf75e1e2502125aeeb22ca9eac25426ae6b430f6048485b5792c22cc1bcfb955ba68da0e6260823bbaf2b55c60d2cd42a
+Filename: ./timestamp-tools_1.6.9-2024.09.22.10.02_amd64.deb
+Size: 9920
+MD5sum: ab3fe52b636224ff7948f945e0702082
+SHA1: 3b8e6de80d2a543a96279c1bad12c261166ac223
+SHA256: 648a87a79523f276e0cbf11cbc7bb4df2811f8fca3aa52185e982b6acfe342bb
+SHA512: 10920c1485bcc271320159c5d79aa334a9d6297ecdbdc157925bb724e63f66c71aca6f4ed0926d0e18ba265879ec149f388e7b75a4619b9fe36016b1b1248515
 Homepage: http://www.ros.org/wiki/timestamp_tools
 Description: This package is currently for internal use only.
  Its API may change without warning in the future. This package is deprecated.
 
 Package: turtlesim-dbgsym
 Architecture: amd64
-Version: 0.10.2-3-gdb63288-2024.09.20.17.34
+Version: 0.10.2-3-gdb63288-2024.09.22.10.04
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: turtlesim
 Maintainer: Mabel Zhang <mabel@openrobotics.org>
 Installed-Size: 2759
-Depends: turtlesim (= 0.10.2-3-gdb63288-2024.09.20.17.34)
-Filename: ./turtlesim-dbgsym_0.10.2-3-gdb63288-2024.09.20.17.34_amd64.deb
+Depends: turtlesim (= 0.10.2-3-gdb63288-2024.09.22.10.04)
+Filename: ./turtlesim-dbgsym_0.10.2-3-gdb63288-2024.09.22.10.04_amd64.deb
 Size: 2634228
-MD5sum: 4c58e2b2a480937c139480b21dcbe8f7
-SHA1: f12a3f5b39699583be031012d3ba37e782121baa
-SHA256: 6799968f8664fdb0dea20800494c16467c284752894abab6a4c03af369c930db
-SHA512: 5bedde3bf8412058d2f693a44fc2ea56b16dcd11c423ecf809842f5100bc5036d367be97a9052fcf434b87e1a10add7a343e77b6e1f7b02975cfe44e90880488
+MD5sum: 975cc718d8e8bd4834e900312e341391
+SHA1: 4d17b907a742b11bbb22c5da75569e092f1cb301
+SHA256: 27932b2724c6671f19e80c7a0b55be58cc95752fdcc6112240a5879332746866
+SHA512: 3975bbbf919e00185a805701963049068b4276ffe00ed3ae187352d689fe5d3ae31c16c5bf9e98747c033a47782ffdc63bc259be241d989557293b021fe1f89d
 Description: debug symbols for turtlesim
 Build-Ids: 113fd174d003f4acb04ca8237e589efff2b380fd 1183380a374a59e507ef27c09cac76200e150944 5cec12499aa2a673b65096eb2a6ff815a04b542a fe92fc1b8f598f1bc841869ff8f88fe79ec6bce4
 
 Package: turtlesim
 Architecture: amd64
-Version: 0.10.2-3-gdb63288-2024.09.20.17.34
+Version: 0.10.2-3-gdb63288-2024.09.22.10.04
 Priority: optional
 Section: misc
 Maintainer: Mabel Zhang <mabel@openrobotics.org>
 Installed-Size: 1035
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5 (>= 5.0.2), librosconsole3d (>= 1.14.3), libroscpp-serialization0d (>= 0.7.2), libroscpp4d (>= 1.15.15+ds), libroslib0d (>= 1.15.8), librostime1d (>= 0.7.2), libstdc++6 (>= 11), libboost-thread-dev, libgeometry-msgs-dev, libqt5gui5, librosconsole-dev, libroscpp-core-dev, libroscpp-dev, libroslib-dev, libstd-msgs-dev, libstd-srvs-dev, python3-geometry-msgs, python3-roslib, python3-std-msgs, python3-std-srvs, ros-geometry-msgs, ros-message-runtime, ros-std-msgs, ros-std-srvs
-Filename: ./turtlesim_0.10.2-3-gdb63288-2024.09.20.17.34_amd64.deb
-Size: 229628
-MD5sum: 74a3a16d85045cca2277a5230d4fa81a
-SHA1: 5d4a006a0b796a08217267895c03991b69470366
-SHA256: a8178c813cc5c1f9bda72342b61185036b9dd16c61f2ec712041d3baa4f96ebd
-SHA512: f6acc74e8ef7367de5750ba36cb7589583466b9cd416a0d811fe6edda0503b9c323e4ecfbf01b19b18a484cc139792e198c4c0d2572fd4bad3aff1b6668396de
+Filename: ./turtlesim_0.10.2-3-gdb63288-2024.09.22.10.04_amd64.deb
+Size: 229616
+MD5sum: 06b2785c87177a6d3a271a3d1bb18aa9
+SHA1: a1d4730b19046a03173c7909c10c044cd56b3aa3
+SHA256: 2b19f16f0ff9a8ba92e0daee3db683ae6a56a7778a646a7a387d925d4b388149
+SHA512: 9c8d9773d5543310755e7b157e0c6bb1ab2d0be5331e4b328cdfb646705d88443dad81f3bd207d6332ff4d96ffb51746ab49e5cad493e2a2334540bfeaf7f929
 Homepage: http://www.ros.org/wiki/turtlesim
 Description: turtlesim is a tool made for teaching ROS and ROS packages.
 
 Package: unique-identifier
 Architecture: amd64
-Version: 1.0.6-9-g39b8b62-2024.09.20.18.16
+Version: 1.0.6-9-g39b8b62-2024.09.22.10.06
 Priority: optional
 Section: misc
 Maintainer: Jack O'Quin <jack.oquin@gmail.com>
 Installed-Size: 11
 Depends: ros-unique-id, ros-uuid-msgs
-Filename: ./unique-identifier_1.0.6-9-g39b8b62-2024.09.20.18.16_amd64.deb
+Filename: ./unique-identifier_1.0.6-9-g39b8b62-2024.09.22.10.06_amd64.deb
 Size: 2584
-MD5sum: 8ea5a42fdea591f76e86df424a40cf49
-SHA1: 4f719941a6d7b9a33c4e295ade25eae8a083e21d
-SHA256: 50e092ef6045d04393404e2579d58d59218117c4fa94af27d0810047546628af
-SHA512: dd677fe080eccbe0362847032c421e225a11af4d7a1afd1fdad468a01ca4c746691da4f8a760a265ce65c9b130d7eb0e553d8bd73c38096f7d2706bffecfd16b
+MD5sum: e762d8b45b57cf4759b9830c1912e725
+SHA1: 3df08d05358a73d56750a164b2f9fbf8bc6d0052
+SHA256: 9ada3380cc6d78731252ce1a0bf69723715218c6925c9524dd56d4aa67c77de1
+SHA512: 354fc927bc0a4b590390915063546c13686911c522623516f396ff6e4427168315e88d546b6ab17acf9ccc7e6f839fed96b3c4de5255606b85d2551c7f50cd51
 Homepage: http://ros.org/wiki/unique_identifier
 Description: ROS messages and interfaces for universally unique identifiers.
  Not needed for wet packages, use only to resolve dry stack dependencies.
 
 Package: urdf-tutorial
 Architecture: amd64
-Version: 0.5.0-2024.09.20.18.18
+Version: 0.5.0-2024.09.22.10.07
 Priority: optional
 Section: misc
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 1067
 Depends: joint-state-publisher, joint-state-publisher-gui, librobot-state-publisher-dev, librviz-dev, ros-robot-state-publisher, ros-xacro, rviz
-Filename: ./urdf-tutorial_0.5.0-2024.09.20.18.18_amd64.deb
-Size: 749912
-MD5sum: 0e6e2685ff22947a83648bcf40959430
-SHA1: b4fa0ac77db756bb88c5ebe793f17c2a78b23e22
-SHA256: fca60400e145a5b2ca999910e65d89a439b9eb713706d02d80c9fc46008604de
-SHA512: 1c884a88ccaf3b672c239eab1f0a95cb76ac3461ce8d5b593a3e0e8c52a558d398dc726e9769e30e21711468ff9c5173d7d8601c811401fa94d4f0d47332b6fd
+Filename: ./urdf-tutorial_0.5.0-2024.09.22.10.07_amd64.deb
+Size: 749556
+MD5sum: 3c14d6140ecfd3f5d9445d483609a490
+SHA1: 2bf37ad3958cbae4c6c66e5834f56b46e6ac7040
+SHA256: 5222bd1ca3379bca6ef3f8644823fc093f86b00530a49516cca9ec40f9890464
+SHA512: d301e87e071e18e84f5e9b6c6d3f1ff5f63438d896b159139953e6f2268fea422f79b8294986625817d20e2890e599ccae3424af6b2e33b3e016720766c95a9b
 Homepage: http://ros.org/wiki/urdf_tutorial
 Description: This package contains a number of URDF tutorials.
 
 Package: urdfdom-py
 Architecture: amd64
-Version: 0.4.6-2024.09.20.17.36
+Version: 0.4.6-2024.09.22.10.08
 Priority: optional
 Section: misc
 Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
 Installed-Size: 172
 Depends: python3-rospy, python3-yaml
-Filename: ./urdfdom-py_0.4.6-2024.09.20.17.36_amd64.deb
-Size: 43764
-MD5sum: f276326c4386eaabb04b7ccda153f4ea
-SHA1: 75b46a95472841b8243cd65da0063a3e1e24767c
-SHA256: aa6f805593f00ed43bed0e9bee19cd1397e2b6c03b587b83b2561f8116c42b51
-SHA512: 7c62f6edf04273ec1944dc62423cf1b7310f4fa5368317a089060811b3ba9612fbfec36068c83c84aeb8f81efc439eed320fe5047fd49473a85f61f50ef863cb
+Filename: ./urdfdom-py_0.4.6-2024.09.22.10.08_amd64.deb
+Size: 43760
+MD5sum: 73da805814aa275936cc8f2291ad929a
+SHA1: 74f338fb45bf9eb2b31a951b829efcd6f69a433f
+SHA256: 78ac33018c4a2032af2aa82cb40c8914350d6e506f3ac8d7de132fd03a0edeee
+SHA512: ffe9d283203315e8565dc06be6eee16c88bb7aa19eddf479d252f03ec754078385db9921f866772b345b24df9e4ad67fb8ef0612f9bdc899f3c894066f80c564
 Homepage: http://wiki.ros.org/urdfdom_py
 Description: Python implementation of the URDF parser.
 
 Package: uuid-msgs
 Architecture: amd64
-Version: 1.0.6-9-g39b8b62-2024.09.20.17.37
+Version: 1.0.6-9-g39b8b62-2024.09.22.10.09
 Priority: optional
 Section: misc
 Maintainer: Jack O'Quin <jack.oquin@gmail.com>
 Installed-Size: 69
 Depends: libstd-msgs-dev, python3-std-msgs, ros-message-runtime, ros-std-msgs
-Filename: ./uuid-msgs_1.0.6-9-g39b8b62-2024.09.20.17.37_amd64.deb
+Filename: ./uuid-msgs_1.0.6-9-g39b8b62-2024.09.22.10.09_amd64.deb
 Size: 11684
-MD5sum: 6d5db65c10550d9f11724004bf04c4c8
-SHA1: 4d0ec198778ea9e1e8c5945419285dba5965556a
-SHA256: 1b2319e48f6346b3700150c36fe61a12fe4bc8ee09b7fd83cf062ec68457c31e
-SHA512: 7349a4a4fa17b9c4e251d20aac08f9e48f5c388f7f13ce6bb02030afed9732152b9e5960177547d6cd4bc69619649ccd40b1b31b22abd8da06b47a63fc03f614
+MD5sum: 72923e740324fd769599e595d2aa7a04
+SHA1: 78a9d16ad30a5bab044313205c6124d4bcca6763
+SHA256: 7fe3daa683454ff6c947748ef421c7619e59a0510d01830e05ca897d4cb86298
+SHA512: 9e607c8e9138c0944167d7a1de546221eea4587a28ca19a708701f8674053ab17e69a8b1750080930bbd49489a1fbc2ffcbdf7295f077a9c8300f182f45ec892
 Homepage: http://ros.org/wiki/uuid_msgs
 Description: ROS messages for universally unique identifiers.
 
 Package: warehouse-ros-dbgsym
 Architecture: amd64
-Version: 0.9.5-1-gfababc9-2024.09.20.17.37
+Version: 0.9.5-1-gfababc9-2024.09.22.10.12
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: warehouse-ros
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
 Installed-Size: 1870
-Depends: warehouse-ros (= 0.9.5-1-gfababc9-2024.09.20.17.37)
-Filename: ./warehouse-ros-dbgsym_0.9.5-1-gfababc9-2024.09.20.17.37_amd64.deb
+Depends: warehouse-ros (= 0.9.5-1-gfababc9-2024.09.22.10.12)
+Filename: ./warehouse-ros-dbgsym_0.9.5-1-gfababc9-2024.09.22.10.12_amd64.deb
 Size: 1807176
-MD5sum: 5bee78d58426c89a61d98b09303acc1f
-SHA1: 1592e122c4a887fe0cb5bc534bdc3e151687186e
-SHA256: eb559ca93007807f499a46409b19c6a17d0e1eb16bab7556571abc40774870c2
-SHA512: ac1a88ca5ad808ce3fae651c2dff58124502917ca7a88b46536128e297189bd2bd8b85be193060156481195e9d345db2291d5b713d038e495dfe13edb9fdc99c
+MD5sum: a9622880b551c26cfbf335aa90986e6b
+SHA1: d93609db5ba3f6ec303c1ff07f2c04016cae7894
+SHA256: 2caf225a5a53900c5016dce6315bf5d8d9e271ba0cc54e6d48d63b8f03095eb3
+SHA512: 93976c626379a9136c38ce5fef7b9306ce4fe106fb0ff96fec13ac9e34993aa69d965f3f0bda558e9017588db963c5aeed8e238659134adb66f1fb1f3ee0c494
 Description: debug symbols for warehouse-ros
 Build-Ids: 8ed4d56b32c2419ae9c2ec53aa60861ea8c6d170
 
 Package: warehouse-ros
 Architecture: amd64
-Version: 0.9.5-1-gfababc9-2024.09.20.17.37
+Version: 0.9.5-1-gfababc9-2024.09.22.10.12
 Priority: optional
 Section: misc
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
 Installed-Size: 491
 Depends: libament-index-cpp0d (>= 1.5.1), libc6 (>= 2.32), libclass-loader3d (>= 2.4.0), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.0), librcpputils1d (>= 2.6.0), librcutils1d (>= 6.0.0), librosconsole3d (>= 1.14.3), libroscpp-serialization0d (>= 0.7.2), libroscpp4d (>= 1.15.15+ds), libroslib0d (>= 1.15.8), librostime1d (>= 0.7.2), libstdc++6 (>= 11), libtf1d (>= 1.13.2), libtinyxml2-9 (>= 8.0.0), libboost-all-dev, libgeometry-msgs-dev, libroscpp-core-dev, libroscpp-dev, libstd-msgs-dev, libtf-dev, pluginlib-dev (>= 1.11.2), python3-geometry-msgs, python3-std-msgs, python3-tf, ros-geometry-msgs, ros-std-msgs, tf-tools
-Filename: ./warehouse-ros_0.9.5-1-gfababc9-2024.09.20.17.37_amd64.deb
-Size: 134596
-MD5sum: b6d1a902c39adbbf5ef079c32fee5523
-SHA1: 73251f8037d41638a8748b073bbfc5fefe185e8c
-SHA256: 76d3dac180e4f581902adcaceccc5d3e6ef16633fee7eee99badf0e99a1e55a4
-SHA512: 52b7152d40adb4a131199bba03c0c4b08b122a5ae68cff1f8900779e49b68a61fb5d629ad18035c2ecf7e0a5fc34918132599f8a64a2e0abed8556c3e4620e45
+Filename: ./warehouse-ros_0.9.5-1-gfababc9-2024.09.22.10.12_amd64.deb
+Size: 134588
+MD5sum: 9fc4d23e82cebaa0327f74c5789dffde
+SHA1: 04ae26faeba446d91825c857c0f07e07ea60f7f6
+SHA256: d6ae27640460d7ce99d281e5d319b6d5eb631af4a71d64d25ab4fd3102088692
+SHA512: c722da31bbac73bfdc97aa8367d48c8660456c683d3064e75d578f5e1d8cfbffb429c0be098109d0a9d6e60db14d398ebc11ea43236a33043ccfba972605c894
 Homepage: http://ros.org/wiki/warehouse_ros
 Description: Persistent storage of ROS messages
 
 Package: webkit-dependency
 Architecture: amd64
-Version: 1.1.2-2024.09.20.17.39
+Version: 1.1.2-2024.09.22.10.13
 Priority: optional
 Section: misc
 Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
 Installed-Size: 23
 Depends: python3-pyqt5.qtwebkit
-Filename: ./webkit-dependency_1.1.2-2024.09.20.17.39_amd64.deb
-Size: 4600
-MD5sum: 892b256b1f1950222c00a1a6fa6d3102
-SHA1: 9cc590bdac4200f640f94e70d92ea67a21ed3936
-SHA256: b7d1ed818d1c110c5512c3265c49c8126abab3abc0992aaa772f13541ee8d388
-SHA512: c56325634bbf636a196c94ceb8b1fa45c54c53442467903637c8723f7e7b71d701b3760ab5f59437c0a93be6cf36900d0e754c51fa02e4cd6a36603edd6372e8
+Filename: ./webkit-dependency_1.1.2-2024.09.22.10.13_amd64.deb
+Size: 4596
+MD5sum: e3561b5e7aa88b2662d7fe84ad39ee4f
+SHA1: 10e5e96500cf9bd18e7e1eef762c3a20354c0910
+SHA256: 03563de05ef81cce986af2c63bfbb36ba8b8ac0f5db0fc453eb5b185b53534f0
+SHA512: d9a21093b1120e772518eb38774c31e3f5bdf88e4fa99363e045c7890150f8b62b2f2dd4bea1961f9feeb845d4f0f3b51c99ed4b44bd6be8795e00c0cca71e81
 Description: This encapsulates the WebKit dependency for a specific ROS distribution and its Qt version
 

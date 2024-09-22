@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 24 Jul 2020 00:00:00 -0000
+Source: qt-gui-app
+Binary: qt-gui-app
+Architecture: amd64
+Version: 0.4.2-7-g8f06b8d-2024.09.22.08.52
+Distribution: bookworm
+Urgency: high
+Maintainer: Scott Logan <cottsay@openrobotics.org>
+Changed-By: Scott Logan <cottsay@openrobotics.org>
+Description:
+ qt-gui-app - qt_gui_app provides the main to start an instance of the integrat
+Changes:
+ qt-gui-app (0.4.2-7-g8f06b8d-2024.09.22.08.52) bookworm; urgency=high
+ .
+   * fix shebang line for python3 (#223 <https://github.com/ros-visualization/qt_gui_core/issues/223>)
+Checksums-Sha1:
+ 2624687f1fb047afa0894e8d880f83da4fe2b12b 6998 qt-gui-app_0.4.2-7-g8f06b8d-2024.09.22.08.52_amd64.buildinfo
+ 96f3c73f88b07b660a8046374cfad6bb29902b45 6612 qt-gui-app_0.4.2-7-g8f06b8d-2024.09.22.08.52_amd64.deb
+Checksums-Sha256:
+ a3c622cb3b94c3065a1f4d9fe8b58b2c9276ec9883fcd8c1be4ca18e89cbc9ce 6998 qt-gui-app_0.4.2-7-g8f06b8d-2024.09.22.08.52_amd64.buildinfo
+ e91d3cbaf244f9a1a327e1231ca6789c4b92bfb52aa697fb83da2a0b9c0a5fd5 6612 qt-gui-app_0.4.2-7-g8f06b8d-2024.09.22.08.52_amd64.deb
+Files:
+ bd06a050a87582a8aedef9838665aa0e 6998 misc optional qt-gui-app_0.4.2-7-g8f06b8d-2024.09.22.08.52_amd64.buildinfo
+ d60291bf38037b4948ddc9fd01067d33 6612 misc optional qt-gui-app_0.4.2-7-g8f06b8d-2024.09.22.08.52_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 29 Oct 2020 00:00:00 -0000
+Source: code-coverage
+Binary: code-coverage
+Architecture: amd64
+Version: 0.4.4-5-g7c273b3-2024.09.22.08.08
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Ferguson <mike@vanadiumlabs.com>
+Changed-By: Michael Ferguson <mike@vanadiumlabs.com>
+Description:
+ code-coverage - CMake configuration to run coverage
+Changes:
+ code-coverage (0.4.4-5-g7c273b3-2024.09.22.08.08) bookworm; urgency=high
+ .
+   * Added python3-coverage support and error if python*-coverage is missing. (#27 <https://github.com/mikeferguson/code_coverage/issues/27>)
+   * Contributors: Stefan Fabian
+Checksums-Sha1:
+ 4c9f59cd8db5ccf891e71c7a87df6f59bf6702e5 7139 code-coverage_0.4.4-5-g7c273b3-2024.09.22.08.08_amd64.buildinfo
+ 6130855b0f555dc5020e7698155feb8bbb781510 10280 code-coverage_0.4.4-5-g7c273b3-2024.09.22.08.08_amd64.deb
+Checksums-Sha256:
+ f0c9d4c322d410807bfd2156760b60b7996c0cc0413ba82d8e5264ed6d203dd8 7139 code-coverage_0.4.4-5-g7c273b3-2024.09.22.08.08_amd64.buildinfo
+ 9a6e8d604bc6d9b64e418168b18b4c24e7ccb45a625a5ee59dbb495a10afbe0e 10280 code-coverage_0.4.4-5-g7c273b3-2024.09.22.08.08_amd64.deb
+Files:
+ 17c76a9dfd9fbb79a386dc9096369eaf 7139 misc optional code-coverage_0.4.4-5-g7c273b3-2024.09.22.08.08_amd64.buildinfo
+ ecba86f4c52dfd1dbc889c4c3b304130 10280 misc optional code-coverage_0.4.4-5-g7c273b3-2024.09.22.08.08_amd64.deb

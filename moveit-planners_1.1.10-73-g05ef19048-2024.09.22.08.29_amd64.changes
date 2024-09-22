@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: moveit-planners
+Binary: moveit-planners
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2024.09.22.08.29
+Distribution: bookworm
+Urgency: high
+Maintainer: Dave Coleman <dave@picknik.ai>
+Changed-By: Dave Coleman <dave@picknik.ai>
+Description:
+ moveit-planners - Metapacakge that installs all available planners for MoveIt
+Changes:
+ moveit-planners (1.1.10-73-g05ef19048-2024.09.22.08.29) bookworm; urgency=high
+Checksums-Sha1:
+ be3294440707ad188384a0dc4dfaad6e36047151 7039 moveit-planners_1.1.10-73-g05ef19048-2024.09.22.08.29_amd64.buildinfo
+ 2dd4e98a029e1d73ee8ffeb30cee5f02cde9a38f 2856 moveit-planners_1.1.10-73-g05ef19048-2024.09.22.08.29_amd64.deb
+Checksums-Sha256:
+ c8710447374c067b339cb4b3945224c0074487693bccad4d0ff04ab1a3cf6934 7039 moveit-planners_1.1.10-73-g05ef19048-2024.09.22.08.29_amd64.buildinfo
+ 604675a5e7086beff60df80c48cef031f00f217841a93d30755f89ba6210624e 2856 moveit-planners_1.1.10-73-g05ef19048-2024.09.22.08.29_amd64.deb
+Files:
+ 405f012dae8960746e5624e53f59a7fa 7039 misc optional moveit-planners_1.1.10-73-g05ef19048-2024.09.22.08.29_amd64.buildinfo
+ 4c0541d85bfcdcc64bb55af0da2915e3 2856 misc optional moveit-planners_1.1.10-73-g05ef19048-2024.09.22.08.29_amd64.deb

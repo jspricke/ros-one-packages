@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Mon, 03 Aug 2020 00:00:00 -0000
+Source: soem
+Binary: soem soem-dbgsym
+Architecture: amd64
+Version: 1.4.1003-1-g988013c-2024.09.22.09.54
+Distribution: bookworm
+Urgency: high
+Maintainer: Matthias Gruhler <matthias.gruhler@gmail.com>
+Changed-By: Matthias Gruhler <matthias.gruhler@gmail.com>
+Description:
+ soem       - ROS wrapper for the Simple Open EtherCAT Master SOEM.
+Changes:
+ soem (1.4.1003-1-g988013c-2024.09.22.09.54) bookworm; urgency=high
+ .
+   * fixes #40 <https://github.com/mgruhler/soem/issues/40>: export include directories properly
+   * Contributors: Matthias Gruhler
+Checksums-Sha1:
+ baf59a31daa356d0acc51ede9fe2547783481175 303972 soem-dbgsym_1.4.1003-1-g988013c-2024.09.22.09.54_amd64.deb
+ a789f24774e582155ac222b6e434e81ecac37f8f 7335 soem_1.4.1003-1-g988013c-2024.09.22.09.54_amd64.buildinfo
+ 21ecceb292a4d41caba7e6505ae6f1a601e59909 89616 soem_1.4.1003-1-g988013c-2024.09.22.09.54_amd64.deb
+Checksums-Sha256:
+ 2a95fb4b8df9fed1dc1822afba8e30fbf4fd445fbcec5327f8d6aeeafbd19d16 303972 soem-dbgsym_1.4.1003-1-g988013c-2024.09.22.09.54_amd64.deb
+ fde5301d5959aa91d30a8ccb055c1eba9c7fb0568da194708ca8627e1440730f 7335 soem_1.4.1003-1-g988013c-2024.09.22.09.54_amd64.buildinfo
+ 4617bb4404d83c43fb6bde8be258ff95b16ee54ef1bc5a7e49ba32bdbd1a282b 89616 soem_1.4.1003-1-g988013c-2024.09.22.09.54_amd64.deb
+Files:
+ 8ce3e9199c826cc679f245b6270957ef 303972 debug optional soem-dbgsym_1.4.1003-1-g988013c-2024.09.22.09.54_amd64.deb
+ e06929578acf5ad4574e1ee183ac91e8 7335 misc optional soem_1.4.1003-1-g988013c-2024.09.22.09.54_amd64.buildinfo
+ a13723f316163129e47e68e90a7a2037 89616 misc optional soem_1.4.1003-1-g988013c-2024.09.22.09.54_amd64.deb

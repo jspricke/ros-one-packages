@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 10 Nov 2023 00:00:00 -0000
+Source: moveit-resources-fanuc-moveit-config
+Binary: moveit-resources-fanuc-moveit-config
+Architecture: amd64
+Version: 0.8.3-2-gb771644-2024.09.22.08.33
+Distribution: bookworm
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ moveit-resources-fanuc-moveit-config - MoveIt Resources for testing: Fanuc M-10iA.
+Changes:
+ moveit-resources-fanuc-moveit-config (0.8.3-2-gb771644-2024.09.22.08.33) bookworm; urgency=high
+ .
+   * Add ResolveConstraintFrames to all planning pipelines
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ bd24e19300527cd2f0da0f5bbe5f2ed1f514a637 7131 moveit-resources-fanuc-moveit-config_0.8.3-2-gb771644-2024.09.22.08.33_amd64.buildinfo
+ 6e1c3ebcbc1b5e88e63d84ceca02d488680b11f6 18132 moveit-resources-fanuc-moveit-config_0.8.3-2-gb771644-2024.09.22.08.33_amd64.deb
+Checksums-Sha256:
+ 79adb63606262cba8eaa30721f570522be721fc366a5807a620f17deacae5e02 7131 moveit-resources-fanuc-moveit-config_0.8.3-2-gb771644-2024.09.22.08.33_amd64.buildinfo
+ 3bfe6d4a7cfd7c53006400c864def3f71962c2338af0d78c1a849c6e25e05da2 18132 moveit-resources-fanuc-moveit-config_0.8.3-2-gb771644-2024.09.22.08.33_amd64.deb
+Files:
+ b785d496fc06ce24ce133822fec0585a 7131 misc optional moveit-resources-fanuc-moveit-config_0.8.3-2-gb771644-2024.09.22.08.33_amd64.buildinfo
+ 2ace540ba11cdc0cf0c6b8385d60d6fb 18132 misc optional moveit-resources-fanuc-moveit-config_0.8.3-2-gb771644-2024.09.22.08.33_amd64.deb

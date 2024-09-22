@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 26 Apr 2017 00:00:00 -0000
+Source: rqt-nav-view
+Binary: rqt-nav-view
+Architecture: amd64
+Version: 0.5.7-5-g3df965e-2024.09.22.09.29
+Distribution: bookworm
+Urgency: high
+Maintainer: Aaron Blasdel <ablasdel@gmail.com>
+Changed-By: Aaron Blasdel <ablasdel@gmail.com>
+Description:
+ rqt-nav-view - rqt_nav_view provides a gui for viewing navigation maps and paths
+Changes:
+ rqt-nav-view (0.5.7-5-g3df965e-2024.09.22.09.29) bookworm; urgency=high
+Checksums-Sha1:
+ 9dfe4c5be4c0b58696ddeacda3e5d819f3921338 7011 rqt-nav-view_0.5.7-5-g3df965e-2024.09.22.09.29_amd64.buildinfo
+ b85ce29e5496c8ff11082f2728baba77f752f40a 25988 rqt-nav-view_0.5.7-5-g3df965e-2024.09.22.09.29_amd64.deb
+Checksums-Sha256:
+ fcc9507d95fb0a3d98185942c7ec01d9e36d785ff94462866b49f467733209ea 7011 rqt-nav-view_0.5.7-5-g3df965e-2024.09.22.09.29_amd64.buildinfo
+ 5e9742da10dba1b98c31edce8d262440d53e4975cd9bbc6dd78f969e7499d6e8 25988 rqt-nav-view_0.5.7-5-g3df965e-2024.09.22.09.29_amd64.deb
+Files:
+ d159fb0087948a356937ca0d69d5292c 7011 misc optional rqt-nav-view_0.5.7-5-g3df965e-2024.09.22.09.29_amd64.buildinfo
+ ea1cbbf3ad1f4d3f1e32729df0b4ae13 25988 misc optional rqt-nav-view_0.5.7-5-g3df965e-2024.09.22.09.29_amd64.deb

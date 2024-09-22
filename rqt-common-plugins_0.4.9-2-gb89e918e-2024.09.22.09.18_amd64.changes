@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 14 May 2020 00:00:00 -0000
+Source: rqt-common-plugins
+Binary: rqt-common-plugins
+Architecture: amd64
+Version: 0.4.9-2-gb89e918e-2024.09.22.09.18
+Distribution: bookworm
+Urgency: high
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Changed-By: Geoffrey Biggs <geoff@openrobotics.org>
+Description:
+ rqt-common-plugins - rqt_common_plugins metapackage provides ROS backend graphical too
+Changes:
+ rqt-common-plugins (0.4.9-2-gb89e918e-2024.09.22.09.18) bookworm; urgency=high
+ .
+   * Bump CMake version to avoid CMP0048 warning (#459 <https://github.com/ros-visualization/rqt_common_plugins/issues/459>)
+   * convert to package format 2 (#455 <https://github.com/ros-visualization/rqt_common_plugins/issues/455>)
+   * Contributors: Alejandro Hernández Cordero, Mikael Arguedas
+Checksums-Sha1:
+ 9ec72050c9c0756b0977b367746add12c641d967 7042 rqt-common-plugins_0.4.9-2-gb89e918e-2024.09.22.09.18_amd64.buildinfo
+ 35ad0c23fc82c6ede8870105bddebee8a485b0e5 3700 rqt-common-plugins_0.4.9-2-gb89e918e-2024.09.22.09.18_amd64.deb
+Checksums-Sha256:
+ 5e121cde4977b09ce802e4b518a2e2be974fd51f33755ea44b9753738b8e0576 7042 rqt-common-plugins_0.4.9-2-gb89e918e-2024.09.22.09.18_amd64.buildinfo
+ 6357ec9b32ea91dc50f7ce0881a9081146b582ec5989b787e42dde8a0010618d 3700 rqt-common-plugins_0.4.9-2-gb89e918e-2024.09.22.09.18_amd64.deb
+Files:
+ 38a015a84c2699b6d9c21202173647d5 7042 misc optional rqt-common-plugins_0.4.9-2-gb89e918e-2024.09.22.09.18_amd64.buildinfo
+ ff4578c92ebb11ee89518275af6ec4b1 3700 misc optional rqt-common-plugins_0.4.9-2-gb89e918e-2024.09.22.09.18_amd64.deb

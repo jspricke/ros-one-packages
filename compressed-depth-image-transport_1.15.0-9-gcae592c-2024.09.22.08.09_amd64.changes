@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Mon, 30 Jan 2023 00:00:00 -0000
+Source: compressed-depth-image-transport
+Binary: compressed-depth-image-transport compressed-depth-image-transport-dbgsym
+Architecture: amd64
+Version: 1.15.0-9-gcae592c-2024.09.22.08.09
+Distribution: bookworm
+Urgency: high
+Maintainer: Kenji Brameld <kenjibrameld@gmail.com>
+Changed-By: Kenji Brameld <kenjibrameld@gmail.com>
+Description:
+ compressed-depth-image-transport - Compressed_depth_image_transport provides a plugin to image_trans
+Changes:
+ compressed-depth-image-transport (1.15.0-9-gcae592c-2024.09.22.08.09) bookworm; urgency=high
+ .
+   * Update maintainer in ros1 branches (#132 <https://github.com/ros-perception/image_transport_plugins/issues/132>)
+   * Fix number of elements in vector parameter to call cv::imencode for OpenCV 4.7 (#130 <https://github.com/ros-perception/image_transport_plugins/issues/130>)
+   * Fix uninitialized memory usage (#125 <https://github.com/ros-perception/image_transport_plugins/issues/125>)
+   * Make the default compressed depth png_level 1 instead of 9 to save cpu (#85 <https://github.com/ros-perception/image_transport_plugins/issues/85>)
+     The default 9 is so cpu intensive to be frequently unusable and results in many dropped frames, and there is still plenty of bandwidth savings from the compression at level 1.
+   * Fix copyright year 20012 -> 2012 (#80 <https://github.com/ros-perception/image_transport_plugins/issues/80>)
+   * Fix regression in compressed_depth_image_transport with old bags (#64 <https://github.com/ros-perception/image_transport_plugins/issues/64>)
+   * Contributors: Johannes Meyer, Kenji Brameld, Lucas Walter, Martin Pecka, Michael Carroll, Timm Linder, ijnek, v4hn
+Checksums-Sha1:
+ aeef026923947beecc913d3dcf1128854be67674 1810608 compressed-depth-image-transport-dbgsym_1.15.0-9-gcae592c-2024.09.22.08.09_amd64.deb
+ 1a6ead4f899c3936b0fff3c5b789af576c468ec1 22075 compressed-depth-image-transport_1.15.0-9-gcae592c-2024.09.22.08.09_amd64.buildinfo
+ 37eda239a1ec5c1b6cf3bad7678cc6eceec0c6fa 92308 compressed-depth-image-transport_1.15.0-9-gcae592c-2024.09.22.08.09_amd64.deb
+Checksums-Sha256:
+ 883027cf508f6522de01af237632095e5934c45ea0daf1362747782d5979aa70 1810608 compressed-depth-image-transport-dbgsym_1.15.0-9-gcae592c-2024.09.22.08.09_amd64.deb
+ 19f0d5dd32259fc125a505b3f7efc2150d04ad9a39f121254c36f77035856f76 22075 compressed-depth-image-transport_1.15.0-9-gcae592c-2024.09.22.08.09_amd64.buildinfo
+ 03d335e2f903f35483049efb0ab5cb9f6c4b613c42e60df8ee889346ce97e363 92308 compressed-depth-image-transport_1.15.0-9-gcae592c-2024.09.22.08.09_amd64.deb
+Files:
+ f46cf6e4e28b1287b98fd37358080927 1810608 debug optional compressed-depth-image-transport-dbgsym_1.15.0-9-gcae592c-2024.09.22.08.09_amd64.deb
+ e78dc0362054f0a0e5b2073998945a00 22075 misc optional compressed-depth-image-transport_1.15.0-9-gcae592c-2024.09.22.08.09_amd64.buildinfo
+ 01052aa99e45bbbdbcf3454df2f38c0b 92308 misc optional compressed-depth-image-transport_1.15.0-9-gcae592c-2024.09.22.08.09_amd64.deb

@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 22 Mar 2021 00:00:00 -0000
+Source: timestamp-tools
+Binary: timestamp-tools
+Architecture: amd64
+Version: 1.6.9-2024.09.22.10.02
+Distribution: bookworm
+Urgency: high
+Maintainer: Chad Rockey <chadrockey@gmail.com>
+Changed-By: Chad Rockey <chadrockey@gmail.com>
+Description:
+ timestamp-tools - This package is currently for internal use only.
+Changes:
+ timestamp-tools (1.6.9-2024.09.22.10.02) bookworm; urgency=high
+ .
+   * Merge pull request #11 <https://github.com/ros-drivers/driver_common/issues/11> from PR2-prime/indigo-devel
+     updates for compile on focal/noetic
+   * Merge pull request #1 <https://github.com/ros-drivers/driver_common/issues/1> from PR2-prime/noetic-devel
+     Noetic devel
+   * Merge branch 'indigo-devel' into noetic-devel
+   * fix to make tests compile under focal/noetic
+   * fixed boost time duration error with doubles no longer being supported
+   * fixed dependency issue in timestamp_tools
+   * updated header due to boost changes in focal/noetic
+   * Merge pull request #7 <https://github.com/ros-drivers/driver_common/issues/7> from AurelienBallier/indigo-devel
+     Fix CATKIN_ENABLE_TESTING set to False issue.
+   * Fix CATKIN_ENABLE_TESTING set to False issue.
+   * Contributors: Aurélien Ballier, Chad Rockey, Dave Feil-Seifer
+Checksums-Sha1:
+ df4973b7a5420515daaec6f4934db47b2acae6d8 9482 timestamp-tools_1.6.9-2024.09.22.10.02_amd64.buildinfo
+ 3b8e6de80d2a543a96279c1bad12c261166ac223 9920 timestamp-tools_1.6.9-2024.09.22.10.02_amd64.deb
+Checksums-Sha256:
+ 58693c6cfaed79020179afd95063a4ba9ed331c868f5a2b1bf4567aababaf948 9482 timestamp-tools_1.6.9-2024.09.22.10.02_amd64.buildinfo
+ 648a87a79523f276e0cbf11cbc7bb4df2811f8fca3aa52185e982b6acfe342bb 9920 timestamp-tools_1.6.9-2024.09.22.10.02_amd64.deb
+Files:
+ e8275ec271c064d6ae48b9090b1df435 9482 misc optional timestamp-tools_1.6.9-2024.09.22.10.02_amd64.buildinfo
+ ab3fe52b636224ff7948f945e0702082 9920 misc optional timestamp-tools_1.6.9-2024.09.22.10.02_amd64.deb

@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 13 Aug 2024 00:00:00 -0000
+Source: audio-common-msgs
+Binary: audio-common-msgs
+Architecture: amd64
+Version: 0.3.18-2024.09.22.08.02
+Distribution: bookworm
+Urgency: high
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Changed-By: Austin Hendrix <namniart@gmail.com>
+Description:
+ audio-common-msgs - Messages for transmitting audio via ROS
+Changes:
+ audio-common-msgs (0.3.18-2024.09.22.08.02) bookworm; urgency=high
+Checksums-Sha1:
+ 2dfcf0410a003127a67bea9df23453cdd3f2b20e 7627 audio-common-msgs_0.3.18-2024.09.22.08.02_amd64.buildinfo
+ d06f801060effb3672c937ad970f4acd356a3c9f 19040 audio-common-msgs_0.3.18-2024.09.22.08.02_amd64.deb
+Checksums-Sha256:
+ c3e9f3de7d35ea9015895c4b40f93aa35946a117c3d90eeedc9c135427a7ec4c 7627 audio-common-msgs_0.3.18-2024.09.22.08.02_amd64.buildinfo
+ eec7edffa822b620f908d95c60821d3ef2dc3d178b52d8a82202406d86db8fc4 19040 audio-common-msgs_0.3.18-2024.09.22.08.02_amd64.deb
+Files:
+ 95728f1ded813450f4b7cf5c4d8d7351 7627 misc optional audio-common-msgs_0.3.18-2024.09.22.08.02_amd64.buildinfo
+ cd836cf90dce60476f01b28d4d7e106c 19040 misc optional audio-common-msgs_0.3.18-2024.09.22.08.02_amd64.deb

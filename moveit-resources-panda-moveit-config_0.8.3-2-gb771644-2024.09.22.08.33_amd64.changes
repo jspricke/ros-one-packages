@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 10 Nov 2023 00:00:00 -0000
+Source: moveit-resources-panda-moveit-config
+Binary: moveit-resources-panda-moveit-config
+Architecture: amd64
+Version: 0.8.3-2-gb771644-2024.09.22.08.33
+Distribution: bookworm
+Urgency: high
+Maintainer: MoveIt maintainer team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt maintainer team <moveit_releasers@googlegroups.com>
+Description:
+ moveit-resources-panda-moveit-config - MoveIt Resources for testing: Franka Emika Panda A project-intern
+Changes:
+ moveit-resources-panda-moveit-config (0.8.3-2-gb771644-2024.09.22.08.33) bookworm; urgency=high
+ .
+   * Add ResolveConstraintFrames to all planning pipelines
+   * Add dual_panda_moveit_config (#133 <https://github.com/ros-planning/moveit_resources/issues/133>)
+   * Contributors: Robert Haschke, Cristian Beltran
+Checksums-Sha1:
+ f667fdadccddce0d4ed55903661082465cbf5c87 7131 moveit-resources-panda-moveit-config_0.8.3-2-gb771644-2024.09.22.08.33_amd64.buildinfo
+ fcb6d558c943d745a37db6d9b449ccf76f41424b 21028 moveit-resources-panda-moveit-config_0.8.3-2-gb771644-2024.09.22.08.33_amd64.deb
+Checksums-Sha256:
+ 07b60d160a79cdcca764482bc4579db5a5a53af41ec9f0cc86905eaa265db2cc 7131 moveit-resources-panda-moveit-config_0.8.3-2-gb771644-2024.09.22.08.33_amd64.buildinfo
+ 1018b58212e3770557f01a443b68f0e98eefe86e93a2b81eaa1b731bedb968aa 21028 moveit-resources-panda-moveit-config_0.8.3-2-gb771644-2024.09.22.08.33_amd64.deb
+Files:
+ c439113e731848866acb1cef0fb2f5ba 7131 misc optional moveit-resources-panda-moveit-config_0.8.3-2-gb771644-2024.09.22.08.33_amd64.buildinfo
+ 673f17a6483341a6f05cd3b0b9139543 21028 misc optional moveit-resources-panda-moveit-config_0.8.3-2-gb771644-2024.09.22.08.33_amd64.deb

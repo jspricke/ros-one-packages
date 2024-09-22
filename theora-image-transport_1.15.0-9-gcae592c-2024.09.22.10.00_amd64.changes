@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 30 Jan 2023 00:00:00 -0000
+Source: theora-image-transport
+Binary: theora-image-transport theora-image-transport-dbgsym
+Architecture: amd64
+Version: 1.15.0-9-gcae592c-2024.09.22.10.00
+Distribution: bookworm
+Urgency: high
+Maintainer: Kenji Brameld <kenjibrameld@gmail.com>
+Changed-By: Kenji Brameld <kenjibrameld@gmail.com>
+Description:
+ theora-image-transport - Theora_image_transport provides a plugin to image_transport for t
+Changes:
+ theora-image-transport (1.15.0-9-gcae592c-2024.09.22.10.00) bookworm; urgency=high
+ .
+   * Update maintainer in ros1 branches (#132 <https://github.com/ros-perception/image_transport_plugins/issues/132>)
+   * Fix copyright year 20012 -> 2012 (#80 <https://github.com/ros-perception/image_transport_plugins/issues/80>)
+   * Contributors: Kenji Brameld, Lucas Walter, Michael Carroll, ijnek, v4hn
+Checksums-Sha1:
+ 2392a5367ee6ab3d1d98ed6c7475b6a172ca8b46 2237560 theora-image-transport-dbgsym_1.15.0-9-gcae592c-2024.09.22.10.00_amd64.deb
+ dc2d1a1319314f9fe2951dba1592a501f4f14a28 23273 theora-image-transport_1.15.0-9-gcae592c-2024.09.22.10.00_amd64.buildinfo
+ 8a89105e99b7b0fba400d966e0707118b17822ef 121056 theora-image-transport_1.15.0-9-gcae592c-2024.09.22.10.00_amd64.deb
+Checksums-Sha256:
+ 24893fa74bc1631e3bbae345195823085f7f33010e1b03ad942f4e4ff4c6e1df 2237560 theora-image-transport-dbgsym_1.15.0-9-gcae592c-2024.09.22.10.00_amd64.deb
+ 61138f1e8a02d1ba9c9005e5d97dba1c710b0f597b60ca70e1fd7bf2e2bb04ad 23273 theora-image-transport_1.15.0-9-gcae592c-2024.09.22.10.00_amd64.buildinfo
+ 499aa3c9faeb1480c0a7ac6d9f4843a41c5fb88631a08f967f93efcd7beed506 121056 theora-image-transport_1.15.0-9-gcae592c-2024.09.22.10.00_amd64.deb
+Files:
+ 4dc295b89f46cbbf054f9c06180249b0 2237560 debug optional theora-image-transport-dbgsym_1.15.0-9-gcae592c-2024.09.22.10.00_amd64.deb
+ d3522c0cab29548d50aa45d23f3ba417 23273 misc optional theora-image-transport_1.15.0-9-gcae592c-2024.09.22.10.00_amd64.buildinfo
+ aa02bc12dfb96eeea52b30ebcc2d5e7d 121056 misc optional theora-image-transport_1.15.0-9-gcae592c-2024.09.22.10.00_amd64.deb

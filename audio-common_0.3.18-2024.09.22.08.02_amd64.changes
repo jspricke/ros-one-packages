@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 13 Aug 2024 00:00:00 -0000
+Source: audio-common
+Binary: audio-common
+Architecture: amd64
+Version: 0.3.18-2024.09.22.08.02
+Distribution: bookworm
+Urgency: high
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Changed-By: Austin Hendrix <namniart@gmail.com>
+Description:
+ audio-common - Common code for working with audio in ROS
+Changes:
+ audio-common (0.3.18-2024.09.22.08.02) bookworm; urgency=high
+Checksums-Sha1:
+ f454b561aa126623722010661e74fa8d4fe001ab 6968 audio-common_0.3.18-2024.09.22.08.02_amd64.buildinfo
+ de120ded10b40c49414e77a3d3b54b30fdb8c969 2888 audio-common_0.3.18-2024.09.22.08.02_amd64.deb
+Checksums-Sha256:
+ e81d7e1c9d0b8ca2fd911f4cfbadcef0f3fa77e3acc9e23d8046a1c1901f5486 6968 audio-common_0.3.18-2024.09.22.08.02_amd64.buildinfo
+ bdad77f41ead8e97f9e1e36417976bc77fa6226f65aef53b1ac2ca6c006d7a72 2888 audio-common_0.3.18-2024.09.22.08.02_amd64.deb
+Files:
+ 19d9dc918b08375cb16042e733122d41 6968 misc optional audio-common_0.3.18-2024.09.22.08.02_amd64.buildinfo
+ 8735d666a56542b7b684191ee2e9e693 2888 misc optional audio-common_0.3.18-2024.09.22.08.02_amd64.deb

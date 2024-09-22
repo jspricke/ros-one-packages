@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 06 Feb 2020 00:00:00 -0000
+Source: realtime-tools
+Binary: realtime-tools realtime-tools-dbgsym
+Architecture: amd64
+Version: 1.15.1-3-ga5a5a5e-2024.09.22.08.56
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ realtime-tools - Contains a set of tools that can be used from a hard realtime thr
+Changes:
+ realtime-tools (1.15.1-3-ga5a5a5e-2024.09.22.08.56) bookworm; urgency=high
+ .
+   * Check whether thread joinable before joining
+   * realtime_server_goal_handle_tests needs actionlib
+   * Contributors: Maverobot, Shane Loretz
+Checksums-Sha1:
+ 396babeaa63c551749c7b03f3cb922b4a14786f9 119760 realtime-tools-dbgsym_1.15.1-3-ga5a5a5e-2024.09.22.08.56_amd64.deb
+ 59aeb1d555ba96436c55f536655d4c74f3e0ee80 10449 realtime-tools_1.15.1-3-ga5a5a5e-2024.09.22.08.56_amd64.buildinfo
+ 83b50d22db1e8191a372fe95429a1e73e60ae6ac 20872 realtime-tools_1.15.1-3-ga5a5a5e-2024.09.22.08.56_amd64.deb
+Checksums-Sha256:
+ 161832a0ba23c4b85840946134b8d6c031d130dad6e674493480018a7e45ac87 119760 realtime-tools-dbgsym_1.15.1-3-ga5a5a5e-2024.09.22.08.56_amd64.deb
+ 640cd3e79d8e617119863d2032ec198e26eeb014cdc6d3f3fb6c849918a3cb3f 10449 realtime-tools_1.15.1-3-ga5a5a5e-2024.09.22.08.56_amd64.buildinfo
+ 3624c78d2a20f58641c1606cb83b1caec5babafc62d6a94ab3e386a32cbd1c12 20872 realtime-tools_1.15.1-3-ga5a5a5e-2024.09.22.08.56_amd64.deb
+Files:
+ f705b708af6bbbe1492dfb28d6cc5bf9 119760 debug optional realtime-tools-dbgsym_1.15.1-3-ga5a5a5e-2024.09.22.08.56_amd64.deb
+ 2216baeaa182866e4d7f28c859dcfdc8 10449 misc optional realtime-tools_1.15.1-3-ga5a5a5e-2024.09.22.08.56_amd64.buildinfo
+ face7556444087d024d1d3c71f6ad887 20872 misc optional realtime-tools_1.15.1-3-ga5a5a5e-2024.09.22.08.56_amd64.deb

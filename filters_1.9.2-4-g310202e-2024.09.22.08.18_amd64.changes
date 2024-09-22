@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 09 May 2022 00:00:00 -0000
+Source: filters
+Binary: filters filters-dbgsym
+Architecture: amd64
+Version: 1.9.2-4-g310202e-2024.09.22.08.18
+Distribution: bookworm
+Urgency: high
+Maintainer: Tully Foote <tfoote@willowgarage.com>
+Changed-By: Tully Foote <tfoote@willowgarage.com>
+Description:
+ filters    - This library provides a standardized interface for processing dat
+Changes:
+ filters (1.9.2-4-g310202e-2024.09.22.08.18) bookworm; urgency=high
+ .
+   * Give access to FilterChain list of loaded filters
+   * Fix warnings and problem with illegal xml characters
+   * Contributors: Markus Vieth, Martin Pecka
+Checksums-Sha1:
+ d53700a3c6f57c2f32d4414ebd421aabbb87bdec 1673116 filters-dbgsym_1.9.2-4-g310202e-2024.09.22.08.18_amd64.deb
+ 85b2ccaabe351f9fdb59cefb68ac8c17df46a7c4 10866 filters_1.9.2-4-g310202e-2024.09.22.08.18_amd64.buildinfo
+ daa13ad7bb94276e82752ab6a067225680365841 78616 filters_1.9.2-4-g310202e-2024.09.22.08.18_amd64.deb
+Checksums-Sha256:
+ 360d18418cea30acd57a1f25466ca28a9334bc0cbed7a30d5b2d4262fc301e5c 1673116 filters-dbgsym_1.9.2-4-g310202e-2024.09.22.08.18_amd64.deb
+ df406241ed6e217e199fb80df7f9f26b070c55101a1064bec1436382285c6843 10866 filters_1.9.2-4-g310202e-2024.09.22.08.18_amd64.buildinfo
+ e9dab6aab1f24daf0c0477e17034bbdfe2315fbf26b61bb53664c9c76b6e5799 78616 filters_1.9.2-4-g310202e-2024.09.22.08.18_amd64.deb
+Files:
+ 358928d1bbf0ba06a8b247cf69265262 1673116 debug optional filters-dbgsym_1.9.2-4-g310202e-2024.09.22.08.18_amd64.deb
+ 6518cd97f15e86a615ab831cf5eceda9 10866 misc optional filters_1.9.2-4-g310202e-2024.09.22.08.18_amd64.buildinfo
+ bfb93a466abdb68aed2758c90b98315f 78616 misc optional filters_1.9.2-4-g310202e-2024.09.22.08.18_amd64.deb

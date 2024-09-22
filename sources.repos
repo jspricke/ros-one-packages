@@ -2,7 +2,7 @@ repositories:
   BehaviorTree.CPP:
     type: git
     url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-    version: 28267fff38dc9f3606691759bb623af91fef6080
+    version: 1fcb624d4d7b9d1f357378b20ff19bdcc3853cea
   PlotJuggler:
     type: git
     url: https://github.com/facontidavide/PlotJuggler
@@ -311,6 +311,10 @@ repositories:
     type: git
     url: https://github.com/ros-visualization/rqt_web.git
     version: 49eaabf06c0bea59624776b863d9c2befa63a086
+  ruckig:
+    type: git
+    url: https://github.com/pantor/ruckig.git
+    version: v0.14.0
   rviz_visual_tools:
     type: git
     url: https://github.com/PickNikRobotics/rviz_visual_tools.git

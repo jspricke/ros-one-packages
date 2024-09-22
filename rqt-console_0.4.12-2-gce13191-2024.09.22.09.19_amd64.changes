@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 02 Oct 2023 00:00:00 -0000
+Source: rqt-console
+Binary: rqt-console
+Architecture: amd64
+Version: 0.4.12-2-gce13191-2024.09.22.09.19
+Distribution: bookworm
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ rqt-console - rqt_console provides a GUI plugin for displaying and filtering RO
+Changes:
+ rqt-console (0.4.12-2-gce13191-2024.09.22.09.19) bookworm; urgency=high
+ .
+   * added LICENSE file
+   * Import setup from setuptools instead of distutils.core
+   * Add xml-model
+Checksums-Sha1:
+ 4a4be516815a7de7e3a9a6177dadef5147d2ded8 7010 rqt-console_0.4.12-2-gce13191-2024.09.22.09.19_amd64.buildinfo
+ 93326d2d87d3be783939e15db37ba8be64da7501 67952 rqt-console_0.4.12-2-gce13191-2024.09.22.09.19_amd64.deb
+Checksums-Sha256:
+ 18690c2b12289c370400fb908e30e6da637c57f1144ceb0431849f78d4bb2762 7010 rqt-console_0.4.12-2-gce13191-2024.09.22.09.19_amd64.buildinfo
+ b13633e7995f16f7e69cb4b3974ee7a900f18d819d6f146f0ab2093dbef92f5a 67952 rqt-console_0.4.12-2-gce13191-2024.09.22.09.19_amd64.deb
+Files:
+ 422ca01b7d52bdab69b4a243e212b100 7010 misc optional rqt-console_0.4.12-2-gce13191-2024.09.22.09.19_amd64.buildinfo
+ 6e6453b527145b2269cadde7c84260dd 67952 misc optional rqt-console_0.4.12-2-gce13191-2024.09.22.09.19_amd64.deb

@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 31 Jul 2020 00:00:00 -0000
+Source: turtlesim
+Binary: turtlesim turtlesim-dbgsym
+Architecture: amd64
+Version: 0.10.2-3-gdb63288-2024.09.22.10.04
+Distribution: bookworm
+Urgency: high
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Changed-By: Mabel Zhang <mabel@openrobotics.org>
+Description:
+ turtlesim  - turtlesim is a tool made for teaching ROS and ROS packages.
+Changes:
+ turtlesim (0.10.2-3-gdb63288-2024.09.22.10.04) bookworm; urgency=high
+ .
+   * add holonomic motion for turtlesim (#94 <https://github.com/ros/ros_tutorials/issues/94>)
+Checksums-Sha1:
+ 4d17b907a742b11bbb22c5da75569e092f1cb301 2634228 turtlesim-dbgsym_0.10.2-3-gdb63288-2024.09.22.10.04_amd64.deb
+ d8bd288bd4b116b927058f9d370379c2e86e4216 13932 turtlesim_0.10.2-3-gdb63288-2024.09.22.10.04_amd64.buildinfo
+ a1d4730b19046a03173c7909c10c044cd56b3aa3 229616 turtlesim_0.10.2-3-gdb63288-2024.09.22.10.04_amd64.deb
+Checksums-Sha256:
+ 27932b2724c6671f19e80c7a0b55be58cc95752fdcc6112240a5879332746866 2634228 turtlesim-dbgsym_0.10.2-3-gdb63288-2024.09.22.10.04_amd64.deb
+ 9f8ae12d5974e408bc43de60070cffbd99357db8f9b4bdc8633c9f32d342ff8d 13932 turtlesim_0.10.2-3-gdb63288-2024.09.22.10.04_amd64.buildinfo
+ 2b19f16f0ff9a8ba92e0daee3db683ae6a56a7778a646a7a387d925d4b388149 229616 turtlesim_0.10.2-3-gdb63288-2024.09.22.10.04_amd64.deb
+Files:
+ 975cc718d8e8bd4834e900312e341391 2634228 debug optional turtlesim-dbgsym_0.10.2-3-gdb63288-2024.09.22.10.04_amd64.deb
+ 74c64620364128012c155663ce44db7a 13932 misc optional turtlesim_0.10.2-3-gdb63288-2024.09.22.10.04_amd64.buildinfo
+ 06b2785c87177a6d3a271a3d1bb18aa9 229616 misc optional turtlesim_0.10.2-3-gdb63288-2024.09.22.10.04_amd64.deb

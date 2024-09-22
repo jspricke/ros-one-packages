@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 30 Jan 2023 00:00:00 -0000
+Source: image-transport-plugins
+Binary: image-transport-plugins
+Architecture: amd64
+Version: 1.15.0-9-gcae592c-2024.09.22.08.23
+Distribution: bookworm
+Urgency: high
+Maintainer: Kenji Brameld <kenjibrameld@gmail.com>
+Changed-By: Kenji Brameld <kenjibrameld@gmail.com>
+Description:
+ image-transport-plugins - A set of plugins for publishing and subscribing to sensor_msgs/Im
+Changes:
+ image-transport-plugins (1.15.0-9-gcae592c-2024.09.22.08.23) bookworm; urgency=high
+ .
+   * Update maintainer in ros1 branches (#132 <https://github.com/ros-perception/image_transport_plugins/issues/132>)
+   * Contributors: Kenji Brameld, ijnek
+Checksums-Sha1:
+ cd098eb325172353fbc1acc7ea4507c5e731e165 7067 image-transport-plugins_1.15.0-9-gcae592c-2024.09.22.08.23_amd64.buildinfo
+ 7ddc4e7e123b4cf1f55ce5bd84d94efe9596d69d 3332 image-transport-plugins_1.15.0-9-gcae592c-2024.09.22.08.23_amd64.deb
+Checksums-Sha256:
+ f2f934847dda30c1a5c5d2d03d1e8a387b298b06388136ca89b32ed0a4f01d7e 7067 image-transport-plugins_1.15.0-9-gcae592c-2024.09.22.08.23_amd64.buildinfo
+ 299dfae4c5e41f537b1496d8b04190ec6b7c125bd51615a6f6b69836ff00378e 3332 image-transport-plugins_1.15.0-9-gcae592c-2024.09.22.08.23_amd64.deb
+Files:
+ a2ae818ac51423b6cba0fd2d3928ea4b 7067 misc optional image-transport-plugins_1.15.0-9-gcae592c-2024.09.22.08.23_amd64.buildinfo
+ cef23a1dfe94c88a3f1e7686f86cefea 3332 misc optional image-transport-plugins_1.15.0-9-gcae592c-2024.09.22.08.23_amd64.deb

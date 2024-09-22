@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Mon, 16 Mar 2020 00:00:00 -0000
+Source: roslint
+Binary: roslint
+Architecture: amd64
+Version: 0.12.0-4-gac02636-2024.09.22.09.11
+Distribution: bookworm
+Urgency: high
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Changed-By: Mike Purvis <mpurvis@clearpathrobotics.com>
+Description:
+ roslint    - CMake lint commands for ROS packages.
+Changes:
+ roslint (0.12.0-4-gac02636-2024.09.22.09.11) bookworm; urgency=high
+ .
+   * Misc tidying for ROS Noetic. (#79 <https://github.com/ros/roslint//issues/79>)
+     - Invoke wrappers with python -m instead of as scripts.
+     - Drop logic not needed with CATKIN_ENV used.
+     - Drop unneeded install of the cmake extra.
+     - Print output as well as capturing in test wrapper.
+   * Bump CMake version to avoid CMP0048 warning (#77 <https://github.com/ros/roslint//issues/77>)
+   * Fix is-not usage in cpplint-wrapper (#76 <https://github.com/ros/roslint//issues/76>)
+     Python complains about this during installation now.
+   * Bump to latest pycodestyle.
+   * Python 3 fixes for cpplint.
+   * Bump cpplint.py to latest version
+   * Update URL to cpplint
+   * Support for headers outside of include folder (#68 <https://github.com/ros/roslint//issues/68>)
+   * Adding hpp to default list of extensions. (#69 <https://github.com/ros/roslint//issues/69>)
+   * CheckBracers now correctly accepts C++11 bracer-init-lists passed as arguments to functions (#63 <https://github.com/ros/roslint//issues/63>)
+   * Contributors: Joshua Whitley, Maciej Żurad, Mike Purvis, Shane Loretz, mistoll
+Checksums-Sha1:
+ 6a57f4429fb77a81e714e01b7acbc04be43ae765 6993 roslint_0.12.0-4-gac02636-2024.09.22.09.11_amd64.buildinfo
+ 3d8610648f8fa7a35302e3a445d635dd5a3d7df9 189132 roslint_0.12.0-4-gac02636-2024.09.22.09.11_amd64.deb
+Checksums-Sha256:
+ ce08514f20dc9384b810f90c591217be9511ac0bbc01e80c2a5bc475487f248a 6993 roslint_0.12.0-4-gac02636-2024.09.22.09.11_amd64.buildinfo
+ 8b60f12a724c92a87f24da9a7f4a200585b810ed66722bcc21ce7b3b57b13c9d 189132 roslint_0.12.0-4-gac02636-2024.09.22.09.11_amd64.deb
+Files:
+ 0e2ebd73904ded31adf361f3809ff649 6993 misc optional roslint_0.12.0-4-gac02636-2024.09.22.09.11_amd64.buildinfo
+ 3c8026f706dce03ca9f98de2de3a64a5 189132 misc optional roslint_0.12.0-4-gac02636-2024.09.22.09.11_amd64.deb

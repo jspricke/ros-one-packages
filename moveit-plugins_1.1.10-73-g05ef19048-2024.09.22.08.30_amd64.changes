@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: moveit-plugins
+Binary: moveit-plugins
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2024.09.22.08.30
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ moveit-plugins - Metapackage for MoveIt plugins.
+Changes:
+ moveit-plugins (1.1.10-73-g05ef19048-2024.09.22.08.30) bookworm; urgency=high
+Checksums-Sha1:
+ ddb03bb4a7bad0e1ca43d8d0a442af4c40a79e0f 7034 moveit-plugins_1.1.10-73-g05ef19048-2024.09.22.08.30_amd64.buildinfo
+ 00bd3af2470c8e064ada87c47b8609503beb87bd 3128 moveit-plugins_1.1.10-73-g05ef19048-2024.09.22.08.30_amd64.deb
+Checksums-Sha256:
+ 852056eb38ad27f316cef5694815db5f65eb23c3690df0509334ced4028d2eda 7034 moveit-plugins_1.1.10-73-g05ef19048-2024.09.22.08.30_amd64.buildinfo
+ e2fc0555535e77dcc5e0d35d3cea70f7fd744decaef7ff35cf3e22a3db6d1f38 3128 moveit-plugins_1.1.10-73-g05ef19048-2024.09.22.08.30_amd64.deb
+Files:
+ ba5a592cefec79c33a5b7a67be0329f9 7034 misc optional moveit-plugins_1.1.10-73-g05ef19048-2024.09.22.08.30_amd64.buildinfo
+ 0090cd0b222b9d56d29681b9a8f3b1e5 3128 misc optional moveit-plugins_1.1.10-73-g05ef19048-2024.09.22.08.30_amd64.deb

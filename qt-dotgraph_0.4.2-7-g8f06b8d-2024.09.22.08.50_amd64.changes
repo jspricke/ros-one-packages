@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 24 Jul 2020 00:00:00 -0000
+Source: qt-dotgraph
+Binary: qt-dotgraph
+Architecture: amd64
+Version: 0.4.2-7-g8f06b8d-2024.09.22.08.50
+Distribution: bookworm
+Urgency: high
+Maintainer: Scott Logan <cottsay@openrobotics.org>
+Changed-By: Scott Logan <cottsay@openrobotics.org>
+Description:
+ qt-dotgraph - qt_dotgraph provides helpers to work with dot graphs.
+Changes:
+ qt-dotgraph (0.4.2-7-g8f06b8d-2024.09.22.08.50) bookworm; urgency=high
+Checksums-Sha1:
+ dea6547c2755ee71887d0216b4981f5f4703d8e8 8940 qt-dotgraph_0.4.2-7-g8f06b8d-2024.09.22.08.50_amd64.buildinfo
+ a9f6e49c5523fa043cc8f99e3cc7c7ece8c91ff8 31200 qt-dotgraph_0.4.2-7-g8f06b8d-2024.09.22.08.50_amd64.deb
+Checksums-Sha256:
+ 565a6bb5290b605627a2c311fead2c897d7057918b80921aa07c932112224ba8 8940 qt-dotgraph_0.4.2-7-g8f06b8d-2024.09.22.08.50_amd64.buildinfo
+ 4542656d181ad236b7c4919df6acc4a556ebe8cb0d21e9d9261cfd5b30754a13 31200 qt-dotgraph_0.4.2-7-g8f06b8d-2024.09.22.08.50_amd64.deb
+Files:
+ e089b1d69f244ef980aac85714236e08 8940 misc optional qt-dotgraph_0.4.2-7-g8f06b8d-2024.09.22.08.50_amd64.buildinfo
+ 215bdbec1532c7f72e766ed8dd2ccde2 31200 misc optional qt-dotgraph_0.4.2-7-g8f06b8d-2024.09.22.08.50_amd64.deb

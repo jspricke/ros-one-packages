@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Mon, 07 Jun 2021 00:00:00 -0000
+Source: joystick-drivers
+Binary: joystick-drivers
+Architecture: amd64
+Version: 0-2024.09.22.08.26
+Distribution: bookworm
+Urgency: high
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Changed-By: Jonathan Bohren <jbo@jhu.edu>
+Description:
+ joystick-drivers - This metapackage depends on packages for interfacing common joyst
+Changes:
+ joystick-drivers (0-2024.09.22.08.26) bookworm; urgency=high
+Checksums-Sha1:
+ 9a23305d75468eea40da83c40acf6344c130a677 6968 joystick-drivers_0-2024.09.22.08.26_amd64.buildinfo
+ 932798b1d915c70e0e42a0674048313f97621c7d 2448 joystick-drivers_0-2024.09.22.08.26_amd64.deb
+Checksums-Sha256:
+ df38e57f16f9bfdeb65c351445f111d2789f6c51712f4617ecc65f8b28d2c13c 6968 joystick-drivers_0-2024.09.22.08.26_amd64.buildinfo
+ 25d6259b1fed58c7eca16f05e056375f049a41a7cfa402dbf614af6b6c03db79 2448 joystick-drivers_0-2024.09.22.08.26_amd64.deb
+Files:
+ 23548e318db88f87f9f390fa01664e7e 6968 misc optional joystick-drivers_0-2024.09.22.08.26_amd64.buildinfo
+ ef1a8eb4d10fd30d1afad931da39602e 2448 misc optional joystick-drivers_0-2024.09.22.08.26_amd64.deb

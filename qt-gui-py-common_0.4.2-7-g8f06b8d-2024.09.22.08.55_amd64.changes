@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 24 Jul 2020 00:00:00 -0000
+Source: qt-gui-py-common
+Binary: qt-gui-py-common
+Architecture: amd64
+Version: 0.4.2-7-g8f06b8d-2024.09.22.08.55
+Distribution: bookworm
+Urgency: high
+Maintainer: Scott Logan <cottsay@openrobotics.org>
+Changed-By: Scott Logan <cottsay@openrobotics.org>
+Description:
+ qt-gui-py-common - qt_gui_py_common provides common functionality for GUI plugins wr
+Changes:
+ qt-gui-py-common (0.4.2-7-g8f06b8d-2024.09.22.08.55) bookworm; urgency=high
+Checksums-Sha1:
+ 12bc2f843d823de2e987f940dc0ff6eabf7cae72 7031 qt-gui-py-common_0.4.2-7-g8f06b8d-2024.09.22.08.55_amd64.buildinfo
+ 431a3f58c460c320eced5810207342973ab6480c 18212 qt-gui-py-common_0.4.2-7-g8f06b8d-2024.09.22.08.55_amd64.deb
+Checksums-Sha256:
+ b5f7f1c04558a5119158671a6544b83c39862cd843cf311dee9a2ebf3b31fe54 7031 qt-gui-py-common_0.4.2-7-g8f06b8d-2024.09.22.08.55_amd64.buildinfo
+ 5cca48f7bd7723f7ac9f01d73556e56f99d9b8ed6800863a930bad6042d773f7 18212 qt-gui-py-common_0.4.2-7-g8f06b8d-2024.09.22.08.55_amd64.deb
+Files:
+ 7124d5fc3eb2c14c5db885bcf2954719 7031 misc optional qt-gui-py-common_0.4.2-7-g8f06b8d-2024.09.22.08.55_amd64.buildinfo
+ c91ca8c390ed7dc02d416415efc7d232 18212 misc optional qt-gui-py-common_0.4.2-7-g8f06b8d-2024.09.22.08.55_amd64.deb

@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Sun, 23 May 2021 00:00:00 -0000
+Source: mouse-teleop
+Binary: mouse-teleop
+Architecture: amd64
+Version: 0.4.1-1-g735e46c-2024.09.22.08.28
+Distribution: bookworm
+Urgency: high
+Maintainer: Enrique Fernandez <enrique.fernandez.perdomo@gmail.com>
+Changed-By: Enrique Fernandez <enrique.fernandez.perdomo@gmail.com>
+Description:
+ mouse-teleop - A mouse teleop tool for holonomic mobile robots.
+Changes:
+ mouse-teleop (0.4.1-1-g735e46c-2024.09.22.08.28) bookworm; urgency=high
+Checksums-Sha1:
+ 29b2b5247933d4ab303a190c5bcc06ac126f16fd 7008 mouse-teleop_0.4.1-1-g735e46c-2024.09.22.08.28_amd64.buildinfo
+ 6d8c6211c0feec213caf882b621aa477714cc982 7476 mouse-teleop_0.4.1-1-g735e46c-2024.09.22.08.28_amd64.deb
+Checksums-Sha256:
+ 31366617d072ba171c2b9e627f5d3df595ee2daa7083e768876a53cdaedd019a 7008 mouse-teleop_0.4.1-1-g735e46c-2024.09.22.08.28_amd64.buildinfo
+ 24f05324b9cfc509139ab5338c356043b0812371c27907c4826958316b40e0e5 7476 mouse-teleop_0.4.1-1-g735e46c-2024.09.22.08.28_amd64.deb
+Files:
+ ecde063a7e2a469e29cf5b932e4c5548 7008 misc optional mouse-teleop_0.4.1-1-g735e46c-2024.09.22.08.28_amd64.buildinfo
+ b900efafc654e05b597294ddff553101 7476 misc optional mouse-teleop_0.4.1-1-g735e46c-2024.09.22.08.28_amd64.deb

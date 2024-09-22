@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: moveit-runtime
+Binary: moveit-runtime
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2024.09.22.08.38
+Distribution: bookworm
+Urgency: high
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I. Y. Saito <gm130s@gmail.com>
+Description:
+ moveit-runtime - moveit_runtime meta package contains MoveIt packages that are ess
+Changes:
+ moveit-runtime (1.1.10-73-g05ef19048-2024.09.22.08.38) bookworm; urgency=high
+Checksums-Sha1:
+ f96a82fff9c8c0c69a6340c9da2e6e787638fc90 7034 moveit-runtime_1.1.10-73-g05ef19048-2024.09.22.08.38_amd64.buildinfo
+ 178a2034e581e0455be41d10e870dd5260e6af89 3068 moveit-runtime_1.1.10-73-g05ef19048-2024.09.22.08.38_amd64.deb
+Checksums-Sha256:
+ 1e0fe2fbec4e4509f76fc88ee800a88b6eb757998007e49edf24a9c34c37f571 7034 moveit-runtime_1.1.10-73-g05ef19048-2024.09.22.08.38_amd64.buildinfo
+ d04cb19c4637426bc2c97496cb5a18b44f7286fd4a6db5d02cba0c8560b653d2 3068 moveit-runtime_1.1.10-73-g05ef19048-2024.09.22.08.38_amd64.deb
+Files:
+ 663789b8daeb289301d43e4be36c25cc 7034 misc optional moveit-runtime_1.1.10-73-g05ef19048-2024.09.22.08.38_amd64.buildinfo
+ 2f0046ec54f8f67622080ab4bacdc654 3068 misc optional moveit-runtime_1.1.10-73-g05ef19048-2024.09.22.08.38_amd64.deb

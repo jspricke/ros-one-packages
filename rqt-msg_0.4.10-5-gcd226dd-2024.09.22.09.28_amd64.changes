@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 21 Apr 2021 00:00:00 -0000
+Source: rqt-msg
+Binary: rqt-msg
+Architecture: amd64
+Version: 0.4.10-5-gcd226dd-2024.09.22.09.28
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ rqt-msg    - A Python GUI plugin for introspecting available ROS message types
+Changes:
+ rqt-msg (0.4.10-5-gcd226dd-2024.09.22.09.28) bookworm; urgency=high
+ .
+   * Merge pull request #12 <https://github.com/ros-visualization/rqt_msg/issues/12> from ros-visualization/sloretz-update-maintainer
+     Update maintainer in package.xml
+   * fix shebang line for python3 (#10 <https://github.com/ros-visualization/rqt_msg/issues/10>)
+   * Contributors: Michael Carroll, Mikael Arguedas, Shane Loretz
+Checksums-Sha1:
+ cbdbed5de49c6ffe948a4eb3c6f8583211f0698c 6990 rqt-msg_0.4.10-5-gcd226dd-2024.09.22.09.28_amd64.buildinfo
+ 65d2c754fefe80534e3a5cfae37b028edb940ea7 17540 rqt-msg_0.4.10-5-gcd226dd-2024.09.22.09.28_amd64.deb
+Checksums-Sha256:
+ 3cbf62979d2cb89d54a495644d7cbffb4ee938cfbfd95ddf930a0fb4352e45fe 6990 rqt-msg_0.4.10-5-gcd226dd-2024.09.22.09.28_amd64.buildinfo
+ 69194f020475297db604a2063881c9e3e810f963754f5fdbd77e8d62ec0cdef4 17540 rqt-msg_0.4.10-5-gcd226dd-2024.09.22.09.28_amd64.deb
+Files:
+ 445aeb56f553be43d0fe0dde560f2cb4 6990 misc optional rqt-msg_0.4.10-5-gcd226dd-2024.09.22.09.28_amd64.buildinfo
+ e879a5a57ff07e70882f08abcd63a1d4 17540 misc optional rqt-msg_0.4.10-5-gcd226dd-2024.09.22.09.28_amd64.deb

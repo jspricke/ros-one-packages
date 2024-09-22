@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 13 Jun 2023 00:00:00 -0000
+Source: smach
+Binary: smach
+Architecture: amd64
+Version: 2.5.2-2-g7153326-2024.09.22.09.50
+Distribution: bookworm
+Urgency: high
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I. Y. Saito <gm130s@gmail.com>
+Description:
+ smach      - SMACH is a task-level architecture for rapidly creating complex r
+Changes:
+ smach (2.5.2-2-g7153326-2024.09.22.09.50) bookworm; urgency=high
+ .
+   * Fix outcome_map disambiguation for Concurrence #80 <https://github.com/ros/executive_smach/issues/80>
+   * Fix is_running behaviour in case of exception in the state #50 <https://github.com/ros/executive_smach/issues/50>
+   * Executing an empty Concurrence container hangs forever #51 <https://github.com/ros/executive_smach/issues/51>
+Checksums-Sha1:
+ 3b5dc99d391fcf694fd708042f063f30995ccc27 6976 smach_2.5.2-2-g7153326-2024.09.22.09.50_amd64.buildinfo
+ 3385556ec7f82ab7acf89864529a659fee272f2c 48576 smach_2.5.2-2-g7153326-2024.09.22.09.50_amd64.deb
+Checksums-Sha256:
+ ad3429ac103535f01fd706607753d70dc6c3742ff48d609ca248f59c06cbf7b6 6976 smach_2.5.2-2-g7153326-2024.09.22.09.50_amd64.buildinfo
+ ab2691f2ef2a2ea1f51f4a4fcc936c2ee94f5a3b1f6a41d0a0146cb44ce778e7 48576 smach_2.5.2-2-g7153326-2024.09.22.09.50_amd64.deb
+Files:
+ 53f252179590e16af3e6fee0f40a9687 6976 misc optional smach_2.5.2-2-g7153326-2024.09.22.09.50_amd64.buildinfo
+ d26ae602e4e9e1203f7bb5a271cadbb4 48576 misc optional smach_2.5.2-2-g7153326-2024.09.22.09.50_amd64.deb

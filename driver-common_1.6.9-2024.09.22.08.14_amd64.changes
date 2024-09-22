@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Mon, 22 Mar 2021 00:00:00 -0000
+Source: driver-common
+Binary: driver-common
+Architecture: amd64
+Version: 1.6.9-2024.09.22.08.14
+Distribution: bookworm
+Urgency: high
+Maintainer: Chad Rockey <chadrockey@gmail.com>
+Changed-By: Chad Rockey <chadrockey@gmail.com>
+Description:
+ driver-common - The driver_common stack contains classes and tools that are usefu
+Changes:
+ driver-common (1.6.9-2024.09.22.08.14) bookworm; urgency=high
+Checksums-Sha1:
+ 5ec2b466fdd4a6ec2b59eab5110ef2369939dc30 6969 driver-common_1.6.9-2024.09.22.08.14_amd64.buildinfo
+ 7494c921438be61dee14935dcb4580c48780740e 2564 driver-common_1.6.9-2024.09.22.08.14_amd64.deb
+Checksums-Sha256:
+ b870f1b93cfa68a7f4fa436a14812deaacfbf64bbb141e3de23c29a91af172a1 6969 driver-common_1.6.9-2024.09.22.08.14_amd64.buildinfo
+ b5d38b429b9f0e82053b48eec8fca67fca603ff07242b4611dcfeb05b577d776 2564 driver-common_1.6.9-2024.09.22.08.14_amd64.deb
+Files:
+ 18ff7a9f27dd7bcbae54b0caee7ab560 6969 misc optional driver-common_1.6.9-2024.09.22.08.14_amd64.buildinfo
+ 19380a9fcac43fee3beed0c00c534aa8 2564 misc optional driver-common_1.6.9-2024.09.22.08.14_amd64.deb

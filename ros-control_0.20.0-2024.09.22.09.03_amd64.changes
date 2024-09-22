@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 27 Oct 2023 00:00:00 -0000
+Source: ros-control
+Binary: ros-control
+Architecture: amd64
+Version: 0.20.0-2024.09.22.09.03
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-control - A set of packages that include controller interfaces, controller
+Changes:
+ ros-control (0.20.0-2024.09.22.09.03) bookworm; urgency=high
+Checksums-Sha1:
+ 66891845645ce2b73a5ff1577542f35f1e38566d 6963 ros-control_0.20.0-2024.09.22.09.03_amd64.buildinfo
+ 8ab23a45af3a2f36bcee3ac418e99027c6df785e 3480 ros-control_0.20.0-2024.09.22.09.03_amd64.deb
+Checksums-Sha256:
+ 7b6e4f81fc86fac1ac34fcd4f0f8418a996f79b9f4445a518e1ec268942989c7 6963 ros-control_0.20.0-2024.09.22.09.03_amd64.buildinfo
+ 3f2445f2b2dca793a1c92f3fc189b180fba5d5c3dfb3ffa2f9147b58cfbf9fb1 3480 ros-control_0.20.0-2024.09.22.09.03_amd64.deb
+Files:
+ 917589c6cbdeb7c03159e01f5da8df26 6963 misc optional ros-control_0.20.0-2024.09.22.09.03_amd64.buildinfo
+ df5f71beeb7d12c0e3d38ac4bbf53581 3480 misc optional ros-control_0.20.0-2024.09.22.09.03_amd64.deb

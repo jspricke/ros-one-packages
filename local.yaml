@@ -1,9 +1,18 @@
 apriltag_ros:
   debian:
   - ros-apriltag-ros
+audio_common:
+  debian:
+  - ros-audio-common
 audio_common_msgs:
   debian:
   - ros-audio-common-msgs
+audio_capture:
+  debian:
+  - ros-audio-capture
+audio_play:
+  debian:
+  - ros-audio-play
 backward_ros:
   debian:
   - ros-backward-ros
@@ -31,12 +40,24 @@ convex_decomposition:
 driver_base:
   debian:
   - ros-driver-base
+driver_common:
+  debian:
+  - ros-driver-common
 eml:
   debian:
   - ros-eml
 ethercat_grant:
   debian:
   - ros-ethercat-grant
+executive_smach:
+  debian:
+  - ros-executive-smach
+executive_smach_visualization:
+  debian:
+  - ros-executive-smach-visualization
+fake_joint:
+  debian:
+  - ros-fake-joint
 filters:
   debian:
   - ros-filters
@@ -52,30 +73,105 @@ graph_msgs:
 hardware_interface:
   debian:
   - ros-hardware-interface
+combined_robot_hw:
+  debian:
+  - ros-combined-robot-hw
+controller_interface:
+  debian:
+  - ros-controller-interface
+controller_manager:
+  debian:
+  - ros-controller-manager
+controller_manager_tests:
+  debian:
+  - ros-controller-manager-tests
+combined_robot_hw_tests:
+  debian:
+  - ros-combined-robot-hw-tests
+image_transport_plugins:
+  debian:
+  - ros-image-transport-plugins
 ivcon:
   debian:
   - ros-ivcon
+joint_limits_interface:
+  debian:
+  - ros-joint-limits-interface
+joy_teleop:
+  debian:
+  - ros-joy-teleop
+joystick_drivers:
+  debian:
+  - ros-joystick-drivers
 key_teleop:
   debian:
   - ros-key-teleop
+laser_assembler:
+  debian:
+  - ros-laser-assembler
 media_export:
   debian:
   - ros-media-export
 mouse_teleop:
   debian:
   - ros-mouse-teleop
+moveit:
+  debian:
+  - ros-moveit
+moveit_planners:
+  debian:
+  - ros-moveit-planners
+moveit_plugins:
+  debian:
+  - ros-moveit-plugins
+moveit_resources:
+  debian:
+  - ros-moveit-resources
+moveit_resources_dual_panda_moveit_config:
+  debian:
+  - ros-moveit-resources-dual-panda-moveit-config
 moveit_resources_fanuc_description:
   debian:
   - ros-moveit-resources-fanuc-description
+moveit_resources_fanuc_moveit_config:
+  debian:
+  - ros-moveit-resources-fanuc-moveit-config
+moveit_resources_panda_moveit_config:
+  debian:
+  - ros-moveit-resources-panda-moveit-config
 moveit_resources_pr2_description:
   debian:
   - ros-moveit-resources-pr2-description
+moveit_resources_prbt_moveit_config:
+  debian:
+  - ros-moveit-resources-prbt-moveit-config
+moveit_resources_prbt_pg70_support:
+  debian:
+  - ros-moveit-resources-prbt-pg70-support
+moveit_resources_prbt_support:
+  debian:
+  - ros-moveit-resources-prbt-support
+moveit_ros:
+  debian:
+  - ros-moveit-ros
+moveit_runtime:
+  debian:
+  - ros-moveit-runtime
 object_recognition_msgs:
   debian:
   - ros-object-recognition-msgs
 octomap_msgs:
   debian:
   - ros-octomap-msgs
+moveit_msgs:
+  debian:
+  - ros-moveit-msgs
+octomap_ros:
+  debian:
+  - ros-octomap-ros
+octomap_rviz_plugins:
+  debian:
+  - ros-octomap-rviz-plugins
 plotjuggler:
   debian:
   - ros-plotjuggler
@@ -88,6 +184,15 @@ qt_dotgraph:
 qt_gui:
   debian:
   - ros-qt-gui
+qt_gui_app:
+  debian:
+  - ros-qt-gui-app
+qt_gui_core:
+  debian:
+  - ros-qt-gui-core
+qt_gui_cpp:
+  debian:
+  - ros-qt-gui-cpp
 qt_gui_py_common:
   debian:
   - ros-qt-gui-py-common
@@ -97,12 +202,42 @@ qwt_dependency:
 realtime_tools:
   debian:
   - ros-realtime-tools
+control_toolbox:
+  debian:
+  - ros-control-toolbox
+force_torque_sensor_controller:
+  debian:
+  - ros-force-torque-sensor-controller
+forward_command_controller:
+  debian:
+  - ros-forward-command-controller
+gripper_action_controller:
+  debian:
+  - ros-gripper-action-controller
+imu_sensor_controller:
+  debian:
+  - ros-imu-sensor-controller
+joint_state_controller:
+  debian:
+  - ros-joint-state-controller
+position_controllers:
+  debian:
+  - ros-position-controllers
 rgbd_launch:
   debian:
   - ros-rgbd-launch
+ros_control:
+  debian:
+  - ros-ros-control
+ros_controllers:
+  debian:
+  - ros-ros-controllers
 ros_pytest:
   debian:
   - ros-ros-pytest
+ros_tutorials:
+  debian:
+  - ros-ros-tutorials
 rosbag_migration_rule:
   debian:
   - ros-rosbag-migration-rule
@@ -118,84 +253,12 @@ rosdoc_lite:
 roslint:
   debian:
   - ros-roslint
-smach:
-  debian:
-  - ros-smach
-smach_msgs:
-  debian:
-  - ros-smach-msgs
-soem:
-  debian:
-  - ros-soem
-theora_image_transport:
-  debian:
-  - ros-theora-image-transport
-timestamp_tools:
-  debian:
-  - ros-timestamp-tools
-turtlesim:
-  debian:
-  - ros-turtlesim
-urdfdom_py:
-  debian:
-  - ros-urdfdom-py
-uuid_msgs:
-  debian:
-  - ros-uuid-msgs
-warehouse_ros:
-  debian:
-  - ros-warehouse-ros
-webkit_dependency:
-  debian:
-  - ros-webkit-dependency
-audio_capture:
-  debian:
-  - ros-audio-capture
-audio_play:
-  debian:
-  - ros-audio-play
 boost_sml:
   debian:
   - ros-boost-sml
-combined_robot_hw:
-  debian:
-  - ros-combined-robot-hw
-control_toolbox:
-  debian:
-  - ros-control-toolbox
-controller_interface:
-  debian:
-  - ros-controller-interface
-driver_common:
-  debian:
-  - ros-driver-common
-image_transport_plugins:
-  debian:
-  - ros-image-transport-plugins
-joint_limits_interface:
-  debian:
-  - ros-joint-limits-interface
 joy:
   debian:
   - ros-joy
-laser_assembler:
-  debian:
-  - ros-laser-assembler
-moveit_msgs:
-  debian:
-  - ros-moveit-msgs
-octomap_ros:
-  debian:
-  - ros-octomap-ros
-octomap_rviz_plugins:
-  debian:
-  - ros-octomap-rviz-plugins
-qt_gui_app:
-  debian:
-  - ros-qt-gui-app
-qt_gui_cpp:
-  debian:
-  - ros-qt-gui-cpp
 rosbag_snapshot:
   debian:
   - ros-rosbag-snapshot
@@ -205,147 +268,42 @@ rosparam_shortcuts:
 rospy_tutorials:
   debian:
   - ros-rospy-tutorials
+rqt:
+  debian:
+  - ros-rqt
+rqt_action:
+  debian:
+  - ros-rqt-action
+rqt_bag:
+  debian:
+  - ros-rqt-bag
+rqt_bag_plugins:
+  debian:
+  - ros-rqt-bag-plugins
+rqt_common_plugins:
+  debian:
+  - ros-rqt-common-plugins
+rqt_console:
+  debian:
+  - ros-rqt-console
+rqt_controller_manager:
+  debian:
+  - ros-rqt-controller-manager
+rqt_dep:
+  debian:
+  - ros-rqt-dep
+rqt_graph:
+  debian:
+  - ros-rqt-graph
 rqt_gui:
   debian:
   - ros-rqt-gui
-rqt_py_common:
-  debian:
-  - ros-rqt-py-common
-rviz_visual_tools:
-  debian:
-  - ros-rviz-visual-tools
-smach_ros:
-  debian:
-  - ros-smach-ros
-sound_play:
-  debian:
-  - ros-sound-play
-spacenav_node:
-  debian:
-  - ros-spacenav-node
-srdfdom:
-  debian:
-  - ros-srdfdom
-teleop_tools_msgs:
-  debian:
-  - ros-teleop-tools-msgs
-transmission_interface:
-  debian:
-  - ros-transmission-interface
-unique_id:
-  debian:
-  - ros-unique-id
-wiimote:
-  debian:
-  - ros-wiimote
-xacro:
-  debian:
-  - ros-xacro
-audio_common:
-  debian:
-  - ros-audio-common
-controller_manager:
-  debian:
-  - ros-controller-manager
-executive_smach:
-  debian:
-  - ros-executive-smach
-forward_command_controller:
-  debian:
-  - ros-forward-command-controller
-gripper_action_controller:
-  debian:
-  - ros-gripper-action-controller
-joint_state_controller:
-  debian:
-  - ros-joint-state-controller
-joy_teleop:
-  debian:
-  - ros-joy-teleop
-joystick_drivers:
-  debian:
-  - ros-joystick-drivers
-moveit_resources_fanuc_moveit_config:
-  debian:
-  - ros-moveit-resources-fanuc-moveit-config
-moveit_resources_panda_description:
-  debian:
-  - ros-moveit-resources-panda-description
-moveit_resources_prbt_support:
-  debian:
-  - ros-moveit-resources-prbt-support
-qt_gui_core:
-  debian:
-  - ros-qt-gui-core
-ros_tutorials:
-  debian:
-  - ros-ros-tutorials
 rqt_gui_cpp:
   debian:
   - ros-rqt-gui-cpp
 rqt_gui_py:
   debian:
   - ros-rqt-gui-py
-smach_viewer:
-  debian:
-  - ros-smach-viewer
-unique_identifier:
-  debian:
-  - ros-unique-identifier
-urdf_geometry_parser:
-  debian:
-  - ros-urdf-geometry-parser
-urdf_tutorial:
-  debian:
-  - ros-urdf-tutorial
-controller_manager_tests:
-  debian:
-  - ros-controller-manager-tests
-diff_drive_controller:
-  debian:
-  - ros-diff-drive-controller
-effort_controllers:
-  debian:
-  - ros-effort-controllers
-executive_smach_visualization:
-  debian:
-  - ros-executive-smach-visualization
-force_torque_sensor_controller:
-  debian:
-  - ros-force-torque-sensor-controller
-four_wheel_steering_controller:
-  debian:
-  - ros-four-wheel-steering-controller
-imu_sensor_controller:
-  debian:
-  - ros-imu-sensor-controller
-joint_trajectory_controller:
-  debian:
-  - ros-joint-trajectory-controller
-moveit_resources_dual_panda_moveit_config:
-  debian:
-  - ros-moveit-resources-dual-panda-moveit-config
-moveit_resources_panda_moveit_config:
-  debian:
-  - ros-moveit-resources-panda-moveit-config
-position_controllers:
-  debian:
-  - ros-position-controllers
-ros_control:
-  debian:
-  - ros-ros-control
-rqt:
-  debian:
-  - ros-rqt
-rqt_bag:
-  debian:
-  - ros-rqt-bag
-rqt_controller_manager:
-  debian:
-  - ros-rqt-controller-manager
-rqt_graph:
-  debian:
-  - ros-rqt-graph
 rqt_image_view:
   debian:
   - ros-rqt-image-view
@@ -355,6 +313,12 @@ rqt_joint_trajectory_controller:
 rqt_logger_level:
   debian:
   - ros-rqt-logger-level
+rqt_moveit:
+  debian:
+  - ros-rqt-moveit
+rqt_msg:
+  debian:
+  - ros-rqt-msg
 rqt_nav_view:
   debian:
   - ros-rqt-nav-view
@@ -367,9 +331,27 @@ rqt_pose_view:
 rqt_publisher:
   debian:
   - ros-rqt-publisher
+rqt_py_common:
+  debian:
+  - ros-rqt-py-common
+rqt_launch:
+  debian:
+  - ros-rqt-launch
 rqt_py_console:
   debian:
   - ros-rqt-py-console
+rqt_reconfigure:
+  debian:
+  - ros-rqt-reconfigure
+rqt_robot_dashboard:
+  debian:
+  - ros-rqt-robot-dashboard
+rqt_robot_monitor:
+  debian:
+  - ros-rqt-robot-monitor
+rqt_robot_plugins:
+  debian:
+  - ros-rqt-robot-plugins
 rqt_robot_steering:
   debian:
   - ros-rqt-robot-steering
@@ -382,6 +364,12 @@ rqt_service_caller:
 rqt_shell:
   debian:
   - ros-rqt-shell
+rqt_srv:
+  debian:
+  - ros-rqt-srv
+rqt_tf_tree:
+  debian:
+  - ros-rqt-tf-tree
 rqt_top:
   debian:
   - ros-rqt-top
@@ -391,96 +379,126 @@ rqt_topic:
 rqt_web:
   debian:
   - ros-rqt-web
+ruckig:
+  debian:
+  - ros-ruckig
+rviz_visual_tools:
+  debian:
+  - ros-rviz-visual-tools
+smach:
+  debian:
+  - ros-smach
+smach_msgs:
+  debian:
+  - ros-smach-msgs
+smach_ros:
+  debian:
+  - ros-smach-ros
+smach_viewer:
+  debian:
+  - ros-smach-viewer
+soem:
+  debian:
+  - ros-soem
+sound_play:
+  debian:
+  - ros-sound-play
+spacenav_node:
+  debian:
+  - ros-spacenav-node
+srdfdom:
+  debian:
+  - ros-srdfdom
 teleop_tools:
   debian:
   - ros-teleop-tools
+teleop_tools_msgs:
+  debian:
+  - ros-teleop-tools-msgs
+theora_image_transport:
+  debian:
+  - ros-theora-image-transport
+timestamp_tools:
+  debian:
+  - ros-timestamp-tools
+transmission_interface:
+  debian:
+  - ros-transmission-interface
+turtlesim:
+  debian:
+  - ros-turtlesim
+unique_identifier:
+  debian:
+  - ros-unique-identifier
+urdf_tutorial:
+  debian:
+  - ros-urdf-tutorial
+urdfdom_py:
+  debian:
+  - ros-urdfdom-py
+uuid_msgs:
+  debian:
+  - ros-uuid-msgs
+unique_id:
+  debian:
+  - ros-unique-id
 velocity_controllers:
   debian:
   - ros-velocity-controllers
+warehouse_ros:
+  debian:
+  - ros-warehouse-ros
+webkit_dependency:
+  debian:
+  - ros-webkit-dependency
+wiimote:
+  debian:
+  - ros-wiimote
+xacro:
+  debian:
+  - ros-xacro
+diff_drive_controller:
+  debian:
+  - ros-diff-drive-controller
 ackermann_steering_controller:
   debian:
   - ros-ackermann-steering-controller
-combined_robot_hw_tests:
+effort_controllers:
   debian:
-  - ros-combined-robot-hw-tests
+  - ros-effort-controllers
 fake_joint_driver:
   debian:
   - ros-fake-joint-driver
-moveit_core:
+joint_trajectory_controller:
   debian:
-  - ros-moveit-core
-rqt_bag_plugins:
-  debian:
-  - ros-rqt-bag-plugins
-rqt_console:
-  debian:
-  - ros-rqt-console
-rqt_dep:
-  debian:
-  - ros-rqt-dep
-rqt_moveit:
-  debian:
-  - ros-rqt-moveit
-rqt_robot_monitor:
-  debian:
-  - ros-rqt-robot-monitor
-rqt_tf_tree:
-  debian:
-  - ros-rqt-tf-tree
-chomp_motion_planner:
-  debian:
-  - ros-chomp-motion-planner
+  - ros-joint-trajectory-controller
 fake_joint_launch:
   debian:
   - ros-fake-joint-launch
+moveit_commander:
+  debian:
+  - ros-moveit-commander
+moveit_resources_panda_description:
+  debian:
+  - ros-moveit-resources-panda-description
+moveit_core:
+  debian:
+  - ros-moveit-core
+chomp_motion_planner:
+  debian:
+  - ros-chomp-motion-planner
+moveit_chomp_optimizer_adapter:
+  debian:
+  - ros-moveit-chomp-optimizer-adapter
 moveit_resources_prbt_ikfast_manipulator_plugin:
   debian:
   - ros-moveit-resources-prbt-ikfast-manipulator-plugin
 moveit_ros_occupancy_map_monitor:
   debian:
   - ros-moveit-ros-occupancy-map-monitor
-moveit_simple_controller_manager:
-  debian:
-  - ros-moveit-simple-controller-manager
-ros_controllers:
-  debian:
-  - ros-ros-controllers
-rqt_launch:
-  debian:
-  - ros-rqt-launch
-rqt_msg:
-  debian:
-  - ros-rqt-msg
-rqt_reconfigure:
-  debian:
-  - ros-rqt-reconfigure
-rqt_robot_dashboard:
-  debian:
-  - ros-rqt-robot-dashboard
-fake_joint:
-  debian:
-  - ros-fake-joint
-moveit_chomp_optimizer_adapter:
-  debian:
-  - ros-moveit-chomp-optimizer-adapter
-moveit_resources_prbt_moveit_config:
-  debian:
-  - ros-moveit-resources-prbt-moveit-config
-moveit_ros_control_interface:
-  debian:
-  - ros-moveit-ros-control-interface
 moveit_ros_planning:
   debian:
   - ros-moveit-ros-planning
-rqt_action:
-  debian:
-  - ros-rqt-action
-rqt_robot_plugins:
-  debian:
-  - ros-rqt-robot-plugins
-rqt_srv:
-  debian:
-  - ros-rqt-srv
 bio_ik:
   debian:
   - ros-bio-ik
@@ -493,9 +511,12 @@ moveit_kinematics:
 moveit_planners_ompl:
   debian:
   - ros-moveit-planners-ompl
-moveit_resources_prbt_pg70_support:
+moveit_ros_move_group:
   debian:
-  - ros-moveit-resources-prbt-pg70-support
+  - ros-moveit-ros-move-group
+moveit_ros_manipulation:
+  debian:
+  - ros-moveit-ros-manipulation
 moveit_ros_perception:
   debian:
   - ros-moveit-ros-perception
@@ -505,33 +526,12 @@ moveit_ros_robot_interaction:
 moveit_ros_warehouse:
   debian:
   - ros-moveit-ros-warehouse
-moveit_visual_tools:
-  debian:
-  - ros-moveit-visual-tools
-rqt_common_plugins:
-  debian:
-  - ros-rqt-common-plugins
-moveit_plugins:
-  debian:
-  - ros-moveit-plugins
-moveit_resources:
-  debian:
-  - ros-moveit-resources
 moveit_ros_benchmarks:
   debian:
   - ros-moveit-ros-benchmarks
-moveit_ros_move_group:
-  debian:
-  - ros-moveit-ros-move-group
-moveit_ros_manipulation:
-  debian:
-  - ros-moveit-ros-manipulation
 moveit_ros_planning_interface:
   debian:
   - ros-moveit-ros-planning-interface
-moveit_commander:
-  debian:
-  - ros-moveit-commander
 moveit_planners_chomp:
   debian:
   - ros-moveit-planners-chomp
@@ -541,18 +541,21 @@ moveit_ros_visualization:
 moveit_servo:
   debian:
   - ros-moveit-servo
-moveit_planners:
-  debian:
-  - ros-moveit-planners
-moveit_ros:
-  debian:
-  - ros-moveit-ros
 moveit_setup_assistant:
   debian:
   - ros-moveit-setup-assistant
-moveit:
+moveit_simple_controller_manager:
   debian:
-  - ros-moveit
-moveit_runtime:
+  - ros-moveit-simple-controller-manager
+moveit_ros_control_interface:
   debian:
-  - ros-moveit-runtime
+  - ros-moveit-ros-control-interface
+moveit_visual_tools:
+  debian:
+  - ros-moveit-visual-tools
+urdf_geometry_parser:
+  debian:
+  - ros-urdf-geometry-parser
+four_wheel_steering_controller:
+  debian:
+  - ros-four-wheel-steering-controller

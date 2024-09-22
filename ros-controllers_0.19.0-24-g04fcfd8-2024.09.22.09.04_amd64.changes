@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-controllers
+Binary: ros-controllers
+Architecture: amd64
+Version: 0.19.0-24-g04fcfd8-2024.09.22.09.04
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-controllers - Library of ros controllers
+Changes:
+ ros-controllers (0.19.0-24-g04fcfd8-2024.09.22.09.04) bookworm; urgency=high
+Checksums-Sha1:
+ ef4024321a11b348b6841135996ddb09ea6a7d9a 7031 ros-controllers_0.19.0-24-g04fcfd8-2024.09.22.09.04_amd64.buildinfo
+ a718829b77479867220231515de716df332fb6ad 3412 ros-controllers_0.19.0-24-g04fcfd8-2024.09.22.09.04_amd64.deb
+Checksums-Sha256:
+ 361825a3bfc81bf3cd8a36f010540a1a6a8619e04ca2e4098ddf3d5fa8cd3a4f 7031 ros-controllers_0.19.0-24-g04fcfd8-2024.09.22.09.04_amd64.buildinfo
+ a59742f66b931c7f7aad6491d582f21dc1c61175d185c6283625a561ddf8b2c3 3412 ros-controllers_0.19.0-24-g04fcfd8-2024.09.22.09.04_amd64.deb
+Files:
+ 847cdba6cb951c70a87f8ca63d2f6fbc 7031 misc optional ros-controllers_0.19.0-24-g04fcfd8-2024.09.22.09.04_amd64.buildinfo
+ c89c9af1087f5fb6cccb040fe639ba34 3412 misc optional ros-controllers_0.19.0-24-g04fcfd8-2024.09.22.09.04_amd64.deb

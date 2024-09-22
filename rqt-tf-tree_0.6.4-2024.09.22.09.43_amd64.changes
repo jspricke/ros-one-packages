@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 02 Oct 2023 00:00:00 -0000
+Source: rqt-tf-tree
+Binary: rqt-tf-tree
+Architecture: amd64
+Version: 0.6.4-2024.09.22.09.43
+Distribution: bookworm
+Urgency: high
+Maintainer: Isaac I.Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I.Y. Saito <gm130s@gmail.com>
+Description:
+ rqt-tf-tree - rqt_tf_tree provides a GUI plugin for visualizing the ROS TF fram
+Changes:
+ rqt-tf-tree (0.6.4-2024.09.22.09.43) bookworm; urgency=high
+ .
+   * Fix dot save according to the PyQt5 (#28 <https://github.com/ros-visualization/rqt_tf_tree/issues/28>)
+   * Import setup from setuptools instead of distutils.core (#45 <https://github.com/ros-visualization/rqt_tf_tree/issues/45>)
+   * Add xml-model
+   * Add LICENSE file
+Checksums-Sha1:
+ 043889a82e76fa4508806b341279482228c84bd9 7016 rqt-tf-tree_0.6.4-2024.09.22.09.43_amd64.buildinfo
+ 62b2d627c148a0cf61909a698c48db26211a92b6 19212 rqt-tf-tree_0.6.4-2024.09.22.09.43_amd64.deb
+Checksums-Sha256:
+ 1686db26a289294b26e5c3871709cd18ec8f3c30496baf0fac6fdc9aa3348df1 7016 rqt-tf-tree_0.6.4-2024.09.22.09.43_amd64.buildinfo
+ 49216db3b91a20f94a14c7ee0e6ed51f9f3258e38490b09a44d8d3d5118badde 19212 rqt-tf-tree_0.6.4-2024.09.22.09.43_amd64.deb
+Files:
+ 5bfa0baf7f31d0e7990a391a0ba8d4f4 7016 misc optional rqt-tf-tree_0.6.4-2024.09.22.09.43_amd64.buildinfo
+ 58e3c0955ef98970a7afe0843153ca9e 19212 misc optional rqt-tf-tree_0.6.4-2024.09.22.09.43_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 16 Apr 2024 00:00:00 -0000
+Source: rqt-shell
+Binary: rqt-shell
+Architecture: amd64
+Version: 0.4.12-2024.09.22.09.41
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ rqt-shell  - rqt_shell is a Python GUI plugin providing an interactive shell.
+Changes:
+ rqt-shell (0.4.12-2024.09.22.09.41) bookworm; urgency=high
+ .
+   * Import setup from setuptools instead of distutils.core (#18 <https://github.com/ros-visualization/rqt_shell/issues/18>)
+     Co-authored-by: Matthijs van der Burgh <mailto:MatthijsBurgh@outlook.com>
+   * Contributors: Arne Hitzmann
+Checksums-Sha1:
+ 7c1d9fb2b0761cac446f16b8166705a0057bc2a0 6956 rqt-shell_0.4.12-2024.09.22.09.41_amd64.buildinfo
+ 9162cb499d248014b1f5c8f7a115dee469d51ebf 18800 rqt-shell_0.4.12-2024.09.22.09.41_amd64.deb
+Checksums-Sha256:
+ 2bf748988d95d102c296233ffc1372391c4283888e9f2d1d171f0e5ad4a34b11 6956 rqt-shell_0.4.12-2024.09.22.09.41_amd64.buildinfo
+ 25ee4621942231b9dbd6a540bf301f6d608f455668e23e3f5bcfb954c975af05 18800 rqt-shell_0.4.12-2024.09.22.09.41_amd64.deb
+Files:
+ 5e59c0acad77b4d3ec4200fa6f183770 6956 misc optional rqt-shell_0.4.12-2024.09.22.09.41_amd64.buildinfo
+ b50f2f0166ae2c687acdaf884509700d 18800 misc optional rqt-shell_0.4.12-2024.09.22.09.41_amd64.deb

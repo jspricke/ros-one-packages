@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Tue, 02 Jun 2020 00:00:00 -0000
+Source: rqt-moveit
+Binary: rqt-moveit
+Architecture: amd64
+Version: 0.5.9-2024.09.22.09.28
+Distribution: bookworm
+Urgency: high
+Maintainer: Isaac I.Y. Saito <iisaito@kinugarage.com>
+Changed-By: Isaac I.Y. Saito <iisaito@kinugarage.com>
+Description:
+ rqt-moveit - An rqt-based tool that assists monitoring tasks for MoveIt! motio
+Changes:
+ rqt-moveit (0.5.9-2024.09.22.09.28) bookworm; urgency=high
+ .
+   * use catkin_install_python instead of install
+Checksums-Sha1:
+ fb325cfe6d8dc91001005634d93c30825069201a 6957 rqt-moveit_0.5.9-2024.09.22.09.28_amd64.buildinfo
+ ed9b5178786307f1808ad215673f4f0448000596 19124 rqt-moveit_0.5.9-2024.09.22.09.28_amd64.deb
+Checksums-Sha256:
+ 3e2fa4caf72cae97d23754602121049cf4114d4e6efde5ffa912f01450f3c2fc 6957 rqt-moveit_0.5.9-2024.09.22.09.28_amd64.buildinfo
+ 369220894731433e67a11fa9892ef57bfd029db28fcafacf60fc8f5146bf3593 19124 rqt-moveit_0.5.9-2024.09.22.09.28_amd64.deb
+Files:
+ 8d71af10fa8c830f0c1ed2413adfc99d 6957 misc optional rqt-moveit_0.5.9-2024.09.22.09.28_amd64.buildinfo
+ c5bd075a7c98c416b8439042dc98f1c9 19124 misc optional rqt-moveit_0.5.9-2024.09.22.09.28_amd64.deb
