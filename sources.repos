@@ -404,10 +404,10 @@ repositories:
     type: git
     url: https://github.com/PickNikRobotics/rviz_visual_tools.git
     version: master
-#  ruckig:
-#    type: git
-#    url: https://github.com/pantor/ruckig.git
-#    version: main
+  ruckig:
+    type: git
+    url: https://github.com/pantor/ruckig.git
+    version: main
 #  slam_gmapping:
 #    type: git
 #    url: https://github.com/ros-perception/slam_gmapping.git
