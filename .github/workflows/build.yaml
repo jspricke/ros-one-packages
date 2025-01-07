@@ -8,7 +8,7 @@ jobs:
   build_testing:
     runs-on: ubuntu-24.04
     steps:
-      - uses: jspricke/ros-deb-builder-action@main
+      - uses: jspricke/ros-deb-builder-action@abng
         with:
           DEB_DISTRO: bookworm
           ROS_DISTRO: debian
